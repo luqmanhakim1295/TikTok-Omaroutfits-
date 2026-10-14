@@ -140,30 +140,76 @@ def crop_box(info, chunk, mouth_offset, fallback_top):
     return x, top, cw - cw % 2, ch - ch % 2
 
 
-def render(segments, out_path, music, keep_audio, crf=21):
+# Slow camera moves applied in turn to each cut (zoompan expressions; F is the
+# cut's frame count, so each move runs over the whole cut).
+MOTIONS = {
+    "zoom_in": ("1+0.10*on/F", "iw/2-iw/zoom/2", "ih/2-ih/zoom/2"),
+    "zoom_out": ("1.10-0.10*on/F", "iw/2-iw/zoom/2", "ih/2-ih/zoom/2"),
+    "pan_up": ("1.10", "iw/2-iw/zoom/2", "(ih-ih/zoom)*(1-on/F)"),
+    "pan_down": ("1.10", "iw/2-iw/zoom/2", "(ih-ih/zoom)*on/F"),
+}
+MOTION_ORDER = ["zoom_in", "zoom_out", "pan_down", "zoom_in", "pan_up"]
+# ffmpeg xfade transitions used in turn between cuts.
+TRANSITIONS = ["zoomin", "smoothleft", "hblur", "smoothup", "smoothright", "fadeblack"]
+FPS = 30
+
+
+def render(segments, out_path, music, keep_audio, crf=21, motion=True,
+           transition=0.3):
+    """Render each cut (crop + optional camera move), then join them, with
+    xfade transitions of `transition` seconds when > 0."""
     tmp = tempfile.mkdtemp()
     parts = []
+    use_audio = keep_audio and not transition
     for k, (info, start, length, (x, y, cw, ch)) in enumerate(segments):
         part = os.path.join(tmp, f"part{k}.mp4")
-        vf = (f"crop={cw}:{ch}:{x}:{y},scale={OUT_W}:{OUT_H}:flags=lanczos,"
-              f"setsar=1,fps=30,unsharp=5:5:0.6")
+        vf = f"fps={FPS},crop={cw}:{ch}:{x}:{y},"
+        if motion:
+            z, mx, my = MOTIONS[MOTION_ORDER[k % len(MOTION_ORDER)]]
+            frames = max(1, round(length * FPS) - 1)
+            z, mx, my = (e.replace("F", str(frames)) for e in (z, mx, my))
+            # Upscale first so zoompan's whole-pixel steps don't make it judder.
+            vf += (f"scale={OUT_W * 2}:{OUT_H * 2}:flags=lanczos,"
+                   f"zoompan=z='{z}':x='{mx}':y='{my}':d=1:"
+                   f"s={OUT_W}x{OUT_H}:fps={FPS},")
+        else:
+            vf += f"scale={OUT_W}:{OUT_H}:flags=lanczos,"
+        vf += "setsar=1,unsharp=5:5:0.6,format=yuv420p"
         cmd = ["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{start:.3f}",
                "-t", f"{length:.3f}", "-i", info["path"], "-vf", vf,
-               "-c:v", "libx264", "-preset", "medium", "-crf", str(crf),
-               "-pix_fmt", "yuv420p"]
-        if keep_audio:
+               "-c:v", "libx264", "-preset", "medium", "-crf", "16"]
+        if use_audio:
             cmd += ["-af", "aresample=44100", "-ac", "2", "-c:a", "aac"]
         else:
             cmd += ["-an"]
         subprocess.run(cmd + [part], check=True)
         parts.append(part)
 
-    lst = os.path.join(tmp, "list.txt")
-    with open(lst, "w") as f:
-        f.writelines(f"file '{p}'\n" for p in parts)
     joined = os.path.join(tmp, "joined.mp4")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat",
-                    "-safe", "0", "-i", lst, "-c", "copy", joined], check=True)
+    if transition and len(parts) > 1:
+        inputs, chain, offset, last = [], [], 0.0, "0:v"
+        for p in parts:
+            inputs += ["-i", p]
+        for k in range(1, len(parts)):
+            offset += segments[k - 1][2] - transition
+            name = TRANSITIONS[(k - 1) % len(TRANSITIONS)]
+            out = f"v{k}"
+            chain.append(f"[{last}][{k}:v]xfade=transition={name}:"
+                         f"duration={transition}:offset={offset:.3f}[{out}]")
+            last = out
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs,
+                        "-filter_complex", ";".join(chain), "-map", f"[{last}]",
+                        "-c:v", "libx264", "-preset", "medium", "-crf", str(crf),
+                        "-pix_fmt", "yuv420p", joined], check=True)
+    else:
+        lst = os.path.join(tmp, "list.txt")
+        with open(lst, "w") as f:
+            f.writelines(f"file '{p}'\n" for p in parts)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat",
+                        "-safe", "0", "-i", lst, "-c:v", "libx264", "-preset",
+                        "medium", "-crf", str(crf), "-pix_fmt", "yuv420p",
+                        *(["-c:a", "aac"] if use_audio else []), joined],
+                       check=True)
 
     if music:
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined,
@@ -182,8 +228,13 @@ def main():
     ap.add_argument("input_dir")
     ap.add_argument("-o", "--output", default="output.mp4")
     ap.add_argument("--max-seconds", type=float, default=15.0)
-    ap.add_argument("--segment", type=float, default=3.0,
-                    help="length of each cut in seconds (default 3)")
+    ap.add_argument("--segment", type=float, default=2.3,
+                    help="length of each cut in seconds, including the "
+                         "transition overlap (default 2.3 = ~2s on screen)")
+    ap.add_argument("--transition", type=float, default=0.3,
+                    help="transition length in seconds (0 = hard cuts)")
+    ap.add_argument("--no-motion", action="store_true",
+                    help="no zoom/pan camera moves")
     ap.add_argument("--per-video", type=int, default=2,
                     help="max cuts taken from one source video")
     ap.add_argument("--min-quality", type=float, default=0.5,
@@ -238,7 +289,8 @@ def main():
 
     chosen, used, total = [], {}, 0.0
     for score, info, start, seg, chunk in candidates:
-        if total + seg > args.max_seconds + 1e-6:
+        overlap = args.transition if chosen else 0.0
+        if total + seg - overlap > args.max_seconds + 1e-6:
             continue
         if score < args.min_quality * norm[info["path"]] or \
                 score < args.min_quality * 0.5 * global_ref:
@@ -251,14 +303,14 @@ def main():
         chosen.append((info, start, seg, crop_box(info, chunk, args.mouth_offset,
                                                  args.fallback_top)))
         used[p] = used.get(p, 0) + 1
-        total += seg
+        total += seg - overlap
 
     # Keep the original filming order (by file, then by time).
     chosen.sort(key=lambda c: (videos.index(c[0]["path"]), c[1]))
     for info, start, seg, box in chosen:
         print(f"  cut {os.path.basename(info['path'])} @ {start:.1f}s for {seg:.1f}s crop={box}")
     render(chosen, args.output, args.music, args.keep_audio and not args.music,
-           args.crf)
+           args.crf, not args.no_motion, args.transition)
     print(f"done -> {args.output} ({total:.1f}s)")
 
 
