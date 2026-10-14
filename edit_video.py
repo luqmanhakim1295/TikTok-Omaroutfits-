@@ -182,8 +182,8 @@ def main():
     ap.add_argument("input_dir")
     ap.add_argument("-o", "--output", default="output.mp4")
     ap.add_argument("--max-seconds", type=float, default=15.0)
-    ap.add_argument("--segment", type=float, default=2.5,
-                    help="length of each cut in seconds (default 2.5)")
+    ap.add_argument("--segment", type=float, default=3.0,
+                    help="length of each cut in seconds (default 3)")
     ap.add_argument("--per-video", type=int, default=2,
                     help="max cuts taken from one source video")
     ap.add_argument("--min-quality", type=float, default=0.5,
