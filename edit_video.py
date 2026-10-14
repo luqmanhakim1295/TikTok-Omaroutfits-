@@ -140,7 +140,7 @@ def crop_box(info, chunk, mouth_offset, fallback_top):
     return x, top, cw - cw % 2, ch - ch % 2
 
 
-def render(segments, out_path, music, keep_audio):
+def render(segments, out_path, music, keep_audio, crf=21):
     tmp = tempfile.mkdtemp()
     parts = []
     for k, (info, start, length, (x, y, cw, ch)) in enumerate(segments):
@@ -149,7 +149,7 @@ def render(segments, out_path, music, keep_audio):
               f"setsar=1,fps=30,unsharp=5:5:0.6")
         cmd = ["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{start:.3f}",
                "-t", f"{length:.3f}", "-i", info["path"], "-vf", vf,
-               "-c:v", "libx264", "-preset", "medium", "-crf", "18",
+               "-c:v", "libx264", "-preset", "medium", "-crf", str(crf),
                "-pix_fmt", "yuv420p"]
         if keep_audio:
             cmd += ["-af", "aresample=44100", "-ac", "2", "-c:a", "aac"]
@@ -194,6 +194,8 @@ def main():
     ap.add_argument("--fallback-top", type=float, default=0.0,
                     help="when no face is found, crop this fraction off the top "
                          "(0 = full frame, 0.22 = typical mirror selfie)")
+    ap.add_argument("--crf", type=int, default=21,
+                    help="x264 quality: lower = sharper and bigger file (default 21)")
     ap.add_argument("--cache", help="JSON file to store/reuse the slow analysis")
     ap.add_argument("--music", help="audio file to put under the video")
     ap.add_argument("--keep-audio", action="store_true",
@@ -255,7 +257,8 @@ def main():
     chosen.sort(key=lambda c: (videos.index(c[0]["path"]), c[1]))
     for info, start, seg, box in chosen:
         print(f"  cut {os.path.basename(info['path'])} @ {start:.1f}s for {seg:.1f}s crop={box}")
-    render(chosen, args.output, args.music, args.keep_audio and not args.music)
+    render(chosen, args.output, args.music, args.keep_audio and not args.music,
+           args.crf)
     print(f"done -> {args.output} ({total:.1f}s)")
 
 

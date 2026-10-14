@@ -34,8 +34,15 @@ python3 edit_video.py raw/ -o omar_outfit.mp4 --keep-audio
 | `--segment` | 2.5 | Length of each cut (seconds) |
 | `--per-video` | 2 | Maximum cuts taken from one video |
 | `--min-quality` | 0.5 | How strict the blur filter is (raise it to drop more) |
+| `--fallback-top` | 0 | When no face is detected: crop this fraction off the top (0 = full frame, suits close-ups) |
+| `--crf` | 21 | Video quality (lower = sharper, bigger file) |
+| `--cache` | – | JSON file to store the analysis, so a re-run is fast (4K analysis takes a while) |
 | `--mouth-offset` | 0 | Moves the top of the crop: `0.03` = a bit lower, `-0.03` = a bit higher |
 | `--music` | – | Audio file to play under the video |
 | `--keep-audio` | off | Keep the original audio |
 
-If no face is detected (for example when a phone covers the face in a mirror selfie), the crop starts at 22% from the top. Adjust it with `--mouth-offset`.
+If no face is detected (a close-up that is already below the chin), the full frame is used. For a mirror selfie where the phone covers the face, use `--fallback-top 0.22`.
+
+## Result
+
+`output/omaroutfits_open_neck.mp4`: 14.5s, from IMG_0266/0267/0269. Silent, so the trending sound can be added in the TikTok app.
