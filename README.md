@@ -48,4 +48,4 @@ If no face is detected (a close-up that is already below the chin), the full fra
 
 ## Result
 
-`output/omaroutfits_open_neck.mp4`: 14.3s, 7 different scenes of ~2s each with motion and transitions (front full outfit, open-neck collar, waist/hem, side view, front buttons, shoulder and sleeve, hand on collar), from IMG_0266/0267/0269. Silent, so the trending sound can be added in the TikTok app.
+`output/omaroutfits_open_neck.mp4`: 15s, 9 different scenes alternating 2s and 1.5s, with motion and 0.25s transitions: crossed arms (medium), open-neck collar, hand on chest, back view, side collar, waist/hem, rolling sleeves, holding phone (medium), side view. From IMG_0266/0267/0269.
