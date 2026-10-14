@@ -13,6 +13,7 @@ Usage:
   python3 edit_video.py INPUT_DIR -o output.mp4 --music song.mp3 --max-seconds 12
 """
 import argparse
+import json
 import os
 import subprocess
 import sys
@@ -24,9 +25,12 @@ import numpy as np
 VIDEO_EXTS = (".mp4", ".mov", ".m4v", ".avi", ".mkv", ".webm")
 OUT_W, OUT_H = 1080, 1920
 SAMPLE_FPS = 5
+ANALYSE_W = 540
 
 face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+profile_cascade = cv2.CascadeClassifier(
+    cv2.data.haarcascades + "haarcascade_profileface.xml")
 
 
 def find_videos(folder):
@@ -35,41 +39,75 @@ def find_videos(folder):
         if f.lower().endswith(VIDEO_EXTS))
 
 
+def probe(path):
+    """Display size (after phone rotation) and duration via ffprobe."""
+    out = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+         "stream=width,height:stream_side_data=rotation:format=duration",
+         "-of", "json", path], capture_output=True, text=True, check=True).stdout
+    d = json.loads(out)
+    st = d["streams"][0]
+    w, h = st["width"], st["height"]
+    rot = 0
+    for sd in st.get("side_data_list", []):
+        rot = int(sd.get("rotation", rot))
+    if abs(rot) % 180 == 90:
+        w, h = h, w
+    return w, h, float(d["format"]["duration"])
+
+
+def detect_mouth(gray):
+    """Return (mouth_y, face_cx) in the given image's pixels, or (None, None)."""
+    faces = list(face_cascade.detectMultiScale(gray, 1.1, 6, minSize=(40, 40)))
+    if not faces:
+        faces = list(profile_cascade.detectMultiScale(gray, 1.1, 6, minSize=(40, 40)))
+    if not faces:
+        flipped = cv2.flip(gray, 1)
+        for fx, fy, fw, fh in profile_cascade.detectMultiScale(flipped, 1.1, 6, minSize=(40, 40)):
+            faces.append((gray.shape[1] - fx - fw, fy, fw, fh))
+    if not faces:
+        return None, None
+    # Faces in the lower half are false hits on fabric/hands in these videos.
+    faces = [f for f in faces if f[1] + f[3] < gray.shape[0] * 0.5]
+    if not faces:
+        return None, None
+    fx, fy, fw, fh = max(faces, key=lambda f: f[2] * f[3])
+    return fy + 0.78 * fh, fx + fw / 2  # mouth sits ~3/4 down the face box
+
+
 def analyse(path):
-    """Sample the video and return per-sample (time, sharpness, mouth_y, face_cx)."""
-    cap = cv2.VideoCapture(path)
-    fps = cap.get(cv2.CAP_PROP_FPS) or 30
-    n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-    h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-    step = max(1, round(fps / SAMPLE_FPS))
+    """Sample the video and return per-sample (time, sharpness, mouth_y, face_cx).
+
+    Frames are decoded by ffmpeg (fast, handles HEVC and phone rotation) at
+    SAMPLE_FPS and ANALYSE_W pixels wide."""
+    w, h, duration = probe(path)
+    aw = ANALYSE_W
+    ah = int(round(h * aw / w / 2) * 2)
+    scale = w / aw
+    proc = subprocess.Popen(
+        ["ffmpeg", "-loglevel", "error", "-threads", "0", "-i", path, "-an",
+         "-vf", f"fps={SAMPLE_FPS},scale={aw}:{ah}", "-f", "rawvideo",
+         "-pix_fmt", "gray", "-"], stdout=subprocess.PIPE)
     samples = []
-    for i in range(0, n, step):
-        cap.set(cv2.CAP_PROP_POS_FRAMES, i)
-        ok, frame = cap.read()
-        if not ok:
+    k = 0
+    while True:
+        buf = proc.stdout.read(aw * ah)
+        if len(buf) < aw * ah:
             break
-        # Phone videos may carry rotation metadata; OpenCV applies it, so use the
-        # decoded frame size rather than the container's.
-        h, w = frame.shape[:2]
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        small = cv2.resize(gray, (w * 480 // max(w, h), h * 480 // max(w, h)))
-        scale = w / small.shape[1]
-
-        faces = face_cascade.detectMultiScale(small, 1.1, 5, minSize=(30, 30))
-        mouth_y = face_cx = None
-        if len(faces):
-            fx, fy, fw, fh = max(faces, key=lambda f: f[2] * f[3])
-            mouth_y = (fy + 0.78 * fh) * scale  # mouth sits ~3/4 down the face box
-            face_cx = (fx + fw / 2) * scale
-
+        gray = np.frombuffer(buf, np.uint8).reshape(ah, aw)
+        mouth_y, face_cx = detect_mouth(gray)
         # Sharpness of the part we will actually keep (below the mouth).
-        top = int(mouth_y / scale) if mouth_y else small.shape[0] // 4
-        region = small[top:] if top < small.shape[0] - 20 else small
-        sharp = cv2.Laplacian(region, cv2.CV_64F).var()
-        samples.append((i / fps, sharp, mouth_y, face_cx))
-    cap.release()
-    return {"path": path, "w": w, "h": h, "duration": n / fps, "samples": samples}
+        top = int(mouth_y) if mouth_y and mouth_y < ah - 40 else 0
+        sharp = cv2.Laplacian(gray[top:], cv2.CV_64F).var()
+        # Very dark frames (hand over lens) have no usable detail either.
+        if gray.mean() < 25:
+            sharp = 0.0
+        samples.append((k / SAMPLE_FPS, sharp,
+                        mouth_y * scale if mouth_y else None,
+                        face_cx * scale if face_cx else None))
+        k += 1
+    proc.wait()
+    return {"path": path, "w": w, "h": h, "duration": duration, "samples": samples}
 
 
 def best_segments(info, seg_len):
@@ -85,13 +123,14 @@ def best_segments(info, seg_len):
     return out
 
 
-def crop_box(info, chunk, mouth_offset):
+def crop_box(info, chunk, mouth_offset, fallback_top):
     """Fixed crop for a segment: top edge at the mouth, 9:16, centred on the body."""
     w, h = info["w"], info["h"]
     ys = [c[2] for c in chunk if c[2] is not None]
     xs = [c[3] for c in chunk if c[3] is not None]
-    # No face found -> assume mouth around 22% from the top (typical mirror selfie).
-    top = int(np.median(ys)) if ys else int(h * 0.22)
+    # No face found -> usually a close-up already below the chin; crop
+    # fallback_top of the height off the top (0 = keep the full frame).
+    top = int(np.median(ys)) if ys else int(h * fallback_top)
     top = max(0, min(top + int(mouth_offset * h), int(h * 0.6)))
     ch = h - top
     cw = min(w, int(ch * OUT_W / OUT_H))
@@ -152,6 +191,10 @@ def main():
                          "the video's sharpest moment (0-1, default 0.5)")
     ap.add_argument("--mouth-offset", type=float, default=0.0,
                     help="shift crop top by this fraction of height (+ = lower)")
+    ap.add_argument("--fallback-top", type=float, default=0.0,
+                    help="when no face is found, crop this fraction off the top "
+                         "(0 = full frame, 0.22 = typical mirror selfie)")
+    ap.add_argument("--cache", help="JSON file to store/reuse the slow analysis")
     ap.add_argument("--music", help="audio file to put under the video")
     ap.add_argument("--keep-audio", action="store_true",
                     help="keep the original audio (ignored if --music is set)")
@@ -161,9 +204,18 @@ def main():
     if not videos:
         sys.exit(f"No videos found in {args.input_dir}")
 
+    cache = {}
+    if args.cache and os.path.exists(args.cache):
+        with open(args.cache) as f:
+            cache = json.load(f)
     candidates = []
     for v in videos:
-        info = analyse(v)
+        key = f"{os.path.abspath(v)}:{os.path.getsize(v)}"
+        info = cache.get(key) or analyse(v)
+        cache[key] = info
+        if args.cache:
+            with open(args.cache, "w") as f:
+                json.dump(cache, f)
         print(f"analysed {os.path.basename(v)}: {info['duration']:.1f}s, "
               f"{info['w']}x{info['h']}, face found in "
               f"{sum(s[2] is not None for s in info['samples'])}/{len(info['samples'])} samples")
@@ -194,7 +246,8 @@ def main():
             continue
         if any(c[0]["path"] == p and abs(c[1] - start) < seg for c in chosen):
             continue  # no overlapping cuts
-        chosen.append((info, start, seg, crop_box(info, chunk, args.mouth_offset)))
+        chosen.append((info, start, seg, crop_box(info, chunk, args.mouth_offset,
+                                                 args.fallback_top)))
         used[p] = used.get(p, 0) + 1
         total += seg
 
