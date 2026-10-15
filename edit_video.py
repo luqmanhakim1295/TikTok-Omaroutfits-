@@ -147,15 +147,43 @@ MOTIONS = {
     "zoom_out": ("1.10-0.10*on/F", "iw/2-iw/zoom/2", "ih/2-ih/zoom/2"),
     "pan_up": ("1.10", "iw/2-iw/zoom/2", "(ih-ih/zoom)*(1-on/F)"),
     "pan_down": ("1.10", "iw/2-iw/zoom/2", "(ih-ih/zoom)*on/F"),
+    "push": ("1+0.05*on/F", "iw/2-iw/zoom/2", "ih/2-ih/zoom/2"),
 }
 MOTION_ORDER = ["zoom_in", "zoom_out", "pan_down", "zoom_in", "pan_up"]
 # ffmpeg xfade transitions used in turn between cuts.
 TRANSITIONS = ["zoomin", "smoothleft", "hblur", "smoothup", "smoothright", "fadeblack"]
 FPS = 30
+# Muted "cinematic" look: softer contrast, lifted blacks, cooler shadows,
+# slightly less saturation, a light vignette and fine grain.
+CINEMATIC_GRADE = (
+    "eq=contrast=0.94:saturation=0.82:brightness=-0.01,"
+    "curves=r='0/0.03 0.5/0.49 1/0.96':g='0/0.04 0.5/0.5 1/0.97':"
+    "b='0/0.08 0.5/0.52 1/0.95',"
+    "colorbalance=rs=-0.04:bs=0.05:rh=0.03:bh=-0.03,"
+    "vignette=angle=PI/6,noise=alls=5:allf=t")
+FONT_DIR = "/usr/share/fonts/truetype/freefont"
+
+
+def title_filter(title, start=0.15, end=1.9):
+    """Two-line title like "Cinematic / OOTD": first word in serif italic,
+    the rest in small spaced capitals, fading in and out over the chest."""
+    first, _, rest = title.partition(" ")
+    fade = (f"if(lt(t,{start:.2f}),0,if(lt(t,{start + 0.3:.2f}),(t-{start:.2f})/0.3,"
+            f"if(lt(t,{end - 0.3:.2f}),1,if(lt(t,{end:.2f}),({end:.2f}-t)/0.3,0))))")
+    # drawtext can't escape a quote inside a quoted value, so drop quotes.
+    esc = lambda t: t.replace("'", "").replace("\\", "").replace(":", "\\:")
+    parts = [f"drawtext=fontfile={FONT_DIR}/FreeSerifItalic.ttf:text='{esc(first)}':"
+             f"fontsize=130:fontcolor=white:alpha='{fade}':x=(w-tw)/2:y=h*0.40:"
+             f"shadowcolor=black@0.35:shadowx=2:shadowy=2"]
+    if rest:
+        parts.append(f"drawtext=fontfile={FONT_DIR}/FreeSerif.ttf:text='{esc(rest.upper())}':"
+                     f"fontsize=58:fontcolor=white:alpha='{fade}':x=(w-tw)/2:y=h*0.40+150:"
+                     f"shadowcolor=black@0.35:shadowx=2:shadowy=2")
+    return ",".join(parts)
 
 
 def render(segments, out_path, music, keep_audio, crf=21, motion=True,
-           transition=0.3, motions=None):
+           transition=0.3, motions=None, grade=None, title=None):
     """Render each cut (crop + optional camera move), then join them, with
     xfade transitions of `transition` seconds when > 0. `motions` optionally
     names a MOTIONS key per cut (None entries fall back to MOTION_ORDER)."""
@@ -177,7 +205,10 @@ def render(segments, out_path, music, keep_audio, crf=21, motion=True,
                    f"s={OUT_W}x{OUT_H}:fps={FPS},")
         else:
             vf += f"scale={OUT_W}:{OUT_H}:flags=lanczos,"
-        vf += "setsar=1,unsharp=5:5:0.6,format=yuv420p"
+        vf += "setsar=1,unsharp=5:5:0.6,"
+        if grade:
+            vf += grade + ","
+        vf += "format=yuv420p"
         cmd = ["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{start:.3f}",
                "-t", f"{length:.3f}", "-i", info["path"], "-vf", vf,
                "-c:v", "libx264", "-preset", "medium", "-crf", "16"]
@@ -200,6 +231,9 @@ def render(segments, out_path, music, keep_audio, crf=21, motion=True,
             chain.append(f"[{last}][{k}:v]xfade=transition={name}:"
                          f"duration={transition}:offset={offset:.3f}[{out}]")
             last = out
+        if title:
+            chain.append(f"[{last}]{title_filter(title)}[vt]")
+            last = "vt"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs,
                         "-filter_complex", ";".join(chain), "-map", f"[{last}]",
                         "-c:v", "libx264", "-preset", "medium", "-crf", str(crf),
@@ -209,7 +243,9 @@ def render(segments, out_path, music, keep_audio, crf=21, motion=True,
         with open(lst, "w") as f:
             f.writelines(f"file '{p}'\n" for p in parts)
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat",
-                        "-safe", "0", "-i", lst, "-c:v", "libx264", "-preset",
+                        "-safe", "0", "-i", lst,
+                        *(["-vf", title_filter(title)] if title else []),
+                        "-c:v", "libx264", "-preset",
                         "medium", "-crf", str(crf), "-pix_fmt", "yuv420p",
                         *(["-c:a", "aac"] if use_audio else []), joined],
                        check=True)
@@ -238,6 +274,9 @@ def main():
                     help="transition length in seconds (0 = hard cuts)")
     ap.add_argument("--no-motion", action="store_true",
                     help="no zoom/pan camera moves")
+    ap.add_argument("--cinematic", action="store_true",
+                    help="muted film-style colour grade")
+    ap.add_argument("--title", help='opening title, e.g. "Cinematic OOTD"')
     ap.add_argument("--per-video", type=int, default=2,
                     help="max cuts taken from one source video")
     ap.add_argument("--min-quality", type=float, default=0.5,
@@ -313,7 +352,8 @@ def main():
     for info, start, seg, box in chosen:
         print(f"  cut {os.path.basename(info['path'])} @ {start:.1f}s for {seg:.1f}s crop={box}")
     render(chosen, args.output, args.music, args.keep_audio and not args.music,
-           args.crf, not args.no_motion, args.transition)
+           args.crf, not args.no_motion, args.transition,
+           grade=CINEMATIC_GRADE if args.cinematic else None, title=args.title)
     print(f"done -> {args.output} ({total:.1f}s)")
 
 
