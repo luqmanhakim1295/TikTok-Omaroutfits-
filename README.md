@@ -51,3 +51,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/omaroutfits_open_neck.mp4`: 15s, 9 different scenes alternating 2s and 1.5s, with motion and 0.25s transitions: crossed arms (full shirt), open-neck collar, hand on chest, back view, side collar, waist/hem, rolling sleeves, holding phone (medium), side view. From IMG_0266/0267/0269.
 
 `output/omaroutfits_mount_fuji_cinematic.mp4`: "Cinematic OOTD" style (after a reference TikTok): 15s, 9 hard cuts of 2s/1.5s alternating wide and detail shots (front, chest logo, back, back-print close-up, rolling sleeves, hand on chest, side-back turn, chest logo from the side, hands on hips), muted film grade, "Cinematic OOTD" title, gentle 8% eased zoom-out whose widest frame stops at the mouth. From IMG_0275, IMG_0277 and IMG_0278.
+
+`output/omaroutfits_olive_seersucker_cinematic.mp4`: same Cinematic OOTD recipe for the olive seersucker shirt: 15s, 9 hard cuts of 2s/1.5s (front, texture close-up, back, cuff button, rolling sleeves, front placket, crossed arms, hem and pocket, side-back turn), muted grade, title, gentle zoom-out framed to the mouth. From IMG_0253/0255/0256/0257/0259.
