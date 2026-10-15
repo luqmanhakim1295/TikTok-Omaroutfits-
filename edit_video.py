@@ -151,6 +151,9 @@ MOTIONS = {
     # Eased zoom out: starts 20% tighter, slows down as it reaches the full
     # frame, so the widest view is exactly the crop (e.g. top edge at mouth).
     "pull": ("1+0.20*pow(1-on/F,2)", "iw/2-iw/zoom/2", "ih/2-ih/zoom/2"),
+    # Gentle zoom out: only 8%, eased in and out (smoothstep) over the cut.
+    "pull_soft": ("1+0.08*(1-(on/F)*(on/F)*(3-2*on/F))",
+                  "iw/2-iw/zoom/2", "ih/2-ih/zoom/2"),
 }
 MOTION_ORDER = ["zoom_in", "zoom_out", "pan_down", "zoom_in", "pan_up"]
 # ffmpeg xfade transitions used in turn between cuts.
