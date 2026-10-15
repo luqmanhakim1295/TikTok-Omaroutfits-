@@ -155,9 +155,10 @@ FPS = 30
 
 
 def render(segments, out_path, music, keep_audio, crf=21, motion=True,
-           transition=0.3):
+           transition=0.3, motions=None):
     """Render each cut (crop + optional camera move), then join them, with
-    xfade transitions of `transition` seconds when > 0."""
+    xfade transitions of `transition` seconds when > 0. `motions` optionally
+    names a MOTIONS key per cut (None entries fall back to MOTION_ORDER)."""
     tmp = tempfile.mkdtemp()
     parts = []
     use_audio = keep_audio and not transition
@@ -165,7 +166,9 @@ def render(segments, out_path, music, keep_audio, crf=21, motion=True,
         part = os.path.join(tmp, f"part{k}.mp4")
         vf = f"fps={FPS},crop={cw}:{ch}:{x}:{y},"
         if motion:
-            z, mx, my = MOTIONS[MOTION_ORDER[k % len(MOTION_ORDER)]]
+            name = (motions[k] if motions and k < len(motions) else None) \
+                or MOTION_ORDER[k % len(MOTION_ORDER)]
+            z, mx, my = MOTIONS[name]
             frames = max(1, round(length * FPS) - 1)
             z, mx, my = (e.replace("F", str(frames)) for e in (z, mx, my))
             # Upscale first so zoompan's whole-pixel steps don't make it judder.
