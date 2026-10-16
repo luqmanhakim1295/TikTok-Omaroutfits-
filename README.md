@@ -57,3 +57,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/omaroutfits_black_slacks.mp4`: same cut recipe for the black slacks but with no title and no colour grade: 15s, 9 hard cuts of 2s/1.5s (front, waist button, crossed legs and arms, front pleats, sitting cross-legged, side pocket, side view, elastic back waist, adjusting the waistband), gentle zoom-out. From IMG_0317/0318/0319.
 
 `output/omaroutfits_beige_track_pants.mp4`: beige track pants, no title or colour grade: 15s, 9 hard cuts where full waist-to-hem shots get 2s and details 1.5s (front wide-leg, embroidered logo, side stripes close-up, side view, phone going into the side pocket, pulling the hem cord, gathered cuff, inner seam, front jogger fit), gentle zoom-out. From IMG_0356–0365.
+
+`output/omaroutfits_khaki_ribbed_pants.mp4`: khaki ribbed wide pants, no title or colour grade: 15s, 9 hard cuts, full waist-to-hem shots 2s and details 1.5s (front centred, ribbed pocket texture, phone into pocket, back centred, back pocket with DENIM patch, hand in pocket, foot on stool, side waistband and cord, sitting cross-legged), gentle zoom-out. From IMG_0276 and IMG_0279.
