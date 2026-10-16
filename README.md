@@ -55,3 +55,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/omaroutfits_olive_seersucker_cinematic.mp4`: same Cinematic OOTD recipe for the olive seersucker shirt: 15s, 9 hard cuts of 2s/1.5s (front, texture close-up, back, cuff button, rolling sleeves, front placket, crossed arms, hem and pocket, side-back turn), muted grade, title, gentle zoom-out framed to the mouth. From IMG_0253/0255/0256/0257/0259.
 
 `output/omaroutfits_black_slacks.mp4`: same cut recipe for the black slacks but with no title and no colour grade: 15s, 9 hard cuts of 2s/1.5s (front, waist button, crossed legs and arms, front pleats, sitting cross-legged, side pocket, side view, elastic back waist, adjusting the waistband), gentle zoom-out. From IMG_0317/0318/0319.
+
+`output/omaroutfits_beige_track_pants.mp4`: beige track pants, no title or colour grade: 15s, 9 hard cuts where full waist-to-hem shots get 2s and details 1.5s (front wide-leg, embroidered logo, side stripes close-up, side view, side pocket, pulling the hem cord, gathered cuff, inner seam, front jogger fit), gentle zoom-out. From IMG_0356–0365.
