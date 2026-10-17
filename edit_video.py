@@ -110,13 +110,16 @@ def analyse(path):
     return {"path": path, "w": w, "h": h, "duration": duration, "samples": samples}
 
 
-def subject_center(path, start, length, bg_start, bg_len=2.0, w=270):
+def subject_center(path, start, length, bg_start, bg_len=2.0, w=270,
+                   rows=(0.0, 1.0)):
     """Horizontal centre (in source pixels) of the person over a cut.
 
     Uses a static-camera trick: the median of frames from an empty stretch
     (bg_start..bg_start+bg_len, before the person walks in) is the background;
     pixels that differ from it are the person. Returns (cx, left, right) as
-    the median over the cut, so whole-body shots can be cropped to centre."""
+    the median over the cut, so whole-body shots can be cropped to centre.
+    `rows` limits the measurement to a band of the frame (fractions of the
+    height), e.g. (0, 0.55) to centre on the torso in a shirt video."""
     W, H, _ = probe(path)
     h = int(round(H * w / W / 2) * 2)
 
@@ -132,6 +135,8 @@ def subject_center(path, start, length, bg_start, bg_len=2.0, w=270):
     cs, ls, rs = [], [], []
     for f in frames(start, length, 5):
         mask = np.abs(f - bg) > 28
+        mask[:int(rows[0] * h)] = False
+        mask[int(rows[1] * h):] = False
         mask = cv2.morphologyEx(mask.astype(np.uint8), cv2.MORPH_OPEN,
                                 np.ones((5, 5), np.uint8))
         cols = mask.sum(axis=0).astype(float)

@@ -22,6 +22,12 @@ biasa" / "cam biasa" means: follow all of these.
    the top stays at mouth/neck level, allowing the body up to ~3 % off
    centre (~30 px of 1080). Never cut the collar/neckline or shoulders to
    get a perfect centre. Check the top strip of the rendered frames.
+2a. **Shirt/top videos: no need to show the feet.** For a shirt video, the
+   "whole-body" cuts frame from the mouth down to about the knees
+   (e.g. a 1518x2700 crop from 4K), centred on the torso: measure with
+   `subject_center(..., rows=(0, 0.55))` so crossed legs don't pull the
+   centre. This keeps the top at mouth level and the shirt dead centre
+   with no compromise. Trouser videos still show waist to hem in full.
 3. **Only clear footage.** No blur or shake (use the sharpness analysis,
    then look at the frames; motion blur from a hand moving is acceptable,
    camera blur is not).
