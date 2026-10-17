@@ -39,6 +39,11 @@ biasa" / "cam biasa" means: follow all of these.
 4. **15 seconds or less**, 1080x1920.
 5. **No repeated scenes.** Every cut is a different shot or angle; don't
    put two similar shots back to back.
+6. **Every cut must show the product clearly.** The garment fills most of
+   the frame and it's obvious what the cut is showing. Never a cut where
+   floor, wall or background dominates (e.g. a low crop that is mostly
+   floor and shoes, or a top-down POV that is half floor). If a crop only
+   shows an unreadable patch of fabric, drop it and pick another shot.
 
 ## Default recipe
 
