@@ -152,6 +152,38 @@ def subject_center(path, start, length, bg_start, bg_len=2.0, w=270,
     return float(np.median(cs)) * k, float(np.median(ls)) * k, float(np.median(rs)) * k
 
 
+def garment_center(path, start, length, rows=(0.2, 0.95), w=270, min_blue=6,
+                   v_range=(45, 215)):
+    """Horizontal centre of a cool-toned garment (grey/blue/navy) over a cut.
+
+    Works where background differencing doesn't (camera moved, shiny floor):
+    keeps pixels whose blue channel beats red by `min_blue` and whose
+    brightness is mid-range, which in these warm-lit rooms isolates the
+    garment from the orange/beige walls, white shoes and black rack."""
+    W, H, _ = probe(path)
+    h = int(round(H * w / W / 2) * 2)
+    out = subprocess.run(
+        ["ffmpeg", "-loglevel", "error", "-ss", f"{start:.2f}", "-t", f"{length:.2f}",
+         "-i", path, "-an", "-vf", f"fps=5,scale={w}:{h}", "-f", "rawvideo",
+         "-pix_fmt", "bgr24", "-"], capture_output=True, check=True).stdout
+    n = len(out) // (w * h * 3)
+    frames = np.frombuffer(out[:n * w * h * 3], np.uint8).reshape(n, h, w, 3)
+    cs = []
+    for f in frames:
+        b, g, r = (f[..., i].astype(np.int16) for i in range(3))
+        v = f.max(axis=2)
+        mask = ((b - r) > min_blue) & (v > v_range[0]) & (v < v_range[1])
+        mask[:int(rows[0] * h)] = False
+        mask[int(rows[1] * h):] = False
+        mask = cv2.morphologyEx(mask.astype(np.uint8), cv2.MORPH_OPEN,
+                                np.ones((5, 5), np.uint8))
+        cols = mask.sum(axis=0).astype(float)
+        if cols.sum() < 200:
+            continue
+        cs.append(np.searchsorted(np.cumsum(cols) / cols.sum(), 0.5))
+    return float(np.median(cs)) * W / w if cs else W / 2
+
+
 def centered_box(W, H, cx, top=0, bottom=None, margin=0.0):
     """Largest 9:16 crop with its horizontal centre at cx, top edge >= top
     (mouth rule) and bottom edge at `bottom` (default: frame bottom, keeps feet)."""

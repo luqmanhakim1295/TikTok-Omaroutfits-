@@ -27,7 +27,12 @@ biasa" / "cam biasa" means: follow all of these.
    (e.g. a 1518x2700 crop from 4K), centred on the torso: measure with
    `subject_center(..., rows=(0, 0.55))` so crossed legs don't pull the
    centre. This keeps the top at mouth level and the shirt dead centre
-   with no compromise. Trouser videos still show waist to hem in full.
+   with no compromise. Trouser videos still show waist to hem in full;
+   there the area above the belt can be cropped freely to centre the legs.
+2b. **If background differencing is unreliable** (shiny floor reflections,
+   camera or set moved, no empty stretch), measure with
+   `edit_video.garment_center()` instead (colour mask for cool-toned
+   garments). Always confirm with centre lines on the rendered output.
 3. **Only clear footage.** No blur or shake (use the sharpness analysis,
    then look at the frames; motion blur from a hand moving is acceptable,
    camera blur is not).
