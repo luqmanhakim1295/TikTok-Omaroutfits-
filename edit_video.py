@@ -110,6 +110,55 @@ def analyse(path):
     return {"path": path, "w": w, "h": h, "duration": duration, "samples": samples}
 
 
+def subject_center(path, start, length, bg_start, bg_len=2.0, w=270):
+    """Horizontal centre (in source pixels) of the person over a cut.
+
+    Uses a static-camera trick: the median of frames from an empty stretch
+    (bg_start..bg_start+bg_len, before the person walks in) is the background;
+    pixels that differ from it are the person. Returns (cx, left, right) as
+    the median over the cut, so whole-body shots can be cropped to centre."""
+    W, H, _ = probe(path)
+    h = int(round(H * w / W / 2) * 2)
+
+    def frames(t0, dur, fps):
+        out = subprocess.run(
+            ["ffmpeg", "-loglevel", "error", "-ss", f"{t0:.2f}", "-t", f"{dur:.2f}",
+             "-i", path, "-an", "-vf", f"fps={fps},scale={w}:{h}", "-f", "rawvideo",
+             "-pix_fmt", "gray", "-"], capture_output=True, check=True).stdout
+        n = len(out) // (w * h)
+        return np.frombuffer(out[:n * w * h], np.uint8).reshape(n, h, w).astype(np.int16)
+
+    bg = np.median(frames(bg_start, bg_len, 5), axis=0)
+    cs, ls, rs = [], [], []
+    for f in frames(start, length, 5):
+        mask = np.abs(f - bg) > 28
+        mask = cv2.morphologyEx(mask.astype(np.uint8), cv2.MORPH_OPEN,
+                                np.ones((5, 5), np.uint8))
+        cols = mask.sum(axis=0).astype(float)
+        if cols.sum() < 50:
+            continue
+        cdf = np.cumsum(cols) / cols.sum()
+        ls.append(np.searchsorted(cdf, 0.05))
+        cs.append(np.searchsorted(cdf, 0.5))
+        rs.append(np.searchsorted(cdf, 0.95))
+    k = W / w
+    if not cs:
+        return W / 2, 0, W
+    return float(np.median(cs)) * k, float(np.median(ls)) * k, float(np.median(rs)) * k
+
+
+def centered_box(W, H, cx, top=0, bottom=None, margin=0.0):
+    """Largest 9:16 crop with its horizontal centre at cx, top edge >= top
+    (mouth rule) and bottom edge at `bottom` (default: frame bottom, keeps feet)."""
+    bottom = H if bottom is None else bottom
+    half = min(cx, W - cx)
+    cw = int(min(2 * half, (bottom - top) * 9 / 16) * (1 - margin)) // 2 * 2
+    ch = int(cw * 16 / 9) // 2 * 2
+    x = int(round(cx - cw / 2))
+    y = bottom - ch
+    return max(0, min(x, W - cw)), max(top, y), cw, ch
+
+
 def best_segments(info, seg_len):
     """Slide a window over the video; score = worst sharpness in the window
     (one blurry moment ruins a segment)."""
