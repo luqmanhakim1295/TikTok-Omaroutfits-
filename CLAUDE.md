@@ -44,6 +44,13 @@ biasa" / "cam biasa" means: follow all of these.
    floor, wall or background dominates (e.g. a low crop that is mostly
    floor and shoes, or a top-down POV that is half floor). If a crop only
    shows an unreadable patch of fabric, drop it and pick another shot.
+7. **No zoomed-in crops that look broken ("pecah").** Never make a detail
+   shot by cropping a small region (e.g. 1080x1920) out of a wide tripod
+   shot: the result is soft and blocky. Detail shots must come from real
+   close-up footage. Light crops of whole-body shots for centring are fine.
+   Check: Laplacian variance of each rendered cut; a crop far below the
+   native close-ups (e.g. ~15 vs 800+) is broken and must go. Fewer scenes
+   (shorter video) is better than a broken one.
 
 ## Default recipe
 
