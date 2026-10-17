@@ -13,9 +13,15 @@ biasa" / "cam biasa" means: follow all of these.
    `edit_video.centered_box()`. If centring would need a crop so tight it
    cuts the shoulders, pick a different, better-centred window instead.
    Verify on the rendered output with a centre line drawn on frames.
-2. **Nothing above the mouth.** At most the mouth may show; never the nose
-   or eyes, at any point of the cut, including the start of the zoom-out.
-   Check the top strip of the rendered frames, not just the source.
+2. **Frame up to the mouth: no higher, and no lower.** The top edge sits at
+   mouth level: never show the nose or eyes, at any point of the cut
+   (including the start of the zoom-out), but don't crop the top down to the
+   neck or shoulders either. On whole-body shots this competes with rule 1:
+   first look for a window where the body is already centred; if the
+   footage has none (tripod set off-centre), crop only as much as needed so
+   the top stays at mouth/neck level, allowing the body up to ~3 % off
+   centre (~30 px of 1080). Never cut the collar/neckline or shoulders to
+   get a perfect centre. Check the top strip of the rendered frames.
 3. **Only clear footage.** No blur or shake (use the sharpness analysis,
    then look at the frames; motion blur from a hand moving is acceptable,
    camera blur is not).
