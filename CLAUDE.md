@@ -44,6 +44,10 @@ biasa" / "cam biasa" means: follow all of these.
    floor, wall or background dominates (e.g. a low crop that is mostly
    floor and shoes, or a top-down POV that is half floor). If a crop only
    shows an unreadable patch of fabric, drop it and pick another shot.
+6a. **Never show belly, boxer/underwear waistband or bare skin.** Waist
+   close-ups where the shirt is lifted (tucking, adjusting the waistband)
+   often show the boxer band or belly: check every frame of every cut and
+   drop those parts. Never use shirtless or changing footage.
 7. **No zoomed-in crops that look broken ("pecah").** Never make a detail
    shot by cropping a small region (e.g. 1080x1920) out of a wide tripod
    shot: the result is soft and blocky. Detail shots must come from real
