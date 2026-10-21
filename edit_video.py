@@ -240,6 +240,10 @@ MOTIONS = {
     # Gentle zoom out: only 8%, eased in and out (smoothstep) over the cut.
     "pull_soft": ("1+0.08*(1-(on/F)*(on/F)*(3-2*on/F))",
                   "iw/2-iw/zoom/2", "ih/2-ih/zoom/2"),
+    # Same gentle zoom out, anchored to the top edge so a head at the top of
+    # the frame stays in shot for the whole cut.
+    "pull_top": ("1+0.08*(1-(on/F)*(on/F)*(3-2*on/F))",
+                 "iw/2-iw/zoom/2", "0"),
     # "F1" snap: starts 14% tighter and snaps out in the first 8 frames,
     # then drifts in slowly (2%) for the rest of the cut.
     "snap": ("if(lt(on,8),1+0.14*pow(1-on/8,2),1+0.02*(on-8)/F)",
