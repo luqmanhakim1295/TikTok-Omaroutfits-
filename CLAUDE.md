@@ -22,13 +22,21 @@ biasa" / "cam biasa" means: follow all of these.
    the top stays at mouth/neck level, allowing the body up to ~3 % off
    centre (~30 px of 1080). Never cut the collar/neckline or shoulders to
    get a perfect centre. Check the top strip of the rendered frames.
-2a. **Shirt/top videos: no need to show the feet.** For a shirt video, the
-   "whole-body" cuts frame from the mouth down to about the knees
-   (e.g. a 1518x2700 crop from 4K), centred on the torso: measure with
-   `subject_center(..., rows=(0, 0.55))` so crossed legs don't pull the
-   centre. This keeps the top at mouth level and the shirt dead centre
-   with no compromise. Trouser videos still show waist to hem in full;
-   there the area above the belt can be cropped freely to centre the legs.
+1a. **Centred also while moving.** With camera tracking or any moving
+   crop, the subject stays on the centre line for the whole cut, not just
+   at the start. For shirts, measure the placket (button line) x every
+   0.25 s from chest crops with a grid, because background difference is
+   pulled off by the arms. Then make the crop x follow it (piecewise-linear
+   expression, see `tools_trackx.py`).
+2a. **Full-body shots show the whole outfit.** For shirts and tops too, a
+   full-body cut runs from the mouth down to the feet (shirt, trousers,
+   shoes), centred on the torso/placket. If the footage itself stops above
+   the feet, frame from the mouth to the bottom of the footage and tell the
+   owner. Pick windows where the body is already centred, because the
+   full-height crop leaves almost no room to shift sideways. Trouser
+   videos still show waist to hem in full; there the area above the belt
+   can be cropped freely to centre the legs. (This replaces the old "mouth
+   to knee" framing for shirts.)
 2b. **If background differencing is unreliable** (shiny floor reflections,
    camera or set moved, no empty stretch), measure with
    `edit_video.garment_center()` instead (colour mask for cool-toned
@@ -68,7 +76,7 @@ biasa" / "cam biasa" means: follow all of these.
 - **No audio**; the owner adds a trending sound in TikTok.
 - Good scenes the owner likes: crossed arms (show the whole shirt), phone
   going into a pocket, hand in pocket, back view, fabric texture, logos /
-  patches, wide-leg vs jogger via hem cord.
+  patches, wide-leg vs jogger via hem cord, rolled-up sleeves.
 
 ## Workflow
 
