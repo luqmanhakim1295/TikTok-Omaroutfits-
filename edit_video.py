@@ -244,6 +244,10 @@ MOTIONS = {
     # the frame stays in shot for the whole cut.
     "pull_top": ("1+0.08*(1-(on/F)*(on/F)*(3-2*on/F))",
                  "iw/2-iw/zoom/2", "0"),
+    # Same gentle zoom out, anchored to the bottom edge so the feet stay in
+    # shot for the whole cut (full trouser shots).
+    "pull_bottom": ("1+0.08*(1-(on/F)*(on/F)*(3-2*on/F))",
+                    "iw/2-iw/zoom/2", "ih-ih/zoom"),
     # "F1" snap: starts 14% tighter and snaps out in the first 8 frames,
     # then drifts in slowly (2%) for the rest of the cut.
     "snap": ("if(lt(on,8),1+0.14*pow(1-on/8,2),1+0.02*(on-8)/F)",
