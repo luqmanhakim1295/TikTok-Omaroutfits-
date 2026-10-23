@@ -2,8 +2,8 @@
 
 The owner's standing order: make TikTok videos from the raw-material library
 one product at a time, alternating **Baju** and **Seluar**, each video from a
-different product folder, **3 videos per day**, each scheduled to auto-post on
-TikTok through Metricool. When a category runs out, start it again from its
+different product folder, **3 videos per day**, each sent to the owner's
+phone through Metricool (notification mode) so he adds the sound and posts. When a category runs out, start it again from its
 first folder (next cycle) with different scenes. All rules in `CLAUDE.md`
 apply to every video.
 
@@ -49,10 +49,12 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
    Confirm it answers 200/206 before scheduling.
 6. Schedule on Metricool (`createScheduledPost`): blogId `7603396`,
    timezone `Asia/Kuala_Lumpur`, provider `tiktok`.
-   - Time: the same day, three slots at least 3 hours apart between 11:00 and
-     23:00, taken from `getBestTimeToPostByNetwork` (tiktok, today). Fallback:
-     12:30, 18:30, 21:30. Never a time in the past.
-   - `info`: `autoPublish: true`, `draft: false`, `media: [<url>]`,
+   - Delivery: **notification mode**, not auto-publish, so the owner picks
+     the trending sound himself. Set `autoPublish: false` and a time about
+     10 minutes after the video is pushed (never in the past): Metricool
+     then sends a push notification to the owner's phone, he opens it in
+     TikTok, adds the sound and posts (or keeps it as a TikTok draft).
+   - `info`: `autoPublish: false`, `draft: false`, `media: [<url>]`,
      `tiktokData: {title: <short product title>, privacyOption:
      "PUBLIC_TO_EVERYONE", commercialContentOwnBrand: true, autoAddMusic:
      false, isAigc: false}`, plus the other fields the tool requires.
@@ -75,5 +77,5 @@ advance the pointer, and take the next folder of the same type.
 ## Report
 
 After the three videos, send all three files to the owner (SendUserFile) and
-reply in Malay with a short table: video, folder, length, scheduled time and
-Metricool planner link. Mention anything skipped or left as a draft.
+reply in Malay with a short table: video, folder, length, notification time
+and Metricool planner link. Mention anything skipped or left as a draft.

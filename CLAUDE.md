@@ -92,8 +92,8 @@ biasa" / "cam biasa" means: follow all of these.
 ## Daily production
 
 The owner's standing order is 3 videos a day from the raw-material library,
-alternating Baju and Seluar, each auto-scheduled on TikTok through
-Metricool. See `schedule/DAILY.md` for the steps and `schedule/queue.json`
+alternating Baju and Seluar, each sent through Metricool in notification
+mode (the owner adds the trending sound in TikTok and posts). See `schedule/DAILY.md` for the steps and `schedule/queue.json`
 for the state.
 Captions: under 5 words plus 3 hashtags, no call to action ("DM untuk
 order" etc.): sales go through the TikTok yellow basket.

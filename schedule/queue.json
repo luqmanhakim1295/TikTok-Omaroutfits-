@@ -603,7 +603,8 @@
    "output": "output/daily/baju_advo-polo-green_c1.mp4",
    "scenes": "IMG_0233 277/285/380/403, IMG_0235 41.8/79.3, IMG_0236 161",
    "metricool_uuid": "-4379269349673842503",
-   "publish": "2026-10-24T12:00:00+08:00"
+   "publish": "2026-10-23T22:45:00+08:00",
+   "delivery": "notification"
   },
   {
    "date": "2026-10-23",
@@ -613,7 +614,8 @@
    "output": "output/daily/seluar_baggy-corduroy-pants_c1.mp4",
    "scenes": "IMG_0276 225/318/188/138.5, IMG_0279 16/76/27.5/57",
    "metricool_uuid": "-4946237964911554578",
-   "publish": "2026-10-24T15:00:00+08:00"
+   "publish": "2026-10-23T22:50:00+08:00",
+   "delivery": "notification"
   },
   {
    "date": "2026-10-23",
@@ -623,7 +625,8 @@
    "output": "output/daily/baju_boru-japan_c1.mp4",
    "scenes": "IMG_0278 82.3/48.5/68.5, IMG_0275 148.5/15.5/43, IMG_0277 35",
    "metricool_uuid": "3026275432528562832",
-   "publish": "2026-10-24T18:00:00+08:00"
+   "publish": "2026-10-23T22:55:00+08:00",
+   "delivery": "notification"
   }
  ]
 }
