@@ -1,0 +1,598 @@
+{
+ "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
+ "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
+ "next_type": "Baju",
+ "pointer": {
+  "Baju": 0,
+  "Seluar": 0
+ },
+ "cycle": {
+  "Baju": 1,
+  "Seluar": 1
+ },
+ "folders": {
+  "Baju": [
+   {
+    "name": "Advo polo green",
+    "files": [
+     {
+      "name": "IMG_0233.MOV",
+      "id": "1WtIWYLQp8fh0ylCfMlXtouVLGtEYDkEU"
+     },
+     {
+      "name": "IMG_0235.MOV",
+      "id": "1pBSwG21BRpVf8QhARAk03XCDZi8HcgTo"
+     },
+     {
+      "name": "IMG_0236.MOV",
+      "id": "1eTjBJ9pT-CtjgEifcAWz7Ex580M89x_V"
+     }
+    ]
+   },
+   {
+    "name": "Boru Japan",
+    "files": [
+     {
+      "name": "IMG_0275.MOV",
+      "id": "1pDwA_HTzTKWnhmPscbWLEIiQpzztnzvd"
+     },
+     {
+      "name": "IMG_0277.MOV",
+      "id": "1Q07N4jv-2j7FdxExKYMpcA3EOZChM-wO"
+     },
+     {
+      "name": "IMG_0278.MOV",
+      "id": "1Z1gcITSYwC8OGiwAnuZvSdSlwOVMsiJa"
+     }
+    ]
+   },
+   {
+    "name": "Boru moon",
+    "files": [
+     {
+      "name": "IMG_0402.MOV",
+      "id": "1TdP_EUBxJdO6hPtI0baC14NtL-u74S2Y"
+     },
+     {
+      "name": "IMG_0403.MOV",
+      "id": "1nKN5wX1X6ChYMa8oai3OvNEAULlElUVI"
+     },
+     {
+      "name": "IMG_0405.MOV",
+      "id": "1hkTOQY1DJRHV25oT3hpM3UIIWqwybUqM"
+     },
+     {
+      "name": "IMG_0408.MOV",
+      "id": "1BrySsD2WRjF7gBTb_wzDTe_OwrUteNiq"
+     }
+    ]
+   },
+   {
+    "name": "F1 team",
+    "files": [
+     {
+      "name": "IMG_0339.MOV",
+      "id": "1M1DFt9MgNzmq9i-uwvo0iozLEPle3F_J"
+     },
+     {
+      "name": "IMG_0340.MOV",
+      "id": "1xi_a4lbMMBoj1fJNqHW8xH3SZzWBZWYH"
+     },
+     {
+      "name": "IMG_0341.MOV",
+      "id": "1ZiggRRXK6I3Zc2IUx8Uh7M8oxhDVc2Al"
+     },
+     {
+      "name": "IMG_0342.MOV",
+      "id": "1R0cMP_ydrBC0fIncpPKBqcQdODQU4_7G"
+     },
+     {
+      "name": "IMG_0343.MOV",
+      "id": "1pm5qASXRWDXIx30jG_xOkcswu50fGZKx"
+     },
+     {
+      "name": "IMG_0344.MOV",
+      "id": "1F_WtkaHXUecpVwJEJq0eIE2rvGXlDnQn"
+     },
+     {
+      "name": "IMG_0345.MOV",
+      "id": "1AME_EolAd9zsYMDlyQmYcwnR4OixKr1M"
+     },
+     {
+      "name": "IMG_0346.MOV",
+      "id": "1n7gYUfgxSVpfqfFZ2e6tj7yxIJpHvCac"
+     }
+    ]
+   },
+   {
+    "name": "Polyester black",
+    "files": [
+     {
+      "name": "IMG_0307.MOV",
+      "id": "11PE3oSVldTHFNHkgZIktPMYV-yLfRI_O"
+     },
+     {
+      "name": "IMG_0308.MOV",
+      "id": "1sXHcExDGRYrbLxbFLCZiLhINnIHB3qnu"
+     },
+     {
+      "name": "IMG_0309.MOV",
+      "id": "1MylmObIDc5dfUKGffJT2arY4LG-dcHw0"
+     }
+    ]
+   },
+   {
+    "name": "Sweat shirt v neck grey",
+    "files": [
+     {
+      "name": "IMG_0382.MOV",
+      "id": "1iBuOZsmd1vqjYgUZ9mUix7so8tlRiodb"
+     },
+     {
+      "name": "IMG_0386.MOV",
+      "id": "1Sz1TdM5e9kSeehssimAZn02XNQ9BfxKu"
+     },
+     {
+      "name": "IMG_0387.MOV",
+      "id": "1Y7PO7yJNXnqgf-TXN5qlCTTxG-xXYsdG"
+     },
+     {
+      "name": "IMG_0388.MOV",
+      "id": "1WtRQzmvyKjPgxsJYvdzwtZeRc2oKsLtY"
+     },
+     {
+      "name": "IMG_0389.MOV",
+      "id": "1kSw6lYbK8f50gQjN5Qf3IzfuuLjm4Nd8"
+     },
+     {
+      "name": "IMG_0391-2.mov",
+      "id": "1U1ZWZDCGk0qnPyHdFh2p9blprfpLQLT8"
+     },
+     {
+      "name": "IMG_0391.mov",
+      "id": "1Pf9_DJXf9R-XaUo6F9V5xS3cDRnkVyUo"
+     }
+    ]
+   },
+   {
+    "name": "textured",
+    "files": [
+     {
+      "name": "IMG_0253.MOV",
+      "id": "1vBEMgWGsj6ZqS-4HcgEEFOrEaAiR52Jb"
+     },
+     {
+      "name": "IMG_0255.MOV",
+      "id": "1isb9TfEsFZdDRfQACrl6xnBkmzkNwvOG"
+     },
+     {
+      "name": "IMG_0256.MOV",
+      "id": "1B4YviGp-T_JKbnyGj_T1lgHsSoD0Y-pr"
+     },
+     {
+      "name": "IMG_0257.MOV",
+      "id": "1sMUKXkGDtYyj6dqbmUZp6YzbU0jonMVL"
+     },
+     {
+      "name": "IMG_0259.MOV",
+      "id": "1At4a-pOnthpWWft2gIx9-dIm37dGs8e9"
+     },
+     {
+      "name": "IMG_0261.MOV",
+      "id": "1Lav8TQUmn8GWBZcIDVMY6xNStyA9z2iU"
+     }
+    ]
+   },
+   {
+    "name": "VPG",
+    "files": [
+     {
+      "name": "IMG_0383.MOV",
+      "id": "1hBicuQD10e9QKweGhBc36Q5B-XD5GuOd"
+     },
+     {
+      "name": "IMG_0384.MOV",
+      "id": "1CkGBP3jOvXnL3T2_9y3kAjWdOzclIJou"
+     },
+     {
+      "name": "IMG_0385.MOV",
+      "id": "1e51ikWPzEyajgYmDBwT4xXVdty1L5nJK"
+     },
+     {
+      "name": "IMG_0392.MOV",
+      "id": "1mhXbXr8ZQC0m6rFbgLZBVsyTFc9pc5s-"
+     },
+     {
+      "name": "IMG_0393.MOV",
+      "id": "1pdbjTxG3jGsnUNucgjB_eFuxbGDlIcXC"
+     }
+    ]
+   },
+   {
+    "name": "Yooka black plain long sleeves",
+    "files": [
+     {
+      "name": "IMG_0266.MOV",
+      "id": "1QN4gXZoncf9Ez61NPG-aDyQTxyYKP2_Y"
+     },
+     {
+      "name": "IMG_0267.MOV",
+      "id": "1Gn9nLGVyDGnqFRtl-o4wC4r-2kp5Nakn"
+     },
+     {
+      "name": "IMG_0268.MOV",
+      "id": "1Kd6SQ50aWlcxuPlVvSkEy-8HYp5_Q8No"
+     },
+     {
+      "name": "IMG_0269.MOV",
+      "id": "1jsaLW0dfsjkYy3ZvoOIZI5beIVPteAjR"
+     }
+    ]
+   },
+   {
+    "name": "Yooka corduroy blue",
+    "files": [
+     {
+      "name": "IMG_0301.MOV",
+      "id": "1z98K3695uMGm2KwRVRutpTqGv1RJDRjm"
+     },
+     {
+      "name": "IMG_0302.MOV",
+      "id": "1szHZu341qixTR8Xuxoh212pwE6BjXql-"
+     },
+     {
+      "name": "IMG_0303.MOV",
+      "id": "1eW-gVKZgrObx6VKZUprOVwGs6vnqfP3s"
+     },
+     {
+      "name": "IMG_0304.MOV",
+      "id": "1Ye5WoYhG8QtfCizdkg6yabERJbntADqq"
+     },
+     {
+      "name": "IMG_0305.MOV",
+      "id": "1uABwFggZzksZreWbuO7tWxNgsheJ8aiU"
+     },
+     {
+      "name": "IMG_0306.MOV",
+      "id": "1TkbjYbLz0w1ubiAyCblMD982cqSFhZ3f"
+     }
+    ]
+   },
+   {
+    "name": "Yooka open collar black",
+    "files": [
+     {
+      "name": "IMG_0271.MOV",
+      "id": "19l8LFqpRU1fIN4Wjv7QZsz6I2qXBVdtU"
+     },
+     {
+      "name": "IMG_0272.MOV",
+      "id": "13bMZP337QDsbWUa7j3kHF0ukeiUgob_3"
+     },
+     {
+      "name": "IMG_0273.MOV",
+      "id": "1Vb9ig69EunQFelRla9mLGgBPUV3el3Dx"
+     },
+     {
+      "name": "IMG_0274.MOV",
+      "id": "1CuLSlOpANvh2O1YTaeT51RFf-x_ZCODe"
+     },
+     {
+      "name": "IMG_0300.MOV",
+      "id": "1O3O4-qkg9PtHGKcJ3pcgqH9nwdrIqHzo"
+     }
+    ]
+   },
+   {
+    "name": "Zeke coffee",
+    "files": [
+     {
+      "name": "IMG_0247.MOV",
+      "id": "1wiJp_FonX-ghV2Nkdw3KtzXNJhdM3N8T"
+     },
+     {
+      "name": "IMG_0248.MOV",
+      "id": "1nAsx8WGdLOwPcGE28WZeNWCMEKL31B-z"
+     },
+     {
+      "name": "IMG_0310.MOV",
+      "id": "1S9UttFuvc0Rn0gtLLgh-14DL2cu_ayrf"
+     },
+     {
+      "name": "IMG_0311.MOV",
+      "id": "1Yybt7K_WsVR2P6C1Bii5253ROFDO9GWG"
+     },
+     {
+      "name": "IMG_0313.MOV",
+      "id": "1R4ZNOxih5ZWhLjhjnFxLd2t2QNooo-k8"
+     },
+     {
+      "name": "IMG_0314.MOV",
+      "id": "13gui7_UViLQzRlFjf40xLVxjGZ0rKna0"
+     },
+     {
+      "name": "IMG_0315.MOV",
+      "id": "1gvjpwxDk8HIu0jNl_kF84HrpjU3ut7-L"
+     },
+     {
+      "name": "IMG_0316.MOV",
+      "id": "1rwak2RjRZL4ccMuv9qAtnE-NlafZL59h"
+     }
+    ]
+   },
+   {
+    "name": "Zeke windbreaker",
+    "files": [
+     {
+      "name": "IMG_0178-2.mov",
+      "id": "13xnNcHG8rV7bUe-Z4D2OFE44tJCzGQm1"
+     },
+     {
+      "name": "IMG_0178.mov",
+      "id": "1h8gwWdSUayuhnjniYRUmErYpmFVyQFwi"
+     },
+     {
+      "name": "IMG_0179.MOV",
+      "id": "1EVeDmEzvI3YCby8xQt7THbs0am_aEy2D"
+     },
+     {
+      "name": "IMG_0180.MOV",
+      "id": "1OBriwdpybWkm_uzgdoIOG61pDeDYx37j"
+     },
+     {
+      "name": "IMG_0182.MOV",
+      "id": "1tlZaIQmKSEjZLFSQbZIKNZxKlrS_lNtm"
+     },
+     {
+      "name": "IMG_0203-2.mov",
+      "id": "1PU62ms_7KYq0M0p8yAKiceeqthncqwaH"
+     },
+     {
+      "name": "IMG_0203.mov",
+      "id": "1UCFU9gPlq6Qri23V1nvQfo7hOV3_C4TR"
+     },
+     {
+      "name": "IMG_0205.MOV",
+      "id": "1r21XW5zpQq64nURWlXn7YTyHOLs0M6NL"
+     }
+    ]
+   }
+  ],
+  "Seluar": [
+   {
+    "name": "Baggy corduroy pants",
+    "files": [
+     {
+      "name": "IMG_0276.MOV",
+      "id": "1B5pYtVw3PxrDFvMcCYNyWYLB0z3SOPXC"
+     },
+     {
+      "name": "IMG_0279.MOV",
+      "id": "13oR62cxxEpKabjI2miWWBxqeTy5amjo0"
+     }
+    ]
+   },
+   {
+    "name": "Cargo elgini",
+    "files": [
+     {
+      "name": "IMG_0557.MOV",
+      "id": "1qee6lSg43grm7ob2TYt5fnLErKbSU6-1"
+     },
+     {
+      "name": "IMG_0558.MOV",
+      "id": "1EbGM8lKVamsMBRt5L75dw0Wvd_zyZR8s"
+     },
+     {
+      "name": "IMG_0559.MOV",
+      "id": "1VieF1pTXjHeVLQhKVnTRrvLycJBcLv2J"
+     },
+     {
+      "name": "IMG_0560.MOV",
+      "id": "1gZSFwLDLiHE6AFdHs1JfXawVNtB3cwTr"
+     }
+    ]
+   },
+   {
+    "name": "Cargo grey",
+    "files": [
+     {
+      "name": "IMG_0366.MOV",
+      "id": "1BxqOFFjlnk61aYaGfx8XhOMpALIqqDPL"
+     },
+     {
+      "name": "IMG_0367.MOV",
+      "id": "1U9VEHr_dKQlERJMUrueRI4xjOsw7TYhk"
+     },
+     {
+      "name": "IMG_0368.MOV",
+      "id": "1Sd-wZiIEIZBH_vFEZxXykRsbQJUoQV4h"
+     },
+     {
+      "name": "IMG_0369.MOV",
+      "id": "1U7ijNUHb-PXJWSChKvEV29991kLJ1QqM"
+     },
+     {
+      "name": "IMG_0370.MOV",
+      "id": "1qGEuc3-NamzwmCMf36XeE-d8sN-Y3b00"
+     },
+     {
+      "name": "IMG_0371.MOV",
+      "id": "11DNQwdWihqXtC-5h5aAnJOvu9bsCdd37"
+     },
+     {
+      "name": "IMG_0372.MOV",
+      "id": "1oNf6sVEZN1WJoRJMy-Aonl0yLtNlndoT"
+     }
+    ]
+   },
+   {
+    "name": "Elgini grey",
+    "files": [
+     {
+      "name": "IMG_0347.MOV",
+      "id": "1PCOveCPJAseVLHQpBIS4pDDLxFtx4Ug5"
+     },
+     {
+      "name": "IMG_0348.MOV",
+      "id": "1isGbnRfJEI-ToPYj2FTX7ade44sNcPA8"
+     },
+     {
+      "name": "IMG_0349.MOV",
+      "id": "1zIOTSIAy-lcn1UjPpqs8IFr4LE7M49Ok"
+     },
+     {
+      "name": "IMG_0350.MOV",
+      "id": "1hxvvwnP0YioK9dtTzUTBH6IKIA3EZUWM"
+     },
+     {
+      "name": "IMG_0351.MOV",
+      "id": "1bbhtX1fxxjYR4uUlWPuahHqQeHlWJHrd"
+     },
+     {
+      "name": "IMG_0352.MOV",
+      "id": "1ncg1gkrrekh0l58-I3A7mVs0HR6m_Dvb"
+     }
+    ]
+   },
+   {
+    "name": "Elgini relaxed pants",
+    "files": [
+     {
+      "name": "IMG_0397.MOV",
+      "id": "1cdnJSBmyAnvI7v7CWahvk8S5TbEW3XnS"
+     },
+     {
+      "name": "IMG_0398.MOV",
+      "id": "1vAAJg7vsgISwtgBArVWLFpAslKbBNMte"
+     },
+     {
+      "name": "IMG_0399.MOV",
+      "id": "1UEQ8U2Z2FVopiIvNYU7Mnqzk9wYOa06a"
+     },
+     {
+      "name": "IMG_0400.MOV",
+      "id": "17xUw0uJZresl7KJCC6229Ft_msKSohiL"
+     }
+    ]
+   },
+   {
+    "name": "Jogger pants black",
+    "files": [
+     {
+      "name": "IMG_0238.MOV",
+      "id": "1YRT1gZ99zoixt6eehPR_Cix2qejNe2r3"
+     },
+     {
+      "name": "IMG_0239.MOV",
+      "id": "1Zid7-kZHHGZyAZ8DGSL9-4ZEGQB9OyCV"
+     },
+     {
+      "name": "IMG_0240.MOV",
+      "id": "1mS4tigQBsM2EwCZ71ydazIMMPtejJja3"
+     },
+     {
+      "name": "IMG_0244.MOV",
+      "id": "1Sw2vZXQtCNsroD96Eaz1_k47yIYd5lxt"
+     },
+     {
+      "name": "IMG_0245.MOV",
+      "id": "1JNMsRw3tfw0r2KnW52jVh4VtBh3WF8pF"
+     },
+     {
+      "name": "IMG_0246.MOV",
+      "id": "1Ixt9Vf-_ZS3MYp_Ww96F4aICf7HYbNDF"
+     }
+    ]
+   },
+   {
+    "name": "OS Red Stripe",
+    "files": [
+     {
+      "name": "IMG_0355.MOV",
+      "id": "124otrPnWzYtcI-TS7LZ9223rNtKovcIn"
+     },
+     {
+      "name": "IMG_0356.MOV",
+      "id": "1XUYOYadbkq54yhvv-r6o7Jz3VZB-vVFe"
+     },
+     {
+      "name": "IMG_0357.MOV",
+      "id": "1nLcIm0rKLKw2eAmMxRvmqX4GJTXsiOAM"
+     },
+     {
+      "name": "IMG_0358.MOV",
+      "id": "1SprCuKRLQq07B0FMH805TqLnpPL-mCNd"
+     },
+     {
+      "name": "IMG_0359.MOV",
+      "id": "1uzfK1duV31QNxiRhWhgDELcF2qIQLNld"
+     },
+     {
+      "name": "IMG_0360.MOV",
+      "id": "1EKXvmOM4ENhhvkmIvTM9ilJSqysjZY7_"
+     },
+     {
+      "name": "IMG_0361.MOV",
+      "id": "1ZFylloDzK9YBh6yc8JvB3A7U5ntG5_oR"
+     },
+     {
+      "name": "IMG_0362.MOV",
+      "id": "1ZJwg15g4mcnqyfS1dzLurj_G5xXaZih_"
+     },
+     {
+      "name": "IMG_0363.MOV",
+      "id": "1B7dp0vMZJw3xOSQSQU1HRuJXDGu2jIfe"
+     },
+     {
+      "name": "IMG_0364.MOV",
+      "id": "1i_Mw4QnXm3EVNVfSYFpsuNq-ddDDXs_6"
+     },
+     {
+      "name": "IMG_0365.MOV",
+      "id": "1tDS6fZVXxSffpcF6hvnd5kR3h8LHhGhL"
+     }
+    ]
+   },
+   {
+    "name": "Yooka black slack",
+    "files": [
+     {
+      "name": "IMG_0317.MOV",
+      "id": "18rke-CpHUl3WUuKBZ_Y99b01O5az7Ypb"
+     },
+     {
+      "name": "IMG_0318.MOV",
+      "id": "1D8wYYhrgj5JEczi8vmS0WN_2N6iqJxc5"
+     },
+     {
+      "name": "IMG_0319.MOV",
+      "id": "1Na6kub9zCLCij2tI_kFHPN8uwRxP9Dt4"
+     }
+    ]
+   },
+   {
+    "name": "Yooka white slack",
+    "files": [
+     {
+      "name": "IMG_0262.MOV",
+      "id": "1guBb66exUh7XU4NCfcwl2WkUQGLFSngI"
+     },
+     {
+      "name": "IMG_0263.MOV",
+      "id": "1-nOHC5gkFZ01Uw9PUAYk1shz2-AMj03k"
+     },
+     {
+      "name": "IMG_0264.MOV",
+      "id": "10B-yC_ZXZgPtcq_lo8i8YqySraeBSfcE"
+     },
+     {
+      "name": "IMG_0265.MOV",
+      "id": "1fwVu4XcsnEobqt9apZCQnKEhGeKTodge"
+     }
+    ]
+   }
+  ]
+ },
+ "history": []
+}

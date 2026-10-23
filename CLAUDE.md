@@ -66,6 +66,7 @@ biasa" / "cam biasa" means: follow all of these.
 
 ## Default recipe
 
+- 1080x1920 at **60 fps** (owner's request; `tools/render_plan.py --fps 60`).
 - About 9 scenes, hard cuts, total 15 s.
 - Full-body or full trousers (waist to hem) shots: **2 s**. Detail shots:
   **1.5 s**.
@@ -87,3 +88,10 @@ biasa" / "cam biasa" means: follow all of these.
 5. Render a check sheet (start/middle/end of each cut) and inspect it.
 6. Render, then inspect the output: centre lines on whole-body cuts and
    the top strip on face cuts. Only then send the video.
+
+## Daily production
+
+The owner's standing order is 3 videos a day from the raw-material library,
+alternating Baju and Seluar, each auto-scheduled on TikTok through
+Metricool. See `schedule/DAILY.md` for the steps and `schedule/queue.json`
+for the state.
