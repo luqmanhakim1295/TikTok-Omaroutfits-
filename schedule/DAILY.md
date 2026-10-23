@@ -56,9 +56,12 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
      `tiktokData: {title: <short product title>, privacyOption:
      "PUBLIC_TO_EVERYONE", commercialContentOwnBrand: true, autoAddMusic:
      false, isAigc: false}`, plus the other fields the tool requires.
-   - Caption in Malay: product name, only features visible in the video (do
-     not invent fabric, sizes or prices), "DM untuk order!", then hashtags
-     such as #omaroutfits #ootdmalaysia #fashionlelaki plus 2-3 product tags.
+   - Caption: under 5 words, casual Malay/English about the product (e.g.
+     "Polo hijau, simple tapi kemas"), then 3 hashtags: #omaroutfits, one
+     product tag, #ootdmalaysia. **No call to action** ("DM untuk order",
+     "link in bio"...): sales go through the TikTok yellow basket. Never
+     invent fabric, sizes or prices. Use the same short line as the
+     TikTok `title`.
    - If Metricool returns an error, retry once with the fix it names; if it
      still fails, create it as a draft instead and report that.
 7. Update `queue.json`: append to `history`; `pointer[type] += 1` (when it

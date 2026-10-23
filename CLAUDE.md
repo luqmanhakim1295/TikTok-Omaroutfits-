@@ -95,3 +95,5 @@ The owner's standing order is 3 videos a day from the raw-material library,
 alternating Baju and Seluar, each auto-scheduled on TikTok through
 Metricool. See `schedule/DAILY.md` for the steps and `schedule/queue.json`
 for the state.
+Captions: under 5 words plus 3 hashtags, no call to action ("DM untuk
+order" etc.): sales go through the TikTok yellow basket.
