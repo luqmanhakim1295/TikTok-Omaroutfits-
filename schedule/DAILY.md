@@ -2,11 +2,11 @@
 
 The owner's standing order: make TikTok videos from the raw-material library
 one product at a time, alternating **Baju** and **Seluar**, each video from a
-different product folder, **3 videos per day**, each sent to the owner's
-phone through Metricool (notification mode) so he adds the sound and posts.
-When a category runs out, start it again from its first folder (next cycle)
-with different scenes. All rules in `CLAUDE.md`
-apply to every video.
+different product folder, **3 videos per day**. The videos are sent to the
+owner in the chat; he uploads them to TikTok himself (high-quality upload,
+his own trending sound). No Metricool or other posting service. When a
+category runs out, start it again from its first folder (next cycle) with
+different scenes. All rules in `CLAUDE.md` apply to every video.
 
 Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm
 (`claude.mp4` in the library root is not raw material; ignore it.)
@@ -20,7 +20,7 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
 - `pointer.<type>`: index of the next folder in that category.
 - `cycle.<type>`: current pass through that category (1 = first pass).
 - `history`: one entry per finished video (date, type, folder, cycle, output
-  path, scene windows used, Metricool uuid, publish time).
+  path, scene windows used, suggested caption).
 
 ## Steps for each of the 3 videos
 
@@ -45,33 +45,12 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
      going on.
 4. Save as `output/daily/<type>_<folder-slug>_c<cycle>.mp4`, add a README
    line, commit, push. Delete the raw files to free disk.
-5. Public URL (the repo is public):
-   `https://raw.githubusercontent.com/luqmanhakim1295/TikTok-Omaroutfits-/<branch>/<path>`.
-   Confirm it answers 200/206 before scheduling.
-6. Schedule on Metricool (`createScheduledPost`): blogId `7603396`,
-   timezone `Asia/Kuala_Lumpur`, provider `tiktok`.
-   - Delivery: **notification mode**, not auto-publish, so the owner picks
-     the trending sound himself. Set `autoPublish: false` and a time about
-     10 minutes after the video is pushed (never in the past): Metricool
-     then sends a push notification to the owner's phone, he opens it in
-     TikTok, adds the sound and posts (or keeps it as a TikTok draft).
-   - `info`: `autoPublish: false`, `draft: false`, `media: [<url>]`,
-     `tiktokData: {title: <short product title>, privacyOption:
-     "PUBLIC_TO_EVERYONE", disableComment: false, disableDuet: true,
-     disableStitch: true, commercialContentOwnBrand: false,
-     commercialContentThirdParty: false, autoAddMusic: false, isAigc:
-     false}`, plus the other fields the tool requires. Owner's rule:
-     everything off except comments (and high-quality upload, which only
-     exists in the TikTok app, not in the API).
-   - Caption: under 5 words, casual Malay/English about the product (e.g.
-     "Polo hijau, simple tapi kemas"), then 3 hashtags: #omaroutfits, one
-     product tag, #ootdmalaysia. **No call to action** ("DM untuk order",
-     "link in bio"...): sales go through the TikTok yellow basket. Never
-     invent fabric, sizes or prices. Use the same short line as the
-     TikTok `title`.
-   - If Metricool returns an error, retry once with the fix it names; if it
-     still fails, create it as a draft instead and report that.
-7. Update `queue.json`: append to `history`; `pointer[type] += 1` (when it
+5. Suggested caption for the owner to paste: under 5 words, casual
+   Malay/English about the product (e.g. "Polo hijau, simple tapi kemas"),
+   then 3 hashtags: #omaroutfits, one product tag, #ootdmalaysia. **No call
+   to action** ("DM untuk order", "link in bio"...): sales go through the
+   TikTok yellow basket. Never invent fabric, sizes or prices.
+6. Update `queue.json`: append to `history`; `pointer[type] += 1` (when it
    reaches the end: back to 0 and `cycle[type] += 1`); flip `next_type`.
    Commit and push.
 
@@ -82,5 +61,7 @@ advance the pointer, and take the next folder of the same type.
 ## Report
 
 After the three videos, send all three files to the owner (SendUserFile) and
-reply in Malay with a short table: video, folder, length, notification time
-and Metricool planner link. Mention anything skipped or left as a draft.
+reply in Malay with a short table: video, folder, length and suggested
+caption. Remind him of his upload settings: High quality upload on, Allow
+comment on, everything else (Duet, Stitch, branded/commercial content
+label, AI label) off. Mention anything skipped.
