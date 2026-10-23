@@ -3,8 +3,9 @@
 The owner's standing order: make TikTok videos from the raw-material library
 one product at a time, alternating **Baju** and **Seluar**, each video from a
 different product folder, **3 videos per day**, each sent to the owner's
-phone through Metricool (notification mode) so he adds the sound and posts. When a category runs out, start it again from its
-first folder (next cycle) with different scenes. All rules in `CLAUDE.md`
+phone through Metricool (notification mode) so he adds the sound and posts.
+When a category runs out, start it again from its first folder (next cycle)
+with different scenes. All rules in `CLAUDE.md`
 apply to every video.
 
 Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm
