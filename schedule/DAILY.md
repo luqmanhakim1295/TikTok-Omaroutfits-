@@ -57,8 +57,12 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
      TikTok, adds the sound and posts (or keeps it as a TikTok draft).
    - `info`: `autoPublish: false`, `draft: false`, `media: [<url>]`,
      `tiktokData: {title: <short product title>, privacyOption:
-     "PUBLIC_TO_EVERYONE", commercialContentOwnBrand: true, autoAddMusic:
-     false, isAigc: false}`, plus the other fields the tool requires.
+     "PUBLIC_TO_EVERYONE", disableComment: false, disableDuet: true,
+     disableStitch: true, commercialContentOwnBrand: false,
+     commercialContentThirdParty: false, autoAddMusic: false, isAigc:
+     false}`, plus the other fields the tool requires. Owner's rule:
+     everything off except comments (and high-quality upload, which only
+     exists in the TikTok app, not in the API).
    - Caption: under 5 words, casual Malay/English about the product (e.g.
      "Polo hijau, simple tapi kemas"), then 3 hashtags: #omaroutfits, one
      product tag, #ootdmalaysia. **No call to action** ("DM untuk order",
