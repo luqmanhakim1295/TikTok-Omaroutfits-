@@ -123,3 +123,9 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/baju_boru-moon_c1.mp4`: Boru "MOON" tee, the cut of `omaroutfits_moon_tee.mp4` (original colours) re-rendered at 60 fps. From IMG_0402/0403/0405/0408.
 
 `output/daily/seluar_cargo-grey_c1.mp4`: grey cargo pants, 10.5s, 6 cuts at 60 fps: hands on hips with belt, cargo pocket close-up, back, opening the cargo flap, crossed legs, hand on the front pocket. New windows versus the earlier grey cargo video. From IMG_0368/0369/0370.
+
+`output/daily/baju_f1-team_c1.mp4`: F1 team jersey, 11s, 6 cuts at 60 fps with the camera-tracking effect: front hands in pockets, Porsche/Machina Drive print close-up, side turn with hand into pocket, Petronas logo close-up, front pulling the hem, back (PETRONAS DARKTRACE). Close-ups chosen so no beard or face fills the frame. The tripod clip stops above the feet, so wide cuts run from the mouth to the bottom of the footage. From IMG_0339/0343.
+
+`output/daily/seluar_elgini-grey_c1.mp4`: grey Elgini wide-leg pants, 10.5s, 6 cuts at 60 fps with the camera-tracking effect: front hand into pocket, drawstring close-up, side view, hand into pocket close-up, back, logo close-up. Barefoot stretches of the tripod clip left out; wide cuts waist to shoes, measured 535-553 px of 540. From IMG_0347/0350/0352.
+
+`output/daily/baju_polyester-black_c1.mp4`: black polyester tee, 12.5s, 7 cuts at 60 fps with the camera-tracking effect: front hand on hip, phone close-up, front hem pull, neckline and fabric weave close-up, back, sleeve pinch close-up, front with phone. Top edge at mouth level. From IMG_0307/0308/0309.
