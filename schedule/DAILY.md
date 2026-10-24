@@ -29,6 +29,14 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
 `apt-get install -y libegl1 libgles2` (mediapipe segmentation for
 `tools/stepscan.py` / `tools/segtrack.py`; the model downloads itself).
 
+## Before the new videos
+
+Resend any `history` entry whose `delivery` starts with `draft_failed`
+(same URL and caption) and update it. TikTok refuses new inbox drafts with
+`Spam_risk_too_many_pending_share` while too many drafts sit unposted in
+the owner's inbox: then record `draft_failed`, carry on, and tell the owner
+to post or delete the old drafts.
+
 ## Steps for each of the 3 videos
 
 1. `type = next_type`, `folder = folders[type][pointer[type]]`.

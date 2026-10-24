@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 3,
-  "Seluar": 3
+  "Baju": 5,
+  "Seluar": 4
  },
  "cycle": {
   "Baju": 1,
@@ -661,6 +661,42 @@
    "caption": "Cargo grey, santai kemas #omaroutfits #cargopants #ootdmalaysia",
    "zernio_post_id": "6adc24fe2fba4a3ee3d1b072",
    "delivery": "tiktok-draft"
+  },
+  {
+   "date": "2026-10-25",
+   "type": "Baju",
+   "folder": "F1 team",
+   "cycle": 1,
+   "output": "output/daily/baju_f1-team_c1.mp4",
+   "scenes": "IMG_0339 63.2/240.0/119.6/199.0, IMG_0343 6.0/38.6",
+   "caption": "Jersey F1, vibe race day sepanjang hari",
+   "zernio_post_id": "6add345a4fcd538b8ff3f06b",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/baju_f1-team_c1.json"
+  },
+  {
+   "date": "2026-10-25",
+   "type": "Seluar",
+   "folder": "Elgini grey",
+   "cycle": 1,
+   "output": "output/daily/seluar_elgini-grey_c1.mp4",
+   "scenes": "IMG_0347 261.6/253.4/246.8, IMG_0350 40.0, IMG_0352 43.2/12.0",
+   "caption": "Seluar Elgini kelabu, santai tapi tetap kemas",
+   "zernio_post_id": "6add34744fcd538b8ff3f125",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/seluar_elgini-grey_c1.json"
+  },
+  {
+   "date": "2026-10-25",
+   "type": "Baju",
+   "folder": "Polyester black",
+   "cycle": 1,
+   "output": "output/daily/baju_polyester-black_c1.mp4",
+   "scenes": "IMG_0307 164.4/97.8, IMG_0308 99/49, IMG_0309 8.0/213.5/141.2",
+   "caption": "Tee hitam simple, sesuai dipakai ke mana saja",
+   "zernio_post_id": "6add34914fcd538b8ff3f230",
+   "delivery": "draft_failed: Spam_risk_too_many_pending_share (inbox full); resend",
+   "plan": "schedule/plans/baju_polyester-black_c1.json"
   }
  ]
 }
