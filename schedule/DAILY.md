@@ -33,7 +33,13 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
 3. Edit following `CLAUDE.md` (workflow, non-negotiables, default recipe):
    - Contact sheets: `tools/sheet.sh`. Sharpness: `tools/sharpprof.py`,
      `tools/sharpwin.py`.
-   - Measure centres before cropping: `tools/darkx.py` (dark garments vs.
+   - Pick windows with one movement only (CLAUDE.md rule 2d):
+     `tools/stepscan.py clip t0 t1` lists windows with a single step/pose
+     change and the crop centre to use.
+   - Measure centres before cropping: `tools/stepscan.py` /
+     `tools/segtrack.py` (person segmentation; use for beige or neutral
+     garments and whenever background difference is unreliable),
+     `tools/darkx.py` (dark garments vs.
      light background), `tools/colorx.py` (coloured prints), placket/collar
      strips every 0.25 s for shirts. Check every pick on a grid with a red
      centre line.
