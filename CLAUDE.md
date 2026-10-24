@@ -22,9 +22,12 @@ biasa" / "cam biasa" means: follow all of these.
    the top stays at mouth/neck level, allowing the body up to ~3 % off
    centre (~30 px of 1080). Never cut the collar/neckline or shoulders to
    get a perfect centre. Check the top strip of the rendered frames.
-1a. **Centred also while moving.** With camera tracking or any moving
-   crop, the subject stays on the centre line for the whole cut, not just
-   at the start. For shirts, measure the placket (button line) x every
+1a. **Always camera tracking on wide cuts** (owner's standing order, "buat
+   camera tracking je"). Every whole-body / full-trouser cut uses a crop
+   whose x follows the subject (`tools/segtrack.py clip start len cw` →
+   expression file, 8th field of the plan entry), never a fixed crop, even
+   when the drift is small. Detail close-ups stay full frame. The subject
+   stays on the centre line for the whole cut, not just at the start. For shirts, measure the placket (button line) x every
    0.25 s from chest crops with a grid, because background difference is
    pulled off by the arms. Then make the crop x follow it (piecewise-linear
    expression, see `tools_trackx.py`).
@@ -82,6 +85,7 @@ biasa" / "cam biasa" means: follow all of these.
   **1.5 s**.
 - Alternate wide and detail shots.
 - Gentle zoom-out on every cut: motion `pull_soft` (8 %, eased). Not fast.
+- Wide cuts: camera tracking (rule 1a) plus `pull_bottom` for trousers.
 - **No text and no colour filter** by default (the "Cinematic OOTD" title
   and grade were only for specific requests).
 - **No audio**; the owner adds a trending sound in TikTok.
