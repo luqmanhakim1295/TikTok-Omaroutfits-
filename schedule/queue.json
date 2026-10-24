@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
-  "Baju": 2,
-  "Seluar": 1
+  "Baju": 3,
+  "Seluar": 3
  },
  "cycle": {
   "Baju": 1,
@@ -627,6 +627,39 @@
    "metricool_uuid": "3026275432528562832",
    "publish": "2026-10-23T22:55:00+08:00",
    "delivery": "notification"
+  },
+  {
+   "date": "2026-10-24",
+   "type": "Seluar",
+   "folder": "Cargo elgini",
+   "cycle": 1,
+   "output": "output/daily/seluar_cargo-elgini_c1.mp4",
+   "scenes": "IMG_0559 21/32.5/54, IMG_0557 269, IMG_0560 16/30.3",
+   "caption": "Cargo beige, ready jalan #omaroutfits #cargopants #ootdmalaysia",
+   "zernio_post_id": "6adc24b62fba4a3ee3d1b009",
+   "delivery": "tiktok-draft"
+  },
+  {
+   "date": "2026-10-24",
+   "type": "Baju",
+   "folder": "Boru moon",
+   "cycle": 1,
+   "output": "output/daily/baju_boru-moon_c1.mp4",
+   "scenes": "IMG_0408 14.5, IMG_0402 105.5/53.5/65.5/19, IMG_0405 24, IMG_0403 25.6",
+   "caption": "Moon vibes 🌙 #omaroutfits #graphictee #ootdmalaysia",
+   "zernio_post_id": "6adc24d92fba4a3ee3d1b043",
+   "delivery": "tiktok-draft"
+  },
+  {
+   "date": "2026-10-24",
+   "type": "Seluar",
+   "folder": "Cargo grey",
+   "cycle": 1,
+   "output": "output/daily/seluar_cargo-grey_c1.mp4",
+   "scenes": "IMG_0370 211/158.5/196.5, IMG_0369 2/20, IMG_0368 18",
+   "caption": "Cargo grey, santai kemas #omaroutfits #cargopants #ootdmalaysia",
+   "zernio_post_id": "6adc24fe2fba4a3ee3d1b072",
+   "delivery": "tiktok-draft"
   }
  ]
 }
