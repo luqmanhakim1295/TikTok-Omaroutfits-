@@ -2,9 +2,10 @@
 
 The owner's standing order: make TikTok videos from the raw-material library
 one product at a time, alternating **Baju** and **Seluar**, each video from a
-different product folder, **3 videos per day**. The videos are sent to the
-owner in the chat; he uploads them to TikTok himself (high-quality upload,
-his own trending sound). No Metricool or other posting service. When a
+different product folder, **3 videos per day**. Each video goes to the
+owner's TikTok drafts (Creator Inbox) through Zernio; he opens the draft in
+the TikTok app, adds the trending sound and caption, and posts. Videos are
+also sent in the chat. No Metricool. When a
 category runs out, start it again from its first folder (next cycle) with
 different scenes. All rules in `CLAUDE.md` apply to every video.
 
@@ -20,7 +21,7 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
 - `pointer.<type>`: index of the next folder in that category.
 - `cycle.<type>`: current pass through that category (1 = first pass).
 - `history`: one entry per finished video (date, type, folder, cycle, output
-  path, scene windows used, suggested caption).
+  path, scene windows used, suggested caption, Zernio post id).
 
 ## Steps for each of the 3 videos
 
@@ -45,7 +46,14 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
      going on.
 4. Save as `output/daily/<type>_<folder-slug>_c<cycle>.mp4`, add a README
    line, commit, push. Delete the raw files to free disk.
-5. Suggested caption for the owner to paste: under 5 words, casual
+5. Send to TikTok drafts: confirm the raw GitHub URL
+   (`https://raw.githubusercontent.com/luqmanhakim1295/TikTok-Omaroutfits-/<branch>/<path>`,
+   the repo is public) answers 200/206, then
+   `python3 tools/zernio_draft.py <url> "<caption>"` and check it ends
+   `published` (= delivered to the inbox). The Zernio key comes from the
+   environment's network secret for zernio.com. On an error, retry once; if
+   it still fails, say so in the report and send the file in the chat only.
+   Suggested caption for the owner to paste: under 5 words, casual
    Malay/English about the product (e.g. "Polo hijau, simple tapi kemas"),
    then 3 hashtags: #omaroutfits, one product tag, #ootdmalaysia. **No call
    to action** ("DM untuk order", "link in bio"...): sales go through the
@@ -61,7 +69,7 @@ advance the pointer, and take the next folder of the same type.
 ## Report
 
 After the three videos, send all three files to the owner (SendUserFile) and
-reply in Malay with a short table: video, folder, length and suggested
-caption. Remind him of his upload settings: High quality upload on, Allow
+reply in Malay with a short table: video, folder, length, suggested caption
+(in a code block, easy to copy) and whether the TikTok draft arrived. Remind him of his upload settings: High quality upload on, Allow
 comment on, everything else (Duet, Stitch, branded/commercial content
 label, AI label) off. Mention anything skipped.
