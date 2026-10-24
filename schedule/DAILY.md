@@ -45,9 +45,10 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
      centre line.
    - On cycle 2 and later, read this folder's earlier `history` entries and
      pick different windows and a different hook.
-   - Every wide cut gets camera tracking: `tools/segtrack.py clip start len cw
-     > xN.txt` and put `"xN.txt"` as the 8th field of its plan entry
-     (CLAUDE.md rule 1a). Close-ups stay full frame.
+   - Camera-tracking effect (CLAUDE.md rule 1a): every wide cut gets a
+     tracked crop (`tools/segtrack.py clip start len cw > xN.txt`, then
+     `"xN.txt"` as the 8th field of its plan entry) with `push_bottom`
+     (trousers) or `push_top` (shirts); close-ups full frame with `push_soft`.
    - Render 1080x1920 **60 fps**, no text, no colour filter, no audio:
      `python3 tools/render_plan.py plan.json <rawdir> <out.mp4> --fps 60`.
    - Verify the render: check sheet with centre lines, top strip (no nose or

@@ -118,6 +118,8 @@ If no face is detected (a close-up that is already below the chin), the full fra
 
 `output/daily/seluar_cargo-elgini_c1_v2.mp4`: beige Elgini cargo pants, 12.5s, 7 cuts at 60 fps, redone after owner feedback (v1 was off-centre and the people moved several times per cut). Every cut now has one movement only: front step with hands in pockets (tracked crop), phone into the front pocket, back view weight shift, hand into the side cargo pocket, side view hand into pocket, hand into the back pocket, front sway (IMG_0558). Body centre measured with person segmentation (`tools/stepscan.py`, `tools/segtrack.py`) and checked on the render: wide cuts average 541-551 px of 540. From IMG_0557/0558/0559/0560.
 
+`output/daily/seluar_cargo-elgini_c1_v3.mp4`: same 7 cuts as v2 with the camera-tracking effect the owner asked for: every wide cut's crop follows his body (tracked, measured by segmentation) with an eased 8 % push-in anchored to the shoes, close-ups with a centred push-in. Wide cuts measure 544-553 px of 540.
+
 `output/daily/baju_boru-moon_c1.mp4`: Boru "MOON" tee, the cut of `omaroutfits_moon_tee.mp4` (original colours) re-rendered at 60 fps. From IMG_0402/0403/0405/0408.
 
 `output/daily/seluar_cargo-grey_c1.mp4`: grey cargo pants, 10.5s, 6 cuts at 60 fps: hands on hips with belt, cargo pocket close-up, back, opening the cargo flap, crossed legs, hand on the front pocket. New windows versus the earlier grey cargo video. From IMG_0368/0369/0370.

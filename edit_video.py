@@ -248,6 +248,16 @@ MOTIONS = {
     # shot for the whole cut (full trouser shots).
     "pull_bottom": ("1+0.08*(1-(on/F)*(on/F)*(3-2*on/F))",
                     "iw/2-iw/zoom/2", "ih-ih/zoom"),
+    # Camera-tracking push: eased 8% push-in (the opposite of pull_soft), used
+    # with a crop that follows the subject so it feels like an operator
+    # tracking him. _bottom keeps the feet in shot (trousers), _top the
+    # mouth line (shirts).
+    "push_soft": ("1+0.08*(on/F)*(on/F)*(3-2*on/F)",
+                  "iw/2-iw/zoom/2", "ih/2-ih/zoom/2"),
+    "push_bottom": ("1+0.08*(on/F)*(on/F)*(3-2*on/F)",
+                    "iw/2-iw/zoom/2", "ih-ih/zoom"),
+    "push_top": ("1+0.08*(on/F)*(on/F)*(3-2*on/F)",
+                 "iw/2-iw/zoom/2", "0"),
     # "F1" snap: starts 14% tighter and snaps out in the first 8 frames,
     # then drifts in slowly (2%) for the rest of the cut.
     "snap": ("if(lt(on,8),1+0.14*pow(1-on/8,2),1+0.02*(on-8)/F)",
