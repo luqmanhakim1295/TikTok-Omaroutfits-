@@ -633,11 +633,12 @@
    "type": "Seluar",
    "folder": "Cargo elgini",
    "cycle": 1,
-   "output": "output/daily/seluar_cargo-elgini_c1.mp4",
-   "scenes": "IMG_0559 21/32.5/54, IMG_0557 269, IMG_0560 16/30.3",
+   "output": "output/daily/seluar_cargo-elgini_c1_v2.mp4",
+   "scenes": "IMG_0559 41.1(track)/85.9, IMG_0557 282.9, IMG_0558 17.2, IMG_0560 30.4/76.9/206.4",
    "caption": "Cargo beige, ready jalan #omaroutfits #cargopants #ootdmalaysia",
-   "zernio_post_id": "6adc24b62fba4a3ee3d1b009",
-   "delivery": "tiktok-draft"
+   "zernio_post_id": "6adc7b954581f88307df703a",
+   "delivery": "tiktok-draft",
+   "note": "v2 after owner feedback (v1 off-centre, several moves per cut; v1 draft 6adc24b62fba4a3ee3d1b009 superseded)"
   },
   {
    "date": "2026-10-24",
