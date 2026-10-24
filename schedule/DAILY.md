@@ -69,9 +69,10 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
    `published` (= delivered to the inbox). The Zernio key comes from the
    environment's network secret for zernio.com. On an error, retry once; if
    it still fails, say so in the report and send the file in the chat only.
-   Suggested caption for the owner to paste: under 5 words, casual
-   Malay/English about the product (e.g. "Polo hijau, simple tapi kemas"),
-   then 3 hashtags: #omaroutfits, one product tag, #ootdmalaysia. **No call
+   Caption (passed to zernio_draft.py and given in the report): **under 10
+   words, no hashtags at all**, casual Malay/English about the product (e.g.
+   "Polo hijau ni simple tapi nampak kemas"). TikTok ignores captions on
+   inbox drafts (API limit), so the owner pastes it from the report. **No call
    to action** ("DM untuk order", "link in bio"...): sales go through the
    TikTok yellow basket. Never invent fabric, sizes or prices.
 6. Update `queue.json`: append to `history`; `pointer[type] += 1` (when it

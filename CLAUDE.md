@@ -113,5 +113,5 @@ The owner's standing order is 3 videos a day from the raw-material library,
 alternating Baju and Seluar. Each video goes to the owner's TikTok drafts
 through Zernio (`tools/zernio_draft.py`); he adds the sound and posts. See `schedule/DAILY.md` for the steps and `schedule/queue.json`
 for the state.
-Suggested captions: under 5 words plus 3 hashtags, no call to action ("DM untuk
+Captions: under 10 words, **no hashtags**, no call to action ("DM untuk
 order" etc.): sales go through the TikTok yellow basket.
