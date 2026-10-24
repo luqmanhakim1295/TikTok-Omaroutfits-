@@ -23,6 +23,12 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
 - `history`: one entry per finished video (date, type, folder, cycle, output
   path, scene windows used, suggested caption, Zernio post id).
 
+## Setup (fresh container)
+
+`pip install -r requirements.txt gdown matplotlib` and
+`apt-get install -y libegl1 libgles2` (mediapipe segmentation for
+`tools/stepscan.py` / `tools/segtrack.py`; the model downloads itself).
+
 ## Steps for each of the 3 videos
 
 1. `type = next_type`, `folder = folders[type][pointer[type]]`.
