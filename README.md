@@ -115,3 +115,9 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/seluar_baggy-corduroy-pants_c1.mp4`: khaki ribbed baggy corduroy pants, 14s, 8 cuts at 60 fps: front with drawstring, hand in the ribbed pocket, back, DENIM patch, front hands in pockets, phone into the pocket, seated cross-legged, hand in the back pocket. Full shots waist to shoes, centred by background difference. The stretch where the shirt was lifted at the waist (IMG_0279 0:38-0:48) was left out. From IMG_0276/0279.
 
 `output/daily/baju_boru-japan_c1.mp4`: Boru Japan "Mount Fuji" long-sleeve tee, the same cut as `omaroutfits_mount_fuji_tee.mp4` re-rendered at 60 fps. From IMG_0275/0277/0278.
+
+`output/daily/seluar_cargo-elgini_c1.mp4`: beige Elgini cargo pants, 11s, 6 cuts at 60 fps: crossed arms with the MERDEKA tee, cargo pocket close-up, hands in pockets, phone into the pocket, back, side with hand in pocket. New windows (IMG_0559 tripod, not used in the earlier beige cargo video); a hands-in-pocket close-up where a grey waistband band showed was dropped. From IMG_0557/0559/0560 (1080p footage).
+
+`output/daily/baju_boru-moon_c1.mp4`: Boru "MOON" tee, the cut of `omaroutfits_moon_tee.mp4` (original colours) re-rendered at 60 fps. From IMG_0402/0403/0405/0408.
+
+`output/daily/seluar_cargo-grey_c1.mp4`: grey cargo pants, 10.5s, 6 cuts at 60 fps: hands on hips with belt, cargo pocket close-up, back, opening the cargo flap, crossed legs, hand on the front pocket. New windows versus the earlier grey cargo video. From IMG_0368/0369/0370.
