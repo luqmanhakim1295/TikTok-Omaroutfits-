@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
-  "Baju": 5,
-  "Seluar": 4
+  "Baju": 7,
+  "Seluar": 7
  },
  "cycle": {
   "Baju": 1,
@@ -694,9 +694,69 @@
    "output": "output/daily/baju_polyester-black_c1.mp4",
    "scenes": "IMG_0307 164.4/97.8, IMG_0308 99/49, IMG_0309 8.0/213.5/141.2",
    "caption": "Tee hitam simple, sesuai dipakai ke mana saja",
-   "zernio_post_id": "6add34914fcd538b8ff3f230",
-   "delivery": "draft_failed: Spam_risk_too_many_pending_share (inbox full); resend",
+   "zernio_post_id": "6ade2931405a352d56cce0f4",
+   "delivery": "tiktok-draft (resent 2026-10-26)",
    "plan": "schedule/plans/baju_polyester-black_c1.json"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "Seluar",
+   "folder": "Elgini relaxed pants",
+   "cycle": 1,
+   "output": "output/daily/seluar_elgini-relaxed-pants_c1.mp4",
+   "scenes": "IMG_0398 91.0/113.3, IMG_0397 89.5/72.6, IMG_0400 54.6, IMG_0399 13.3",
+   "caption": "Seluar longgar kelabu gelap, selesa untuk harian",
+   "zernio_post_id": "6ade44b474b8b9a2a3dbfe1e",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/seluar_elgini-relaxed-pants_c1.json"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "Baju",
+   "folder": "Sweat shirt v neck grey",
+   "cycle": 1,
+   "output": "output/daily/baju_sweat-shirt-v-neck-grey_c1.mp4",
+   "scenes": "IMG_0391-2 22.2/78.8, IMG_0391 0.8, IMG_0386 68.0/12.0",
+   "caption": "Sweatshirt V-neck bertekstur, nampak kemas tanpa usaha",
+   "zernio_post_id": "6ade44da74b8b9a2a3dbff50",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/baju_sweat-shirt-v-neck-grey_c1.json"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "Seluar",
+   "folder": "Jogger pants black",
+   "cycle": 1,
+   "output": "output/daily/seluar_jogger-pants-black_c1.mp4",
+   "scenes": "IMG_0238 62.4/89.4/134.4/183.8, IMG_0239 55.6, IMG_0240 17.0",
+   "caption": "Jogger hitam, padan dengan apa saja",
+   "zernio_post_id": "6ade44fff01d059dce88fd9e",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/seluar_jogger-pants-black_c1.json"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "Baju",
+   "folder": "textured",
+   "cycle": 1,
+   "output": "output/daily/baju_textured_c1.mp4",
+   "scenes": "IMG_0253 109.0/144.4/202.6, IMG_0255 19.0, IMG_0256 11.0/101.3",
+   "caption": "Kemeja seersucker olive, tekstur yang menyerlah",
+   "zernio_post_id": "6ade451874c8ccf88afd0d6b",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/baju_textured_c1.json"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "Seluar",
+   "folder": "OS Red Stripe",
+   "cycle": 1,
+   "output": "output/daily/seluar_os-red-stripe_c1.mp4",
+   "scenes": "IMG_0356 46.0/120.4/130.2, IMG_0359 13.0, IMG_0358 48.0, IMG_0357 46.8",
+   "caption": "Seluar track stripe merah, vibe retro santai",
+   "zernio_post_id": "6ade453cfdb1866652dc6506",
+   "delivery": "draft_failed: Spam_risk_too_many_pending_share (inbox full); resend",
+   "plan": "schedule/plans/seluar_os-red-stripe_c1.json"
   }
  ]
 }
