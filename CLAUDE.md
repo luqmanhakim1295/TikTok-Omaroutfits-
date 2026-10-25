@@ -109,7 +109,7 @@ biasa" / "cam biasa" means: follow all of these.
 
 ## Daily production
 
-The owner's standing order is 3 videos a day from the raw-material library,
+The owner's standing order is 5 videos a day from the raw-material library,
 alternating Baju and Seluar. Each video goes to the owner's TikTok drafts
 through Zernio (`tools/zernio_draft.py`); he adds the sound and posts. See `schedule/DAILY.md` for the steps and `schedule/queue.json`
 for the state.

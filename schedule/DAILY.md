@@ -1,8 +1,8 @@
-# Daily production run (3 videos a day)
+# Daily production run (5 videos a day)
 
 The owner's standing order: make TikTok videos from the raw-material library
 one product at a time, alternating **Baju** and **Seluar**, each video from a
-different product folder, **3 videos per day**. Each video goes to the
+different product folder, **5 videos per day**. Each video goes to the
 owner's TikTok drafts (Creator Inbox) through Zernio; he opens the draft in
 the TikTok app, adds the trending sound and caption, and posts. Videos are
 also sent in the chat. No Metricool. When a
@@ -37,7 +37,7 @@ Resend any `history` entry whose `delivery` starts with `draft_failed`
 the owner's inbox: then record `draft_failed`, carry on, and tell the owner
 to post or delete the old drafts.
 
-## Steps for each of the 3 videos
+## Steps for each of the 5 videos
 
 1. `type = next_type`, `folder = folders[type][pointer[type]]`.
 2. Download the folder's files into a new, empty scratchpad directory:
@@ -93,7 +93,7 @@ advance the pointer, and take the next folder of the same type.
 
 ## Report
 
-After the three videos, send all three files to the owner (SendUserFile) and
+After the five videos, send all five files to the owner (SendUserFile) and
 reply in Malay with a short table: video, folder, length, suggested caption
 (in a code block, easy to copy) and whether the TikTok draft arrived. Remind him of his upload settings: High quality upload on, Allow
 comment on, everything else (Duet, Stitch, branded/commercial content
