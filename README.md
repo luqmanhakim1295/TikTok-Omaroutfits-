@@ -129,3 +129,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/seluar_elgini-grey_c1.mp4`: grey Elgini wide-leg pants, 10.5s, 6 cuts at 60 fps with the camera-tracking effect: front hand into pocket, drawstring close-up, side view, hand into pocket close-up, back, logo close-up. Barefoot stretches of the tripod clip left out; wide cuts waist to shoes, measured 535-553 px of 540. From IMG_0347/0350/0352.
 
 `output/daily/baju_polyester-black_c1.mp4`: black polyester tee, 12.5s, 7 cuts at 60 fps with the camera-tracking effect: front hand on hip, phone close-up, front hem pull, neckline and fabric weave close-up, back, sleeve pinch close-up, front with phone. Top edge at mouth level. From IMG_0307/0308/0309.
+
+`output/daily/seluar_elgini-relaxed-pants_c1.mp4`: dark grey Elgini relaxed pants, 11s, 6 cuts at 60 fps with the camera-tracking effect: front hands in pockets, hand into the pocket close-up, side view, logo close-up, back, crossed arms with the full trousers. One movement per cut; wide cuts measure 534-555 px of 540. Stretches where the shirt lifted (IMG_0398 ~0:09-0:14) left out. From IMG_0397/0398/0399/0400.
