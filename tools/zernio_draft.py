@@ -36,7 +36,11 @@ if "--dry-run" in sys.argv:
     body["dryRun"] = True
     print(json.dumps(call("POST", "/posts", body)))
     sys.exit()
-post = call("POST", "/posts", body)["post"]
+resp = call("POST", "/posts", body)
+if "post" not in resp:
+    print("error", json.dumps(resp)[:400])
+    sys.exit(1)
+post = resp["post"]
 pid = post["_id"]
 for _ in range(30):
     p = call("GET", f"/posts/{pid}").get("post", {})

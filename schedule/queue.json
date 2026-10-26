@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
-  "Baju": 10,
-  "Seluar": 0
+  "Baju": 12,
+  "Seluar": 3
  },
  "cycle": {
   "Baju": 1,
@@ -820,6 +820,66 @@
    "delivery": "tiktok-draft (resent 2026-10-26)",
    "plan": "schedule/plans/baju_yooka-corduroy-blue_c1.json",
    "note": "v2: sharp wide cuts from IMG_0302"
+  },
+  {
+   "date": "2026-10-27",
+   "type": "Seluar",
+   "folder": "Baggy corduroy pants",
+   "cycle": 2,
+   "output": "output/daily/seluar_baggy-corduroy-pants_c2.mp4",
+   "scenes": "IMG_0276 106.6/278.0, IMG_0279 85.0/55.0/118.5",
+   "caption": "Seluar corduroy longgar, selesa dan nampak santai",
+   "zernio_post_id": "6adf98c70802d4bb0b801b49",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/seluar_baggy-corduroy-pants_c2.json"
+  },
+  {
+   "date": "2026-10-27",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "cycle": 1,
+   "output": "output/daily/baju_yooka-open-collar-black_c1.mp4",
+   "scenes": "IMG_0274 46.2/53.8/100.4, IMG_0272 52.5, IMG_0271 116.0",
+   "caption": "Kemeja kolar terbuka hitam, kemas tapi relaks",
+   "zernio_post_id": "6adf98ed0802d4bb0b801cf6",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/baju_yooka-open-collar-black_c1.json"
+  },
+  {
+   "date": "2026-10-27",
+   "type": "Seluar",
+   "folder": "Cargo elgini",
+   "cycle": 2,
+   "output": "output/daily/seluar_cargo-elgini_c2.mp4",
+   "scenes": "IMG_0559 76.5, IMG_0560 21.0, IMG_0558 33.6, IMG_0557 168.4",
+   "caption": "Cargo beige, banyak poket dan selesa",
+   "zernio_post_id": "6adf99090802d4bb0b801de3",
+   "delivery": "draft_failed: Spam_risk_too_many_pending_share (inbox full); resend",
+   "plan": "schedule/plans/seluar_cargo-elgini_c2.json"
+  },
+  {
+   "date": "2026-10-27",
+   "type": "Baju",
+   "folder": "Zeke coffee",
+   "cycle": 1,
+   "output": "output/daily/baju_zeke-coffee_c1.mp4",
+   "scenes": "IMG_0316 22.6/96.2, IMG_0315 33.0/77.0",
+   "caption": "Tee oversized warna coffee, simple dan selesa",
+   "zernio_post_id": "",
+   "delivery": "draft_failed: inbox full; resend",
+   "plan": "schedule/plans/baju_zeke-coffee_c1.json"
+  },
+  {
+   "date": "2026-10-27",
+   "type": "Seluar",
+   "folder": "Cargo grey",
+   "cycle": 2,
+   "output": "output/daily/seluar_cargo-grey_c2.mp4",
+   "scenes": "IMG_0370 114.0/140.8/213.4, IMG_0369 10.0, IMG_0368 8.0",
+   "caption": "Cargo kelabu, lasak tapi tetap kemas",
+   "zernio_post_id": "",
+   "delivery": "draft_failed: inbox full; resend",
+   "plan": "schedule/plans/seluar_cargo-grey_c2.json"
   }
  ]
 }
