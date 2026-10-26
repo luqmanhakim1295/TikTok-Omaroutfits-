@@ -125,5 +125,7 @@ The owner's standing order is 5 videos a day from the raw-material library,
 alternating Baju and Seluar. Each video goes to the owner's TikTok drafts
 through Zernio (`tools/zernio_draft.py`); he adds the sound and posts. See `schedule/DAILY.md` for the steps and `schedule/queue.json`
 for the state.
+**"Next" / "go"** from the owner means: start the next batch of 5 right away
+(resend failed drafts first), no questions; he schedules the posts himself.
 Captions: under 10 words, **no hashtags**, no call to action ("DM untuk
 order" etc.): sales go through the TikTok yellow basket.
