@@ -59,7 +59,13 @@ biasa" / "cam biasa" means: follow all of these.
    `tools/stepscan.py` (exactly one motion burst) and check the strip.
 3. **Only clear footage.** No blur or shake (use the sharpness analysis,
    then look at the frames; motion blur from a hand moving is acceptable,
-   camera blur is not).
+   camera blur is not). Tripod clips can be out of focus for whole
+   stretches (owner caught two soft wide cuts in the corduroy video), so
+   check wide cuts too, not only close-ups: before picking a window run
+   `tools/sharpprof.py` on it, and after rendering measure the median
+   Laplacian of every cut. Any cut far below the others of the same video
+   (e.g. 10 vs 400+) is blurred: look at a 100 % crop and replace or drop
+   it before sending.
 4. **15 seconds or less**, 1080x1920.
 5. **No repeated scenes.** Every cut is a different shot or angle; don't
    put two similar shots back to back.
