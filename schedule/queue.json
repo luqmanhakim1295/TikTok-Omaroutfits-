@@ -751,13 +751,13 @@
    "type": "Seluar",
    "folder": "OS Red Stripe",
    "cycle": 1,
-   "output": "output/daily/seluar_os-red-stripe_c1.mp4",
-   "scenes": "IMG_0356 46.0/120.4/130.2, IMG_0359 13.0, IMG_0358 48.0, IMG_0357 46.8",
+   "output": "output/daily/seluar_os-red-stripe_c1_v2.mp4",
+   "scenes": "IMG_0356 46.0/120.4/130.2, IMG_0359 13.0, IMG_0357 69.9",
    "caption": "Seluar track stripe merah, vibe retro santai",
-   "zernio_post_id": "6ade95c785a1ef086ad590e5",
+   "zernio_post_id": "6adf87c9525114c59975747b",
    "delivery": "tiktok-draft (resent 2026-10-26)",
    "plan": "schedule/plans/seluar_os-red-stripe_c1.json",
-   "redo": "too zoomed in (rule 6b); redo when Drive allows"
+   "note": "v2: wider framing"
   },
   {
    "date": "2026-10-26",
@@ -813,13 +813,13 @@
    "type": "Baju",
    "folder": "Yooka corduroy blue",
    "cycle": 1,
-   "output": "output/daily/baju_yooka-corduroy-blue_c1.mp4",
-   "scenes": "IMG_0305 21.0/38.6/129.4, IMG_0304 64.0, IMG_0303 56.0 (IMG_0301/0302/0306 blocked by Drive quota)",
+   "output": "output/daily/baju_yooka-corduroy-blue_c1_v2.mp4",
+   "scenes": "IMG_0302 58.8/119.4/146.0, IMG_0304 64.0, IMG_0303 56.0",
    "caption": "Kemeja corduroy biru, lembut dan nampak segar",
-   "zernio_post_id": "6adebabb6dbf0a4e0a7575f6",
+   "zernio_post_id": "6adf857348a637f4d8eaec8c",
    "delivery": "tiktok-draft (resent 2026-10-26)",
    "plan": "schedule/plans/baju_yooka-corduroy-blue_c1.json",
-   "redo": "wide cuts IMG_0305 21.0 and 38.6 are out of focus (Laplacian ~10 vs 400+); redo when Drive allows"
+   "note": "v2: sharp wide cuts from IMG_0302"
   }
  ]
 }
