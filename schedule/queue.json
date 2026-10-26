@@ -756,7 +756,8 @@
    "caption": "Seluar track stripe merah, vibe retro santai",
    "zernio_post_id": "6ade95c785a1ef086ad590e5",
    "delivery": "tiktok-draft (resent 2026-10-26)",
-   "plan": "schedule/plans/seluar_os-red-stripe_c1.json"
+   "plan": "schedule/plans/seluar_os-red-stripe_c1.json",
+   "redo": "too zoomed in (rule 6b); redo when Drive allows"
   },
   {
    "date": "2026-10-26",
@@ -787,12 +788,13 @@
    "type": "Baju",
    "folder": "Yooka black plain long sleeves",
    "cycle": 1,
-   "output": "output/daily/baju_yooka-black-plain-long-sleeves_c1.mp4",
+   "output": "output/daily/baju_yooka-black-plain-long-sleeves_c1_v2.mp4",
    "scenes": "IMG_0266 57.8/145.6/251.0, IMG_0267 211.0/37.6, IMG_0269 61.0",
    "caption": "Kemeja hitam lengan panjang, sentiasa nampak kemas",
-   "zernio_post_id": "6adead0e9b50e93f3bd2cdb0",
+   "zernio_post_id": "6adebce83cd0d579dadb5ac2",
    "delivery": "tiktok-draft",
-   "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c1.json"
+   "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c1.json",
+   "note": "v2: soft last close-up (IMG_0269 61) dropped, 9 s"
   },
   {
    "date": "2026-10-26",
@@ -816,7 +818,8 @@
    "caption": "Kemeja corduroy biru, lembut dan nampak segar",
    "zernio_post_id": "6adebabb6dbf0a4e0a7575f6",
    "delivery": "tiktok-draft (resent 2026-10-26)",
-   "plan": "schedule/plans/baju_yooka-corduroy-blue_c1.json"
+   "plan": "schedule/plans/baju_yooka-corduroy-blue_c1.json",
+   "redo": "wide cuts IMG_0305 21.0 and 38.6 are out of focus (Laplacian ~10 vs 400+); redo when Drive allows"
   }
  ]
 }
