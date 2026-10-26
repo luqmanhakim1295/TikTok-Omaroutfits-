@@ -1,14 +1,14 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 7,
-  "Seluar": 7
+  "Baju": 10,
+  "Seluar": 0
  },
  "cycle": {
   "Baju": 1,
-  "Seluar": 1
+  "Seluar": 2
  },
  "folders": {
   "Baju": [
@@ -757,6 +757,66 @@
    "zernio_post_id": "6ade95c785a1ef086ad590e5",
    "delivery": "tiktok-draft (resent 2026-10-26)",
    "plan": "schedule/plans/seluar_os-red-stripe_c1.json"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "Baju",
+   "folder": "VPG",
+   "cycle": 1,
+   "output": "output/daily/baju_vpg_c1.mp4",
+   "scenes": "IMG_0392 11.0, IMG_0383 78.8/102.2/22.0, IMG_0393 20.3, IMG_0384 88.4",
+   "caption": "Polo knit hitam bertekstur, simple tapi nampak mahal",
+   "zernio_post_id": "6adeacc49b50e93f3bd2cc9b",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/baju_vpg_c1.json"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "Seluar",
+   "folder": "Yooka black slack",
+   "cycle": 1,
+   "output": "output/daily/seluar_yooka-black-slack_c1.mp4",
+   "scenes": "IMG_0317 106.6/158.2/209.4, IMG_0319 66.3/57.0/81.6",
+   "caption": "Slack hitam Yooka, kemas untuk kerja dan santai",
+   "zernio_post_id": "6adeace79b50e93f3bd2cd3c",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/seluar_yooka-black-slack_c1.json"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "Baju",
+   "folder": "Yooka black plain long sleeves",
+   "cycle": 1,
+   "output": "output/daily/baju_yooka-black-plain-long-sleeves_c1.mp4",
+   "scenes": "IMG_0266 57.8/145.6/251.0, IMG_0267 211.0/37.6, IMG_0269 61.0",
+   "caption": "Kemeja hitam lengan panjang, sentiasa nampak kemas",
+   "zernio_post_id": "6adead0e9b50e93f3bd2cdb0",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c1.json"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "Seluar",
+   "folder": "Yooka white slack",
+   "cycle": 1,
+   "output": "output/daily/seluar_yooka-white-slack_c1.mp4",
+   "scenes": "IMG_0262 58.4/118.0, IMG_0263 45.6, IMG_0265 56.2, IMG_0264 98.0",
+   "caption": "Slack putih Yooka, bersih dan selesa",
+   "zernio_post_id": "6adead3ca783ed78856e4e7f",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/seluar_yooka-white-slack_c1.json"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "Baju",
+   "folder": "Yooka corduroy blue",
+   "cycle": 1,
+   "output": "output/daily/baju_yooka-corduroy-blue_c1.mp4",
+   "scenes": "IMG_0305 21.0/38.6/129.4, IMG_0304 64.0, IMG_0303 56.0 (IMG_0301/0302/0306 blocked by Drive quota)",
+   "caption": "Kemeja corduroy biru, lembut dan nampak segar",
+   "zernio_post_id": "6adead55a783ed78856e4f20",
+   "delivery": "draft_failed: Spam_risk_too_many_pending_share (inbox full); resend",
+   "plan": "schedule/plans/baju_yooka-corduroy-blue_c1.json"
   }
  ]
 }
