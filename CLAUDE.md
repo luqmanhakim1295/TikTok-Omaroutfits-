@@ -72,6 +72,18 @@ biasa" / "cam biasa" means: follow all of these.
    close-ups where the shirt is lifted (tucking, adjusting the waistband)
    often show the boxer band or belly: check every frame of every cut and
    drop those parts. Never use shirtless or changing footage.
+6b. **Never too zoomed in** (owner, again: "terlalu zoom in, same
+   mistake"). Wide trouser cuts keep almost the whole tripod frame: crop
+   height at least ~90 % of the source (e.g. 3500+ of 3840), so the shot
+   shows a bit of the shirt, the full waist, both legs and the shoes with
+   floor around them. Never crop the top down to the hips or cut the
+   waistband. Close-ups must still read as a garment part (pocket with the
+   stripe and a hand, hem cord with the shoe, logo with seams around it);
+   never a frame filled by a featureless patch of fabric, and never a
+   close-up so tight that the whole cut is one blur of cloth. The 8 % push
+   counts towards the zoom: pick wide windows that look right at the end of
+   the push, not only the start. Check the check sheet for this before
+   rendering the final.
 7. **No zoomed-in crops that look broken ("pecah").** Never make a detail
    shot by cropping a small region (e.g. 1080x1920) out of a wide tripod
    shot: the result is soft and blocky. Detail shots must come from real
