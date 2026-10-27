@@ -57,6 +57,11 @@ biasa" / "cam biasa" means: follow all of these.
    pocket): still, one move, still. Never a window where he shuffles or
    steps several times, which looks jittery. Pick windows with
    `tools/stepscan.py` (exactly one motion burst) and check the strip.
+2e. **Phone-into-pocket scenes show the whole move** (owner's reminder):
+   the cut starts with the phone clearly outside the pocket (in the hand,
+   above or beside the pocket) and ends with it fully inside. Never start
+   with the phone already at or half in the pocket, and never cut before
+   it is in. Check the first and last frames of the cut.
 3. **Only clear footage.** No blur or shake (use the sharpness analysis,
    then look at the frames; motion blur from a hand moving is acceptable,
    camera blur is not). Tripod clips can be out of focus for whole
