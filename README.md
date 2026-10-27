@@ -171,3 +171,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/seluar_elgini-grey_c2.mp4`: grey Elgini wide-leg pants, cycle 2 (new windows), 8.5s, 5 cuts with the camera-tracking effect: back with hand to the back pocket, tying the drawstring close-up, front hands in pockets, phone into the side pocket close-up, hand in the pocket with the logo. Shod stretches of the tripod clip only (the rest is barefoot). From IMG_0347/0350/0351/0352.
 
 `output/daily/baju_advo-polo-green_c2.mp4`: Advo green polo, cycle 2 (new windows), 7.5s, 4 cuts with the camera-tracking effect: crossed arms, collar and shoulder close-up, back turned to the side, hands into pockets. Top at mouth level; this tripod clip stops at the shin, so full shots run to the bottom of the footage. A side view too far right of centre was left out. From IMG_0233/0235.
+
+`output/daily/seluar_elgini-relaxed-pants_c2.mp4`: Elgini relaxed pants, cycle 2 (new windows), 9s, 5 cuts with the camera-tracking effect: front with the drawstring, logo close-up, side step, pocket and logo close-up, front hands in pockets. Wide crops 3600 of 3840. From IMG_0397/0398/0400.
