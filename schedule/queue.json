@@ -1,13 +1,13 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 12,
-  "Seluar": 3
+  "Baju": 2,
+  "Seluar": 5
  },
  "cycle": {
-  "Baju": 1,
+  "Baju": 2,
   "Seluar": 2
  },
  "folders": {
@@ -880,6 +880,66 @@
    "zernio_post_id": "6ae0cee10a38ddcec2d7bf5d",
    "delivery": "tiktok-draft (resent 2026-10-28)",
    "plan": "schedule/plans/seluar_cargo-grey_c2.json"
+  },
+  {
+   "date": "2026-10-28",
+   "type": "Baju",
+   "folder": "Zeke windbreaker",
+   "cycle": 1,
+   "output": "output/daily/baju_zeke-windbreaker_c1.mp4",
+   "scenes": "IMG_0203-2 366.4/485.8, IMG_0205 57.3/75.5",
+   "caption": "Windbreaker dua tona, ringan dan sedia hujan",
+   "zernio_post_id": "6ae0e998d56d7d4d8d1e77f7",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/baju_zeke-windbreaker_c1.json"
+  },
+  {
+   "date": "2026-10-28",
+   "type": "Seluar",
+   "folder": "Elgini grey",
+   "cycle": 2,
+   "output": "output/daily/seluar_elgini-grey_c2.mp4",
+   "scenes": "IMG_0347 241.6/279.0, IMG_0350 3.6, IMG_0351 7.0, IMG_0352 46.5",
+   "caption": "Seluar Elgini kelabu, longgar dan selesa",
+   "zernio_post_id": "6ae0e9b268ff1455fee8ef79",
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/seluar_elgini-grey_c2.json"
+  },
+  {
+   "date": "2026-10-28",
+   "type": "Baju",
+   "folder": "Advo polo green",
+   "cycle": 2,
+   "output": "output/daily/baju_advo-polo-green_c2.mp4",
+   "scenes": "IMG_0233 288.2/368.0/294.4, IMG_0235 88.0",
+   "caption": "Polo hijau Advo, kemas untuk setiap hari",
+   "zernio_post_id": "6ae0e9d60730e519e13bf957",
+   "delivery": "draft_failed: Spam_risk_too_many_pending_share; resend",
+   "plan": "schedule/plans/baju_advo-polo-green_c2.json"
+  },
+  {
+   "date": "2026-10-28",
+   "type": "Seluar",
+   "folder": "Elgini relaxed pants",
+   "cycle": 2,
+   "output": "output/daily/seluar_elgini-relaxed-pants_c2.mp4",
+   "scenes": "IMG_0397 26.8/130.2, IMG_0398 108.8, IMG_0400 6.5/44.6",
+   "caption": "Seluar relaxed Elgini, santai sepanjang hari",
+   "zernio_post_id": "",
+   "delivery": "draft_failed: not sent (TikTok 5-per-24h limit); resend",
+   "plan": "schedule/plans/seluar_elgini-relaxed-pants_c2.json"
+  },
+  {
+   "date": "2026-10-28",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "cycle": 2,
+   "output": "output/daily/baju_boru-japan_c2.mp4",
+   "scenes": "IMG_0275 96.0/76.4, IMG_0278 26.5, IMG_0277 17.5",
+   "caption": "Tee lengan panjang Mount Fuji, print belakang padu",
+   "zernio_post_id": "",
+   "delivery": "draft_failed: not sent (TikTok 5-per-24h limit); resend",
+   "plan": "schedule/plans/baju_boru-japan_c2.json"
   }
  ]
 }

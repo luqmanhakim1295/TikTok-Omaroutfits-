@@ -31,8 +31,14 @@ Library: https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJ
 
 ## Before the new videos
 
-Resend any `history` entry whose `delivery` starts with `draft_failed`
-(same URL and caption) and update it. TikTok refuses new inbox drafts with
+TikTok accepts at most **5 API drafts per rolling 24 h** for this account
+(confirmed 2026-10-26..28: the 6th always fails with
+`Spam_risk_too_many_pending_share`), and after a failure Zernio blocks the
+account for 10+ minutes. So send at most 5 drafts per run, oldest first:
+resend any `history` entry whose `delivery` starts with `draft_failed`
+(same URL and caption), then the new videos, and stop sending at the first
+failure; mark the rest `draft_failed` for the next run. Still make the 5
+new videos every run. TikTok refuses new inbox drafts with
 `Spam_risk_too_many_pending_share` while too many drafts sit unposted in
 the owner's inbox: then record `draft_failed`, carry on, and tell the owner
 to post or delete the old drafts.
