@@ -853,8 +853,8 @@
    "output": "output/daily/seluar_cargo-elgini_c2.mp4",
    "scenes": "IMG_0559 76.5, IMG_0560 21.0, IMG_0558 33.6, IMG_0557 168.4",
    "caption": "Cargo beige, banyak poket dan selesa",
-   "zernio_post_id": "6adf99090802d4bb0b801de3",
-   "delivery": "draft_failed: Spam_risk_too_many_pending_share (inbox full); resend",
+   "zernio_post_id": "6ae0ce97fc85379fa1a3688c",
+   "delivery": "tiktok-draft (resent 2026-10-28)",
    "plan": "schedule/plans/seluar_cargo-elgini_c2.json"
   },
   {
@@ -865,8 +865,8 @@
    "output": "output/daily/baju_zeke-coffee_c1.mp4",
    "scenes": "IMG_0316 22.6/96.2, IMG_0315 33.0/77.0",
    "caption": "Tee oversized warna coffee, simple dan selesa",
-   "zernio_post_id": "",
-   "delivery": "draft_failed: inbox full; resend",
+   "zernio_post_id": "6ae0cebb0a38ddcec2d7be55",
+   "delivery": "tiktok-draft (resent 2026-10-28)",
    "plan": "schedule/plans/baju_zeke-coffee_c1.json"
   },
   {
@@ -877,8 +877,8 @@
    "output": "output/daily/seluar_cargo-grey_c2.mp4",
    "scenes": "IMG_0370 114.0/140.8/213.4, IMG_0369 10.0, IMG_0368 8.0",
    "caption": "Cargo kelabu, lasak tapi tetap kemas",
-   "zernio_post_id": "",
-   "delivery": "draft_failed: inbox full; resend",
+   "zernio_post_id": "6ae0cee10a38ddcec2d7bf5d",
+   "delivery": "tiktok-draft (resent 2026-10-28)",
    "plan": "schedule/plans/seluar_cargo-grey_c2.json"
   }
  ]
