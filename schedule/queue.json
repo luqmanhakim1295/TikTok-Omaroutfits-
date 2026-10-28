@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 3,
+  "Baju": 4,
   "Seluar": 7
  },
  "cycle": {
@@ -975,6 +975,17 @@
    "caption": "Track pants jalur merah, boleh ikat jadi jogger",
    "delivery": "draft_failed (daily 5-draft limit, send next run)",
    "plan": "schedule/plans/seluar_os-red-stripe_c2.json"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "Baju",
+   "folder": "F1 team",
+   "cycle": 2,
+   "output": "output/daily/baju_f1-team_c2.mp4",
+   "scenes": "IMG_0339 40.4/181.4/248.0, IMG_0342 104.4, IMG_0343 84.8, IMG_0346 52.0",
+   "caption": "Jersi F1 Petronas, ringan dan sejuk",
+   "delivery": "draft_failed (daily 5-draft limit, send next run)",
+   "plan": "schedule/plans/baju_f1-team_c2.json"
   }
  ]
 }

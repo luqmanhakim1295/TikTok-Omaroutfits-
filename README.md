@@ -181,3 +181,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/baju_boru-moon_c2.mp4`: Boru "MOON" tee, cycle 2 (new windows), 6.75s, 4 cuts with the camera-tracking effect: back view with the MOON print (tracked), chest logo close-up, hands clasping behind the back, back print close-up. The front tripod footage is out of focus, so back views only. From IMG_0402/0403/0405/0408.
 
 `output/daily/seluar_os-red-stripe_c2.mp4`: OS Red Stripe, cycle 2 (new windows), 9s, 5 cuts with the camera-tracking effect, all with the hem cords tied (jogger look): front turning to show the stripes, embroidered logo close-up, back, pocket lining close-up, front hands in pockets. Wide crops 3540 of 3840. From IMG_0356/0361/0365.
+
+`output/daily/baju_f1-team_c2.mp4`: F1 team jersey, cycle 2 (new windows), 10.5s, 6 cuts with the camera-tracking effect: front, Petronas/UEM print close-up, back (PETRONAS DARKTRACE), Porsche/Machina Drive print close-up, side with hand into pocket, red side panel close-up. Top at mouth level; the tripod clip stops above the feet. From IMG_0339/0342/0343/0346.
