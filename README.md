@@ -175,3 +175,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/seluar_elgini-relaxed-pants_c2.mp4`: Elgini relaxed pants, cycle 2 (new windows), 9s, 5 cuts with the camera-tracking effect: front with the drawstring, logo close-up, side step, pocket and logo close-up, front hands in pockets. Wide crops 3600 of 3840. From IMG_0397/0398/0400.
 
 `output/daily/baju_boru-japan_c2.mp4`: Boru Mount Fuji long-sleeve tee, cycle 2 (new windows), 7s, 4 cuts with the camera-tracking effect: front pushing up the sleeves, chest logo close-up, back with the Mount Fuji print, back print close-up. Top at mouth level. From IMG_0275/0277/0278.
+
+`output/daily/seluar_jogger-pants-black_c2.mp4`: Jogger pants black, cycle 2 (new windows), 7.3s, 4 cuts with the camera-tracking effect: front weight shift, phone going into the pocket (whole move, from the hand to fully inside), front with hands at the back, elastic waistband close-up. Wide crops 3600 of 3840. From IMG_0238/0239/0246.

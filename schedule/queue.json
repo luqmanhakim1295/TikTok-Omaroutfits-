@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 2,
-  "Seluar": 5
+  "Seluar": 6
  },
  "cycle": {
   "Baju": 2,
@@ -940,6 +940,17 @@
    "zernio_post_id": "6ae2204fd6fbc384ba0f8a4f",
    "delivery": "tiktok-draft (resent 2026-10-29)",
    "plan": "schedule/plans/baju_boru-japan_c2.json"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "Seluar",
+   "folder": "Jogger pants black",
+   "cycle": 2,
+   "output": "output/daily/seluar_jogger-pants-black_c2.mp4",
+   "scenes": "IMG_0238 71.6/129.8, IMG_0239 65.4 (phone into pocket), IMG_0246 56.0",
+   "caption": "Jogger hitam licin, poket muat phone",
+   "delivery": "pending",
+   "plan": "schedule/plans/seluar_jogger-pants-black_c2.json"
   }
  ]
 }
