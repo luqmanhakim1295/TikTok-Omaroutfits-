@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 4,
-  "Seluar": 7
+  "Seluar": 8
  },
  "cycle": {
   "Baju": 2,
@@ -986,6 +986,17 @@
    "caption": "Jersi F1 Petronas, ringan dan sejuk",
    "delivery": "draft_failed (daily 5-draft limit, send next run)",
    "plan": "schedule/plans/baju_f1-team_c2.json"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "Seluar",
+   "folder": "Yooka black slack",
+   "cycle": 2,
+   "output": "output/daily/seluar_yooka-black-slack_c2.mp4",
+   "scenes": "IMG_0317 195.2/131.4, IMG_0319 42.8/122.0, IMG_0318 14.0",
+   "caption": "Slack hitam Yooka, kemas duduk atau berdiri",
+   "delivery": "draft_failed (daily 5-draft limit, send next run)",
+   "plan": "schedule/plans/seluar_yooka-black-slack_c2.json"
   }
  ]
 }

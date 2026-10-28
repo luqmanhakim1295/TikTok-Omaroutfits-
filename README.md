@@ -183,3 +183,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/seluar_os-red-stripe_c2.mp4`: OS Red Stripe, cycle 2 (new windows), 9s, 5 cuts with the camera-tracking effect, all with the hem cords tied (jogger look): front turning to show the stripes, embroidered logo close-up, back, pocket lining close-up, front hands in pockets. Wide crops 3540 of 3840. From IMG_0356/0361/0365.
 
 `output/daily/baju_f1-team_c2.mp4`: F1 team jersey, cycle 2 (new windows), 10.5s, 6 cuts with the camera-tracking effect: front, Petronas/UEM print close-up, back (PETRONAS DARKTRACE), Porsche/Machina Drive print close-up, side with hand into pocket, red side panel close-up. Top at mouth level; the tripod clip stops above the feet. From IMG_0339/0342/0343/0346.
+
+`output/daily/seluar_yooka-black-slack_c2.mp4`: Yooka black slacks, cycle 2 (new windows), 9s, 5 cuts with the camera-tracking effect: front with crossed arms, pleated front waist close-up, seated with legs crossed, back waist close-up, side with hand in pocket. Wide crops 3540 of 3840 (seated 3340). From IMG_0317/0318/0319.
