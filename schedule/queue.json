@@ -913,8 +913,8 @@
    "output": "output/daily/baju_advo-polo-green_c2.mp4",
    "scenes": "IMG_0233 288.2/368.0/294.4, IMG_0235 88.0",
    "caption": "Polo hijau Advo, kemas untuk setiap hari",
-   "zernio_post_id": "6ae0e9d60730e519e13bf957",
-   "delivery": "draft_failed: Spam_risk_too_many_pending_share; resend",
+   "zernio_post_id": "6ae2200fa37d7f90205c62f6",
+   "delivery": "tiktok-draft (resent 2026-10-29)",
    "plan": "schedule/plans/baju_advo-polo-green_c2.json"
   },
   {
@@ -925,8 +925,8 @@
    "output": "output/daily/seluar_elgini-relaxed-pants_c2.mp4",
    "scenes": "IMG_0397 26.8/130.2, IMG_0398 108.8, IMG_0400 6.5/44.6",
    "caption": "Seluar relaxed Elgini, santai sepanjang hari",
-   "zernio_post_id": "",
-   "delivery": "draft_failed: not sent (TikTok 5-per-24h limit); resend",
+   "zernio_post_id": "6ae22029d6fbc384ba0f893c",
+   "delivery": "tiktok-draft (resent 2026-10-29)",
    "plan": "schedule/plans/seluar_elgini-relaxed-pants_c2.json"
   },
   {
@@ -937,8 +937,8 @@
    "output": "output/daily/baju_boru-japan_c2.mp4",
    "scenes": "IMG_0275 96.0/76.4, IMG_0278 26.5, IMG_0277 17.5",
    "caption": "Tee lengan panjang Mount Fuji, print belakang padu",
-   "zernio_post_id": "",
-   "delivery": "draft_failed: not sent (TikTok 5-per-24h limit); resend",
+   "zernio_post_id": "6ae2204fd6fbc384ba0f8a4f",
+   "delivery": "tiktok-draft (resent 2026-10-29)",
    "plan": "schedule/plans/baju_boru-japan_c2.json"
   }
  ]
