@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 3,
-  "Seluar": 6
+  "Seluar": 7
  },
  "cycle": {
   "Baju": 2,
@@ -961,8 +961,20 @@
    "output": "output/daily/baju_boru-moon_c2.mp4",
    "scenes": "IMG_0402 129.6, IMG_0405 7.0, IMG_0403 23.2, IMG_0408 26.0",
    "caption": "Tee MOON Boru, print belakang terang",
-   "delivery": "pending",
-   "plan": "schedule/plans/baju_boru-moon_c2.json"
+   "delivery": "tiktok-draft",
+   "plan": "schedule/plans/baju_boru-moon_c2.json",
+   "zernio_post_id": "6ae22dde958abae611010b7e"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "Seluar",
+   "folder": "OS Red Stripe",
+   "cycle": 2,
+   "output": "output/daily/seluar_os-red-stripe_c2.mp4",
+   "scenes": "IMG_0356 298.4/286.4/313.6 (hems tied), IMG_0361 5.5, IMG_0365 2.5",
+   "caption": "Track pants jalur merah, boleh ikat jadi jogger",
+   "delivery": "draft_failed (daily 5-draft limit, send next run)",
+   "plan": "schedule/plans/seluar_os-red-stripe_c2.json"
   }
  ]
 }
