@@ -177,3 +177,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/baju_boru-japan_c2.mp4`: Boru Mount Fuji long-sleeve tee, cycle 2 (new windows), 7s, 4 cuts with the camera-tracking effect: front pushing up the sleeves, chest logo close-up, back with the Mount Fuji print, back print close-up. Top at mouth level. From IMG_0275/0277/0278.
 
 `output/daily/seluar_jogger-pants-black_c2.mp4`: Jogger pants black, cycle 2 (new windows), 7.3s, 4 cuts with the camera-tracking effect: front weight shift, phone going into the pocket (whole move, from the hand to fully inside), front with hands at the back, elastic waistband close-up. Wide crops 3600 of 3840. From IMG_0238/0239/0246.
+
+`output/daily/baju_boru-moon_c2.mp4`: Boru "MOON" tee, cycle 2 (new windows), 6.75s, 4 cuts with the camera-tracking effect: back view with the MOON print (tracked), chest logo close-up, hands clasping behind the back, back print close-up. The front tripod footage is out of focus, so back views only. From IMG_0402/0403/0405/0408.
