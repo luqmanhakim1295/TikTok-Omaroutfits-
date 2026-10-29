@@ -961,12 +961,15 @@
    "type": "Baju",
    "folder": "Boru moon",
    "cycle": 2,
-   "output": "output/daily/baju_boru-moon_c2.mp4",
-   "scenes": "IMG_0402 129.6, IMG_0405 7.0, IMG_0403 23.2, IMG_0408 26.0",
+   "output": "output/daily/baju_boru-moon_c2_v2.mp4",
+   "scenes": "IMG_0402 61.8 front/69.4 left/76.0 right/129.6 back, IMG_0405 7.0, IMG_0403 23.2, IMG_0408 26.0",
    "caption": "Tee MOON Boru, print belakang terang",
-   "delivery": "tiktok-draft",
-   "plan": "schedule/plans/baju_boru-moon_c2.json",
-   "zernio_post_id": "6ae22dde958abae611010b7e"
+   "delivery": "draft_failed (v2 for rule 2f, send next run; owner deletes old draft)",
+   "plan": "schedule/plans/baju_boru-moon_c2_v2.json",
+   "old_draft": {
+    "output": "output/daily/baju_boru-moon_c2.mp4",
+    "zernio_post_id": "6ae22dde958abae611010b7e"
+   }
   },
   {
    "date": "2026-10-29",
