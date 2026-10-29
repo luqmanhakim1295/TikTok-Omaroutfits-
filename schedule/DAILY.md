@@ -63,6 +63,10 @@ to post or delete the old drafts.
      light background), `tools/colorx.py` (coloured prints), placket/collar
      strips every 0.25 s for shirts. Check every pick on a grid with a red
      centre line.
+   - Four angles in every video (CLAUDE.md rule 2f): one sharp wide cut each
+     of front, left side, right side and back. Mark the angles on the tripod
+     contact sheet first and build the plan around them; report any angle
+     the footage doesn't have.
    - On cycle 2 and later, read this folder's earlier `history` entries and
      pick different windows and a different hook.
    - Camera-tracking effect (CLAUDE.md rule 1a): every wide cut gets a

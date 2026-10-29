@@ -62,6 +62,17 @@ biasa" / "cam biasa" means: follow all of these.
    above or beside the pocket) and ends with it fully inside. Never start
    with the phone already at or half in the pocket, and never cut before
    it is in. Check the first and last frames of the cut.
+2f. **Every video shows front, left side, right side and back** (owner:
+   "video wajib ada depan kiri kanan belakang shoot"). At least one wide
+   cut (whole body / full trousers) of each of the four angles: front, his
+   left profile, his right profile, back. Each one still follows every
+   other rule (sharp, one movement, centred, mouth-level top, not too
+   zoomed). Find them on the tripod clips' contact sheets (he usually
+   turns around once or twice); a three-quarter turn counts as a side only
+   if the profile and the side seam are clearly visible. If a folder has no
+   clear shot of an angle (out of focus, never filmed), use what exists and
+   tell the owner which angle is missing; never fill it with a blurred cut.
+   Check the four angles on the check sheet before rendering the final.
 3. **Only clear footage.** No blur or shake (use the sharpness analysis,
    then look at the frames; motion blur from a hand moving is acceptable,
    camera blur is not). Tripod clips can be out of focus for whole
@@ -106,7 +117,8 @@ biasa" / "cam biasa" means: follow all of these.
 ## Default recipe
 
 - 1080x1920 at **60 fps** (owner's request; `tools/render_plan.py --fps 60`).
-- About 9 scenes, hard cuts, total 15 s.
+- About 8 scenes, hard cuts, total 15 s or less: the four angle cuts
+  (front, left, right, back; rule 2f) plus up to four detail cuts.
 - Full-body or full trousers (waist to hem) shots: **2 s**. Detail shots:
   **1.5 s**.
 - Alternate wide and detail shots.
