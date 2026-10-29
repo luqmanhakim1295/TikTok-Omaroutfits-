@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 5,
-  "Seluar": 8
+  "Seluar": 9
  },
  "cycle": {
   "Baju": 2,
@@ -1020,6 +1020,17 @@
    "caption": "Tee hitam polyester, jahitan kemas dan ringan",
    "delivery": "draft_failed (Spam_risk_too_many_pending_share, send next run)",
    "plan": "schedule/plans/baju_polyester-black_c2.json"
+  },
+  {
+   "date": "2026-10-30",
+   "type": "Seluar",
+   "folder": "Yooka white slack",
+   "cycle": 2,
+   "output": "output/daily/seluar_yooka-white-slack_c2.mp4",
+   "scenes": "IMG_0262 256.2 front/126.6 left/214.0 right, IMG_0265 80.0 back, IMG_0263 39.2",
+   "caption": "Slack krim Yooka, lipatan depan kemas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_yooka-white-slack_c2.json"
   }
  ]
 }
