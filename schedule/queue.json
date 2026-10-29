@@ -993,8 +993,9 @@
    "output": "output/daily/baju_f1-team_c2.mp4",
    "scenes": "IMG_0339 40.4 front/262.2 right/82.8 left/181.4 back, IMG_0342 104.4, IMG_0343 84.8, IMG_0346 52.0",
    "caption": "Jersi F1 Petronas, ringan dan sejuk",
-   "delivery": "draft_failed (daily 5-draft limit, send next run)",
-   "plan": "schedule/plans/baju_f1-team_c2.json"
+   "delivery": "tiktok-draft (sent 2026-10-30)",
+   "plan": "schedule/plans/baju_f1-team_c2.json",
+   "zernio_post_id": "6ae37bcceef262c828af6e09"
   },
   {
    "date": "2026-10-29",
@@ -1004,9 +1005,10 @@
    "output": "output/daily/seluar_yooka-black-slack_c2.mp4",
    "scenes": "IMG_0317 195.2 front/131.4 left/163.8 back, IMG_0319 42.8/122.0/52.6 right (handheld, waist to shin), IMG_0318 14.0 seated",
    "caption": "Slack hitam Yooka, kemas duduk atau berdiri",
-   "delivery": "draft_failed (daily 5-draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-10-30)",
    "plan": "schedule/plans/seluar_yooka-black-slack_c2.json",
-   "note": "No tripod shot of the right side in this folder; right side is a handheld mid shot."
+   "note": "No tripod shot of the right side in this folder; right side is a handheld mid shot.",
+   "zernio_post_id": "6ae37c065b2609d4984883a3"
   },
   {
    "date": "2026-10-30",
@@ -1016,7 +1018,7 @@
    "output": "output/daily/baju_polyester-black_c2.mp4",
    "scenes": "IMG_0308 60.8 front/40.8 left/106.8 right/12.4 back, IMG_0309 201.5/122.0",
    "caption": "Tee hitam polyester, jahitan kemas dan ringan",
-   "delivery": "pending",
+   "delivery": "draft_failed (Spam_risk_too_many_pending_share, send next run)",
    "plan": "schedule/plans/baju_polyester-black_c2.json"
   }
  ]
