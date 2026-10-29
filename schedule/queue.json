@@ -946,12 +946,15 @@
    "type": "Seluar",
    "folder": "Jogger pants black",
    "cycle": 2,
-   "output": "output/daily/seluar_jogger-pants-black_c2.mp4",
-   "scenes": "IMG_0238 71.6/129.8, IMG_0239 65.4 (phone into pocket), IMG_0246 56.0",
+   "output": "output/daily/seluar_jogger-pants-black_c2_v2.mp4",
+   "scenes": "IMG_0238 71.6 front/87.8 left/102.6 right/129.8 back, IMG_0239 65.4 (phone into pocket), IMG_0246 56.0",
    "caption": "Jogger hitam licin, poket muat phone",
-   "delivery": "tiktok-draft",
-   "plan": "schedule/plans/seluar_jogger-pants-black_c2.json",
-   "zernio_post_id": "6ae2257d602ffbf12a384d48"
+   "delivery": "draft_failed (v2 for rule 2f, send next run; owner deletes old draft)",
+   "plan": "schedule/plans/seluar_jogger-pants-black_c2_v2.json",
+   "old_draft": {
+    "output": "output/daily/seluar_jogger-pants-black_c2.mp4",
+    "zernio_post_id": "6ae2257d602ffbf12a384d48"
+   }
   },
   {
    "date": "2026-10-29",
