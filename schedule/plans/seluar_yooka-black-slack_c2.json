@@ -19,14 +19,14 @@
   "push_soft"
  ],
  [
-  "IMG_0318.MOV",
-  14.0,
+  "IMG_0317.MOV",
+  131.4,
   2.0,
-  400,
+  300,
   1080,
-  3340,
+  3540,
   "push_bottom",
-  "xexpr/yooka-black-slack_c2_x3.txt"
+  "xexpr/yooka-black-slack_c2_x5.txt"
  ],
  [
   "IMG_0319.MOV",
@@ -39,12 +39,31 @@
  ],
  [
   "IMG_0317.MOV",
-  131.4,
+  163.8,
   2.0,
   300,
   1080,
   3540,
   "push_bottom",
-  "xexpr/yooka-black-slack_c2_x5.txt"
+  "xexpr/yooka-black-slack_c2_xb.txt"
+ ],
+ [
+  "IMG_0319.MOV",
+  52.6,
+  1.8,
+  0,
+  1080,
+  3840,
+  "push_soft"
+ ],
+ [
+  "IMG_0318.MOV",
+  14.0,
+  2.0,
+  400,
+  1080,
+  3340,
+  "push_bottom",
+  "xexpr/yooka-black-slack_c2_x3.txt"
  ]
 ]

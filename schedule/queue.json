@@ -993,10 +993,11 @@
    "folder": "Yooka black slack",
    "cycle": 2,
    "output": "output/daily/seluar_yooka-black-slack_c2.mp4",
-   "scenes": "IMG_0317 195.2/131.4, IMG_0319 42.8/122.0, IMG_0318 14.0",
+   "scenes": "IMG_0317 195.2 front/131.4 left/163.8 back, IMG_0319 42.8/122.0/52.6 right (handheld, waist to shin), IMG_0318 14.0 seated",
    "caption": "Slack hitam Yooka, kemas duduk atau berdiri",
    "delivery": "draft_failed (daily 5-draft limit, send next run)",
-   "plan": "schedule/plans/seluar_yooka-black-slack_c2.json"
+   "plan": "schedule/plans/seluar_yooka-black-slack_c2.json",
+   "note": "No tripod shot of the right side in this folder; right side is a handheld mid shot."
   }
  ]
 }
