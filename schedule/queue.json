@@ -949,12 +949,13 @@
    "output": "output/daily/seluar_jogger-pants-black_c2_v2.mp4",
    "scenes": "IMG_0238 71.6 front/87.8 left/102.6 right/129.8 back, IMG_0239 65.4 (phone into pocket), IMG_0246 56.0",
    "caption": "Jogger hitam licin, poket muat phone",
-   "delivery": "draft_failed (v2 for rule 2f, send next run; owner deletes old draft)",
+   "delivery": "tiktok-draft (sent 2026-10-30)",
    "plan": "schedule/plans/seluar_jogger-pants-black_c2_v2.json",
    "old_draft": {
     "output": "output/daily/seluar_jogger-pants-black_c2.mp4",
     "zernio_post_id": "6ae2257d602ffbf12a384d48"
-   }
+   },
+   "zernio_post_id": "6ae3738f03b9acdfcb7ee72f"
   },
   {
    "date": "2026-10-29",
@@ -964,12 +965,13 @@
    "output": "output/daily/baju_boru-moon_c2_v2.mp4",
    "scenes": "IMG_0402 61.8 front/69.4 left/76.0 right/129.6 back, IMG_0405 7.0, IMG_0403 23.2, IMG_0408 26.0",
    "caption": "Tee MOON Boru, print belakang terang",
-   "delivery": "draft_failed (v2 for rule 2f, send next run; owner deletes old draft)",
+   "delivery": "tiktok-draft (sent 2026-10-30)",
    "plan": "schedule/plans/baju_boru-moon_c2_v2.json",
    "old_draft": {
     "output": "output/daily/baju_boru-moon_c2.mp4",
     "zernio_post_id": "6ae22dde958abae611010b7e"
-   }
+   },
+   "zernio_post_id": "6ae373ca887e96bf8c04107b"
   },
   {
    "date": "2026-10-29",
@@ -979,8 +981,9 @@
    "output": "output/daily/seluar_os-red-stripe_c2.mp4",
    "scenes": "IMG_0356 298.4 front/124.4 right/140.0 left/286.4 back, IMG_0361 5.5, IMG_0365 2.5",
    "caption": "Track pants jalur merah, boleh ikat jadi jogger",
-   "delivery": "draft_failed (daily 5-draft limit, send next run)",
-   "plan": "schedule/plans/seluar_os-red-stripe_c2.json"
+   "delivery": "tiktok-draft (sent 2026-10-30)",
+   "plan": "schedule/plans/seluar_os-red-stripe_c2.json",
+   "zernio_post_id": "6ae37404aabe13ea1dd1c22f"
   },
   {
    "date": "2026-10-29",
