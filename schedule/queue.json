@@ -971,7 +971,7 @@
    "folder": "OS Red Stripe",
    "cycle": 2,
    "output": "output/daily/seluar_os-red-stripe_c2.mp4",
-   "scenes": "IMG_0356 298.4/286.4/313.6 (hems tied), IMG_0361 5.5, IMG_0365 2.5",
+   "scenes": "IMG_0356 298.4 front/124.4 right/140.0 left/286.4 back, IMG_0361 5.5, IMG_0365 2.5",
    "caption": "Track pants jalur merah, boleh ikat jadi jogger",
    "delivery": "draft_failed (daily 5-draft limit, send next run)",
    "plan": "schedule/plans/seluar_os-red-stripe_c2.json"

@@ -20,13 +20,13 @@
  ],
  [
   "IMG_0356.MOV",
-  286.4,
+  124.4,
   2.0,
   300,
   1080,
   3540,
   "push_bottom",
-  "xexpr/os-red-stripe_c2_x3.txt"
+  "xexpr/os-red-stripe_c2_xr.txt"
  ],
  [
   "IMG_0365.MOV",
@@ -39,12 +39,22 @@
  ],
  [
   "IMG_0356.MOV",
-  313.6,
+  140.0,
+  2.0,
+  400,
+  1080,
+  3340,
+  "push_bottom",
+  "xexpr/os-red-stripe_c2_xl.txt"
+ ],
+ [
+  "IMG_0356.MOV",
+  286.4,
   2.0,
   300,
   1080,
   3540,
   "push_bottom",
-  "xexpr/os-red-stripe_c2_x5.txt"
+  "xexpr/os-red-stripe_c2_x3.txt"
  ]
 ]
