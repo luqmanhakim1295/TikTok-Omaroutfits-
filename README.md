@@ -193,3 +193,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/baju_polyester-black_c2.mp4`: black polyester tee, cycle 2 (new windows), 11s, 6 cuts with the camera-tracking effect, four angles (rule 2f): front, neckline stitching close-up, left side, crossed-arms sleeve close-up, right side, back. Top below the mouth. From IMG_0308/0309.
 
 `output/daily/seluar_yooka-white-slack_c2.mp4`: Yooka white (cream) slacks, cycle 2 (new windows), 9.5s, 5 cuts with the camera-tracking effect, four angles (rule 2f): front crossing the legs, front pleat and pocket close-up, left side with hand in pocket, right side with phone, back. Wide crops 3540 of 3840. Waistband close-ups with the shirt lifted (purple band, IMG_0263 ~2:06-2:16) left out again. From IMG_0262/0263/0265.
+
+`output/daily/baju_sweat-shirt-v-neck-grey_c2.mp4`: textured v-neck sweatshirt, cycle 2 (new windows), 9.5s, 5 cuts with the camera-tracking effect, four angles (rule 2f): front, v-neck knit close-up, right side with hand in pocket, left side, back. Top at chin level, no mouth. Close-ups that show the face (IMG_0386 ~0:16-0:36) left out. From IMG_0382/0386/0391-2.

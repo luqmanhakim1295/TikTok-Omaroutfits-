@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 5,
+  "Baju": 6,
   "Seluar": 9
  },
  "cycle": {
@@ -1031,6 +1031,17 @@
    "caption": "Slack krim Yooka, lipatan depan kemas",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_yooka-white-slack_c2.json"
+  },
+  {
+   "date": "2026-10-30",
+   "type": "Baju",
+   "folder": "Sweat shirt v neck grey",
+   "cycle": 2,
+   "output": "output/daily/baju_sweat-shirt-v-neck-grey_c2.mp4",
+   "scenes": "IMG_0382 21.0 front/37.4 right/89.6 back, IMG_0391-2 63.4 left, IMG_0386 52.5",
+   "caption": "Sweatshirt V-neck kait zigzag, selesa dan kemas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_sweat-shirt-v-neck-grey_c2.json"
   }
  ]
 }
