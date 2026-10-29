@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 6,
+  "Baju": 7,
   "Seluar": 1
  },
  "cycle": {
@@ -1054,6 +1054,17 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_baggy-corduroy-pants_c3.json",
    "note": "No clear right-side shot in the footage (rule 2f)."
+  },
+  {
+   "date": "2026-10-30",
+   "type": "Baju",
+   "folder": "textured",
+   "cycle": 2,
+   "output": "output/daily/baju_textured_c2.mp4",
+   "scenes": "IMG_0253 163.0 front/134.8 right/174.2 left/192.6 back, IMG_0256 51.3/176.0",
+   "caption": "Kemeja seersucker olive, tekstur timbul yang ringan",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_textured_c2.json"
   }
  ]
 }
