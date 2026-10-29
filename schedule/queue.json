@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 4,
+  "Baju": 5,
   "Seluar": 8
  },
  "cycle": {
@@ -1007,6 +1007,17 @@
    "delivery": "draft_failed (daily 5-draft limit, send next run)",
    "plan": "schedule/plans/seluar_yooka-black-slack_c2.json",
    "note": "No tripod shot of the right side in this folder; right side is a handheld mid shot."
+  },
+  {
+   "date": "2026-10-30",
+   "type": "Baju",
+   "folder": "Polyester black",
+   "cycle": 2,
+   "output": "output/daily/baju_polyester-black_c2.mp4",
+   "scenes": "IMG_0308 60.8 front/40.8 left/106.8 right/12.4 back, IMG_0309 201.5/122.0",
+   "caption": "Tee hitam polyester, jahitan kemas dan ringan",
+   "delivery": "pending",
+   "plan": "schedule/plans/baju_polyester-black_c2.json"
   }
  ]
 }
