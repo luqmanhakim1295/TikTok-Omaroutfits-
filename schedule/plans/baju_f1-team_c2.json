@@ -20,13 +20,13 @@
  ],
  [
   "IMG_0339.MOV",
-  181.4,
+  262.2,
   2.0,
-  150,
+  420,
   1080,
   3340,
   "push_top",
-  "xexpr/f1-team_c2_x3.txt"
+  "xexpr/f1-team_c2_xr.txt"
  ],
  [
   "IMG_0343.MOV",
@@ -39,13 +39,13 @@
  ],
  [
   "IMG_0339.MOV",
-  248.0,
+  82.8,
   2.0,
-  250,
+  150,
   1080,
   3140,
   "push_top",
-  "xexpr/f1-team_c2_x5.txt"
+  "xexpr/f1-team_c2_xl.txt"
  ],
  [
   "IMG_0346.MOV",
@@ -55,5 +55,15 @@
   1080,
   3840,
   "push_soft"
+ ],
+ [
+  "IMG_0339.MOV",
+  181.4,
+  2.0,
+  150,
+  1080,
+  3340,
+  "push_top",
+  "xexpr/f1-team_c2_x3.txt"
  ]
 ]
