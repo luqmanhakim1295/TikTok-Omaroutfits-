@@ -1,14 +1,14 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 6,
-  "Seluar": 9
+  "Seluar": 1
  },
  "cycle": {
   "Baju": 2,
-  "Seluar": 2
+  "Seluar": 3
  },
  "folders": {
   "Baju": [
@@ -1042,6 +1042,18 @@
    "caption": "Sweatshirt V-neck kait zigzag, selesa dan kemas",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_sweat-shirt-v-neck-grey_c2.json"
+  },
+  {
+   "date": "2026-10-30",
+   "type": "Seluar",
+   "folder": "Baggy corduroy pants",
+   "cycle": 3,
+   "output": "output/daily/seluar_baggy-corduroy-pants_c3.mp4",
+   "scenes": "IMG_0276 204.8 front/250.8 left/116.4 back, IMG_0279 76.5/133.5",
+   "caption": "Seluar corduroy baggy, kaki lebar jatuh cantik",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_baggy-corduroy-pants_c3.json",
+   "note": "No clear right-side shot in the footage (rule 2f)."
   }
  ]
 }
