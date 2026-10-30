@@ -43,6 +43,33 @@ new videos every run. TikTok refuses new inbox drafts with
 the owner's inbox: then record `draft_failed`, carry on, and tell the owner
 to post or delete the old drafts.
 
+## Focus mode (owner, 2026-10-31)
+
+"Lepas ni cuba buat video yooka open collar dgn boru japan sahaja, ulang2 je
+tapi video lain editing style." While `queue.json` has a `focus` block, ignore
+`next_type`/`pointer`: every video comes from `focus.folders`, alternating
+(`focus.next`), still 5 a day. Each video uses the next editing style for
+that product (`focus.next_style[folder]`, wrapping round `focus.styles`), so
+no two videos of the same product share a style until the list is used up.
+Footage repeats are fine; reuse windows but vary order, hook and style. All
+CLAUDE.md non-negotiables still apply (sharp, centred, four angles, top at
+mouth level or lower, no belly/boxer, 60 fps, 15 s or less, no audio).
+
+Styles:
+- `classic`: wide/detail alternation, tracked crop and push-in (default recipe).
+- `text_behind`: big English word behind him (`tools/fx_style.py`, texts only),
+  e.g. "OPEN COLLAR", "MOUNT FUJI". Owner asked for English text, no closing CTA.
+- `torn_glitch`: no text; hard cuts dressed with torn-paper wipes and glitch
+  hits (`tools/fx_style.py` tears/glitches).
+- `fast_beat`: 12-16 short cuts of 0.6-0.8 s, same four angles plus details.
+- `flash_punch`: white flash and a quick zoom punch at each cut
+  (`tools/style_fx.py`).
+- `split_screen`: opens with front and back side by side (two 540-wide
+  tracked panels), then normal cuts.
+- `detail_first`: opens on three close-ups, then reveals the four angles.
+Name outputs `output/daily/baju_<slug>_f<n>_<style>.mp4` (n = running number
+per product in focus mode) and record `style` in the history entry.
+
 ## Steps for each of the 5 videos
 
 1. `type = next_type`, `folder = folders[type][pointer[type]]`.

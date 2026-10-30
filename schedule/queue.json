@@ -1127,5 +1127,27 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_elgini-grey_c3.json"
   }
- ]
+ ],
+ "focus": {
+  "since": "2026-10-31",
+  "note": "Owner: 'Lepas ni cuba buat video yooka open collar dgn boru japan sahaja, ulang2 je tapi video lain editing style'. Only these two folders, alternating, every video a different editing style.",
+  "folders": [
+   "Yooka open collar black",
+   "Boru Japan"
+  ],
+  "next": 0,
+  "styles": [
+   "classic",
+   "text_behind",
+   "torn_glitch",
+   "fast_beat",
+   "flash_punch",
+   "split_screen",
+   "detail_first"
+  ],
+  "next_style": {
+   "Yooka open collar black": 0,
+   "Boru Japan": 0
+  }
+ }
 }
