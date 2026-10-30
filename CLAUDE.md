@@ -148,7 +148,9 @@ The owner's standing order is 5 videos a day from the raw-material library,
 alternating Baju and Seluar. **Focus mode (since 2026-10-31):** only Yooka
 open collar black and Boru Japan, alternating, each video in a different
 editing style (see `schedule/DAILY.md`, "Focus mode"); text is allowed in the
-`text_behind` style only. Each video goes to the owner's TikTok drafts
+`text_behind` style only. **Discontinued products** (seller no longer
+sells them; never make or send videos of them): Polyester black (since
+2026-10-31). They are listed under `discontinued` in `queue.json`. Each video goes to the owner's TikTok drafts
 through Zernio (`tools/zernio_draft.py`); he adds the sound and posts. See `schedule/DAILY.md` for the steps and `schedule/queue.json`
 for the state.
 **"Next" / "go"** from the owner means: start the next batch of 5 right away

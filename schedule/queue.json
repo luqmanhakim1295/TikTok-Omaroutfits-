@@ -3,7 +3,7 @@
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
  "next_type": "Baju",
  "pointer": {
-  "Baju": 9,
+  "Baju": 8,
   "Seluar": 4
  },
  "cycle": {
@@ -101,23 +101,6 @@
      {
       "name": "IMG_0346.MOV",
       "id": "1n7gYUfgxSVpfqfFZ2e6tj7yxIJpHvCac"
-     }
-    ]
-   },
-   {
-    "name": "Polyester black",
-    "files": [
-     {
-      "name": "IMG_0307.MOV",
-      "id": "11PE3oSVldTHFNHkgZIktPMYV-yLfRI_O"
-     },
-     {
-      "name": "IMG_0308.MOV",
-      "id": "1sXHcExDGRYrbLxbFLCZiLhINnIHB3qnu"
-     },
-     {
-      "name": "IMG_0309.MOV",
-      "id": "1MylmObIDc5dfUKGffJT2arY4LG-dcHw0"
      }
     ]
    },
@@ -1181,5 +1164,27 @@
     "torn_glitch"
    ]
   }
- }
+ },
+ "discontinued": [
+  {
+   "type": "Baju",
+   "name": "Polyester black",
+   "since": "2026-10-31",
+   "note": "Owner: seller no longer sells it. Do not make or send more videos of it.",
+   "files": [
+    {
+     "name": "IMG_0307.MOV",
+     "id": "11PE3oSVldTHFNHkgZIktPMYV-yLfRI_O"
+    },
+    {
+     "name": "IMG_0308.MOV",
+     "id": "1sXHcExDGRYrbLxbFLCZiLhINnIHB3qnu"
+    },
+    {
+     "name": "IMG_0309.MOV",
+     "id": "1MylmObIDc5dfUKGffJT2arY4LG-dcHw0"
+    }
+   ]
+  }
+ ]
 }
