@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 9,
-  "Seluar": 3
+  "Seluar": 4
  },
  "cycle": {
   "Baju": 2,
@@ -1115,6 +1115,17 @@
    "caption": "Kemeja hitam lengan panjang Yooka, licin dan kemas",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c2.json"
+  },
+  {
+   "date": "2026-10-31",
+   "type": "Seluar",
+   "folder": "Elgini grey",
+   "cycle": 3,
+   "output": "output/daily/seluar_elgini-grey_c3.mp4",
+   "scenes": "IMG_0347 272.6 front/255.4 side/289.0 other side/249.6 back, IMG_0350 70.0, IMG_0352 11.0",
+   "caption": "Seluar Elgini kelabu, pinggang getah bertali",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_elgini-grey_c3.json"
   }
  ]
 }
