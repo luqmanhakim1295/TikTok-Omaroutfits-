@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 7,
+  "Baju": 8,
   "Seluar": 2
  },
  "cycle": {
@@ -1080,6 +1080,17 @@
    "delivery": "pending",
    "plan": "schedule/plans/seluar_cargo-elgini_c3.json",
    "note": "No clear right-side shot in the footage (rule 2f)."
+  },
+  {
+   "date": "2026-10-31",
+   "type": "Baju",
+   "folder": "VPG",
+   "cycle": 2,
+   "output": "output/daily/baju_vpg_c2.mp4",
+   "scenes": "IMG_0392 39.6 front/13.4 right, IMG_0383 71.4 left/97.8 back, IMG_0384 60.0, IMG_0393 9.0",
+   "caption": "Polo knit hitam VPG, corak timbul yang kemas",
+   "delivery": "pending",
+   "plan": "schedule/plans/baju_vpg_c2.json"
   }
  ]
 }
