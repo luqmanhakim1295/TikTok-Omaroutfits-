@@ -1126,6 +1126,30 @@
    "caption": "Seluar Elgini kelabu, pinggang getah bertali",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_elgini-grey_c3.json"
+  },
+  {
+   "date": "2026-10-31",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 1,
+   "style": "flash_punch",
+   "output": "output/daily/baju_yooka-open-collar-black_f1_flash_punch.mp4",
+   "scenes": "IMG_0274 40.0 front/54.8 side/91.6 back, IMG_0300 281.0 other side, IMG_0271 106.0, IMG_0272 21.0",
+   "caption": "Kemeja open collar hitam, santai tapi kemas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/yooka-open-collar_f1.json"
+  },
+  {
+   "date": "2026-10-31",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 1,
+   "style": "torn_glitch",
+   "output": "output/daily/baju_boru-japan_f1_torn_glitch.mp4",
+   "scenes": "IMG_0275 131.6 back/43.6 front/87.0 side/59.6 other side, IMG_0278 82.2/49.0",
+   "caption": "Print Mount Fuji belakang, tee lengan panjang Boru",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/boru-japan_f1.json"
   }
  ],
  "focus": {
@@ -1146,8 +1170,16 @@
    "detail_first"
   ],
   "next_style": {
-   "Yooka open collar black": 0,
-   "Boru Japan": 0
+   "Yooka open collar black": 5,
+   "Boru Japan": 3
+  },
+  "used": {
+   "Yooka open collar black": [
+    "flash_punch"
+   ],
+   "Boru Japan": [
+    "torn_glitch"
+   ]
   }
  }
 }

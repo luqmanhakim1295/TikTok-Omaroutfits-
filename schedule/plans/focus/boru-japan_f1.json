@@ -1,0 +1,5 @@
+{
+ "plan": "boru-japan_f1_plan.json",
+ "style": "torn_glitch",
+ "post": "tools/style_fx.py base out --cuts 2 3.5 5.5 6.9 8.4 --tears 2 5.5 8.4 --glitches 3.5 6.9"
+}

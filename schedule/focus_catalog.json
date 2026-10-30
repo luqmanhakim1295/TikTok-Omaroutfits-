@@ -1,8 +1,58 @@
-{"Yooka open collar black": {
+{
+ "Yooka open collar black": {
   "note": "Tripod clips stop at the knees. IMG_0274: top 780, ch 3060 (mouth level). IMG_0300: top 500, ch 3300 (he looks down, face shows above that). IMG_0300 0:18-0:48 is shirtless changing: never use.",
-  "front": ["IMG_0274 40.0", "IMG_0300 419.6 crossed arms", "IMG_0300 426.0 crossed arms", "IMG_0274 29.2"],
-  "side_facing_left": ["IMG_0274 54.8 crossed arms", "IMG_0300 306.6 phone"],
-  "side_facing_right": ["IMG_0300 281.0 phone", "IMG_0300 226.0"],
-  "back": ["IMG_0274 91.6", "IMG_0274 99.0", "IMG_0300 255.6", "IMG_0300 264.0"],
-  "detail": ["IMG_0271 106.0 collar + hand", "IMG_0271 116.0", "IMG_0272 21.0 placket (top 500)", "IMG_0272 52.5"]
-}}
+  "front": [
+   "IMG_0274 40.0",
+   "IMG_0300 419.6 crossed arms",
+   "IMG_0300 426.0 crossed arms",
+   "IMG_0274 29.2"
+  ],
+  "side_facing_left": [
+   "IMG_0274 54.8 crossed arms",
+   "IMG_0300 306.6 phone"
+  ],
+  "side_facing_right": [
+   "IMG_0300 281.0 phone",
+   "IMG_0300 226.0"
+  ],
+  "back": [
+   "IMG_0274 91.6",
+   "IMG_0274 99.0",
+   "IMG_0300 255.6",
+   "IMG_0300 264.0"
+  ],
+  "detail": [
+   "IMG_0271 106.0 collar + hand",
+   "IMG_0271 116.0",
+   "IMG_0272 21.0 placket (top 500)",
+   "IMG_0272 52.5"
+  ]
+ },
+ "Boru Japan": {
+  "note": "IMG_0275 tripod, top 200 ch 3640 for front/back; side cuts are mid-turn, use top 700 ch 3200 and <=1.4 s. IMG_0278 close-ups are soft except 1:22-1:24 (back print) and 0:48-1:01 (chest logo, plain navy so low Laplacian is fine).",
+  "front": [
+   "IMG_0275 43.6",
+   "IMG_0275 38.6",
+   "IMG_0275 15.5"
+  ],
+  "side_a": [
+   "IMG_0275 87.0 (1.4 s)"
+  ],
+  "side_b": [
+   "IMG_0275 59.6 (1.2 s, hand at face, crop hides it)"
+  ],
+  "back": [
+   "IMG_0275 131.6",
+   "IMG_0275 133.8",
+   "IMG_0275 148.2",
+   "IMG_0275 96.0",
+   "IMG_0275 76.4"
+  ],
+  "detail": [
+   "IMG_0278 82.2 back print",
+   "IMG_0278 49.0 chest logo",
+   "IMG_0277 17.5",
+   "IMG_0277 35"
+  ]
+ }
+}
