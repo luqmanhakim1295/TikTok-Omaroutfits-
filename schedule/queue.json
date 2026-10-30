@@ -1075,7 +1075,7 @@
    "folder": "Cargo elgini",
    "cycle": 3,
    "output": "output/daily/seluar_cargo-elgini_c3.mp4",
-   "scenes": "IMG_0557 191.0 front/217.0 left/249.4 back, IMG_0560 16.0/272.0",
+   "scenes": "IMG_0557 191.0 front/217.0 left/249.4 back, IMG_0560 16.0",
    "caption": "Cargo Elgini beige, poket sisi muat banyak",
    "delivery": "pending",
    "plan": "schedule/plans/seluar_cargo-elgini_c3.json",
