@@ -205,3 +205,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/baju_vpg_c2.mp4`: VPG black textured knit polo, cycle 2 (new windows), 11s, 6 cuts with the camera-tracking effect, four angles (rule 2f): front, collar knit close-up, left side, v-neck close-up from above, right side, back. Top below the mouth. From IMG_0383/0384/0392/0393.
 
 `output/daily/seluar_cargo-grey_c3.mp4`: grey cargo pants, cycle 3 (new windows), 10.75s, 6 cuts with the camera-tracking effect, four angles (rule 2f): front, cargo pocket close-up, one side with hand in pocket, zip pocket close-up, other side, back. Wide crops 3600 of 3840. From IMG_0368/0369/0370.
+
+`output/daily/baju_yooka-black-plain-long-sleeves_c2.mp4`: Yooka black plain long-sleeve shirt, cycle 2 (new windows), 11s, 6 cuts with the camera-tracking effect, four angles (rule 2f): front with crossed arms, button and collar close-up, one side, chest close-up with hand, other side, back. He looks down a lot in this clip, so the wide cuts start at the shoulders to keep the face out. From IMG_0266/0267/0269.
