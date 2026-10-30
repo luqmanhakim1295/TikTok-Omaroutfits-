@@ -1054,9 +1054,10 @@
    "output": "output/daily/seluar_baggy-corduroy-pants_c3.mp4",
    "scenes": "IMG_0276 204.8 front/250.8 left/116.4 back, IMG_0279 76.5/133.5",
    "caption": "Seluar corduroy baggy, kaki lebar jatuh cantik",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-10-31)",
    "plan": "schedule/plans/seluar_baggy-corduroy-pants_c3.json",
-   "note": "No clear right-side shot in the footage (rule 2f)."
+   "note": "No clear right-side shot in the footage (rule 2f).",
+   "zernio_post_id": "6ae4cc6cd6f00f89260fe812"
   },
   {
    "date": "2026-10-30",
@@ -1066,8 +1067,9 @@
    "output": "output/daily/baju_textured_c2.mp4",
    "scenes": "IMG_0253 163.0 front/134.8 right/174.2 left/192.6 back, IMG_0256 51.3/176.0",
    "caption": "Kemeja seersucker olive, tekstur timbul yang ringan",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/baju_textured_c2.json"
+   "delivery": "tiktok-draft (sent 2026-10-31)",
+   "plan": "schedule/plans/baju_textured_c2.json",
+   "zernio_post_id": "6ae4cca6cc00611f46072c9d"
   },
   {
    "date": "2026-10-31",
