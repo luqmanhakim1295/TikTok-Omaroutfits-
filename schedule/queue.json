@@ -1018,8 +1018,9 @@
    "output": "output/daily/baju_polyester-black_c2.mp4",
    "scenes": "IMG_0308 60.8 front/40.8 left/106.8 right/12.4 back, IMG_0309 201.5/122.0",
    "caption": "Tee hitam polyester, jahitan kemas dan ringan",
-   "delivery": "draft_failed (Spam_risk_too_many_pending_share, send next run)",
-   "plan": "schedule/plans/baju_polyester-black_c2.json"
+   "delivery": "tiktok-draft (sent 2026-10-31)",
+   "plan": "schedule/plans/baju_polyester-black_c2.json",
+   "zernio_post_id": "6ae4c4353203c24e342767e0"
   },
   {
    "date": "2026-10-30",
@@ -1029,8 +1030,9 @@
    "output": "output/daily/seluar_yooka-white-slack_c2.mp4",
    "scenes": "IMG_0262 256.2 front/126.6 left/214.0 right, IMG_0265 80.0 back, IMG_0263 39.2",
    "caption": "Slack krim Yooka, lipatan depan kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/seluar_yooka-white-slack_c2.json"
+   "delivery": "tiktok-draft (sent 2026-10-31)",
+   "plan": "schedule/plans/seluar_yooka-white-slack_c2.json",
+   "zernio_post_id": "6ae4c46e3203c24e34276a45"
   },
   {
    "date": "2026-10-30",
@@ -1040,8 +1042,9 @@
    "output": "output/daily/baju_sweat-shirt-v-neck-grey_c2.mp4",
    "scenes": "IMG_0382 21.0 front/37.4 right/89.6 back, IMG_0391-2 63.4 left, IMG_0386 52.5",
    "caption": "Sweatshirt V-neck kait zigzag, selesa dan kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/baju_sweat-shirt-v-neck-grey_c2.json"
+   "delivery": "tiktok-draft (sent 2026-10-31)",
+   "plan": "schedule/plans/baju_sweat-shirt-v-neck-grey_c2.json",
+   "zernio_post_id": "6ae4c49c3203c24e34276be6"
   },
   {
    "date": "2026-10-30",
