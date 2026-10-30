@@ -203,3 +203,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/seluar_cargo-elgini_c3.mp4`: beige Elgini cargo pants, cycle 3 (new windows), 7.5s, 4 cuts with the camera-tracking effect: front, front and cargo pocket close-up, left side, back. No clear right-side shot in the footage (he only walks through it), so rule 2f is short one angle. A waistband close-up (IMG_0560 ~4:32) was dropped because a grey band shows under the shirt. Wide crops 1840 of 1920. From IMG_0557/0560.
 
 `output/daily/baju_vpg_c2.mp4`: VPG black textured knit polo, cycle 2 (new windows), 11s, 6 cuts with the camera-tracking effect, four angles (rule 2f): front, collar knit close-up, left side, v-neck close-up from above, right side, back. Top below the mouth. From IMG_0383/0384/0392/0393.
+
+`output/daily/seluar_cargo-grey_c3.mp4`: grey cargo pants, cycle 3 (new windows), 10.75s, 6 cuts with the camera-tracking effect, four angles (rule 2f): front, cargo pocket close-up, one side with hand in pocket, zip pocket close-up, other side, back. Wide crops 3600 of 3840. From IMG_0368/0369/0370.
