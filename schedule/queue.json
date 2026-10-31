@@ -1162,6 +1162,18 @@
    "caption": "Open collar hitam, santai untuk petang",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/focus/yooka-open-collar_f2.json"
+  },
+  {
+   "date": "2026-11-01",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 3,
+   "style": "torn_glitch",
+   "output": "output/daily/baju_yooka-open-collar-black_f3_torn_glitch.mp4",
+   "scenes": "IMG_0300 426.0 front/281.0 side, IMG_0274 99.0 back/54.8 other side, IMG_0271 105.8",
+   "caption": "Open collar hitam, kolar terbuka nampak relax",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/yooka-open-collar_f3.json"
   }
  ],
  "focus": {
@@ -1189,7 +1201,8 @@
   "used": {
    "Yooka open collar black": [
     "flash_punch",
-    "cinematic"
+    "cinematic",
+    "torn_glitch"
    ],
    "Boru Japan": [
     "torn_glitch",
