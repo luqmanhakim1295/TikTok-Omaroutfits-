@@ -252,6 +252,8 @@ MOTIONS = {
     # with a crop that follows the subject so it feels like an operator
     # tracking him. _bottom keeps the feet in shot (trousers), _top the
     # mouth line (shirts).
+    # Very slow 3% push-in for long, calm "cinematic" takes.
+    "drift": ("1+0.03*(on/F)*(on/F)*(3-2*on/F)", "iw/2-iw/zoom/2", "ih/2-ih/zoom/2"),
     "push_soft": ("1+0.08*(on/F)*(on/F)*(3-2*on/F)",
                   "iw/2-iw/zoom/2", "ih/2-ih/zoom/2"),
     "push_bottom": ("1+0.08*(on/F)*(on/F)*(3-2*on/F)",

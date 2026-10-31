@@ -1133,6 +1133,18 @@
    "caption": "Print Mount Fuji belakang, tee lengan panjang Boru",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/focus/boru-japan_f1.json"
+  },
+  {
+   "date": "2026-10-31",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 2,
+   "style": "cinematic",
+   "output": "output/daily/baju_boru-japan_f2_cinematic.mp4",
+   "scenes": "IMG_0275 131.6 back (tilt up)/43.6 front/87.0 side/59.6 other side, IMG_0278 82.2/49.0",
+   "caption": "Mount Fuji di belakang, vibe petang yang tenang",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/boru-japan_f2.json"
   }
  ],
  "focus": {
@@ -1145,6 +1157,7 @@
   "next": 0,
   "styles": [
    "classic",
+   "cinematic",
    "text_behind",
    "torn_glitch",
    "fast_beat",
@@ -1161,7 +1174,8 @@
     "flash_punch"
    ],
    "Boru Japan": [
-    "torn_glitch"
+    "torn_glitch",
+    "cinematic"
    ]
   }
  },

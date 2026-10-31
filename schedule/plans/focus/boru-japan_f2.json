@@ -1,0 +1,6 @@
+{
+ "plan": "boru-japan_f2_plan.json",
+ "style": "cinematic",
+ "render": "render_plan.py ... --fps 60 --grade schedule/grades/moody_street.txt",
+ "note": "Owner reference (snaptik 7700077980101397780): one slow rainy-street tilt, moody warm grade. Opening cut tilts the crop up from the trousers to the print (y expression in the plan), slow 'drift' push, longer cuts."
+}
