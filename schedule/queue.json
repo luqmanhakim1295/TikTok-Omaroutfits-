@@ -1198,6 +1198,18 @@
    "caption": "Tee Boru Mount Fuji, simple tapi ada cerita",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/focus/boru-japan_f4.json"
+  },
+  {
+   "date": "2026-11-01",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 4,
+   "style": "text_behind",
+   "output": "output/daily/baju_yooka-open-collar-black_f4_text_behind.mp4",
+   "scenes": "IMG_0274 91.6 back/54.8 side, IMG_0300 426.0 front/306.6 other side, IMG_0271 105.8",
+   "caption": "Kemeja Yooka open collar, ringan untuk cuaca panas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/yooka-open-collar_f4.json"
   }
  ],
  "focus": {
@@ -1226,7 +1238,8 @@
    "Yooka open collar black": [
     "flash_punch",
     "cinematic",
-    "torn_glitch"
+    "torn_glitch",
+    "text_behind"
    ],
    "Boru Japan": [
     "torn_glitch",

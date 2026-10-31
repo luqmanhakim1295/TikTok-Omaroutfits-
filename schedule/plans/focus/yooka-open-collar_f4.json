@@ -1,0 +1,27 @@
+{
+ "plan": "yooka-open-collar_f4_plan.json",
+ "style": "text_behind",
+ "post": "tools/fx_style.py base out spec",
+ "spec": {
+  "texts": [
+   {
+    "start": 0.0,
+    "end": 2.0,
+    "lines": [
+     "OPEN COLLAR"
+    ],
+    "y": 0.035
+   },
+   {
+    "start": 3.5,
+    "end": 5.5,
+    "lines": [
+     "YOOKA"
+    ],
+    "y": 0.04
+   }
+  ],
+  "tears": [],
+  "glitches": []
+ }
+}

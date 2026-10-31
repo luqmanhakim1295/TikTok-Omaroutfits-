@@ -223,3 +223,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/baju_boru-japan_f3_fast_beat.mp4`: focus #3 Boru Japan, style fast_beat: 12 quick cuts (0.6-0.9 s) with a snap zoom on the wide shots, alternating back, print, front, both sides and the chest logo. 8.3s. From IMG_0275/0278.
 
 `output/daily/baju_boru-japan_f4_text_behind.mp4`: focus #4 Boru Japan, style text_behind: big mustard "MOUNT FUJI" (back) and "BORU" (front) letters behind him (tools/fx_style.py). 9.5s, 6 cuts: back, print close-up, front, side, chest logo close-up, other side. From IMG_0275/0278.
+
+`output/daily/baju_yooka-open-collar-black_f4_text_behind.mp4`: focus #4 Yooka open collar black, style text_behind: "OPEN COLLAR" (back) and "YOOKA" (front) letters behind him. 9s, 5 cuts: back, collar close-up, front with crossed arms, side with phone, other side with crossed arms. From IMG_0271/0274/0300.
