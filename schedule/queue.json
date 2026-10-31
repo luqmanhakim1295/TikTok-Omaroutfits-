@@ -1062,9 +1062,10 @@
    "output": "output/daily/seluar_cargo-elgini_c3.mp4",
    "scenes": "IMG_0557 191.0 front/217.0 left/249.4 back, IMG_0560 16.0",
    "caption": "Cargo Elgini beige, poket sisi muat banyak",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-01)",
    "plan": "schedule/plans/seluar_cargo-elgini_c3.json",
-   "note": "No clear right-side shot in the footage (rule 2f)."
+   "note": "No clear right-side shot in the footage (rule 2f).",
+   "zernio_post_id": "6ae615e2f46ee92431813dae"
   },
   {
    "date": "2026-10-31",
@@ -1074,8 +1075,9 @@
    "output": "output/daily/baju_vpg_c2.mp4",
    "scenes": "IMG_0392 39.6 front/13.4 right, IMG_0383 71.4 left/97.8 back, IMG_0384 60.0, IMG_0393 9.0",
    "caption": "Polo knit hitam VPG, corak timbul yang kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/baju_vpg_c2.json"
+   "delivery": "tiktok-draft (sent 2026-11-01)",
+   "plan": "schedule/plans/baju_vpg_c2.json",
+   "zernio_post_id": "6ae6161aea7ec36acdd721a0"
   },
   {
    "date": "2026-10-31",
@@ -1085,8 +1087,9 @@
    "output": "output/daily/seluar_cargo-grey_c3.mp4",
    "scenes": "IMG_0370 89.6 front/118.4 side/126.2 other side/167.6 back, IMG_0368 13.3, IMG_0369 5.3",
    "caption": "Cargo kelabu, poket sisi dan potongan lurus",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/seluar_cargo-grey_c3.json"
+   "delivery": "tiktok-draft (sent 2026-11-01)",
+   "plan": "schedule/plans/seluar_cargo-grey_c3.json",
+   "zernio_post_id": "6ae6165fea7ec36acdd72380"
   },
   {
    "date": "2026-10-31",
@@ -1096,8 +1099,9 @@
    "output": "output/daily/baju_yooka-black-plain-long-sleeves_c2.mp4",
    "scenes": "IMG_0266 200.0 front/99.6 side/133.2 other side/145.6 back, IMG_0269 21.0, IMG_0267 120.0",
    "caption": "Kemeja hitam lengan panjang Yooka, licin dan kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c2.json"
+   "delivery": "tiktok-draft (sent 2026-11-01)",
+   "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c2.json",
+   "zernio_post_id": "6ae6168dea7ec36acdd72529"
   },
   {
    "date": "2026-10-31",
@@ -1107,8 +1111,9 @@
    "output": "output/daily/seluar_elgini-grey_c3.mp4",
    "scenes": "IMG_0347 272.6 front/255.4 side/289.0 other side/249.6 back, IMG_0350 70.0, IMG_0352 11.0",
    "caption": "Seluar Elgini kelabu, pinggang getah bertali",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/seluar_elgini-grey_c3.json"
+   "delivery": "tiktok-draft (sent 2026-11-01)",
+   "plan": "schedule/plans/seluar_elgini-grey_c3.json",
+   "zernio_post_id": "6ae616c6ea7ec36acdd726cc"
   },
   {
    "date": "2026-10-31",
@@ -1145,6 +1150,18 @@
    "caption": "Mount Fuji di belakang, vibe petang yang tenang",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/focus/boru-japan_f2.json"
+  },
+  {
+   "date": "2026-11-01",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 2,
+   "style": "cinematic",
+   "output": "output/daily/baju_yooka-open-collar-black_f2_cinematic.mp4",
+   "scenes": "IMG_0300 255.6 back (tilt up)/419.6 front/306.6 side, IMG_0274 54.8 other side, IMG_0271 106.0",
+   "caption": "Open collar hitam, santai untuk petang",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/yooka-open-collar_f2.json"
   }
  ],
  "focus": {
@@ -1154,7 +1171,7 @@
    "Yooka open collar black",
    "Boru Japan"
   ],
-  "next": 0,
+  "next": 1,
   "styles": [
    "classic",
    "cinematic",
@@ -1171,7 +1188,8 @@
   },
   "used": {
    "Yooka open collar black": [
-    "flash_punch"
+    "flash_punch",
+    "cinematic"
    ],
    "Boru Japan": [
     "torn_glitch",

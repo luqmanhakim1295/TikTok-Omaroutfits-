@@ -1,0 +1,5 @@
+{
+ "plan": "yooka-open-collar_f2_plan.json",
+ "style": "cinematic",
+ "render": "render_plan.py ... --fps 60 --grade schedule/grades/moody_street_dark.txt (lighter shadows for the black shirt)"
+}

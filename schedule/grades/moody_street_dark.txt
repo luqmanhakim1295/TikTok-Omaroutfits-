@@ -1,0 +1,1 @@
+eq=contrast=1.06:brightness=0.0:saturation=0.75,curves=r='0/0.02 0.25/0.23 0.6/0.64 1/1':g='0/0.02 0.25/0.22 0.6/0.6 1/0.95':b='0/0.04 0.25/0.22 0.6/0.53 1/0.84',vignette=angle=PI/5,noise=alls=5:allf=t
