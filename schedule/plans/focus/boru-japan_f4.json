@@ -1,0 +1,27 @@
+{
+ "plan": "boru-japan_f4_plan.json",
+ "style": "text_behind",
+ "post": "tools/fx_style.py base out spec",
+ "spec": {
+  "texts": [
+   {
+    "start": 0.0,
+    "end": 2.0,
+    "lines": [
+     "MOUNT FUJI"
+    ],
+    "y": 0.035
+   },
+   {
+    "start": 3.5,
+    "end": 5.5,
+    "lines": [
+     "BORU"
+    ],
+    "y": 0.05
+   }
+  ],
+  "tears": [],
+  "glitches": []
+ }
+}

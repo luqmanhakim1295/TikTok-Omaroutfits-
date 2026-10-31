@@ -1186,6 +1186,18 @@
    "caption": "Mount Fuji tee, padan dengan seluar apa pun",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/focus/boru-japan_f3.json"
+  },
+  {
+   "date": "2026-11-01",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 4,
+   "style": "text_behind",
+   "output": "output/daily/baju_boru-japan_f4_text_behind.mp4",
+   "scenes": "IMG_0275 148.2 back/43.6 front/87.0 side/59.6 other side, IMG_0278 82.2/49.0",
+   "caption": "Tee Boru Mount Fuji, simple tapi ada cerita",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/boru-japan_f4.json"
   }
  ],
  "focus": {
@@ -1219,7 +1231,8 @@
    "Boru Japan": [
     "torn_glitch",
     "cinematic",
-    "fast_beat"
+    "fast_beat",
+    "text_behind"
    ]
   }
  },
