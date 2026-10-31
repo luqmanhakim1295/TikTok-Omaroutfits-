@@ -1174,6 +1174,18 @@
    "caption": "Open collar hitam, kolar terbuka nampak relax",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/focus/yooka-open-collar_f3.json"
+  },
+  {
+   "date": "2026-11-01",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 3,
+   "style": "fast_beat",
+   "output": "output/daily/baju_boru-japan_f3_fast_beat.mp4",
+   "scenes": "IMG_0275 131.6/148.2 back, 43.6/44.6/96.0 front, 87.0/88.0 side, 59.8 other side, IMG_0278 82.2/83.0/49.5/52.5",
+   "caption": "Mount Fuji tee, padan dengan seluar apa pun",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/boru-japan_f3.json"
   }
  ],
  "focus": {
@@ -1206,7 +1218,8 @@
    ],
    "Boru Japan": [
     "torn_glitch",
-    "cinematic"
+    "cinematic",
+    "fast_beat"
    ]
   }
  },

@@ -219,3 +219,5 @@ If no face is detected (a close-up that is already below the chin), the full fra
 `output/daily/baju_yooka-open-collar-black_f2_cinematic.mp4`: focus #2 Yooka open collar black, style cinematic: tilt from the trousers up the back, long calm cuts with a 3% drift, moody warm grade with lifted shadows for the black shirt (schedule/grades/moody_street_dark.txt). 9.75s, 5 cuts: back, front with crossed arms, side with crossed arms, collar close-up, other side with phone. From IMG_0271/0274/0300.
 
 `output/daily/baju_yooka-open-collar-black_f3_torn_glitch.mp4`: focus #3 Yooka open collar black, style torn_glitch: torn-paper wipes and glitch hits on the cuts, no text. 9s, 5 cuts: front with crossed arms, collar close-up, side with phone, back, other side with crossed arms. From IMG_0271/0274/0300.
+
+`output/daily/baju_boru-japan_f3_fast_beat.mp4`: focus #3 Boru Japan, style fast_beat: 12 quick cuts (0.6-0.9 s) with a snap zoom on the wide shots, alternating back, print, front, both sides and the chest logo. 8.3s. From IMG_0275/0278.
