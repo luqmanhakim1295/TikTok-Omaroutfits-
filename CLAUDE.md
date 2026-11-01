@@ -22,6 +22,17 @@ biasa" / "cam biasa" means: follow all of these.
    the top stays at mouth/neck level, allowing the body up to ~3 % off
    centre (~30 px of 1080). Never cut the collar/neckline or shoulders to
    get a perfect centre. Check the top strip of the rendered frames.
+   **Owner rejected this again (2026-11-01, "mistake yg sama, aku tak boleh
+   terima"):** shirt cuts that start at the shoulders hide the collar and
+   shoulders, and centring on the legs left the shirt off centre. For every
+   shirt wide cut use `tools/shirtframe.py` (pose landmarks: top = the
+   mouth line at the frame where the head is lowest; x = shoulder midpoint,
+   or the torso mask for back/side views with `--noface --top <mouth row
+   of a front cut of the same clip>`), or `tools/build_focus.py` which does
+   it for a whole cut list. If a side window can't be centred (clamped),
+   use a smaller `--ch` for that cut (crop ends above the feet) or another
+   window; never lower the top below the mouth. If he looks down in a
+   window so the nose/eyes would show at the mouth line, pick another window.
 1a. **Camera-tracking effect on every video** (owner's standing order,
    "masukkan effect camera tracking"). Every whole-body / full-trouser cut
    uses a crop whose x follows the subject like a camera operator

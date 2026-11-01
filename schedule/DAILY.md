@@ -56,6 +56,7 @@ CLAUDE.md non-negotiables still apply (sharp, centred, four angles, top at
 mouth level or lower, no belly/boxer, 60 fps, 15 s or less, no audio).
 
 Styles:
+- Build every focus video with `tools/build_focus.py spec.json` (mouth-level top, body centre; CLAUDE.md rule 2). Specs: `schedule/plans/focus/v2/*.spec.json`.
 - `classic`: wide/detail alternation, tracked crop and push-in (default recipe).
 - `text_behind`: big English word behind him (`tools/fx_style.py`, texts only),
   e.g. "OPEN COLLAR", "MOUNT FUJI". Owner asked for English text, no closing CTA.

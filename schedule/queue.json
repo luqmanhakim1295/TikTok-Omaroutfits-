@@ -1125,7 +1125,8 @@
    "scenes": "IMG_0274 40.0 front/54.8 side/91.6 back, IMG_0300 281.0 other side, IMG_0271 106.0, IMG_0272 21.0",
    "caption": "Kemeja open collar hitam, santai tapi kemas",
    "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/yooka-open-collar_f1.json"
+   "plan": "schedule/plans/focus/yooka-open-collar_f1.json",
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
   },
   {
    "date": "2026-10-31",
@@ -1137,7 +1138,8 @@
    "scenes": "IMG_0275 131.6 back/43.6 front/87.0 side/59.6 other side, IMG_0278 82.2/49.0",
    "caption": "Print Mount Fuji belakang, tee lengan panjang Boru",
    "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/boru-japan_f1.json"
+   "plan": "schedule/plans/focus/boru-japan_f1.json",
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
   },
   {
    "date": "2026-10-31",
@@ -1149,7 +1151,8 @@
    "scenes": "IMG_0275 131.6 back (tilt up)/43.6 front/87.0 side/59.6 other side, IMG_0278 82.2/49.0",
    "caption": "Mount Fuji di belakang, vibe petang yang tenang",
    "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/boru-japan_f2.json"
+   "plan": "schedule/plans/focus/boru-japan_f2.json",
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
   },
   {
    "date": "2026-11-01",
@@ -1161,7 +1164,8 @@
    "scenes": "IMG_0300 255.6 back (tilt up)/419.6 front/306.6 side, IMG_0274 54.8 other side, IMG_0271 106.0",
    "caption": "Open collar hitam, santai untuk petang",
    "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/yooka-open-collar_f2.json"
+   "plan": "schedule/plans/focus/yooka-open-collar_f2.json",
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
   },
   {
    "date": "2026-11-01",
@@ -1173,7 +1177,8 @@
    "scenes": "IMG_0300 426.0 front/281.0 side, IMG_0274 99.0 back/54.8 other side, IMG_0271 105.8",
    "caption": "Open collar hitam, kolar terbuka nampak relax",
    "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/yooka-open-collar_f3.json"
+   "plan": "schedule/plans/focus/yooka-open-collar_f3.json",
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
   },
   {
    "date": "2026-11-01",
@@ -1185,7 +1190,8 @@
    "scenes": "IMG_0275 131.6/148.2 back, 43.6/44.6/96.0 front, 87.0/88.0 side, 59.8 other side, IMG_0278 82.2/83.0/49.5/52.5",
    "caption": "Mount Fuji tee, padan dengan seluar apa pun",
    "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/boru-japan_f3.json"
+   "plan": "schedule/plans/focus/boru-japan_f3.json",
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
   },
   {
    "date": "2026-11-01",
@@ -1197,7 +1203,8 @@
    "scenes": "IMG_0275 148.2 back/43.6 front/87.0 side/59.6 other side, IMG_0278 82.2/49.0",
    "caption": "Tee Boru Mount Fuji, simple tapi ada cerita",
    "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/boru-japan_f4.json"
+   "plan": "schedule/plans/focus/boru-japan_f4.json",
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
   },
   {
    "date": "2026-11-01",
@@ -1209,7 +1216,8 @@
    "scenes": "IMG_0274 91.6 back/54.8 side, IMG_0300 426.0 front/306.6 other side, IMG_0271 105.8",
    "caption": "Kemeja Yooka open collar, ringan untuk cuaca panas",
    "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/yooka-open-collar_f4.json"
+   "plan": "schedule/plans/focus/yooka-open-collar_f4.json",
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
   }
  ],
  "focus": {
