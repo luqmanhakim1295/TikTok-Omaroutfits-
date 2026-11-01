@@ -1223,6 +1223,61 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/focus/yooka-open-collar_f4.json",
    "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
+  },
+  {
+   "date": "2026-11-02",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 5,
+   "style": "flash_punch",
+   "output": "output/daily/baju_boru-japan_f5_flash_punch.mp4",
+   "caption": "Mount Fuji tee lengan panjang, print penuh belakang",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/bj_f5.spec.json"
+  },
+  {
+   "date": "2026-11-02",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 5,
+   "style": "fast_beat",
+   "output": "output/daily/baju_yooka-open-collar-black_f5_fast_beat.mp4",
+   "caption": "Open collar hitam, kemas dari semua sudut",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/yo_f5.spec.json"
+  },
+  {
+   "date": "2026-11-02",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 6,
+   "style": "classic",
+   "output": "output/daily/baju_boru-japan_f6_classic.mp4",
+   "caption": "Tee Boru navy, Mount Fuji di belakang",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/bj_f6.spec.json"
+  },
+  {
+   "date": "2026-11-02",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 6,
+   "style": "classic",
+   "output": "output/daily/baju_yooka-open-collar-black_f6_classic.mp4",
+   "caption": "Kemeja open collar Yooka, potongan relax",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/yo_f6.spec.json"
+  },
+  {
+   "date": "2026-11-02",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 7,
+   "style": "detail_first",
+   "output": "output/daily/baju_boru-japan_f7_detail_first.mp4",
+   "caption": "Detail print Mount Fuji, dekat dan jelas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/bj_f7.spec.json"
   }
  ],
  "focus": {
@@ -1252,13 +1307,18 @@
     "flash_punch",
     "cinematic",
     "torn_glitch",
-    "text_behind"
+    "text_behind",
+    "fast_beat",
+    "classic"
    ],
    "Boru Japan": [
     "torn_glitch",
     "cinematic",
     "fast_beat",
-    "text_behind"
+    "text_behind",
+    "flash_punch",
+    "classic",
+    "detail_first"
    ]
   }
  },
