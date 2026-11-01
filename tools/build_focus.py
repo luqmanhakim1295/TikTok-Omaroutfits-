@@ -27,7 +27,9 @@ motion_det = {"cinematic": "drift"}.get(style, "push_soft")
 plan, cuts_t, t = [], [], 0.0
 for k, (clip, start, length, view, *over) in enumerate(spec["cuts"]):
     if view == "detail":
-        plan.append([clip, start, length, 0, 1080, 3840, motion_det])
+        # optional overrides: [.., "detail", ch, {"top": row}] to keep a face out
+        o = dict(over[1]) if len(over) > 1 else {}
+        plan.append([clip, start, length, o.get("top", 0), 1080, over[0] if over else 3840, motion_det])
     else:
         xe = os.path.join(work, f"x{k}.txt")
         cmd = [sys.executable, os.path.join(here, "shirtframe.py"), os.path.join(raw, clip),

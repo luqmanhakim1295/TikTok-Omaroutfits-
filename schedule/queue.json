@@ -1124,9 +1124,10 @@
    "output": "output/daily/baju_yooka-open-collar-black_f1_flash_punch.mp4",
    "scenes": "IMG_0274 40.0 front/54.8 side/91.6 back, IMG_0300 281.0 other side, IMG_0271 106.0, IMG_0272 21.0",
    "caption": "Kemeja open collar hitam, santai tapi kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-02)",
    "plan": "schedule/plans/focus/yooka-open-collar_f1.json",
-   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/",
+   "zernio_post_id": "6ae767e7adef74dd5f0fcd49"
   },
   {
    "date": "2026-10-31",
@@ -1137,9 +1138,10 @@
    "output": "output/daily/baju_boru-japan_f1_torn_glitch.mp4",
    "scenes": "IMG_0275 131.6 back/43.6 front/87.0 side/59.6 other side, IMG_0278 82.2/49.0",
    "caption": "Print Mount Fuji belakang, tee lengan panjang Boru",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-02)",
    "plan": "schedule/plans/focus/boru-japan_f1.json",
-   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/",
+   "zernio_post_id": "6ae7682110c8534b07bcbc98"
   },
   {
    "date": "2026-10-31",
@@ -1150,9 +1152,10 @@
    "output": "output/daily/baju_boru-japan_f2_cinematic.mp4",
    "scenes": "IMG_0275 131.6 back (tilt up)/43.6 front/87.0 side/59.6 other side, IMG_0278 82.2/49.0",
    "caption": "Mount Fuji di belakang, vibe petang yang tenang",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-02)",
    "plan": "schedule/plans/focus/boru-japan_f2.json",
-   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/",
+   "zernio_post_id": "6ae7685c10c8534b07bcbd42"
   },
   {
    "date": "2026-11-01",
@@ -1163,9 +1166,10 @@
    "output": "output/daily/baju_yooka-open-collar-black_f2_cinematic.mp4",
    "scenes": "IMG_0300 255.6 back (tilt up)/419.6 front/306.6 side, IMG_0274 54.8 other side, IMG_0271 106.0",
    "caption": "Open collar hitam, santai untuk petang",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-02)",
    "plan": "schedule/plans/focus/yooka-open-collar_f2.json",
-   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/",
+   "zernio_post_id": "6ae76894235018c7f2478bc7"
   },
   {
    "date": "2026-11-01",
@@ -1176,9 +1180,10 @@
    "output": "output/daily/baju_yooka-open-collar-black_f3_torn_glitch.mp4",
    "scenes": "IMG_0300 426.0 front/281.0 side, IMG_0274 99.0 back/54.8 other side, IMG_0271 105.8",
    "caption": "Open collar hitam, kolar terbuka nampak relax",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-02)",
    "plan": "schedule/plans/focus/yooka-open-collar_f3.json",
-   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/",
+   "zernio_post_id": "6ae768cd50219748a278921b"
   },
   {
    "date": "2026-11-01",
