@@ -1194,9 +1194,10 @@
    "output": "output/daily/baju_boru-japan_f3_fast_beat.mp4",
    "scenes": "IMG_0275 131.6/148.2 back, 43.6/44.6/96.0 front, 87.0/88.0 side, 59.8 other side, IMG_0278 82.2/83.0/49.5/52.5",
    "caption": "Mount Fuji tee, padan dengan seluar apa pun",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-03)",
    "plan": "schedule/plans/focus/boru-japan_f3.json",
-   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/",
+   "zernio_post_id": "6ae8c2483b93a8e5d2fde696"
   },
   {
    "date": "2026-11-01",
@@ -1207,9 +1208,10 @@
    "output": "output/daily/baju_boru-japan_f4_text_behind.mp4",
    "scenes": "IMG_0275 148.2 back/43.6 front/87.0 side/59.6 other side, IMG_0278 82.2/49.0",
    "caption": "Tee Boru Mount Fuji, simple tapi ada cerita",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-03)",
    "plan": "schedule/plans/focus/boru-japan_f4.json",
-   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/",
+   "zernio_post_id": "6ae8c2774a7aba132b4db557"
   },
   {
    "date": "2026-11-01",
@@ -1220,9 +1222,10 @@
    "output": "output/daily/baju_yooka-open-collar-black_f4_text_behind.mp4",
    "scenes": "IMG_0274 91.6 back/54.8 side, IMG_0300 426.0 front/306.6 other side, IMG_0271 105.8",
    "caption": "Kemeja Yooka open collar, ringan untuk cuaca panas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-03)",
    "plan": "schedule/plans/focus/yooka-open-collar_f4.json",
-   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/"
+   "redone": "2026-11-01 mouth-level top + body centre (tools/build_focus.py), specs in schedule/plans/focus/v2/",
+   "zernio_post_id": "6ae8c2b309ed9fd42fbe575b"
   },
   {
    "date": "2026-11-02",
@@ -1232,8 +1235,9 @@
    "style": "flash_punch",
    "output": "output/daily/baju_boru-japan_f5_flash_punch.mp4",
    "caption": "Mount Fuji tee lengan panjang, print penuh belakang",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/v2/bj_f5.spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-03)",
+   "plan": "schedule/plans/focus/v2/bj_f5.spec.json",
+   "zernio_post_id": "6ae8c2ec9ad169ba9124565a"
   },
   {
    "date": "2026-11-02",
@@ -1243,8 +1247,9 @@
    "style": "fast_beat",
    "output": "output/daily/baju_yooka-open-collar-black_f5_fast_beat.mp4",
    "caption": "Open collar hitam, kemas dari semua sudut",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/v2/yo_f5.spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-03)",
+   "plan": "schedule/plans/focus/v2/yo_f5.spec.json",
+   "zernio_post_id": "6ae8c31b5fe2cf690b73f30e"
   },
   {
    "date": "2026-11-02",
@@ -1278,6 +1283,61 @@
    "caption": "Detail print Mount Fuji, dekat dan jelas",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/focus/v2/bj_f7.spec.json"
+  },
+  {
+   "date": "2026-11-03",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 8,
+   "style": "split_screen",
+   "output": "output/daily/baju_boru-japan_f8_split_screen.mp4",
+   "caption": "Depan dan belakang Boru Mount Fuji sekali gus",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/bj_f8.spec.json"
+  },
+  {
+   "date": "2026-11-03",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 7,
+   "style": "detail_first",
+   "output": "output/daily/baju_yooka-open-collar-black_f7_detail_first.mp4",
+   "caption": "Kolar terbuka Yooka, detail jahitan kemas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/yo_f7.spec.json"
+  },
+  {
+   "date": "2026-11-03",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 9,
+   "style": "cinematic",
+   "output": "output/daily/baju_boru-japan_f9_cinematic.mp4",
+   "caption": "Tee Mount Fuji, tenang macam petang hujung minggu",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/bj_f9.spec.json"
+  },
+  {
+   "date": "2026-11-03",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 8,
+   "style": "split_screen",
+   "output": "output/daily/baju_yooka-open-collar-black_f8_split_screen.mp4",
+   "caption": "Open collar hitam, depan belakang sama kemas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/yo_f8.spec.json"
+  },
+  {
+   "date": "2026-11-03",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 10,
+   "style": "torn_glitch",
+   "output": "output/daily/baju_boru-japan_f10_torn_glitch.mp4",
+   "caption": "Print Mount Fuji yang terus tarik perhatian",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/bj_f10.spec.json"
   }
  ],
  "focus": {
@@ -1287,7 +1347,7 @@
    "Yooka open collar black",
    "Boru Japan"
   ],
-  "next": 1,
+  "next": 0,
   "styles": [
    "classic",
    "cinematic",
@@ -1309,7 +1369,9 @@
     "torn_glitch",
     "text_behind",
     "fast_beat",
-    "classic"
+    "classic",
+    "detail_first",
+    "split_screen"
    ],
    "Boru Japan": [
     "torn_glitch",
@@ -1318,7 +1380,10 @@
     "text_behind",
     "flash_punch",
     "classic",
-    "detail_first"
+    "detail_first",
+    "split_screen",
+    "cinematic",
+    "torn_glitch"
    ]
   }
  },

@@ -1,0 +1,55 @@
+{
+ "tops": {
+  "IMG_0275.MOV": 150
+ },
+ "ch": {
+  "IMG_0275.MOV": 3300
+ },
+ "style": "cinematic",
+ "tilt": 600,
+ "grade": "schedule/grades/moody_street.txt",
+ "cuts": [
+  [
+   "IMG_0275.MOV",
+   148.2,
+   2.6,
+   "back",
+   3000
+  ],
+  [
+   "IMG_0275.MOV",
+   44.6,
+   2.2,
+   "front"
+  ],
+  [
+   "IMG_0278.MOV",
+   83.0,
+   1.8,
+   "detail"
+  ],
+  [
+   "IMG_0275.MOV",
+   106.4,
+   1.4,
+   "side",
+   3300,
+   {
+    "top": 340
+   }
+  ],
+  [
+   "IMG_0278.MOV",
+   52.5,
+   1.6,
+   "detail"
+  ],
+  [
+   "IMG_0275.MOV",
+   46.8,
+   1.4,
+   "side",
+   3000
+  ]
+ ]
+}

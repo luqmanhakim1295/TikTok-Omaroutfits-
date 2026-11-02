@@ -4,7 +4,7 @@ from the mouth down and on the body's centre line (tools/shirtframe.py).
 usage: python3 tools/build_focus.py spec.json rawdir out.mp4 workdir
 
 spec.json:
-{"style": "classic" | "flash_punch" | "torn_glitch" | "cinematic" | "fast_beat" | "text_behind",
+{"style": "classic" | "flash_punch" | "torn_glitch" | "cinematic" | "fast_beat" | "text_behind" | "split_screen" | "detail_first",
  "tops": {"IMG_0275.MOV": 150},          # mouth-line row for back/side views per clip
  "ch": {"IMG_0275.MOV": 3400},           # crop height per clip (room to centre)
  "cuts": [["IMG_0275.MOV", 131.6, 2.0, "back"],   # optional 5th item: crop height for this cut, 6th: {"top": row, "cx": centre} overrides
@@ -67,6 +67,21 @@ elif style == "text_behind":
     sp = os.path.join(work, "text.json"); json.dump(spec["text"], open(sp, "w"))
     subprocess.run([sys.executable, os.path.join(here, "fx_style.py"), base, out, sp], check=True,
                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+elif style == "split_screen":
+    # Opener: the first two wide cuts (front, back) side by side for the
+    # length of the first cut, then the rest of the cuts full screen.
+    a, b = spec["cuts"][0][2], spec["cuts"][1][2]
+    L = min(a, b)
+    fc = (f"[0:v]trim=0:{L},setpts=PTS-STARTPTS,split=2[f1][f2];"
+          f"[0:v]trim={a}:{a + L},setpts=PTS-STARTPTS,scale=520:924[bk];"
+          f"[f1]scale=1080:1920,boxblur=30:3,eq=brightness=-0.12[bg];[f2]scale=520:924[fr];"
+          f"[bg][fr]overlay=13:498[t1];[t1][bk]overlay=547:498,setsar=1[op];"
+          f"[0:v]trim={a + b},setpts=PTS-STARTPTS[rest];[op][rest]concat=n=2:v=1[v]")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", base, "-filter_complex", fc, "-map", "[v]",
+                    "-r", "60", "-c:v", "libx264", "-crf", "17", "-preset", "slow", "-pix_fmt", "yuv420p",
+                    "-movflags", "+faststart", out], check=True)
+    t = t - a - b + L
+    cuts_t = [round(c - a - b + L, 3) for c in cuts_t[1:]]
 else:
     os.replace(base, out)
 print("cuts", [0.0] + cuts_t + [round(t, 3)])
