@@ -1400,7 +1400,29 @@
    "plan": "schedule/plans/focus/v2/yo_f11.spec.json"
   }
  ],
- "focus": {
+ "discontinued": [
+  {
+   "type": "Baju",
+   "name": "Polyester black",
+   "since": "2026-10-31",
+   "note": "Owner: seller no longer sells it. Do not make or send more videos of it.",
+   "files": [
+    {
+     "name": "IMG_0307.MOV",
+     "id": "11PE3oSVldTHFNHkgZIktPMYV-yLfRI_O"
+    },
+    {
+     "name": "IMG_0308.MOV",
+     "id": "1sXHcExDGRYrbLxbFLCZiLhINnIHB3qnu"
+    },
+    {
+     "name": "IMG_0309.MOV",
+     "id": "1MylmObIDc5dfUKGffJT2arY4LG-dcHw0"
+    }
+   ]
+  }
+ ],
+ "focus_ended": {
   "since": "2026-10-31",
   "note": "Owner: 'Lepas ni cuba buat video yooka open collar dgn boru japan sahaja, ulang2 je tapi video lain editing style'. Only these two folders, alternating, every video a different editing style.",
   "folders": [
@@ -1450,28 +1472,8 @@
     "fast_beat",
     "text_behind"
    ]
-  }
- },
- "discontinued": [
-  {
-   "type": "Baju",
-   "name": "Polyester black",
-   "since": "2026-10-31",
-   "note": "Owner: seller no longer sells it. Do not make or send more videos of it.",
-   "files": [
-    {
-     "name": "IMG_0307.MOV",
-     "id": "11PE3oSVldTHFNHkgZIktPMYV-yLfRI_O"
-    },
-    {
-     "name": "IMG_0308.MOV",
-     "id": "1sXHcExDGRYrbLxbFLCZiLhINnIHB3qnu"
-    },
-    {
-     "name": "IMG_0309.MOV",
-     "id": "1MylmObIDc5dfUKGffJT2arY4LG-dcHw0"
-    }
-   ]
-  }
- ]
+  },
+  "ended": "2026-11-04",
+  "ended_note": "Owner: 'Ok rotate semula mcm biasa semua item'. Back to the normal Baju/Seluar rotation."
+ }
 }

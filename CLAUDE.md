@@ -156,10 +156,11 @@ biasa" / "cam biasa" means: follow all of these.
 ## Daily production
 
 The owner's standing order is 5 videos a day from the raw-material library,
-alternating Baju and Seluar. **Focus mode (since 2026-10-31):** only Yooka
-open collar black and Boru Japan, alternating, each video in a different
-editing style (see `schedule/DAILY.md`, "Focus mode"); text is allowed in the
-`text_behind` style only. **Discontinued products** (seller no longer
+alternating Baju and Seluar, every product in turn (focus mode on Yooka
+open collar + Boru Japan ran 2026-10-31..11-04 and has ended: owner, "rotate
+semula mcm biasa semua item"). Default recipe again: no text, no filter. For
+shirt wide cuts keep using `tools/shirtframe.py` (mouth-level top, body
+centre, rule 2). **Discontinued products** (seller no longer
 sells them; never make or send videos of them): Polyester black (since
 2026-10-31). They are listed under `discontinued` in `queue.json`. Each video goes to the owner's TikTok drafts
 through Zernio (`tools/zernio_draft.py`); he adds the sound and posts. See `schedule/DAILY.md` for the steps and `schedule/queue.json`

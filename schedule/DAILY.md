@@ -43,7 +43,11 @@ new videos every run. TikTok refuses new inbox drafts with
 the owner's inbox: then record `draft_failed`, carry on, and tell the owner
 to post or delete the old drafts.
 
-## Focus mode (owner, 2026-10-31)
+## Focus mode (owner, 2026-10-31; ENDED 2026-11-04, back to normal rotation)
+
+Kept for reference only: the owner asked to rotate all products again
+("rotate semula mcm biasa semua item"). The styles and `tools/build_focus.py`
+can be reused if the owner asks for a style again.
 
 "Lepas ni cuba buat video yooka open collar dgn boru japan sahaja, ulang2 je
 tapi video lain editing style." While `queue.json` has a `focus` block, ignore
