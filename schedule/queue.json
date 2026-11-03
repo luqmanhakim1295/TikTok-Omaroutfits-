@@ -1338,6 +1338,61 @@
    "caption": "Print Mount Fuji yang terus tarik perhatian",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/focus/v2/bj_f10.spec.json"
+  },
+  {
+   "date": "2026-11-04",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 9,
+   "style": "flash_punch",
+   "output": "output/daily/baju_yooka-open-collar-black_f9_flash_punch.mp4",
+   "caption": "Open collar Yooka, sejuk dan senang bergerak",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/yo_f9.spec.json"
+  },
+  {
+   "date": "2026-11-04",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 11,
+   "style": "fast_beat",
+   "output": "output/daily/baju_boru-japan_f11_fast_beat.mp4",
+   "caption": "Boru Mount Fuji, padan untuk hari santai",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/bj_f11.spec.json"
+  },
+  {
+   "date": "2026-11-04",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 10,
+   "style": "cinematic",
+   "output": "output/daily/baju_yooka-open-collar-black_f10_cinematic.mp4",
+   "caption": "Kemeja hitam open collar, gaya tenang dan kemas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/yo_f10.spec.json"
+  },
+  {
+   "date": "2026-11-04",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "focus": 12,
+   "style": "text_behind",
+   "output": "output/daily/baju_boru-japan_f12_text_behind.mp4",
+   "caption": "Tee Boru dengan print Jepun yang padu",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/bj_f12.spec.json"
+  },
+  {
+   "date": "2026-11-04",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "focus": 11,
+   "style": "torn_glitch",
+   "output": "output/daily/baju_yooka-open-collar-black_f11_torn_glitch.mp4",
+   "caption": "Open collar hitam, simple tapi nampak mahal",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/focus/v2/yo_f11.spec.json"
   }
  ],
  "focus": {
@@ -1347,7 +1402,7 @@
    "Yooka open collar black",
    "Boru Japan"
   ],
-  "next": 0,
+  "next": 1,
   "styles": [
    "classic",
    "cinematic",
@@ -1371,7 +1426,10 @@
     "fast_beat",
     "classic",
     "detail_first",
-    "split_screen"
+    "split_screen",
+    "flash_punch",
+    "cinematic",
+    "torn_glitch"
    ],
    "Boru Japan": [
     "torn_glitch",
@@ -1383,7 +1441,9 @@
     "detail_first",
     "split_screen",
     "cinematic",
-    "torn_glitch"
+    "torn_glitch",
+    "fast_beat",
+    "text_behind"
    ]
   }
  },
