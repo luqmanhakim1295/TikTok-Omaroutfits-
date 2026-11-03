@@ -1259,8 +1259,9 @@
    "style": "classic",
    "output": "output/daily/baju_boru-japan_f6_classic.mp4",
    "caption": "Tee Boru navy, Mount Fuji di belakang",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/v2/bj_f6.spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-04)",
+   "plan": "schedule/plans/focus/v2/bj_f6.spec.json",
+   "zernio_post_id": "6aea144019d0b7ed3fff09cc"
   },
   {
    "date": "2026-11-02",
@@ -1270,8 +1271,9 @@
    "style": "classic",
    "output": "output/daily/baju_yooka-open-collar-black_f6_classic.mp4",
    "caption": "Kemeja open collar Yooka, potongan relax",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/v2/yo_f6.spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-04)",
+   "plan": "schedule/plans/focus/v2/yo_f6.spec.json",
+   "zernio_post_id": "6aea147a1456863b76dd9241"
   },
   {
    "date": "2026-11-02",
@@ -1281,8 +1283,9 @@
    "style": "detail_first",
    "output": "output/daily/baju_boru-japan_f7_detail_first.mp4",
    "caption": "Detail print Mount Fuji, dekat dan jelas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/v2/bj_f7.spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-04)",
+   "plan": "schedule/plans/focus/v2/bj_f7.spec.json",
+   "zernio_post_id": "6aea14b419d0b7ed3fff0bee"
   },
   {
    "date": "2026-11-03",
@@ -1292,8 +1295,9 @@
    "style": "split_screen",
    "output": "output/daily/baju_boru-japan_f8_split_screen.mp4",
    "caption": "Depan dan belakang Boru Mount Fuji sekali gus",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/v2/bj_f8.spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-04)",
+   "plan": "schedule/plans/focus/v2/bj_f8.spec.json",
+   "zernio_post_id": "6aea14e1e2062be567407e34"
   },
   {
    "date": "2026-11-03",
@@ -1303,8 +1307,9 @@
    "style": "detail_first",
    "output": "output/daily/baju_yooka-open-collar-black_f7_detail_first.mp4",
    "caption": "Kolar terbuka Yooka, detail jahitan kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/focus/v2/yo_f7.spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-04)",
+   "plan": "schedule/plans/focus/v2/yo_f7.spec.json",
+   "zernio_post_id": "6aea15111456863b76dd96d0"
   },
   {
    "date": "2026-11-03",
