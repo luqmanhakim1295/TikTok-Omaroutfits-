@@ -4,7 +4,7 @@
  "next_type": "Seluar",
  "pointer": {
   "Baju": 10,
-  "Seluar": 5
+  "Seluar": 6
  },
  "cycle": {
   "Baju": 2,
@@ -1319,9 +1319,10 @@
    "style": "cinematic",
    "output": "output/daily/baju_boru-japan_f9_cinematic.mp4",
    "caption": "Tee Mount Fuji, tenang macam petang hujung minggu",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-05)",
    "plan": "schedule/plans/focus/v2/bj_f9.spec.json",
-   "watermark": "2026-11-04 tools/watermark.py"
+   "watermark": "2026-11-04 tools/watermark.py",
+   "zernio_post_id": "6aeb6635cd543374ef4625ec"
   },
   {
    "date": "2026-11-03",
@@ -1331,9 +1332,10 @@
    "style": "split_screen",
    "output": "output/daily/baju_yooka-open-collar-black_f8_split_screen.mp4",
    "caption": "Open collar hitam, depan belakang sama kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-05)",
    "plan": "schedule/plans/focus/v2/yo_f8.spec.json",
-   "watermark": "2026-11-04 tools/watermark.py"
+   "watermark": "2026-11-04 tools/watermark.py",
+   "zernio_post_id": "6aeb666f798fc111c03e7097"
   },
   {
    "date": "2026-11-03",
@@ -1343,9 +1345,10 @@
    "style": "torn_glitch",
    "output": "output/daily/baju_boru-japan_f10_torn_glitch.mp4",
    "caption": "Print Mount Fuji yang terus tarik perhatian",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-05)",
    "plan": "schedule/plans/focus/v2/bj_f10.spec.json",
-   "watermark": "2026-11-04 tools/watermark.py"
+   "watermark": "2026-11-04 tools/watermark.py",
+   "zernio_post_id": "6aeb66a970c31206fa55f795"
   },
   {
    "date": "2026-11-04",
@@ -1355,9 +1358,10 @@
    "style": "flash_punch",
    "output": "output/daily/baju_yooka-open-collar-black_f9_flash_punch.mp4",
    "caption": "Open collar Yooka, sejuk dan senang bergerak",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-05)",
    "plan": "schedule/plans/focus/v2/yo_f9.spec.json",
-   "watermark": "2026-11-04 tools/watermark.py"
+   "watermark": "2026-11-04 tools/watermark.py",
+   "zernio_post_id": "6aeb66e2984bcc02fc7d145e"
   },
   {
    "date": "2026-11-04",
@@ -1367,9 +1371,10 @@
    "style": "fast_beat",
    "output": "output/daily/baju_boru-japan_f11_fast_beat.mp4",
    "caption": "Boru Mount Fuji, padan untuk hari santai",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-05)",
    "plan": "schedule/plans/focus/v2/bj_f11.spec.json",
-   "watermark": "2026-11-04 tools/watermark.py"
+   "watermark": "2026-11-04 tools/watermark.py",
+   "zernio_post_id": "6aeb671b984bcc02fc7d1627"
   },
   {
    "date": "2026-11-04",
@@ -1440,6 +1445,17 @@
    "caption": "Seluar Elgini relaxed, jatuh lurus dan selesa",
    "delivery": "pending",
    "plan": "schedule/plans/seluar_elgini-relaxed-pants_c3/plan.json"
+  },
+  {
+   "date": "2026-11-05",
+   "type": "Seluar",
+   "folder": "Jogger pants black",
+   "cycle": 3,
+   "output": "output/daily/seluar_jogger-pants-black_c3.mp4",
+   "scenes": "IMG_0238 62.0 front/187.2 side/98.8 side/135.0 back, IMG_0239 55.7 phone into pocket (whole move), IMG_0246 58.5",
+   "caption": "Jogger hitam, poket dalam muat phone",
+   "delivery": "pending",
+   "plan": "schedule/plans/seluar_jogger-pants-black_c3/plan.json"
   }
  ],
  "discontinued": [
