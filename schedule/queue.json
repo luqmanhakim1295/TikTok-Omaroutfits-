@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 8,
-  "Seluar": 4
+  "Baju": 10,
+  "Seluar": 5
  },
  "cycle": {
   "Baju": 2,
@@ -1406,6 +1406,40 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/focus/v2/yo_f11.spec.json",
    "watermark": "2026-11-04 tools/watermark.py"
+  },
+  {
+   "date": "2026-11-05",
+   "type": "Baju",
+   "folder": "Yooka corduroy blue",
+   "cycle": 2,
+   "output": "output/daily/baju_yooka-corduroy-blue_c2.mp4",
+   "scenes": "IMG_0302 120.0 front/64.8 side/142.2 back, IMG_0303 88.0, IMG_0304 102.0/74.0",
+   "caption": "Kemeja corduroy biru Yooka, tekstur garis halus",
+   "delivery": "pending",
+   "plan": "schedule/plans/baju_yooka-corduroy-blue_c2/spec.json",
+   "note": "Only one clean side profile: the other side has him at the frame edge (IMG_0302 2:29), cannot be centred."
+  },
+  {
+   "date": "2026-11-05",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "cycle": 2,
+   "output": "output/daily/baju_yooka-open-collar-black_c2.mp4",
+   "scenes": "IMG_0300 419.6 front/281.0 side/255.6 back, IMG_0274 54.8 side, IMG_0272 52.5, IMG_0271 106.0",
+   "caption": "Kemeja open collar hitam, kolar terbuka yang santai",
+   "delivery": "pending",
+   "plan": "schedule/plans/baju_yooka-open-collar-black_c2/spec.json"
+  },
+  {
+   "date": "2026-11-05",
+   "type": "Seluar",
+   "folder": "Elgini relaxed pants",
+   "cycle": 3,
+   "output": "output/daily/seluar_elgini-relaxed-pants_c3.mp4",
+   "scenes": "IMG_0398 112.4 front/52.0 side, IMG_0397 42.4 side/69.8 back, IMG_0400 57.0/46.0",
+   "caption": "Seluar Elgini relaxed, jatuh lurus dan selesa",
+   "delivery": "pending",
+   "plan": "schedule/plans/seluar_elgini-relaxed-pants_c3/plan.json"
   }
  ],
  "discontinued": [
