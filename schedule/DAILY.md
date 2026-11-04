@@ -114,6 +114,8 @@ per product in focus mode) and record `style` in the history entry.
    - Verify the render: check sheet with centre lines, top strip (no nose or
      eyes), Laplacian per cut, and no belly/boxer frames. Fix anything before
      going on.
+   - Watermark last: `python3 tools/watermark.py render.mp4 final.mp4`
+     (small "omaroutfits", 50 % opacity, off the garment; CLAUDE.md).
 4. Save as `output/daily/<type>_<folder-slug>_c<cycle>.mp4`, add a README
    line, commit, push. Delete the raw files to free disk.
 5. Send to TikTok drafts: confirm the raw GitHub URL

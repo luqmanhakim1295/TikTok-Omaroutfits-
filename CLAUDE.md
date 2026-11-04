@@ -139,6 +139,12 @@ biasa" / "cam biasa" means: follow all of these.
 - **No text and no colour filter** by default (the "Cinematic OOTD" title
   and grade were only for specific requests).
 - **No audio**; the owner adds a trending sound in TikTok.
+- **Watermark on every video** (owner, 2026-11-04): a very small
+  "omaroutfits" at 50 % opacity, outside the shirt/trousers, so it only shows
+  if you look for it. Last step after the render (and after any style effect):
+  `python3 tools/watermark.py in.mp4 out.mp4` (places it per cut on background
+  or skin, never on the garment or its print, away from TikTok's buttons and
+  caption). Check a zoomed frame of each cut that it isn't on the garment.
 - Good scenes the owner likes: crossed arms (show the whole shirt), phone
   going into a pocket, hand in pocket, back view, fabric texture, logos /
   patches, wide-leg vs jogger via hem cord, rolled-up sleeves.
