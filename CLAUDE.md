@@ -164,7 +164,13 @@ biasa" / "cam biasa" means: follow all of these.
 The owner's standing order is 5 videos a day from the raw-material library,
 alternating Baju and Seluar, every product in turn (focus mode on Yooka
 open collar + Boru Japan ran 2026-10-31..11-04 and has ended: owner, "rotate
-semula mcm biasa semua item"). Default recipe again: no text, no filter. For
+semula mcm biasa semua item"). **Vary the editing style** (owner,
+2026-11-05, "pelbagaikan editing style"): every video takes the next style
+in `queue.json` `styles` (flash_punch, torn_glitch, cinematic, fast_beat,
+split_screen, detail_first, text_behind, classic), built with
+`tools/build_focus.py` (`"garment": "seluar"` for trousers). Styles are listed
+in `schedule/DAILY.md`; text only in text_behind (big English word), colour
+grade only in cinematic. All non-negotiables still apply in every style. For
 shirt wide cuts keep using `tools/shirtframe.py` (mouth-level top, body
 centre, rule 2). **Discontinued products** (seller no longer
 sells them; never make or send videos of them): Polyester black (since

@@ -79,6 +79,18 @@ Styles:
 Name outputs `output/daily/baju_<slug>_f<n>_<style>.mp4` (n = running number
 per product in focus mode) and record `style` in the history entry.
 
+## Editing styles (owner, 2026-11-05: "pelbagaikan editing style")
+
+Each new video uses the next style in `queue.json` `styles.list`
+(`styles.next`, then +1, wrapping). Write a cut-list spec (four angles plus
+details, CLAUDE.md rules) and build it with
+`python3 tools/build_focus.py spec.json rawdir out.mp4 workdir`; add
+`"garment": "seluar"` for trousers (waist-to-shoe crops tracked on the legs,
+`tops`/`ch` per clip, default 240/3600) and the shirt mouth-line `tops` for
+baju. Then `tools/watermark.py`. The styles are described under "Focus mode"
+below (flash_punch, torn_glitch, cinematic, fast_beat, split_screen,
+detail_first, text_behind, classic). Record `style` in the history entry.
+
 ## Steps for each of the 5 videos
 
 1. `type = next_type`, `folder = folders[type][pointer[type]]`.

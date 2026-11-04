@@ -1544,5 +1544,19 @@
   },
   "ended": "2026-11-04",
   "ended_note": "Owner: 'Ok rotate semula mcm biasa semua item'. Back to the normal Baju/Seluar rotation."
+ },
+ "styles": {
+  "note": "Owner 2026-11-05: 'lepasni pelbagaikan editing style'. Each new video takes the next style in the list (styles[next]), so consecutive videos and the same product never repeat a style back to back.",
+  "list": [
+   "flash_punch",
+   "torn_glitch",
+   "cinematic",
+   "fast_beat",
+   "split_screen",
+   "detail_first",
+   "text_behind",
+   "classic"
+  ],
+  "next": 0
  }
 }

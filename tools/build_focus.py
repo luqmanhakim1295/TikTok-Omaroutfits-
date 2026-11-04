@@ -10,7 +10,9 @@ spec.json:
  "cuts": [["IMG_0275.MOV", 131.6, 2.0, "back"],   # optional 5th item: crop height for this cut, 6th: {"top": row, "cx": centre} overrides
           ["IMG_0278.MOV", 82.2, 1.5, "detail"], ...],
  "text": {...fx_style spec...},           # text_behind only
- "tilt": 640}                             # cinematic: tilt-up travel of the first cut (px)
+ "tilt": 640,                             # cinematic: tilt-up travel of the first cut (px)
+ "garment": "seluar"}                     # trousers: waist-to-shoe crops tracked on the legs
+                                          # (tops default 240, ch 3600, rows 0.4-0.98)
 views: front (mouth line from the pose fit), back / side (row from "tops",
 torso-mask centre), detail (full frame). Writes the plan and x-expressions to
 workdir, renders, then applies the style's post effect.
@@ -22,7 +24,8 @@ here = os.path.dirname(os.path.abspath(__file__))
 spec = json.load(open(spec_path))
 style = spec["style"]
 os.makedirs(work, exist_ok=True)
-motion_wide = {"cinematic": "drift", "fast_beat": "snap"}.get(style, "push_top")
+seluar = spec.get("garment") == "seluar"
+motion_wide = {"cinematic": "drift", "fast_beat": "snap"}.get(style, "push_bottom" if seluar else "push_top")
 motion_det = {"cinematic": "drift"}.get(style, "push_soft")
 plan, cuts_t, t = [], [], 0.0
 for k, (clip, start, length, view, *over) in enumerate(spec["cuts"]):
@@ -30,6 +33,27 @@ for k, (clip, start, length, view, *over) in enumerate(spec["cuts"]):
         # optional overrides: [.., "detail", ch, {"top": row}] to keep a face out
         o = dict(over[1]) if len(over) > 1 else {}
         plan.append([clip, start, length, o.get("top", 0), 1080, over[0] if over else 3840, motion_det])
+    elif seluar:
+        # Trousers (CLAUDE.md 6b): waist to shoes, crop 90 %+ of the height,
+        # x tracked on the legs with segtrack.py.
+        o = dict(over[1]) if len(over) > 1 else {}
+        ch = int(over[0] if over else spec.get("ch", {}).get(clip, 3600))
+        top = int(o.get("top", spec.get("tops", {}).get(clip, 240)))
+        cw = int(ch * 9 / 16) // 2 * 2
+        xe = os.path.join(work, f"x{k}.txt")
+        expr = subprocess.run([sys.executable, os.path.join(here, "segtrack.py"), os.path.join(raw, clip), str(start),
+                               str(length), str(cw), "--rows", *map(str, spec.get("rows", [0.4, 0.98]))],
+                              capture_output=True, text=True, check=True).stdout.strip()
+        open(xe, "w").write(expr + "\n")
+        print(k, clip, start, view, {"top": top, "ch": ch, "cw": cw})
+        if style == "cinematic" and k == 0:
+            # tilt up from the shoes to the waist, within the frame
+            sys.path.insert(0, os.path.join(here, ".."))
+            import edit_video
+            H = edit_video.probe(os.path.join(raw, clip))[1]
+            travel = max(0, min(spec.get("tilt", 600), H - ch - top))
+            top = f"'{top + travel}-{travel}*pow(min(t/{length},1),2)*(3-2*min(t/{length},1))'"
+        plan.append([clip, start, length, top, 1080, ch, motion_wide, os.path.basename(xe)])
     else:
         xe = os.path.join(work, f"x{k}.txt")
         cmd = [sys.executable, os.path.join(here, "shirtframe.py"), os.path.join(raw, clip),
