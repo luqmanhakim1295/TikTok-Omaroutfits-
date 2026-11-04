@@ -3,7 +3,7 @@
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
  "next_type": "Seluar",
  "pointer": {
-  "Baju": 10,
+  "Baju": 11,
   "Seluar": 6
  },
  "cycle": {
@@ -1420,7 +1420,7 @@
    "output": "output/daily/baju_yooka-corduroy-blue_c2.mp4",
    "scenes": "IMG_0302 120.0 front/64.8 side/142.2 back, IMG_0303 88.0, IMG_0304 102.0/74.0",
    "caption": "Kemeja corduroy biru Yooka, tekstur garis halus",
-   "delivery": "pending",
+   "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_yooka-corduroy-blue_c2/spec.json",
    "note": "Only one clean side profile: the other side has him at the frame edge (IMG_0302 2:29), cannot be centred."
   },
@@ -1432,7 +1432,7 @@
    "output": "output/daily/baju_yooka-open-collar-black_c2.mp4",
    "scenes": "IMG_0300 419.6 front/281.0 side/255.6 back, IMG_0274 54.8 side, IMG_0272 52.5, IMG_0271 106.0",
    "caption": "Kemeja open collar hitam, kolar terbuka yang santai",
-   "delivery": "pending",
+   "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_yooka-open-collar-black_c2/spec.json"
   },
   {
@@ -1443,7 +1443,7 @@
    "output": "output/daily/seluar_elgini-relaxed-pants_c3.mp4",
    "scenes": "IMG_0398 112.4 front/52.0 side, IMG_0397 42.4 side/69.8 back, IMG_0400 57.0/46.0",
    "caption": "Seluar Elgini relaxed, jatuh lurus dan selesa",
-   "delivery": "pending",
+   "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_elgini-relaxed-pants_c3/plan.json"
   },
   {
@@ -1454,8 +1454,19 @@
    "output": "output/daily/seluar_jogger-pants-black_c3.mp4",
    "scenes": "IMG_0238 62.0 front/187.2 side/98.8 side/135.0 back, IMG_0239 55.7 phone into pocket (whole move), IMG_0246 58.5",
    "caption": "Jogger hitam, poket dalam muat phone",
-   "delivery": "pending",
+   "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_jogger-pants-black_c3/plan.json"
+  },
+  {
+   "date": "2026-11-05",
+   "type": "Baju",
+   "folder": "Zeke coffee",
+   "cycle": 2,
+   "output": "output/daily/baju_zeke-coffee_c2.mp4",
+   "scenes": "IMG_0316 43.6 front/67.0 side/140.2 side/93.6 back, IMG_0315 40.0/68.0",
+   "caption": "Tee Zeke coklat kopi, simple dan selesa",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_zeke-coffee_c2/spec.json"
   }
  ],
  "discontinued": [
