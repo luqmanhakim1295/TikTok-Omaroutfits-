@@ -1,0 +1,50 @@
+{
+ "style": "cinematic",
+ "garment": "seluar",
+ "tilt": 500,
+ "tops": {
+  "IMG_0317.MOV": 300
+ },
+ "ch": {
+  "IMG_0317.MOV": 3540
+ },
+ "cuts": [
+  [
+   "IMG_0317.MOV",
+   158.2,
+   2.6,
+   "back",
+   3200
+  ],
+  [
+   "IMG_0319.MOV",
+   66.3,
+   1.8,
+   "detail"
+  ],
+  [
+   "IMG_0317.MOV",
+   191.2,
+   2.2,
+   "front"
+  ],
+  [
+   "IMG_0317.MOV",
+   131.4,
+   2.0,
+   "side"
+  ],
+  [
+   "IMG_0319.MOV",
+   81.6,
+   1.6,
+   "detail"
+  ],
+  [
+   "IMG_0319.MOV",
+   52.6,
+   1.8,
+   "detail"
+  ]
+ ]
+}

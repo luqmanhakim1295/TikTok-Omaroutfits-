@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 0,
-  "Seluar": 7
+  "Seluar": 8
  },
  "cycle": {
   "Baju": 3,
@@ -1496,6 +1496,19 @@
    "caption": "Windbreaker Zeke dua tona, ringan dan ada hud",
    "delivery": "pending",
    "plan": "schedule/plans/baju_zeke-windbreaker_c2/spec.json"
+  },
+  {
+   "date": "2026-11-07",
+   "type": "Seluar",
+   "folder": "Yooka black slack",
+   "cycle": 3,
+   "style": "cinematic",
+   "output": "output/daily/seluar_yooka-black-slack_c3.mp4",
+   "scenes": "IMG_0317 158.2 back (tilt)/191.2 front/131.4 side, IMG_0319 66.3/81.6/52.6 right side handheld",
+   "caption": "Slack hitam Yooka, kemas untuk keluar malam",
+   "delivery": "pending",
+   "plan": "schedule/plans/seluar_yooka-black-slack_c3/spec.json",
+   "note": "No tripod right-side shot; right side is a handheld waist-to-shin shot."
   }
  ],
  "discontinued": [
@@ -1586,6 +1599,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 2
+  "next": 3
  }
 }
