@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 3,
+  "Baju": 4,
   "Seluar": 2
  },
  "cycle": {
@@ -1585,6 +1585,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_cargo-elgini_c4/spec.json",
    "note": "All four angles (the other profile is at 308-311 s of IMG_0557). Watermark pinned with --spots."
+  },
+  {
+   "date": "2026-11-08",
+   "type": "Baju",
+   "folder": "F1 team",
+   "cycle": 3,
+   "style": "torn_glitch",
+   "output": "output/daily/baju_f1-team_c3.mp4",
+   "scenes": "IMG_0339 119.6 front/133.0 side/221.2 back/242.8 side, IMG_0344 17.0, IMG_0346 37.0",
+   "caption": "Jersi F1 Petronas, putih hitam nampak sporty",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_f1-team_c3/spec.json",
+   "note": "Made 2 h late: Drive quota blocked downloads at 17:32 UTC; IMG_0342/0343 still blocked, details from IMG_0344/0346. Watermark pinned with --spots."
   }
  ],
  "discontinued": [
@@ -1675,6 +1688,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 1
+  "next": 2
  }
 }
