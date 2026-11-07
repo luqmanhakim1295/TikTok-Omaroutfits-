@@ -126,7 +126,7 @@ for k in range(len(bounds) - 1):
         x0, y0 = max(x0, 0), max(y0, 0)
         p = float(person[f0:f1, y0:y1, x0:x1].mean())
         c = float(clothes[f0:f1, y0:y1, x0:x1].mean())
-        score = p + 10 * c + (0.01 if o == "v" else 0) + (0.02 if 300 <= x <= 600 else 0)
+        score = 3 * p + 8 * c + (0.01 if o == "v" else 0) + (0.02 if 300 <= x <= 600 else 0)   # any body part (the garment segment can miss a dark jacket) and the garment both count
         if best is None or score < best[0]:
             best = (score, o, x, y, p, c, float(F[f0:f1, y0:y1, x0:x1].mean()))
     _, o, x, y, p, c, lum = best

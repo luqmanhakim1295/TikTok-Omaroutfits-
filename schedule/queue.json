@@ -3,11 +3,11 @@
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
  "next_type": "Seluar",
  "pointer": {
-  "Baju": 11,
-  "Seluar": 6
+  "Baju": 0,
+  "Seluar": 7
  },
  "cycle": {
-  "Baju": 2,
+  "Baju": 3,
   "Seluar": 3
  },
  "folders": {
@@ -1472,6 +1472,30 @@
    "caption": "Tee Zeke coklat kopi, simple dan selesa",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_zeke-coffee_c2/spec.json"
+  },
+  {
+   "date": "2026-11-07",
+   "type": "Seluar",
+   "folder": "OS Red Stripe",
+   "cycle": 3,
+   "style": "flash_punch",
+   "output": "output/daily/seluar_os-red-stripe_c3.mp4",
+   "scenes": "IMG_0356 294.6 front/124.4 side/140.0 side/286.4 back, IMG_0365 13.5, IMG_0361 7.0",
+   "caption": "Track pants jalur merah, logo sulam di depan",
+   "delivery": "pending",
+   "plan": "schedule/plans/seluar_os-red-stripe_c3/spec.json"
+  },
+  {
+   "date": "2026-11-07",
+   "type": "Baju",
+   "folder": "Zeke windbreaker",
+   "cycle": 2,
+   "style": "torn_glitch",
+   "output": "output/daily/baju_zeke-windbreaker_c2.mp4",
+   "scenes": "IMG_0203-2 362.8 front/378.0 side/439.6 side/460.2 back, IMG_0205 120.0/156.0",
+   "caption": "Windbreaker Zeke dua tona, ringan dan ada hud",
+   "delivery": "pending",
+   "plan": "schedule/plans/baju_zeke-windbreaker_c2/spec.json"
   }
  ],
  "discontinued": [
@@ -1562,6 +1586,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 0
+  "next": 2
  }
 }
