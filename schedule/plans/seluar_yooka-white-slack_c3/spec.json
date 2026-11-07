@@ -1,0 +1,50 @@
+{
+ "style": "split_screen",
+ "garment": "seluar",
+ "tops": {
+  "IMG_0262.MOV": 300,
+  "IMG_0265.MOV": 300
+ },
+ "ch": {
+  "IMG_0262.MOV": 3540,
+  "IMG_0265.MOV": 3540
+ },
+ "cuts": [
+  [
+   "IMG_0262.MOV",
+   252.0,
+   2.0,
+   "front"
+  ],
+  [
+   "IMG_0265.MOV",
+   84.8,
+   2.0,
+   "back"
+  ],
+  [
+   "IMG_0263.MOV",
+   39.0,
+   1.2,
+   "detail"
+  ],
+  [
+   "IMG_0262.MOV",
+   126.6,
+   2.0,
+   "side"
+  ],
+  [
+   "IMG_0265.MOV",
+   63.2,
+   2.0,
+   "back"
+  ],
+  [
+   "IMG_0262.MOV",
+   258.2,
+   2.0,
+   "front"
+  ]
+ ]
+}
