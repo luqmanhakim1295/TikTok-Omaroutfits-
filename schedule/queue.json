@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 1,
+  "Baju": 2,
   "Seluar": 0
  },
  "cycle": {
@@ -1534,6 +1534,18 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_yooka-white-slack_c3/spec.json",
    "note": "Right side left out: in every right-profile stretch he stands at the left third of the tripod frame; centring would need a crop far tighter than rule 6b allows."
+  },
+  {
+   "date": "2026-11-08",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "cycle": 3,
+   "style": "detail_first",
+   "output": "output/daily/baju_boru-japan_c3.mp4",
+   "scenes": "IMG_0278 49.5/82.8, IMG_0275 44.6 front/46.6 side/133.8 back/106.4 side",
+   "caption": "Detail logo dan print Mount Fuji, tee Boru",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_boru-japan_c3/spec.json"
   }
  ],
  "discontinued": [
@@ -1624,6 +1636,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 5
+  "next": 6
  }
 }
