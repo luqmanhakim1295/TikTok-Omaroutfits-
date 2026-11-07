@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 2,
+  "Baju": 3,
   "Seluar": 1
  },
  "cycle": {
@@ -1559,6 +1559,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_baggy-corduroy-pants_c4/spec.json",
    "note": "Only one side profile in the footage (rule 2f). Watermark placed by hand (--spots): segmenter reads the beige corduroy as skin."
+  },
+  {
+   "date": "2026-11-08",
+   "type": "Baju",
+   "folder": "Boru moon",
+   "cycle": 3,
+   "style": "classic",
+   "output": "output/daily/baju_boru-moon_c3.mp4",
+   "scenes": "IMG_0402 64.8 front/47.8 side/115.4 back/70.4 side, IMG_0405 20.2, IMG_0408 21.0",
+   "caption": "Tee Boru Moon, print belakang memang padu",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_boru-moon_c3/spec.json",
+   "note": "Side cuts end at the knee (smaller ch): he stands right of the tripod centre in both profiles. Watermark placed with --spots."
   }
  ],
  "discontinued": [
@@ -1649,6 +1662,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 7
+  "next": 0
  }
 }
