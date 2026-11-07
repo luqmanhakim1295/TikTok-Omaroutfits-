@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 0,
+  "Baju": 1,
   "Seluar": 8
  },
  "cycle": {
@@ -1509,6 +1509,18 @@
    "delivery": "pending",
    "plan": "schedule/plans/seluar_yooka-black-slack_c3/spec.json",
    "note": "No tripod right-side shot; right side is a handheld waist-to-shin shot."
+  },
+  {
+   "date": "2026-11-07",
+   "type": "Baju",
+   "folder": "Advo polo green",
+   "cycle": 3,
+   "style": "fast_beat",
+   "output": "output/daily/baju_advo-polo-green_c3.mp4",
+   "scenes": "IMG_0233 227.6/228.6 front, 252.6/253.6 side, 347.8/349.0 side, 365.4/368.0 back, IMG_0235 125/107/42.5/117",
+   "caption": "Polo hijau Advo, kain licin dan sejuk",
+   "delivery": "pending",
+   "plan": "schedule/plans/baju_advo-polo-green_c3/spec.json"
   }
  ],
  "discontinued": [
@@ -1599,6 +1611,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 3
+  "next": 4
  }
 }
