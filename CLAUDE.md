@@ -145,6 +145,9 @@ biasa" / "cam biasa" means: follow all of these.
   `python3 tools/watermark.py in.mp4 out.mp4` (places it per cut on background
   or skin, never on the garment or its print, away from TikTok's buttons and
   caption). Check a zoomed frame of each cut that it isn't on the garment.
+  The automatic spot can land on beige/neutral garments (read as skin) and can
+  change between runs: when one is wrong, pin every cut with `--spots` (one
+  `["h"|"v", x, y]` per cut) and check the zooms again.
 - Good scenes the owner likes: crossed arms (show the whole shirt), phone
   going into a pocket, hand in pocket, back view, fabric texture, logos /
   patches, wide-leg vs jogger via hem cord, rolled-up sleeves.

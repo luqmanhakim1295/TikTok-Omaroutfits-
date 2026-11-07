@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 3,
-  "Seluar": 1
+  "Seluar": 2
  },
  "cycle": {
   "Baju": 3,
@@ -1572,6 +1572,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_boru-moon_c3/spec.json",
    "note": "Side cuts end at the knee (smaller ch): he stands right of the tripod centre in both profiles. Watermark placed with --spots."
+  },
+  {
+   "date": "2026-11-08",
+   "type": "Seluar",
+   "folder": "Cargo elgini",
+   "cycle": 4,
+   "style": "flash_punch",
+   "output": "output/daily/seluar_cargo-elgini_c4.mp4",
+   "scenes": "IMG_0557 198.6 front/233.8 side/299.6 back/308.4 side, IMG_0560 259.5/69.5/271.8",
+   "caption": "Cargo beige Elgini, poket zip kiri kanan",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_cargo-elgini_c4/spec.json",
+   "note": "All four angles (the other profile is at 308-311 s of IMG_0557). Watermark pinned with --spots."
   }
  ],
  "discontinued": [
@@ -1662,6 +1675,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 0
+  "next": 1
  }
 }
