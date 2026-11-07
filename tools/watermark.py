@@ -2,6 +2,7 @@
 very small, 50 % opacity, only visible if you look for it).
 
 usage: python3 tools/watermark.py in.mp4 out.mp4 [--text omaroutfits] [--size 26] [--opacity 0.5]
+       [--spots '[["v",10,1000],null,["h",120,1000]]']
 
 The person is found with the segmenter from stepscan.py on frames every
 0.25 s. A few candidate spots on the background are scored by how often the
@@ -12,6 +13,11 @@ background there: white on dark, black on light. Each
 cut is placed on its own (close-ups leave no background in some spots), on
 free background when there is any, else where the least garment shows.
 Prints the spot per cut.
+
+--spots: manual spot per cut (orientation "h"/"v", x, y in output px; null =
+automatic). Use it when the segmenter misreads the garment: beige/neutral
+trousers are often labelled skin, so the automatic spot lands on them. Check a
+zoomed frame of every cut after.
 """
 import argparse, json, os, subprocess, sys
 import numpy as np, cv2
@@ -25,6 +31,7 @@ ap.add_argument("src"); ap.add_argument("dst")
 ap.add_argument("--text", default="omaroutfits")
 ap.add_argument("--size", type=int, default=24)
 ap.add_argument("--opacity", type=float, default=0.5)
+ap.add_argument("--spots", help="JSON list, one [o, x, y] or null per cut")
 a = ap.parse_args()
 if not os.path.exists(FONT):
     FONT = "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
@@ -130,6 +137,13 @@ for k in range(len(bounds) - 1):
         if best is None or score < best[0]:
             best = (score, o, x, y, p, c, float(F[f0:f1, y0:y1, x0:x1].mean()))
     _, o, x, y, p, c, lum = best
+    manual = json.loads(a.spots) if a.spots else []
+    if k < len(manual) and manual[k]:
+        o, x, y = manual[k]
+        bw, bh = (tw, th) if o == "h" else (th, tw)
+        x0, y0, x1, y1 = (int(v * w / W) for v in (x, y, x + bw, y + bh))
+        p = float(person[f0:f1, y0:y1, x0:x1].mean()); c = float(clothes[f0:f1, y0:y1, x0:x1].mean())
+        lum = float(F[f0:f1, y0:y1, x0:x1].mean())
     colour = "black" if lum > 150 else "white"
     t0, t1 = f0 / fps, (f1 / fps if f1 < len(F) else dur + 1)
     placed.append({"t": [round(t0, 2), round(min(t1, dur), 2)], "o": o, "x": x, "y": y,

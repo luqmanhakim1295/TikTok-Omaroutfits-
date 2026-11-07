@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 2,
-  "Seluar": 0
+  "Seluar": 1
  },
  "cycle": {
   "Baju": 3,
@@ -1546,6 +1546,19 @@
    "caption": "Detail logo dan print Mount Fuji, tee Boru",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_boru-japan_c3/spec.json"
+  },
+  {
+   "date": "2026-11-08",
+   "type": "Seluar",
+   "folder": "Baggy corduroy pants",
+   "cycle": 4,
+   "style": "text_behind",
+   "output": "output/daily/seluar_baggy-corduroy-pants_c4.mp4",
+   "scenes": "IMG_0276 226.0 front/116.4 back/250.8 side, IMG_0279 120.5/56.8",
+   "caption": "Corduroy baggy beige, jatuh cantik sampai kasut",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_baggy-corduroy-pants_c4/spec.json",
+   "note": "Only one side profile in the footage (rule 2f). Watermark placed by hand (--spots): segmenter reads the beige corduroy as skin."
   }
  ],
  "discontinued": [
@@ -1636,6 +1649,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 6
+  "next": 7
  }
 }
