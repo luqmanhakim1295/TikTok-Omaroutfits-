@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 6,
-  "Seluar": 4
+  "Seluar": 5
  },
  "cycle": {
   "Baju": 3,
@@ -1655,6 +1655,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_textured_c3/spec.json",
    "note": "Side cuts end above the feet (ch 3200/3400) so the body stays centred. Watermark pinned."
+  },
+  {
+   "date": "2026-11-09",
+   "type": "Seluar",
+   "folder": "Elgini relaxed pants",
+   "cycle": 4,
+   "style": "text_behind",
+   "output": "output/daily/seluar_elgini-relaxed-pants_c4.mp4",
+   "scenes": "IMG_0397 98.0 front/57.0 side/82.8 back, IMG_0398 46.8 side, IMG_0400 7.0/50.0",
+   "caption": "Seluar Elgini relaxed, potongan lurus dan longgar",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_elgini-relaxed-pants_c4/spec.json",
+   "note": "Text RELAXED (front) and ELGINI (back). IMG_0397 cuts at ch 3460 so he sits on the centre line. Watermark pinned; on the two close-ups it sits on the green shirt (no background in frame)."
   }
  ],
  "discontinued": [
@@ -1745,6 +1758,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 6
+  "next": 7
  }
 }
