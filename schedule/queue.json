@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 4,
+  "Baju": 5,
   "Seluar": 3
  },
  "cycle": {
@@ -1616,6 +1616,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_cargo-grey_c4/spec.json",
    "note": "No tilt (ch 3600 leaves no room); warm moody grade. Second profile window overlaps c3 (only clear right profile in the footage)."
+  },
+  {
+   "date": "2026-11-09",
+   "type": "Baju",
+   "folder": "Sweat shirt v neck grey",
+   "cycle": 3,
+   "style": "fast_beat",
+   "output": "output/daily/baju_sweat-shirt-v-neck-grey_c3.mp4",
+   "scenes": "IMG_0391-2 21.5/37.0 front, 62.0 side, 77.5 back; IMG_0382 51.5 side/97.0 back/45.5 front; IMG_0386 42.0/70.0/53.0, IMG_0388 22.6",
+   "caption": "Sweater v-neck kelabu, tekstur kait nampak mahal",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_sweat-shirt-v-neck-grey_c3/spec.json",
+   "note": "11 cuts of 0.7-0.8 s. Second profile is three-quarter (hand in pocket), the clear profile is the other side. Watermark with --cuts and --spots."
   }
  ],
  "discontinued": [
@@ -1706,6 +1719,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 3
+  "next": 4
  }
 }

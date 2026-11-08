@@ -14,6 +14,9 @@ cut is placed on its own (close-ups leave no background in some spots), on
 free background when there is any, else where the least garment shows.
 Prints the spot per cut.
 
+--cuts: cut times (s) to use instead of detecting them, e.g. the inner times
+of build_focus's "cuts" line.
+
 --spots: manual spot per cut (orientation "h"/"v", x, y in output px; null =
 automatic). Use it when the segmenter misreads the garment: beige/neutral
 trousers are often labelled skin, so the automatic spot lands on them. Check a
@@ -32,6 +35,8 @@ ap.add_argument("--text", default="omaroutfits")
 ap.add_argument("--size", type=int, default=24)
 ap.add_argument("--opacity", type=float, default=0.5)
 ap.add_argument("--spots", help="JSON list, one [o, x, y] or null per cut")
+ap.add_argument("--cuts", type=float, nargs="+", help="cut times in s (build_focus prints them); "
+                "use for fast_beat and effect-heavy styles where frame differences miss cuts")
 a = ap.parse_args()
 if not os.path.exists(FONT):
     FONT = "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
@@ -100,6 +105,8 @@ diff = np.abs(np.diff(g, axis=0)).mean((1, 2))
 thr = max(18.0, float(np.median(diff)) * 4)
 bounds = [0] + [i + 1 for i, d in enumerate(diff) if d > thr] + [len(F)]
 bounds = [b for i, b in enumerate(bounds) if i == 0 or b - bounds[i - 1] >= 3 or b == len(F)]
+if a.cuts:
+    bounds = sorted({0, len(F), *[min(len(F), int(round(c * fps))) for c in a.cuts if 0 < c * fps < len(F)]})
 
 tw = int(a.size * 0.56 * len(a.text)) + 8   # rough text box in output px
 th = int(a.size * 1.3)
