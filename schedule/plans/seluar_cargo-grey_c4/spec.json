@@ -1,0 +1,4 @@
+{"style":"cinematic","garment":"seluar","tops":{"IMG_0370.MOV":240},"ch":{"IMG_0370.MOV":3600},"tilt":600,
+ "grade":"schedule/grades/moody_street.txt",
+ "cuts":[["IMG_0370.MOV",99.6,2.4,"front"],["IMG_0368.MOV",16.0,1.9,"detail"],["IMG_0370.MOV",121.8,2.2,"side"],
+         ["IMG_0369.MOV",28.0,1.8,"detail"],["IMG_0370.MOV",127.0,2.0,"side"],["IMG_0370.MOV",174.4,2.4,"back"]]}

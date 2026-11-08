@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 4,
-  "Seluar": 2
+  "Seluar": 3
  },
  "cycle": {
   "Baju": 3,
@@ -1603,6 +1603,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_f1-team_c3/spec.json",
    "note": "Made 2 h late: Drive quota blocked downloads at 17:32 UTC; IMG_0342/0343 still blocked, details from IMG_0344/0346. Watermark pinned with --spots."
+  },
+  {
+   "date": "2026-11-09",
+   "type": "Seluar",
+   "folder": "Cargo grey",
+   "cycle": 4,
+   "style": "cinematic",
+   "output": "output/daily/seluar_cargo-grey_c4.mp4",
+   "scenes": "IMG_0370 99.6 front/121.8 side/127.0 side/174.4 back, IMG_0368 16.0 phone into pocket, IMG_0369 28.0",
+   "caption": "Cargo kelabu, poket sisi muat phone",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_cargo-grey_c4/spec.json",
+   "note": "No tilt (ch 3600 leaves no room); warm moody grade. Second profile window overlaps c3 (only clear right profile in the footage)."
   }
  ],
  "discontinued": [
@@ -1693,6 +1706,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 2
+  "next": 3
  }
 }
