@@ -243,4 +243,4 @@ Rotation resumed 2026-11-05 (watermarked, four angles, shirt cuts from the mouth
 
 2026-11-08 (styles continue): `baju_boru-japan_c3.mp4` (detail_first), `seluar_baggy-corduroy-pants_c4.mp4` (text_behind "CORDUROY"/"BAGGY", 9s; one side profile only; watermark placed with `tools/watermark.py --spots` because the beige corduroy reads as skin to the segmenter), `baju_boru-moon_c3.mp4` (classic, 11s; side cuts end at the knee so he stays centred)., `seluar_cargo-elgini_c4.mp4` (flash_punch, 12.5s, all four angles)., `baju_f1-team_c3.mp4` (torn_glitch, 11s; made two hours later because Drive blocked downloads).
 
-2026-11-09 (styles continue): `seluar_cargo-grey_c4.mp4` (cinematic, 12.75s, whole phone-into-pocket move)., `baju_sweat-shirt-v-neck-grey_c3.mp4` (fast_beat, 8.5s, 11 cuts).
+2026-11-09 (styles continue): `seluar_cargo-grey_c4.mp4` (cinematic, 12.75s, whole phone-into-pocket move)., `baju_sweat-shirt-v-neck-grey_c3.mp4` (fast_beat, 8.5s, 11 cuts)., `seluar_elgini-grey_c4.mp4` (split_screen, 10.5s).

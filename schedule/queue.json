@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 5,
-  "Seluar": 3
+  "Seluar": 4
  },
  "cycle": {
   "Baju": 3,
@@ -1629,6 +1629,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_sweat-shirt-v-neck-grey_c3/spec.json",
    "note": "11 cuts of 0.7-0.8 s. Second profile is three-quarter (hand in pocket), the clear profile is the other side. Watermark with --cuts and --spots."
+  },
+  {
+   "date": "2026-11-09",
+   "type": "Seluar",
+   "folder": "Elgini grey",
+   "cycle": 4,
+   "style": "split_screen",
+   "output": "output/daily/seluar_elgini-grey_c4.mp4",
+   "scenes": "IMG_0347 279.0 front + 241.6 back (split opener), 254.0 side, 290.0 side; IMG_0350 43.0/78.0, IMG_0352 44.5",
+   "caption": "Seluar track kelabu, pinggang getah dan tali",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_elgini-grey_c4/spec.json",
+   "note": "Side cuts at ch 3460 (90 %) so the crop can reach him. Watermark pinned; on the two waistband close-ups it sits on the white shirt (no background in frame)."
   }
  ],
  "discontinued": [
@@ -1719,6 +1732,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 4
+  "next": 5
  }
 }
