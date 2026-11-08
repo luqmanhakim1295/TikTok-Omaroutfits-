@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 5,
+  "Baju": 6,
   "Seluar": 4
  },
  "cycle": {
@@ -1642,6 +1642,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_elgini-grey_c4/spec.json",
    "note": "Side cuts at ch 3460 (90 %) so the crop can reach him. Watermark pinned; on the two waistband close-ups it sits on the white shirt (no background in frame)."
+  },
+  {
+   "date": "2026-11-09",
+   "type": "Baju",
+   "folder": "textured",
+   "cycle": 3,
+   "style": "detail_first",
+   "output": "output/daily/baju_textured_c3.mp4",
+   "scenes": "IMG_0256 51.6 texture, IMG_0255 30.5 collar, IMG_0256 162.5 cuff; IMG_0253 247.2 front/149.4 side/201.6 back/177.2 side",
+   "caption": "Kemeja tekstur olive, kain timbul nampak lain",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_textured_c3/spec.json",
+   "note": "Side cuts end above the feet (ch 3200/3400) so the body stays centred. Watermark pinned."
   }
  ],
  "discontinued": [
@@ -1732,6 +1745,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 5
+  "next": 6
  }
 }
