@@ -1448,8 +1448,9 @@
    "output": "output/daily/seluar_elgini-relaxed-pants_c3.mp4",
    "scenes": "IMG_0398 112.4 front/52.0 side, IMG_0397 42.4 side/69.8 back, IMG_0400 57.0/46.0",
    "caption": "Seluar Elgini relaxed, jatuh lurus dan selesa",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/seluar_elgini-relaxed-pants_c3/plan.json"
+   "delivery": "tiktok-draft (sent 2026-11-08)",
+   "plan": "schedule/plans/seluar_elgini-relaxed-pants_c3/plan.json",
+   "zernio_post_id": "6af09fd11c6462e81d5fb611"
   },
   {
    "date": "2026-11-05",
@@ -1459,8 +1460,9 @@
    "output": "output/daily/seluar_jogger-pants-black_c3.mp4",
    "scenes": "IMG_0238 62.0 front/187.2 side/98.8 side/135.0 back, IMG_0239 55.7 phone into pocket (whole move), IMG_0246 58.5",
    "caption": "Jogger hitam, poket dalam muat phone",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/seluar_jogger-pants-black_c3/plan.json"
+   "delivery": "tiktok-draft (sent 2026-11-08)",
+   "plan": "schedule/plans/seluar_jogger-pants-black_c3/plan.json",
+   "zernio_post_id": "6af09ff7a44621a3c8954ad1"
   },
   {
    "date": "2026-11-05",
@@ -1470,8 +1472,9 @@
    "output": "output/daily/baju_zeke-coffee_c2.mp4",
    "scenes": "IMG_0316 43.6 front/67.0 side/140.2 side/93.6 back, IMG_0315 40.0/68.0",
    "caption": "Tee Zeke coklat kopi, simple dan selesa",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/baju_zeke-coffee_c2/spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-08)",
+   "plan": "schedule/plans/baju_zeke-coffee_c2/spec.json",
+   "zernio_post_id": "6af0a01f1c6462e81d5fb849"
   },
   {
    "date": "2026-11-07",
@@ -1482,8 +1485,9 @@
    "output": "output/daily/seluar_os-red-stripe_c3.mp4",
    "scenes": "IMG_0356 294.6 front/124.4 side/140.0 side/286.4 back, IMG_0365 13.5, IMG_0361 7.0",
    "caption": "Track pants jalur merah, logo sulam di depan",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/seluar_os-red-stripe_c3/spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-08)",
+   "plan": "schedule/plans/seluar_os-red-stripe_c3/spec.json",
+   "zernio_post_id": "6af0a0441c6462e81d5fba0c"
   },
   {
    "date": "2026-11-07",
@@ -1494,8 +1498,9 @@
    "output": "output/daily/baju_zeke-windbreaker_c2.mp4",
    "scenes": "IMG_0203-2 362.8 front/378.0 side/439.6 side/460.2 back, IMG_0205 120.0/156.0",
    "caption": "Windbreaker Zeke dua tona, ringan dan ada hud",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/baju_zeke-windbreaker_c2/spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-08)",
+   "plan": "schedule/plans/baju_zeke-windbreaker_c2/spec.json",
+   "zernio_post_id": "6af0a06ff7bde202ffbfc7ac"
   },
   {
    "date": "2026-11-07",
