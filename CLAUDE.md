@@ -147,7 +147,9 @@ biasa" / "cam biasa" means: follow all of these.
   caption). Check a zoomed frame of each cut that it isn't on the garment.
   The automatic spot can land on beige/neutral garments (read as skin) and can
   change between runs: when one is wrong, pin every cut with `--spots` (one
-  `["h"|"v", x, y]` per cut) and check the zooms again.
+  `["h"|"v", x, y]` per cut) and check the zooms again. Pass `--cuts` (the cut times
+  build_focus prints) for fast_beat and effect styles, where the automatic
+  cut detection merges cuts.
 - Good scenes the owner likes: crossed arms (show the whole shirt), phone
   going into a pocket, hand in pocket, back view, fabric texture, logos /
   patches, wide-leg vs jogger via hem cord, rolled-up sleeves.
