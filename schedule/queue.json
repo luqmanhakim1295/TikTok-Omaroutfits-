@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 7,
+  "Baju": 8,
   "Seluar": 6
  },
  "cycle": {
@@ -1699,6 +1699,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_jogger-pants-black_c4/spec.json",
    "note": "Watermark pinned (on the vase/rack)."
+  },
+  {
+   "date": "2026-11-10",
+   "type": "Baju",
+   "folder": "Yooka black plain long sleeves",
+   "cycle": 3,
+   "style": "torn_glitch",
+   "output": "output/daily/baju_yooka-black-plain-long-sleeves_c3.mp4",
+   "scenes": "IMG_0266 210.4 front crossed arms/92.8 side/150.2 back/137.2 side, IMG_0267 213.0 placket, IMG_0269 12.2 collar",
+   "caption": "Kemeja hitam Yooka lengan panjang, kemas dan simple",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c3/spec.json",
+   "note": "Tripod footage stops at the thigh (no feet). Side cuts start at the collar (top 580) because he looks down in both profiles. Watermark pinned."
   }
  ],
  "discontinued": [
@@ -1789,6 +1802,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 1
+  "next": 2
  }
 }
