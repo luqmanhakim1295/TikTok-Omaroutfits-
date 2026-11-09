@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 6,
+  "Baju": 7,
   "Seluar": 5
  },
  "cycle": {
@@ -1673,6 +1673,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_elgini-relaxed-pants_c4/spec.json",
    "note": "Text RELAXED (front) and ELGINI (back). IMG_0397 cuts at ch 3460 so he sits on the centre line. Watermark pinned; on the two close-ups it sits on the green shirt (no background in frame)."
+  },
+  {
+   "date": "2026-11-10",
+   "type": "Baju",
+   "folder": "VPG",
+   "cycle": 3,
+   "style": "classic",
+   "output": "output/daily/baju_vpg_c3.mp4",
+   "scenes": "IMG_0383 62.4 front/78.6 side/110.6 back/129.2 side, IMG_0384 28.0/73.0, IMG_0393 15.0",
+   "caption": "Polo hitam VPG, tekstur kait nampak kemas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_vpg_c3/spec.json",
+   "note": "Torso mask was pulled by the dark clothes rack: side/back centres set by hand (cx) from grid frames. Watermark pinned."
   }
  ],
  "discontinued": [
@@ -1763,6 +1776,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 7
+  "next": 0
  }
 }
