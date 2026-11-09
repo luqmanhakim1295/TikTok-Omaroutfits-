@@ -1511,9 +1511,10 @@
    "output": "output/daily/seluar_yooka-black-slack_c3.mp4",
    "scenes": "IMG_0317 158.2 back (tilt)/191.2 front/131.4 side, IMG_0319 66.3/81.6/52.6 right side handheld",
    "caption": "Slack hitam Yooka, kemas untuk keluar malam",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-09)",
    "plan": "schedule/plans/seluar_yooka-black-slack_c3/spec.json",
-   "note": "No tripod right-side shot; right side is a handheld waist-to-shin shot."
+   "note": "No tripod right-side shot; right side is a handheld waist-to-shin shot.",
+   "zernio_post_id": "6af1f22e9c2d61b98bf6c4b8"
   },
   {
    "date": "2026-11-07",
@@ -1524,8 +1525,9 @@
    "output": "output/daily/baju_advo-polo-green_c3.mp4",
    "scenes": "IMG_0233 227.6/228.6 front, 252.6/253.6 side, 347.8/349.0 side, 365.4/368.0 back, IMG_0235 125/107/42.5/117",
    "caption": "Polo hijau Advo, kain licin dan sejuk",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/baju_advo-polo-green_c3/spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-09)",
+   "plan": "schedule/plans/baju_advo-polo-green_c3/spec.json",
+   "zernio_post_id": "6af1f2499c2d61b98bf6c58d"
   },
   {
    "date": "2026-11-07",
@@ -1536,9 +1538,10 @@
    "output": "output/daily/seluar_yooka-white-slack_c3.mp4",
    "scenes": "IMG_0262 252.0 front/126.6 side/258.2 front, IMG_0265 84.8/63.2 back, IMG_0263 39.0",
    "caption": "Slack krim Yooka, depan belakang sama kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-09)",
    "plan": "schedule/plans/seluar_yooka-white-slack_c3/spec.json",
-   "note": "Right side left out: in every right-profile stretch he stands at the left third of the tripod frame; centring would need a crop far tighter than rule 6b allows."
+   "note": "Right side left out: in every right-profile stretch he stands at the left third of the tripod frame; centring would need a crop far tighter than rule 6b allows.",
+   "zernio_post_id": "6af1f26f9c2d61b98bf6c645"
   },
   {
    "date": "2026-11-08",
@@ -1549,8 +1552,9 @@
    "output": "output/daily/baju_boru-japan_c3.mp4",
    "scenes": "IMG_0278 49.5/82.8, IMG_0275 44.6 front/46.6 side/133.8 back/106.4 side",
    "caption": "Detail logo dan print Mount Fuji, tee Boru",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "plan": "schedule/plans/baju_boru-japan_c3/spec.json"
+   "delivery": "tiktok-draft (sent 2026-11-09)",
+   "plan": "schedule/plans/baju_boru-japan_c3/spec.json",
+   "zernio_post_id": "6af1f28a9c2d61b98bf6c7a0"
   },
   {
    "date": "2026-11-08",
@@ -1561,9 +1565,10 @@
    "output": "output/daily/seluar_baggy-corduroy-pants_c4.mp4",
    "scenes": "IMG_0276 226.0 front/116.4 back/250.8 side, IMG_0279 120.5/56.8",
    "caption": "Corduroy baggy beige, jatuh cantik sampai kasut",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-09)",
    "plan": "schedule/plans/seluar_baggy-corduroy-pants_c4/spec.json",
-   "note": "Only one side profile in the footage (rule 2f). Watermark placed by hand (--spots): segmenter reads the beige corduroy as skin."
+   "note": "Only one side profile in the footage (rule 2f). Watermark placed by hand (--spots): segmenter reads the beige corduroy as skin.",
+   "zernio_post_id": "6af1f2b041d2e29e8937444e"
   },
   {
    "date": "2026-11-08",
