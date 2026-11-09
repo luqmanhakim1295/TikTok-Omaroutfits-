@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 8,
-  "Seluar": 6
+  "Seluar": 7
  },
  "cycle": {
   "Baju": 3,
@@ -1712,6 +1712,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c3/spec.json",
    "note": "Tripod footage stops at the thigh (no feet). Side cuts start at the collar (top 580) because he looks down in both profiles. Watermark pinned."
+  },
+  {
+   "date": "2026-11-10",
+   "type": "Seluar",
+   "folder": "OS Red Stripe",
+   "cycle": 4,
+   "style": "cinematic",
+   "output": "output/daily/seluar_os-red-stripe_c4.mp4",
+   "scenes": "IMG_0356 99.8 front/113.0 side/130.2 back/140.0 side, IMG_0359 6.9 hem stripe + shoe, IMG_0359 39.8 jogger cuff",
+   "caption": "Track pants jalur merah, boleh ikat jadi jogger",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_os-red-stripe_c4/spec.json",
+   "note": "Second profile 140.0 is the only clear one on that side (also used in c2/c3). Warm moody grade. Watermark pinned."
   }
  ],
  "discontinued": [
@@ -1802,6 +1815,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 2
+  "next": 3
  }
 }

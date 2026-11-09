@@ -245,4 +245,4 @@ Rotation resumed 2026-11-05 (watermarked, four angles, shirt cuts from the mouth
 
 2026-11-09 (styles continue): `seluar_cargo-grey_c4.mp4` (cinematic, 12.75s, whole phone-into-pocket move)., `baju_sweat-shirt-v-neck-grey_c3.mp4` (fast_beat, 8.5s, 11 cuts)., `seluar_elgini-grey_c4.mp4` (split_screen, 10.5s)., `baju_textured_c3.mp4` (detail_first, 12.5s)., `seluar_elgini-relaxed-pants_c4.mp4` (text_behind "RELAXED"/"ELGINI", 11s).
 
-2026-11-10 (styles continue): `baju_vpg_c3.mp4` (classic, 12.3s)., `seluar_jogger-pants-black_c4.mp4` (flash_punch, 11s)., `baju_yooka-black-plain-long-sleeves_c3.mp4` (torn_glitch, 11s).
+2026-11-10 (styles continue): `baju_vpg_c3.mp4` (classic, 12.3s)., `seluar_jogger-pants-black_c4.mp4` (flash_punch, 11s)., `baju_yooka-black-plain-long-sleeves_c3.mp4` (torn_glitch, 11s)., `seluar_os-red-stripe_c4.mp4` (cinematic, 12.4s).
