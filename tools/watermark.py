@@ -18,7 +18,8 @@ Prints the spot per cut.
 of build_focus's "cuts" line.
 
 --spots: manual spot per cut (orientation "h"/"v", x, y in output px; null =
-automatic). Use it when the segmenter misreads the garment: beige/neutral
+automatic, "none" = no watermark on that cut, for a close-up that is all
+garment). Use it when the segmenter misreads the garment: beige/neutral
 trousers are often labelled skin, so the automatic spot lands on them. Check a
 zoomed frame of every cut after.
 """
@@ -145,6 +146,8 @@ for k in range(len(bounds) - 1):
             best = (score, o, x, y, p, c, float(F[f0:f1, y0:y1, x0:x1].mean()))
     _, o, x, y, p, c, lum = best
     manual = json.loads(a.spots) if a.spots else []
+    if k < len(manual) and manual[k] == "none":
+        continue   # full-frame garment close-up with no background or skin: leave it unmarked
     if k < len(manual) and manual[k]:
         o, x, y = manual[k]
         bw, bh = (tw, th) if o == "h" else (th, tw)

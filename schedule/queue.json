@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 8,
+  "Baju": 9,
   "Seluar": 7
  },
  "cycle": {
@@ -1725,6 +1725,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_os-red-stripe_c4/spec.json",
    "note": "Second profile 140.0 is the only clear one on that side (also used in c2/c3). Warm moody grade. Watermark pinned."
+  },
+  {
+   "date": "2026-11-10",
+   "type": "Baju",
+   "folder": "Yooka corduroy blue",
+   "cycle": 3,
+   "style": "fast_beat",
+   "output": "output/daily/baju_yooka-corduroy-blue_c3.mp4",
+   "scenes": "IMG_0302 22.0/120.6/45.5 front, 65.0 side, 153.0/144.0 back; IMG_0303 94.0, IMG_0304 58.0/124.4",
+   "caption": "Kemeja corduroy biru, poket dada dan lengan lipat",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_yooka-corduroy-blue_c3/spec.json",
+   "note": "Only one side profile: the other (IMG_0302 140) has him at the frame edge and could not be centred (rule 2f). 9 cuts, 7 s. No watermark on the two all-fabric close-ups (--spots none)."
   }
  ],
  "discontinued": [
@@ -1815,6 +1828,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 3
+  "next": 4
  }
 }

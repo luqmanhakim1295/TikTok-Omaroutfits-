@@ -149,7 +149,8 @@ biasa" / "cam biasa" means: follow all of these.
   change between runs: when one is wrong, pin every cut with `--spots` (one
   `["h"|"v", x, y]` per cut) and check the zooms again. Pass `--cuts` (the cut times
   build_focus prints) for fast_beat and effect styles, where the automatic
-  cut detection merges cuts.
+  cut detection merges cuts. On a close-up that is all garment (no background or
+  skin in frame) use `"none"` for that cut rather than marking the garment.
 - Good scenes the owner likes: crossed arms (show the whole shirt), phone
   going into a pocket, hand in pocket, back view, fabric texture, logos /
   patches, wide-leg vs jogger via hem cord, rolled-up sleeves.
