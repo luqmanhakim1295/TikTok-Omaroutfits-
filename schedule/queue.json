@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 9,
-  "Seluar": 7
+  "Seluar": 8
  },
  "cycle": {
   "Baju": 3,
@@ -1743,6 +1743,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_yooka-corduroy-blue_c3/spec.json",
    "note": "Only one side profile: the other (IMG_0302 140) has him at the frame edge and could not be centred (rule 2f). 9 cuts, 7 s. No watermark on the two all-fabric close-ups (--spots none)."
+  },
+  {
+   "date": "2026-11-11",
+   "type": "Seluar",
+   "folder": "Yooka black slack",
+   "cycle": 4,
+   "style": "split_screen",
+   "output": "output/daily/seluar_yooka-black-slack_c4.mp4",
+   "scenes": "IMG_0317 209.4 front + 166.0 back (split opener), 133.4 side; IMG_0319 101.0 front waist, 121.0 right side (handheld)",
+   "caption": "Slack hitam Yooka, pinggang getah belakang selesa",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_yooka-black-slack_c4/spec.json",
+   "note": "No tripod shot of his right side (he stands at the frame edge); right side is a handheld waist-to-shin shot. 7.25 s. Watermark pinned."
   }
  ],
  "discontinued": [
@@ -1833,6 +1846,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 4
+  "next": 5
  }
 }
