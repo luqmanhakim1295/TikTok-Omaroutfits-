@@ -247,4 +247,4 @@ Rotation resumed 2026-11-05 (watermarked, four angles, shirt cuts from the mouth
 
 2026-11-10 (styles continue): `baju_vpg_c3.mp4` (classic, 12.3s)., `seluar_jogger-pants-black_c4.mp4` (flash_punch, 11s)., `baju_yooka-black-plain-long-sleeves_c3.mp4` (torn_glitch, 11s)., `seluar_os-red-stripe_c4.mp4` (cinematic, 12.4s)., `baju_yooka-corduroy-blue_c3.mp4` (fast_beat, 7s; one side profile only).
 
-2026-11-11 (styles continue): `seluar_yooka-black-slack_c4.mp4` (split_screen, 7.25s; right side handheld only)., `baju_yooka-open-collar-black_c3.mp4` (detail_first, 10.5s).
+2026-11-11 (styles continue): `seluar_yooka-black-slack_c4.mp4` (split_screen, 7.25s; right side handheld only)., `baju_yooka-open-collar-black_c3.mp4` (detail_first, 10.5s)., `seluar_yooka-white-slack_c4.mp4` (text_behind "CREAM"/"YOOKA", 11.25s, all four angles).

@@ -1,14 +1,14 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 10,
-  "Seluar": 8
+  "Seluar": 0
  },
  "cycle": {
   "Baju": 3,
-  "Seluar": 4
+  "Seluar": 5
  },
  "folders": {
   "Baju": [
@@ -1769,6 +1769,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_yooka-open-collar-black_c3/spec.json",
    "note": "IMG_0272 not downloaded (disk); details from IMG_0271. Only clean side windows in the footage (54.8, 281.0) are reused from earlier videos. Watermark pinned."
+  },
+  {
+   "date": "2026-11-11",
+   "type": "Seluar",
+   "folder": "Yooka white slack",
+   "cycle": 4,
+   "style": "text_behind",
+   "output": "output/daily/seluar_yooka-white-slack_c4.mp4",
+   "scenes": "IMG_0262 112.8 front/118.6 right side/126.6 left side, IMG_0265 111.8 back, IMG_0263 39.2 side pocket, 41.95 phone into pocket (top 640)",
+   "caption": "Slack krim Yooka, poket muat phone dengan kemas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_yooka-white-slack_c4/spec.json",
+   "note": "All four angles (right profile at IMG_0262 118.6). Phone cut cropped at top 640 so the underwear band never shows. Text CREAM / YOOKA. Watermark pinned."
   }
  ],
  "discontinued": [
@@ -1859,6 +1872,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 6
+  "next": 7
  }
 }
