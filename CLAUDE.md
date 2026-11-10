@@ -143,8 +143,14 @@ biasa" / "cam biasa" means: follow all of these.
 - Camera-tracking effect on every cut (rule 1a): tracked crop on wide cuts
   and an eased 8 % push-in (`push_bottom` / `push_top` / `push_soft`). Not fast.
   (Replaces the old gentle zoom-out `pull_soft`.)
-- **No text and no colour filter** by default (the "Cinematic OOTD" title
-  and grade were only for specific requests).
+- **Feature labels on every video** (owner, 2026-11-12, "boleh try", after
+  the TikTok Shop non-interactive violation): 2-3 short English labels of what
+  the footage shows ("Side pockets", "Elastic waist", "Thick ribbed collar"),
+  one per chosen cut, with `tools/feature_text.py` after the style effect and
+  before the watermark. Keep them off the product's key detail: trousers in
+  the shirt area at the top (y ~0.12), shirts in the trouser area (y ~0.70)
+  or beside the detail on close-ups. Never invent fabric, sizes or prices.
+  No other text outside text_behind, and no colour filter outside cinematic.
 - **No audio**; the owner adds a trending sound in TikTok.
 - **Watermark on every video** (owner, 2026-11-04): a very small
   "omaroutfits" at 50 % opacity, outside the shirt/trousers, so it only shows

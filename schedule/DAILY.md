@@ -126,6 +126,9 @@ detail_first, text_behind, classic). Record `style` in the history entry.
    - Verify the render: check sheet with centre lines, top strip (no nose or
      eyes), Laplacian per cut, and no belly/boxer frames. Fix anything before
      going on.
+   - Feature labels (CLAUDE.md): 2-3 short English labels with
+     `python3 tools/feature_text.py in.mp4 out.mp4 labels.json`; save
+     labels.json with the plan.
    - Watermark last: `python3 tools/watermark.py render.mp4 final.mp4`
      (small "omaroutfits", 50 % opacity, off the garment; CLAUDE.md).
 4. Save as `output/daily/<type>_<folder-slug>_c<cycle>.mp4`, add a README
