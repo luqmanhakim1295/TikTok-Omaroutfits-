@@ -1649,7 +1649,7 @@
    "output": "output/daily/seluar_elgini-grey_c4.mp4",
    "scenes": "IMG_0347 279.0 front + 241.6 back (split opener), 254.0 side, 290.0 side; IMG_0350 43.0/78.0, IMG_0352 44.5",
    "caption": "Seluar track kelabu, pinggang getah dan tali",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "held (split_screen, TikTok non-interactive violation risk)",
    "plan": "schedule/plans/seluar_elgini-grey_c4/spec.json",
    "note": "Side cuts at ch 3460 (90 %) so the crop can reach him. Watermark pinned; on the two waistband close-ups it sits on the white shirt (no background in frame)."
   },
@@ -1753,7 +1753,7 @@
    "output": "output/daily/seluar_yooka-black-slack_c4.mp4",
    "scenes": "IMG_0317 209.4 front + 166.0 back (split opener), 133.4 side; IMG_0319 101.0 front waist, 121.0 right side (handheld)",
    "caption": "Slack hitam Yooka, pinggang getah belakang selesa",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "held (split_screen, TikTok non-interactive violation risk)",
    "plan": "schedule/plans/seluar_yooka-black-slack_c4/spec.json",
    "note": "No tripod shot of his right side (he stands at the frame edge); right side is a handheld waist-to-shin shot. 7.25 s. Watermark pinned."
   },
@@ -1893,11 +1893,13 @@
    "torn_glitch",
    "cinematic",
    "fast_beat",
-   "split_screen",
    "detail_first",
    "text_behind",
    "classic"
   ],
-  "next": 1
+  "next": 1,
+  "dropped": {
+   "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
+  }
  }
 }

@@ -63,6 +63,13 @@ biasa" / "cam biasa" means: follow all of these.
    background difference and colour masks. Measure with person
    segmentation instead: `tools/stepscan.py` (find windows) and
    `tools/segtrack.py` (crop x, fixed or tracked). Needs `libegl1`.
+2g. **Every cut shows him doing something with the product** (TikTok Shop
+   "non-interactive content" violation, 2026-11-11, appeal rejected: a video of
+   trousers being worn with "no meaningful on-screen activity" lost reach).
+   Pick windows with a clear action: turning, a hand or phone going into a
+   pocket, stretching the waistband, pulling the fabric, rolling a sleeve,
+   walking a step. Never a cut where he only stands still, and no static
+   side-by-side openers (split_screen is dropped from the styles).
 2d. **One movement per scene.** Each cut shows a single step or pose
    change (one weight shift, one hand into a pocket, one phone into a
    pocket): still, one move, still. Never a window where he shuffles or
