@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 9,
+  "Baju": 10,
   "Seluar": 8
  },
  "cycle": {
@@ -1756,6 +1756,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_yooka-black-slack_c4/spec.json",
    "note": "No tripod shot of his right side (he stands at the frame edge); right side is a handheld waist-to-shin shot. 7.25 s. Watermark pinned."
+  },
+  {
+   "date": "2026-11-11",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "cycle": 3,
+   "style": "detail_first",
+   "output": "output/daily/baju_yooka-open-collar-black_c3.mp4",
+   "scenes": "IMG_0271 65.5 open collar, 98.4 placket + hand; IMG_0300 426.0 front crossed arms/264.0 back/281.0 side, IMG_0274 54.8 side",
+   "caption": "Kemeja open collar hitam, kolar terbuka nampak santai",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_yooka-open-collar-black_c3/spec.json",
+   "note": "IMG_0272 not downloaded (disk); details from IMG_0271. Only clean side windows in the footage (54.8, 281.0) are reused from earlier videos. Watermark pinned."
   }
  ],
  "discontinued": [
@@ -1846,6 +1859,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 5
+  "next": 6
  }
 }
