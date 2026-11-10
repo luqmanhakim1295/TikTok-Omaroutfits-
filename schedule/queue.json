@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 10,
+  "Baju": 11,
   "Seluar": 0
  },
  "cycle": {
@@ -1782,6 +1782,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_yooka-white-slack_c4/spec.json",
    "note": "All four angles (right profile at IMG_0262 118.6). Phone cut cropped at top 640 so the underwear band never shows. Text CREAM / YOOKA. Watermark pinned."
+  },
+  {
+   "date": "2026-11-11",
+   "type": "Baju",
+   "folder": "Zeke coffee",
+   "cycle": 3,
+   "style": "classic",
+   "output": "output/daily/baju_zeke-coffee_c3.mp4",
+   "scenes": "IMG_0316 23.4 front/52.4 side/96.2 back/140.0 side, IMG_0315 38.2 Z logo, 77.2 collar rib",
+   "caption": "Tee Zeke coklat, logo Z kecil dan kolar tebal",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_zeke-coffee_c3/spec.json",
+   "note": "Top set by hand to 150 (mouth line; head at the frame top, pose fit unreliable). Second profile 140.0 overlaps c2 (only clean one on that side). Watermark pinned; none on the logo close-up."
   }
  ],
  "discontinued": [
@@ -1872,6 +1885,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 7
+  "next": 0
  }
 }
