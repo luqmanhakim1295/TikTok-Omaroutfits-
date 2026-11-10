@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 11,
-  "Seluar": 0
+  "Seluar": 1
  },
  "cycle": {
   "Baju": 3,
@@ -1795,6 +1795,19 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_zeke-coffee_c3/spec.json",
    "note": "Top set by hand to 150 (mouth line; head at the frame top, pose fit unreliable). Second profile 140.0 overlaps c2 (only clean one on that side). Watermark pinned; none on the logo close-up."
+  },
+  {
+   "date": "2026-11-11",
+   "type": "Seluar",
+   "folder": "Baggy corduroy pants",
+   "cycle": 5,
+   "style": "flash_punch",
+   "output": "output/daily/seluar_baggy-corduroy-pants_c5.mp4",
+   "scenes": "IMG_0276 231.8 front/250.8 side/116.4 back/111.6 other side, IMG_0279 133.0 hand in pocket, 56.8 back pocket",
+   "caption": "Seluar corduroy baggy, poket belakang dengan patch",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_baggy-corduroy-pants_c5/spec.json",
+   "note": "All four angles: the second profile is at IMG_0276 111.6 (earlier videos missed it). No watermark on the two close-ups (no background); wide cuts on the vase."
   }
  ],
  "discontinued": [
@@ -1885,6 +1898,6 @@
    "text_behind",
    "classic"
   ],
-  "next": 0
+  "next": 1
  }
 }
