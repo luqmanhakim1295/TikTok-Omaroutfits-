@@ -1664,7 +1664,8 @@
    "caption": "Kemeja tekstur olive, kain timbul nampak lain",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_textured_c3/spec.json",
-   "note": "Side cuts end above the feet (ch 3200/3400) so the body stays centred. Watermark pinned."
+   "note": "Side cuts end above the feet (ch 3200/3400) so the body stays centred. Watermark pinned.",
+   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder"
   },
   {
    "date": "2026-11-09",
@@ -1677,7 +1678,8 @@
    "caption": "Seluar Elgini relaxed, potongan lurus dan longgar",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_elgini-relaxed-pants_c4/spec.json",
-   "note": "Text RELAXED (front) and ELGINI (back). IMG_0397 cuts at ch 3460 so he sits on the centre line. Watermark pinned; on the two close-ups it sits on the green shirt (no background in frame)."
+   "note": "Text RELAXED (front) and ELGINI (back). IMG_0397 cuts at ch 3460 so he sits on the centre line. Watermark pinned; on the two close-ups it sits on the green shirt (no background in frame).",
+   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder"
   },
   {
    "date": "2026-11-10",
@@ -1690,7 +1692,8 @@
    "caption": "Polo hitam VPG, tekstur kait nampak kemas",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_vpg_c3/spec.json",
-   "note": "Torso mask was pulled by the dark clothes rack: side/back centres set by hand (cx) from grid frames. Watermark pinned."
+   "note": "Torso mask was pulled by the dark clothes rack: side/back centres set by hand (cx) from grid frames. Watermark pinned.",
+   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder"
   },
   {
    "date": "2026-11-10",
@@ -1703,7 +1706,8 @@
    "caption": "Jogger hitam, pinggang getah selesa sepanjang hari",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_jogger-pants-black_c4/spec.json",
-   "note": "Watermark pinned (on the vase/rack)."
+   "note": "Watermark pinned (on the vase/rack).",
+   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder"
   },
   {
    "date": "2026-11-10",
@@ -1716,7 +1720,8 @@
    "caption": "Kemeja hitam Yooka lengan panjang, kemas dan simple",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c3/spec.json",
-   "note": "Tripod footage stops at the thigh (no feet). Side cuts start at the collar (top 580) because he looks down in both profiles. Watermark pinned."
+   "note": "Tripod footage stops at the thigh (no feet). Side cuts start at the collar (top 580) because he looks down in both profiles. Watermark pinned.",
+   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder"
   },
   {
    "date": "2026-11-10",
