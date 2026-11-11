@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 0,
-  "Seluar": 1
+  "Seluar": 2
  },
  "cycle": {
   "Baju": 4,
@@ -1832,6 +1832,20 @@
    "plan": "schedule/plans/baju_zeke-windbreaker_c3/spec.json",
    "labels": "Two-tone design / Built-in hood / Side pockets",
    "note": "Every cut has an action (rule 2g). Feature labels added. Watermark pinned."
+  },
+  {
+   "date": "2026-11-12",
+   "type": "Seluar",
+   "folder": "Cargo elgini",
+   "cycle": 5,
+   "style": "fast_beat",
+   "output": "output/daily/seluar_cargo-elgini_c5.mp4",
+   "scenes": "IMG_0557 191.0/210.0 front, 216.2/308.4/233.8 side, 249.4/299.6 back; IMG_0560 33.0 hand into pocket, 272.5 zip pocket",
+   "caption": "Cargo beige Elgini, poket zip dan potongan lurus",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_cargo-elgini_c5/spec.json",
+   "labels": "Deep side pockets / Zip cargo pockets / Straight leg",
+   "note": "9 cuts, 7 s. Waist close-up IMG_0560 262 dropped (soft, shirt lifted). Watermark pinned; none on close-ups."
   }
  ],
  "discontinued": [
@@ -1921,7 +1935,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 3,
+  "next": 4,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
