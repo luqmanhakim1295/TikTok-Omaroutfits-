@@ -249,4 +249,4 @@ Rotation resumed 2026-11-05 (watermarked, four angles, shirt cuts from the mouth
 
 2026-11-11 (styles continue): `seluar_yooka-black-slack_c4.mp4` (split_screen, 7.25s; right side handheld only)., `baju_yooka-open-collar-black_c3.mp4` (detail_first, 10.5s)., `seluar_yooka-white-slack_c4.mp4` (text_behind "CREAM"/"YOOKA", 11.25s, all four angles)., `baju_zeke-coffee_c3.mp4` (classic, 10.75s)., `seluar_baggy-corduroy-pants_c5.mp4` (flash_punch, 10.75s, all four angles).
 
-2026-11-12 (feature labels on every video, action in every cut): `baju_zeke-windbreaker_c3.mp4` (cinematic, 12s)., `seluar_cargo-elgini_c5.mp4` (fast_beat, 7s)., `baju_advo-polo-green_c4.mp4` (detail_first, 12.25s)., `seluar_cargo-grey_c5.mp4` (text_behind, 11.25s).
+2026-11-12 (feature labels on every video, action in every cut): `baju_zeke-windbreaker_c3.mp4` (cinematic, 12s)., `seluar_cargo-elgini_c5.mp4` (fast_beat, 7s)., `baju_advo-polo-green_c4.mp4` (detail_first, 12.25s)., `seluar_cargo-grey_c5.mp4` (text_behind, 11.25s)., `baju_boru-japan_c4.mp4` (classic, 11.5s).

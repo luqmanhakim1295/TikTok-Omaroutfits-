@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 1,
+  "Baju": 2,
   "Seluar": 3
  },
  "cycle": {
@@ -1874,6 +1874,20 @@
    "plan": "schedule/plans/seluar_cargo-grey_c5/spec.json",
    "labels": "Fits your phone / Snap button cargo pocket / Side cargo pockets",
    "note": "Text CARGO / GREY. Side 204.4 is a three-quarter rear view with the cargo pocket. IMG_0371 skipped (top-down POV, mostly floor)."
+  },
+  {
+   "date": "2026-11-12",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "cycle": 4,
+   "style": "classic",
+   "output": "output/daily/baju_boru-japan_c4.mp4",
+   "scenes": "IMG_0275 43.2 front (hands into pockets)/46.6 side/148.2 back/59.6 side/96.0 front (pushing sleeves up), IMG_0278 49.0 chest logo, 82.2 back print",
+   "caption": "Tee Boru Mount Fuji lengan panjang, print belakang padu",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_boru-japan_c4/spec.json",
+   "labels": "Chest logo print / Mount Fuji back print / Long sleeves",
+   "note": "Side 46.6 at ch 2700 (ends above the knee) so he stays centred."
   }
  ],
  "discontinued": [
@@ -1963,7 +1977,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 6,
+  "next": 0,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
