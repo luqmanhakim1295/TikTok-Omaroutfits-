@@ -1,13 +1,13 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 11,
+  "Baju": 0,
   "Seluar": 1
  },
  "cycle": {
-  "Baju": 3,
+  "Baju": 4,
   "Seluar": 5
  },
  "folders": {
@@ -1818,6 +1818,20 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_baggy-corduroy-pants_c5/spec.json",
    "note": "All four angles: the second profile is at IMG_0276 111.6 (earlier videos missed it). No watermark on the two close-ups (no background); wide cuts on the vase."
+  },
+  {
+   "date": "2026-11-12",
+   "type": "Baju",
+   "folder": "Zeke windbreaker",
+   "cycle": 3,
+   "style": "cinematic",
+   "output": "output/daily/baju_zeke-windbreaker_c3.mp4",
+   "scenes": "IMG_0203-2 474.8 back (tilt)/347.4 front (adjusting zip)/387.4 side/439.8 side (hand into pocket), IMG_0205 258.5 hand on chest + logo, 192.6 putting the hood up",
+   "caption": "Windbreaker Zeke dua tona, ada hud dan poket",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_zeke-windbreaker_c3/spec.json",
+   "labels": "Two-tone design / Built-in hood / Side pockets",
+   "note": "Every cut has an action (rule 2g). Feature labels added. Watermark pinned."
   }
  ],
  "discontinued": [
@@ -1907,7 +1921,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 1,
+  "next": 3,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
