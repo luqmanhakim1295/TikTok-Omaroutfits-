@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 1,
-  "Seluar": 2
+  "Seluar": 3
  },
  "cycle": {
   "Baju": 4,
@@ -1860,6 +1860,20 @@
    "plan": "schedule/plans/baju_advo-polo-green_c4/spec.json",
    "labels": "Smooth fabric / Short sleeves / Polo collar",
    "note": "Every cut has an action. Watermark on the vase; none on the close-ups."
+  },
+  {
+   "date": "2026-11-12",
+   "type": "Seluar",
+   "folder": "Cargo grey",
+   "cycle": 5,
+   "style": "text_behind",
+   "output": "output/daily/seluar_cargo-grey_c5.mp4",
+   "scenes": "IMG_0370 211.8 front (adjusting belt)/204.4 side/140.8 back (hand into back pocket)/126.2 side, IMG_0368 16.0 phone into pocket, IMG_0369 28.0 opening snap cargo pocket",
+   "caption": "Cargo kelabu, poket butang snap dan muat phone",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_cargo-grey_c5/spec.json",
+   "labels": "Fits your phone / Snap button cargo pocket / Side cargo pockets",
+   "note": "Text CARGO / GREY. Side 204.4 is a three-quarter rear view with the cargo pocket. IMG_0371 skipped (top-down POV, mostly floor)."
   }
  ],
  "discontinued": [
@@ -1949,7 +1963,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 5,
+  "next": 6,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
