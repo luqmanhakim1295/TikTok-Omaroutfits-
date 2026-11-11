@@ -1662,10 +1662,11 @@
    "output": "output/daily/baju_textured_c3.mp4",
    "scenes": "IMG_0256 51.6 texture, IMG_0255 30.5 collar, IMG_0256 162.5 cuff; IMG_0253 247.2 front/149.4 side/201.6 back/177.2 side",
    "caption": "Kemeja tekstur olive, kain timbul nampak lain",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-11)",
    "plan": "schedule/plans/baju_textured_c3/spec.json",
    "note": "Side cuts end above the feet (ch 3200/3400) so the body stays centred. Watermark pinned.",
-   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder"
+   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder",
+   "zernio_post_id": "6af496fe68d7057a32eebca2"
   },
   {
    "date": "2026-11-09",
@@ -1676,10 +1677,11 @@
    "output": "output/daily/seluar_elgini-relaxed-pants_c4.mp4",
    "scenes": "IMG_0397 98.0 front/57.0 side/82.8 back, IMG_0398 46.8 side, IMG_0400 7.0/50.0",
    "caption": "Seluar Elgini relaxed, potongan lurus dan longgar",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-11)",
    "plan": "schedule/plans/seluar_elgini-relaxed-pants_c4/spec.json",
    "note": "Text RELAXED (front) and ELGINI (back). IMG_0397 cuts at ch 3460 so he sits on the centre line. Watermark pinned; on the two close-ups it sits on the green shirt (no background in frame).",
-   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder"
+   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder",
+   "zernio_post_id": "6af4972568d7057a32eebde9"
   },
   {
    "date": "2026-11-10",
@@ -1690,10 +1692,11 @@
    "output": "output/daily/baju_vpg_c3.mp4",
    "scenes": "IMG_0383 62.4 front/78.6 side/110.6 back/129.2 side, IMG_0384 28.0/73.0, IMG_0393 15.0",
    "caption": "Polo hitam VPG, tekstur kait nampak kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-11)",
    "plan": "schedule/plans/baju_vpg_c3/spec.json",
    "note": "Torso mask was pulled by the dark clothes rack: side/back centres set by hand (cx) from grid frames. Watermark pinned.",
-   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder"
+   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder",
+   "zernio_post_id": "6af4974168d7057a32eebf15"
   },
   {
    "date": "2026-11-10",
@@ -1704,10 +1707,11 @@
    "output": "output/daily/seluar_jogger-pants-black_c4.mp4",
    "scenes": "IMG_0238 77.4 front/86.4 side/107.6 side/197.6 back, IMG_0239 58.2 hand in pocket, IMG_0246 56.3 waistband",
    "caption": "Jogger hitam, pinggang getah selesa sepanjang hari",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-11)",
    "plan": "schedule/plans/seluar_jogger-pants-black_c4/spec.json",
    "note": "Watermark pinned (on the vase/rack).",
-   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder"
+   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder",
+   "zernio_post_id": "6af49766f45a4f364547878a"
   },
   {
    "date": "2026-11-10",
@@ -1718,10 +1722,11 @@
    "output": "output/daily/baju_yooka-black-plain-long-sleeves_c3.mp4",
    "scenes": "IMG_0266 210.4 front crossed arms/92.8 side/150.2 back/137.2 side, IMG_0267 213.0 placket, IMG_0269 12.2 collar",
    "caption": "Kemeja hitam Yooka lengan panjang, kemas dan simple",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-11)",
    "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c3/spec.json",
    "note": "Tripod footage stops at the thigh (no feet). Side cuts start at the collar (top 580) because he looks down in both profiles. Watermark pinned.",
-   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder"
+   "labels": "added 2026-11-12 (tools/feature_text.py), see labels.json in the plan folder",
+   "zernio_post_id": "6af4978c68d7057a32eec143"
   },
   {
    "date": "2026-11-10",
