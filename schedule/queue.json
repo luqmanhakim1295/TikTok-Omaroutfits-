@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 3,
+  "Baju": 4,
   "Seluar": 5
  },
  "cycle": {
@@ -1940,6 +1940,20 @@
    "plan": "schedule/plans/seluar_elgini-relaxed-pants_c5/spec.json",
    "labels": "E logo detail / Elastic drawstring waist / Deep side pockets",
    "note": "Warm moody grade (cinematic). Watermark on the vase/floor; none on close-ups."
+  },
+  {
+   "date": "2026-11-13",
+   "type": "Baju",
+   "folder": "F1 team",
+   "cycle": 4,
+   "style": "fast_beat",
+   "output": "output/daily/baju_f1-team_c4.mp4",
+   "scenes": "IMG_0339 109.6/50.0 front, 133.4/195.0/239.0 side, 169.0/224.4 back; IMG_0343 27.5 sponsor logos, 73.0 sleeve; IMG_0344 22.0",
+   "caption": "Jersi F1 Petronas, logo sponsor penuh depan belakang",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_f1-team_c4/spec.json",
+   "labels": "Sponsor logo prints / Two-tone sleeves / Petronas back print",
+   "note": "10 cuts, 7.75 s. Side 133.4 centred by hand (cx 1090). IMG_0343 downloaded this time (blocked on 11/08)."
   }
  ],
  "discontinued": [
@@ -2029,7 +2043,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 3,
+  "next": 4,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
