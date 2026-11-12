@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 3,
-  "Seluar": 4
+  "Seluar": 5
  },
  "cycle": {
   "Baju": 4,
@@ -1926,6 +1926,20 @@
    "plan": "schedule/plans/baju_boru-moon_c4/spec.json",
    "labels": "Boru chest logo / Moon back print / Oversized fit",
    "note": "Sides end above the knee (ch 2740/3000); 76.4 centred by hand (cx 1100, dark rack pulls the mask). c3's second side (70.4) was the same profile as 47.8; this one has the opposite."
+  },
+  {
+   "date": "2026-11-13",
+   "type": "Seluar",
+   "folder": "Elgini relaxed pants",
+   "cycle": 5,
+   "style": "cinematic",
+   "output": "output/daily/seluar_elgini-relaxed-pants_c5.mp4",
+   "scenes": "IMG_0397 72.6 back (tilt)/105.6 front (hands in pockets)/60.8 side, IMG_0398 68.2 other side (hand into pocket), IMG_0400 45.2 E logo, 57.2 hand into pocket",
+   "caption": "Seluar Elgini relaxed, logo E dan poket dalam",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_elgini-relaxed-pants_c5/spec.json",
+   "labels": "E logo detail / Elastic drawstring waist / Deep side pockets",
+   "note": "Warm moody grade (cinematic). Watermark on the vase/floor; none on close-ups."
   }
  ],
  "discontinued": [
@@ -2015,7 +2029,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 2,
+  "next": 3,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
