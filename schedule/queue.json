@@ -1838,7 +1838,7 @@
    "output": "output/daily/baju_zeke-windbreaker_c3.mp4",
    "scenes": "IMG_0203-2 474.8 back (tilt)/347.4 front (adjusting zip)/387.4 side/439.8 side (hand into pocket), IMG_0205 258.5 hand on chest + logo, 192.6 putting the hood up",
    "caption": "Windbreaker Zeke dua tona, ada hud dan poket",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "held (has the old colour grade; re-render without it before sending, needs ~10 GB free disk)",
    "plan": "schedule/plans/baju_zeke-windbreaker_c3/spec.json",
    "labels": "Two-tone design / Built-in hood / Side pockets",
    "note": "Every cut has an action (rule 2g). Feature labels added. Watermark pinned."
@@ -1939,7 +1939,7 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_elgini-relaxed-pants_c5/spec.json",
    "labels": "E logo detail / Elastic drawstring waist / Deep side pockets",
-   "note": "Warm moody grade (cinematic). Watermark on the vase/floor; none on close-ups."
+   "note": "Watermark on the vase/floor; none on close-ups. Re-rendered 2026-11-13 without the colour grade (owner: no filters)."
   },
   {
    "date": "2026-11-13",
@@ -2061,5 +2061,6 @@
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
- }
+ },
+ "no_filter_since": "2026-11-13 (owner: \"lepasni edit jangan letak filter\")"
 }
