@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 2,
+  "Baju": 3,
   "Seluar": 4
  },
  "cycle": {
@@ -1912,6 +1912,20 @@
    "plan": "schedule/plans/seluar_elgini-grey_c5/spec.json",
    "labels": "Elastic drawstring waist / Side pockets / Straight wide leg",
    "note": "Replaces the held split_screen c4 (same windows, new style and order)."
+  },
+  {
+   "date": "2026-11-13",
+   "type": "Baju",
+   "folder": "Boru moon",
+   "cycle": 4,
+   "style": "torn_glitch",
+   "output": "output/daily/baju_boru-moon_c4.mp4",
+   "scenes": "IMG_0402 55.2 front (phone)/47.8 side (hand in pocket)/27.8 back/76.4 other side, IMG_0405 7.0 chest logo + hand, IMG_0408 26.0 back print",
+   "caption": "Tee Boru Moon, logo dada dan print belakang",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_boru-moon_c4/spec.json",
+   "labels": "Boru chest logo / Moon back print / Oversized fit",
+   "note": "Sides end above the knee (ch 2740/3000); 76.4 centred by hand (cx 1100, dark rack pulls the mask). c3's second side (70.4) was the same profile as 47.8; this one has the opposite."
   }
  ],
  "discontinued": [
@@ -2001,7 +2015,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 1,
+  "next": 2,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
