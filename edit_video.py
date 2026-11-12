@@ -375,6 +375,9 @@ def render(segments, out_path, music, keep_audio, crf=21, motion=True,
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined,
                         "-c", "copy", "-movflags", "+faststart", out_path],
                        check=True)
+    # The per-cut parts are ~30 MB each at 60 fps; leaving them filled the disk.
+    import shutil
+    shutil.rmtree(tmp, ignore_errors=True)
 
 
 def main():

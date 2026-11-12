@@ -150,7 +150,9 @@ biasa" / "cam biasa" means: follow all of these.
   before the watermark. Keep them off the product's key detail: trousers in
   the shirt area at the top (y ~0.12), shirts in the trouser area (y ~0.70)
   or beside the detail on close-ups. Never invent fabric, sizes or prices.
-  No other text outside text_behind, and no colour filter outside cinematic.
+  No other text outside text_behind. **No colour filter or grade on any video**
+  (owner, 2026-11-13: "lepasni edit jangan letak filter"), cinematic included:
+  cinematic keeps only its slow tilt and drift.
 - **No audio**; the owner adds a trending sound in TikTok.
 - **Watermark on every video** (owner, 2026-11-04): a very small
   "omaroutfits" at 50 % opacity, outside the shirt/trousers, so it only shows
@@ -189,7 +191,7 @@ in `queue.json` `styles` (flash_punch, torn_glitch, cinematic, fast_beat,
 split_screen, detail_first, text_behind, classic), built with
 `tools/build_focus.py` (`"garment": "seluar"` for trousers). Styles are listed
 in `schedule/DAILY.md`; text only in text_behind (big English word), colour
-grade only in cinematic. All non-negotiables still apply in every style. For
+no colour grade/filter in any style (owner 2026-11-13). All non-negotiables still apply in every style. For
 shirt wide cuts keep using `tools/shirtframe.py` (mouth-level top, body
 centre, rule 2). **Discontinued products** (seller no longer
 sells them; never make or send videos of them): Polyester black (since

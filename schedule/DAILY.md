@@ -66,8 +66,8 @@ Styles:
   e.g. "OPEN COLLAR", "MOUNT FUJI". Owner asked for English text, no closing CTA.
 - `cinematic`: owner's reference (slow rainy-street tilt): long calm cuts with
   the `drift` motion, an opening tilt-up (crop y expression in the plan, e.g.
-  trousers up to the print) and the moody warm grade
-  (`--grade schedule/grades/moody_street.txt`). The only style with a colour grade.
+  trousers up to the print). No colour grade any more (owner 2026-11-13:
+  "jangan letak filter"); the old `moody_street` grade is not used.
 - `torn_glitch`: no text; hard cuts dressed with torn-paper wipes and glitch
   hits (`tools/fx_style.py` tears/glitches).
 - `fast_beat`: 12-16 short cuts of 0.6-0.8 s, same four angles plus details.

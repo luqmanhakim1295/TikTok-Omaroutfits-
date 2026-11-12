@@ -10,7 +10,7 @@ spec.json:
  "cuts": [["IMG_0275.MOV", 131.6, 2.0, "back"],   # optional 5th item: crop height for this cut, 6th: {"top": row, "cx": centre} overrides
           ["IMG_0278.MOV", 82.2, 1.5, "detail"], ...],
  "text": {...fx_style spec...},           # text_behind only
- "tilt": 640,                             # cinematic: tilt-up travel of the first cut (px)
+ "tilt": 640,                             # cinematic: tilt-up travel of the first cut (px); no colour grade (owner 2026-11-13)
  "garment": "seluar"}                     # trousers: waist-to-shoe crops tracked on the legs
                                           # (tops default 240, ch 3600, rows 0.4-0.98)
 views: front (mouth line from the pose fit), back / side (row from "tops",
@@ -77,8 +77,8 @@ pj = os.path.join(work, "plan.json")
 json.dump(plan, open(pj, "w"), indent=1)
 base = os.path.join(work, "base.mp4")
 cmd = [sys.executable, os.path.join(here, "render_plan.py"), pj, raw, base, "--fps", "60"]
-if style == "cinematic":
-    cmd += ["--grade", spec.get("grade", "schedule/grades/moody_street_dark.txt")]
+# No colour grade on any video, cinematic included (owner, 2026-11-13:
+# "lepasni edit jangan letak filter"); a "grade" key in a spec is ignored.
 subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL)
 fx = [sys.executable, os.path.join(here, "style_fx.py"), base, out, "--cuts", *map(str, cuts_t)]
 if style == "flash_punch":
