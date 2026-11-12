@@ -1737,10 +1737,11 @@
    "output": "output/daily/seluar_os-red-stripe_c4.mp4",
    "scenes": "IMG_0356 99.8 front/113.0 side/130.2 back/140.0 side, IMG_0359 6.9 hem stripe + shoe, IMG_0359 39.8 jogger cuff",
    "caption": "Track pants jalur merah, boleh ikat jadi jogger",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-12)",
    "plan": "schedule/plans/seluar_os-red-stripe_c4/spec.json",
    "note": "Second profile 140.0 is the only clear one on that side (also used in c2/c3). Warm moody grade. Watermark pinned.",
-   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder"
+   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder",
+   "zernio_post_id": "6af5e9cb0bd1e6d2e4782c89"
   },
   {
    "date": "2026-11-10",
@@ -1751,10 +1752,11 @@
    "output": "output/daily/baju_yooka-corduroy-blue_c3.mp4",
    "scenes": "IMG_0302 22.0/120.6/45.5 front, 65.0 side, 153.0/144.0 back; IMG_0303 94.0, IMG_0304 58.0/124.4",
    "caption": "Kemeja corduroy biru, poket dada dan lengan lipat",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-12)",
    "plan": "schedule/plans/baju_yooka-corduroy-blue_c3/spec.json",
    "note": "Only one side profile: the other (IMG_0302 140) has him at the frame edge and could not be centred (rule 2f). 9 cuts, 7 s. No watermark on the two all-fabric close-ups (--spots none).",
-   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder"
+   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder",
+   "zernio_post_id": "6af5e9e64766e83f27c74297"
   },
   {
    "date": "2026-11-11",
@@ -1778,10 +1780,11 @@
    "output": "output/daily/baju_yooka-open-collar-black_c3.mp4",
    "scenes": "IMG_0271 65.5 open collar, 98.4 placket + hand; IMG_0300 426.0 front crossed arms/264.0 back/281.0 side, IMG_0274 54.8 side",
    "caption": "Kemeja open collar hitam, kolar terbuka nampak santai",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-12)",
    "plan": "schedule/plans/baju_yooka-open-collar-black_c3/spec.json",
    "note": "IMG_0272 not downloaded (disk); details from IMG_0271. Only clean side windows in the footage (54.8, 281.0) are reused from earlier videos. Watermark pinned.",
-   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder"
+   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder",
+   "zernio_post_id": "6af5ea007a66a032a16737c8"
   },
   {
    "date": "2026-11-11",
@@ -1792,10 +1795,11 @@
    "output": "output/daily/seluar_yooka-white-slack_c4.mp4",
    "scenes": "IMG_0262 112.8 front/118.6 right side/126.6 left side, IMG_0265 111.8 back, IMG_0263 39.2 side pocket, 41.95 phone into pocket (top 640)",
    "caption": "Slack krim Yooka, poket muat phone dengan kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-12)",
    "plan": "schedule/plans/seluar_yooka-white-slack_c4/spec.json",
    "note": "All four angles (right profile at IMG_0262 118.6). Phone cut cropped at top 640 so the underwear band never shows. Text CREAM / YOOKA. Watermark pinned.",
-   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder"
+   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder",
+   "zernio_post_id": "6af5ea270bd1e6d2e478308a"
   },
   {
    "date": "2026-11-11",
@@ -1806,10 +1810,11 @@
    "output": "output/daily/baju_zeke-coffee_c3.mp4",
    "scenes": "IMG_0316 23.4 front/52.4 side/96.2 back/140.0 side, IMG_0315 38.2 Z logo, 77.2 collar rib",
    "caption": "Tee Zeke coklat, logo Z kecil dan kolar tebal",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-12)",
    "plan": "schedule/plans/baju_zeke-coffee_c3/spec.json",
    "note": "Top set by hand to 150 (mouth line; head at the frame top, pose fit unreliable). Second profile 140.0 overlaps c2 (only clean one on that side). Watermark pinned; none on the logo close-up.",
-   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder"
+   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder",
+   "zernio_post_id": "6af5ea4d0bd1e6d2e4783250"
   },
   {
    "date": "2026-11-11",
