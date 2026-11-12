@@ -1739,7 +1739,8 @@
    "caption": "Track pants jalur merah, boleh ikat jadi jogger",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_os-red-stripe_c4/spec.json",
-   "note": "Second profile 140.0 is the only clear one on that side (also used in c2/c3). Warm moody grade. Watermark pinned."
+   "note": "Second profile 140.0 is the only clear one on that side (also used in c2/c3). Warm moody grade. Watermark pinned.",
+   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder"
   },
   {
    "date": "2026-11-10",
@@ -1752,7 +1753,8 @@
    "caption": "Kemeja corduroy biru, poket dada dan lengan lipat",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_yooka-corduroy-blue_c3/spec.json",
-   "note": "Only one side profile: the other (IMG_0302 140) has him at the frame edge and could not be centred (rule 2f). 9 cuts, 7 s. No watermark on the two all-fabric close-ups (--spots none)."
+   "note": "Only one side profile: the other (IMG_0302 140) has him at the frame edge and could not be centred (rule 2f). 9 cuts, 7 s. No watermark on the two all-fabric close-ups (--spots none).",
+   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder"
   },
   {
    "date": "2026-11-11",
@@ -1778,7 +1780,8 @@
    "caption": "Kemeja open collar hitam, kolar terbuka nampak santai",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_yooka-open-collar-black_c3/spec.json",
-   "note": "IMG_0272 not downloaded (disk); details from IMG_0271. Only clean side windows in the footage (54.8, 281.0) are reused from earlier videos. Watermark pinned."
+   "note": "IMG_0272 not downloaded (disk); details from IMG_0271. Only clean side windows in the footage (54.8, 281.0) are reused from earlier videos. Watermark pinned.",
+   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder"
   },
   {
    "date": "2026-11-11",
@@ -1791,7 +1794,8 @@
    "caption": "Slack krim Yooka, poket muat phone dengan kemas",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_yooka-white-slack_c4/spec.json",
-   "note": "All four angles (right profile at IMG_0262 118.6). Phone cut cropped at top 640 so the underwear band never shows. Text CREAM / YOOKA. Watermark pinned."
+   "note": "All four angles (right profile at IMG_0262 118.6). Phone cut cropped at top 640 so the underwear band never shows. Text CREAM / YOOKA. Watermark pinned.",
+   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder"
   },
   {
    "date": "2026-11-11",
@@ -1804,7 +1808,8 @@
    "caption": "Tee Zeke coklat, logo Z kecil dan kolar tebal",
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_zeke-coffee_c3/spec.json",
-   "note": "Top set by hand to 150 (mouth line; head at the frame top, pose fit unreliable). Second profile 140.0 overlaps c2 (only clean one on that side). Watermark pinned; none on the logo close-up."
+   "note": "Top set by hand to 150 (mouth line; head at the frame top, pose fit unreliable). Second profile 140.0 overlaps c2 (only clean one on that side). Watermark pinned; none on the logo close-up.",
+   "labels": "added 2026-11-13 (tools/feature_text.py), see labels.json in the plan folder"
   },
   {
    "date": "2026-11-11",
