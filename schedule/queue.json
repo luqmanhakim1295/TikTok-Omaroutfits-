@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 4,
-  "Seluar": 5
+  "Seluar": 6
  },
  "cycle": {
   "Baju": 4,
@@ -1954,6 +1954,20 @@
    "plan": "schedule/plans/baju_f1-team_c4/spec.json",
    "labels": "Sponsor logo prints / Two-tone sleeves / Petronas back print",
    "note": "10 cuts, 7.75 s. Side 133.4 centred by hand (cx 1090). IMG_0343 downloaded this time (blocked on 11/08)."
+  },
+  {
+   "date": "2026-11-13",
+   "type": "Seluar",
+   "folder": "Jogger pants black",
+   "cycle": 5,
+   "style": "detail_first",
+   "output": "output/daily/seluar_jogger-pants-black_c5.mp4",
+   "scenes": "IMG_0239 55.5 phone into pocket (whole move), IMG_0246 58.0 waistband; IMG_0238 213.6 front (hand into pocket)/89.6 side/197.6 back/107.6 side",
+   "caption": "Jogger hitam, pinggang getah dan poket muat phone",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_jogger-pants-black_c5/spec.json",
+   "labels": "Fits your phone / Elastic waistband / Relaxed fit",
+   "note": "IMG_0246 33 dropped (ends on a featureless patch). Second side and back reuse c4 windows (only clean ones)."
   }
  ],
  "discontinued": [
@@ -2043,7 +2057,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 4,
+  "next": 5,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
