@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 2,
-  "Seluar": 3
+  "Seluar": 4
  },
  "cycle": {
   "Baju": 4,
@@ -1649,7 +1649,7 @@
    "output": "output/daily/seluar_elgini-grey_c4.mp4",
    "scenes": "IMG_0347 279.0 front + 241.6 back (split opener), 254.0 side, 290.0 side; IMG_0350 43.0/78.0, IMG_0352 44.5",
    "caption": "Seluar track kelabu, pinggang getah dan tali",
-   "delivery": "held (split_screen, TikTok non-interactive violation risk)",
+   "delivery": "replaced by c5 (split_screen held, never sent)",
    "plan": "schedule/plans/seluar_elgini-grey_c4/spec.json",
    "note": "Side cuts at ch 3460 (90 %) so the crop can reach him. Watermark pinned; on the two waistband close-ups it sits on the white shirt (no background in frame)."
   },
@@ -1893,6 +1893,20 @@
    "plan": "schedule/plans/baju_boru-japan_c4/spec.json",
    "labels": "Chest logo print / Mount Fuji back print / Long sleeves",
    "note": "Side 46.6 at ch 2700 (ends above the knee) so he stays centred."
+  },
+  {
+   "date": "2026-11-13",
+   "type": "Seluar",
+   "folder": "Elgini grey",
+   "cycle": 5,
+   "style": "flash_punch",
+   "output": "output/daily/seluar_elgini-grey_c5.mp4",
+   "scenes": "IMG_0347 279.0 front (hands into pockets)/254.0 side/241.6 back/290.0 side, IMG_0350 43.0 drawstring, 78.0 waistband; IMG_0352 44.5 hand into pocket",
+   "caption": "Seluar track kelabu, pinggang getah dan poket sisi",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_elgini-grey_c5/spec.json",
+   "labels": "Elastic drawstring waist / Side pockets / Straight wide leg",
+   "note": "Replaces the held split_screen c4 (same windows, new style and order)."
   }
  ],
  "discontinued": [
@@ -1982,7 +1996,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 0,
+  "next": 1,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
