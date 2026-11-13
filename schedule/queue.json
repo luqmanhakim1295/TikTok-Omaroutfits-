@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 5,
-  "Seluar": 6
+  "Seluar": 7
  },
  "cycle": {
   "Baju": 4,
@@ -1988,6 +1988,20 @@
    "plan": "schedule/plans/baju_sweat-shirt-v-neck-grey_c4/spec.json",
    "labels": "Split V-neck / Ribbed knit texture / Relaxed long sleeves",
    "note": "Text V-NECK / KNIT. No colour grade. Side cuts start at the shoulders (top 300) because he looks down in both profiles."
+  },
+  {
+   "date": "2026-11-14",
+   "type": "Seluar",
+   "folder": "OS Red Stripe",
+   "cycle": 5,
+   "style": "classic",
+   "output": "output/daily/seluar_os-red-stripe_c5.mp4",
+   "scenes": "IMG_0356 46.0 front (phone)/124.2 side (hand into pocket)/135.0 back (hands into back pockets)/92.8 turn to the other side, IMG_0365 2.2 pocket lining, IMG_0361 5.3 embroidered logo",
+   "caption": "Track pants jalur merah, poket dalam dan logo sulam",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_os-red-stripe_c5/spec.json",
+   "labels": "Deep pocket lining / Red side stripes / Embroidered logo",
+   "note": "No colour grade. Second side is a turn ending three-quarter (stripe visible)."
   }
  ],
  "discontinued": [
@@ -2077,7 +2091,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 6,
+  "next": 0,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
