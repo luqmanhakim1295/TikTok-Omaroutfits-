@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 6,
-  "Seluar": 7
+  "Seluar": 8
  },
  "cycle": {
   "Baju": 4,
@@ -1767,7 +1767,7 @@
    "output": "output/daily/seluar_yooka-black-slack_c4.mp4",
    "scenes": "IMG_0317 209.4 front + 166.0 back (split opener), 133.4 side; IMG_0319 101.0 front waist, 121.0 right side (handheld)",
    "caption": "Slack hitam Yooka, pinggang getah belakang selesa",
-   "delivery": "held (split_screen, TikTok non-interactive violation risk)",
+   "delivery": "replaced by c5 (split_screen held, never sent)",
    "plan": "schedule/plans/seluar_yooka-black-slack_c4/spec.json",
    "note": "No tripod shot of his right side (he stands at the frame edge); right side is a handheld waist-to-shin shot. 7.25 s. Watermark pinned."
   },
@@ -2016,6 +2016,20 @@
    "plan": "schedule/plans/baju_textured_c4/spec.json",
    "labels": "Crinkle textured fabric / Button cuffs / Long sleeves",
    "note": "Side windows reuse c2's (only clean profiles in the footage). No colour grade."
+  },
+  {
+   "date": "2026-11-14",
+   "type": "Seluar",
+   "folder": "Yooka black slack",
+   "cycle": 5,
+   "style": "torn_glitch",
+   "output": "output/daily/seluar_yooka-black-slack_c5.mp4",
+   "scenes": "IMG_0317 209.4 front (hands in pockets)/133.4 side/166.0 back, IMG_0319 101.0 front pleats, 54.0 hand into pocket, 121.0 right side (handheld, adjusting the back waist)",
+   "caption": "Slack hitam Yooka, pleat depan dan pinggang getah",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_yooka-black-slack_c5/spec.json",
+   "labels": "Front pleats / Side pockets / Elastic back waist",
+   "note": "Replaces the held split_screen c4. Right side only as a handheld waist-to-shin shot (tripod never catches it). No colour grade."
   }
  ],
  "discontinued": [
@@ -2105,7 +2119,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 1,
+  "next": 2,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
