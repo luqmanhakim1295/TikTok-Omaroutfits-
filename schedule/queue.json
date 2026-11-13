@@ -1840,10 +1840,10 @@
    "output": "output/daily/baju_zeke-windbreaker_c3.mp4",
    "scenes": "IMG_0203-2 474.8 back (tilt)/347.4 front (adjusting zip)/387.4 side/439.8 side (hand into pocket), IMG_0205 258.5 hand on chest + logo, 192.6 putting the hood up",
    "caption": "Windbreaker Zeke dua tona, ada hud dan poket",
-   "delivery": "held (has the old colour grade; re-render without it before sending, needs ~10 GB free disk)",
+   "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_zeke-windbreaker_c3/spec.json",
    "labels": "Two-tone design / Built-in hood / Side pockets",
-   "note": "Every cut has an action (rule 2g). Feature labels added. Watermark pinned."
+   "note": "Every cut has an action (rule 2g). Feature labels added. Watermark pinned. Re-rendered 2026-11-14 without the colour grade (owner: no filters)."
   },
   {
    "date": "2026-11-12",
