@@ -1825,10 +1825,11 @@
    "output": "output/daily/seluar_baggy-corduroy-pants_c5.mp4",
    "scenes": "IMG_0276 231.8 front/250.8 side/116.4 back/111.6 other side, IMG_0279 133.0 hand in pocket, 56.8 back pocket",
    "caption": "Seluar corduroy baggy, poket belakang dengan patch",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-13)",
    "plan": "schedule/plans/seluar_baggy-corduroy-pants_c5/spec.json",
    "note": "All four angles: the second profile is at IMG_0276 111.6 (earlier videos missed it). No watermark on the two close-ups (no background); wide cuts on the vase.",
-   "labels": "Deep front pockets / Back pocket patch / Baggy wide leg (added 2026-11-14)"
+   "labels": "Deep front pockets / Back pocket patch / Baggy wide leg (added 2026-11-14)",
+   "zernio_post_id": "6af73be94724b6765b3e0ba6"
   },
   {
    "date": "2026-11-12",
@@ -1853,10 +1854,11 @@
    "output": "output/daily/seluar_cargo-elgini_c5.mp4",
    "scenes": "IMG_0557 191.0/210.0 front, 216.2/308.4/233.8 side, 249.4/299.6 back; IMG_0560 33.0 hand into pocket, 272.5 zip pocket",
    "caption": "Cargo beige Elgini, poket zip dan potongan lurus",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-13)",
    "plan": "schedule/plans/seluar_cargo-elgini_c5/spec.json",
    "labels": "Deep side pockets / Zip cargo pockets / Straight leg",
-   "note": "9 cuts, 7 s. Waist close-up IMG_0560 262 dropped (soft, shirt lifted). Watermark pinned; none on close-ups."
+   "note": "9 cuts, 7 s. Waist close-up IMG_0560 262 dropped (soft, shirt lifted). Watermark pinned; none on close-ups.",
+   "zernio_post_id": "6af73c1a6716dcf772228424"
   },
   {
    "date": "2026-11-12",
@@ -1867,10 +1869,11 @@
    "output": "output/daily/baju_advo-polo-green_c4.mp4",
    "scenes": "IMG_0235 79.5 hand on fabric, 41.0 sleeve, 96.5 adjusting collar; IMG_0233 280.8 front (crossing arms)/307.0 side/379.8 back/388.6 side (hand into pocket)",
    "caption": "Polo hijau Advo, kain licin dan kolar kemas",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-13)",
    "plan": "schedule/plans/baju_advo-polo-green_c4/spec.json",
    "labels": "Smooth fabric / Short sleeves / Polo collar",
-   "note": "Every cut has an action. Watermark on the vase; none on the close-ups."
+   "note": "Every cut has an action. Watermark on the vase; none on the close-ups.",
+   "zernio_post_id": "6af73c347faeb120fc631c20"
   },
   {
    "date": "2026-11-12",
@@ -1881,10 +1884,11 @@
    "output": "output/daily/seluar_cargo-grey_c5.mp4",
    "scenes": "IMG_0370 211.8 front (adjusting belt)/204.4 side/140.8 back (hand into back pocket)/126.2 side, IMG_0368 16.0 phone into pocket, IMG_0369 28.0 opening snap cargo pocket",
    "caption": "Cargo kelabu, poket butang snap dan muat phone",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-13)",
    "plan": "schedule/plans/seluar_cargo-grey_c5/spec.json",
    "labels": "Fits your phone / Snap button cargo pocket / Side cargo pockets",
-   "note": "Text CARGO / GREY. Side 204.4 is a three-quarter rear view with the cargo pocket. IMG_0371 skipped (top-down POV, mostly floor)."
+   "note": "Text CARGO / GREY. Side 204.4 is a three-quarter rear view with the cargo pocket. IMG_0371 skipped (top-down POV, mostly floor).",
+   "zernio_post_id": "6af73c647faeb120fc631d59"
   },
   {
    "date": "2026-11-12",
@@ -1895,10 +1899,11 @@
    "output": "output/daily/baju_boru-japan_c4.mp4",
    "scenes": "IMG_0275 43.2 front (hands into pockets)/46.6 side/148.2 back/59.6 side/96.0 front (pushing sleeves up), IMG_0278 49.0 chest logo, 82.2 back print",
    "caption": "Tee Boru Mount Fuji lengan panjang, print belakang padu",
-   "delivery": "draft_failed (daily draft limit, send next run)",
+   "delivery": "tiktok-draft (sent 2026-11-13)",
    "plan": "schedule/plans/baju_boru-japan_c4/spec.json",
    "labels": "Chest logo print / Mount Fuji back print / Long sleeves",
-   "note": "Side 46.6 at ch 2700 (ends above the knee) so he stays centred."
+   "note": "Side 46.6 at ch 2700 (ends above the knee) so he stays centred.",
+   "zernio_post_id": "6af73c803f636200cee1bce5"
   },
   {
    "date": "2026-11-13",
