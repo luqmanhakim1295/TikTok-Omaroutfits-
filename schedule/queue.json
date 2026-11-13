@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 6,
+  "Baju": 7,
   "Seluar": 8
  },
  "cycle": {
@@ -2030,6 +2030,20 @@
    "plan": "schedule/plans/seluar_yooka-black-slack_c5/spec.json",
    "labels": "Front pleats / Side pockets / Elastic back waist",
    "note": "Replaces the held split_screen c4. Right side only as a handheld waist-to-shin shot (tripod never catches it). No colour grade."
+  },
+  {
+   "date": "2026-11-14",
+   "type": "Baju",
+   "folder": "VPG",
+   "cycle": 4,
+   "style": "cinematic",
+   "output": "output/daily/baju_vpg_c4.mp4",
+   "scenes": "IMG_0383 103.8 back (tilt, hands to hips)/65.8 front (hands into pockets)/81.6 side/129.2 side (phone), IMG_0384 42.0 collar, 61.0 placket",
+   "caption": "Polo hitam VPG, kolar V dan kait bercorak",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_vpg_c4/spec.json",
+   "labels": "Open V collar / Relaxed knit polo / Cable knit texture",
+   "note": "Cinematic without colour grade (owner). Sides centred by hand (cx), 81.6 at ch 3000 (ends above the feet)."
   }
  ],
  "discontinued": [
@@ -2119,7 +2133,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 2,
+  "next": 3,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
