@@ -1,0 +1,4 @@
+{"style":"text_behind","tops":{"IMG_0382.MOV":0,"IMG_0391-2.mov":0},"ch":{"IMG_0382.MOV":3440,"IMG_0391-2.mov":3440},
+ "text":{"texts":[{"start":0.0,"end":2.0,"lines":["V-NECK"],"y":0.05},{"start":5.5,"end":7.5,"lines":["KNIT"],"y":0.05}],"tears":[],"glitches":[]},
+ "cuts":[["IMG_0391-2.mov",101.2,2.0,"front"],["IMG_0386.MOV",44.0,1.5,"detail",3440,{"top":400}],["IMG_0382.MOV",111.4,2.0,"side",3240,{"top":300}],
+         ["IMG_0382.MOV",105.6,2.0,"back"],["IMG_0386.MOV",60.0,1.5,"detail",3440,{"top":400}],["IMG_0391-2.mov",63.0,2.0,"side",3240,{"top":300}]]}

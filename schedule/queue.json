@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 4,
+  "Baju": 5,
   "Seluar": 6
  },
  "cycle": {
@@ -1974,6 +1974,20 @@
    "plan": "schedule/plans/seluar_jogger-pants-black_c5/spec.json",
    "labels": "Fits your phone / Elastic waistband / Relaxed fit",
    "note": "IMG_0246 33 dropped (ends on a featureless patch). Second side and back reuse c4 windows (only clean ones)."
+  },
+  {
+   "date": "2026-11-14",
+   "type": "Baju",
+   "folder": "Sweat shirt v neck grey",
+   "cycle": 4,
+   "style": "text_behind",
+   "output": "output/daily/baju_sweat-shirt-v-neck-grey_c4.mp4",
+   "scenes": "IMG_0391-2 101.2 front (crossing arms)/63.0 side, IMG_0382 111.4 side (hand into pocket)/105.6 back, IMG_0386 44.0 V-neck, 60.0 touching the knit",
+   "caption": "Sweater v-neck kelabu, kait bertekstur dan selesa",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_sweat-shirt-v-neck-grey_c4/spec.json",
+   "labels": "Split V-neck / Ribbed knit texture / Relaxed long sleeves",
+   "note": "Text V-NECK / KNIT. No colour grade. Side cuts start at the shoulders (top 300) because he looks down in both profiles."
   }
  ],
  "discontinued": [
@@ -2063,7 +2077,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 5,
+  "next": 6,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
