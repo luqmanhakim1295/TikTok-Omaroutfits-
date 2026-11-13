@@ -253,4 +253,4 @@ Rotation resumed 2026-11-05 (watermarked, four angles, shirt cuts from the mouth
 
 2026-11-13: `seluar_elgini-grey_c5.mp4` (flash_punch, 12.5s, replaces the held split_screen c4)., `baju_boru-moon_c4.mp4` (torn_glitch, 11s)., `seluar_elgini-relaxed-pants_c5.mp4` (cinematic, 12.5s)., `baju_f1-team_c4.mp4` (fast_beat, 7.75s)., `seluar_jogger-pants-black_c5.mp4` (detail_first, 11.25s).
 
-2026-11-14 (no colour grade from now on): `baju_sweat-shirt-v-neck-grey_c4.mp4` (text_behind, 11s)., `seluar_os-red-stripe_c5.mp4` (classic, 11s).
+2026-11-14 (no colour grade from now on): `baju_sweat-shirt-v-neck-grey_c4.mp4` (text_behind, 11s)., `seluar_os-red-stripe_c5.mp4` (classic, 11s)., `baju_textured_c4.mp4` (flash_punch, 11s).

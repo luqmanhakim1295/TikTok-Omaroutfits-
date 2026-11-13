@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 5,
+  "Baju": 6,
   "Seluar": 7
  },
  "cycle": {
@@ -2002,6 +2002,20 @@
    "plan": "schedule/plans/seluar_os-red-stripe_c5/spec.json",
    "labels": "Deep pocket lining / Red side stripes / Embroidered logo",
    "note": "No colour grade. Second side is a turn ending three-quarter (stripe visible)."
+  },
+  {
+   "date": "2026-11-14",
+   "type": "Baju",
+   "folder": "textured",
+   "cycle": 4,
+   "style": "flash_punch",
+   "output": "output/daily/baju_textured_c4.mp4",
+   "scenes": "IMG_0253 156.0 front (tugging the hem)/134.8 side/206.4 back/174.2 side (buttoning cuff), IMG_0255 14.5 crinkle fabric, IMG_0256 175.0 cuff",
+   "caption": "Kemeja tekstur olive, kain crinkle dan butang lengan",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_textured_c4/spec.json",
+   "labels": "Crinkle textured fabric / Button cuffs / Long sleeves",
+   "note": "Side windows reuse c2's (only clean profiles in the footage). No colour grade."
   }
  ],
  "discontinued": [
@@ -2091,7 +2105,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 0,
+  "next": 1,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
