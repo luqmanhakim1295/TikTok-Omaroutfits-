@@ -2339,6 +2339,20 @@
    "plan": "schedule/plans/seluar_jeans-light-blue_c1/spec.json",
    "labels": "Side pockets / Drawstring waist / Wide leg fit",
    "note": "New folder. Only one clear profile; the other side is a three-quarter front turn (no centred clean profile on that side). Avoided IMG_0723 49-56 (shirt lifted, belly). Text DENIM / WIDE."
+  },
+  {
+   "date": "2026-11-14",
+   "type": "Baju",
+   "folder": "Bgm men roundneck olive",
+   "cycle": 1,
+   "style": "classic",
+   "output": "output/daily/baju_bgm-men-roundneck-olive_c1.mp4",
+   "scenes": "IMG_0697 102.8 front crossed arms/91.4 side/130.2 back/59.4 front (hand on chest), IMG_0699 31.0 neckline, 48.5 pinching the logo",
+   "caption": "Tshirt roundneck olive Bgm, logo sulam merah",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_bgm-men-roundneck-olive_c1/spec.json",
+   "labels": "Ribbed round neck / Embroidered logo / Regular fit",
+   "note": "New folder. Only one side profile in the footage (the other turn ends with him walking to the camera). 1080p tripod clip: wide cuts end at the thigh."
   }
  ],
  "discontinued": [
@@ -2428,7 +2442,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 6,
+  "next": 0,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
@@ -2465,7 +2479,8 @@
    {
     "day": "2026-11-14",
     "type": "Baju",
-    "folder": "Bgm men roundneck olive"
+    "folder": "Bgm men roundneck olive",
+    "done": "output/daily/baju_bgm-men-roundneck-olive_c1.mp4"
    },
    {
     "day": "2026-11-15",
