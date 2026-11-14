@@ -2388,6 +2388,21 @@
    "plan": "schedule/plans/jam_c1_2/plan.json",
    "labels": "Textured black dial / Steel link bracelet",
    "note": "Owner's 'satu video' option: a single 8.4 s clip, no cuts, no effects."
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Baju",
+   "folder": "Kurta atiq teal blue",
+   "cycle": 1,
+   "style": "torn_glitch",
+   "output": "output/daily/baju_kurta-atiq-teal-blue_c1.mp4",
+   "scenes": "IMG_0700 128.6 front crossed arms/108.4 side/160.6 back/176.8 side (hand into pocket), IMG_0701 43.5 button neck, 20.0 shoulder fabric",
+   "caption": "Kurta Atiq biru, butang leher dan lengan suku",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "send_first": true,
+   "plan": "schedule/plans/baju_kurta-atiq-teal-blue_c1/spec.json",
+   "labels": "Button neck opening / Smooth fabric / Three-quarter sleeves",
+   "note": "New folder. Side cuts at ch 1400 (end at the thigh, 1080p source) and centred by hand; top below the nose in the profiles."
   }
  ],
  "discontinued": [
@@ -2477,7 +2492,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 1,
+  "next": 2,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
@@ -2533,7 +2548,8 @@
    {
     "day": "2026-11-15",
     "type": "Baju",
-    "folder": "Kurta atiq teal blue"
+    "folder": "Kurta atiq teal blue",
+    "done": "output/daily/baju_kurta-atiq-teal-blue_c1.mp4"
    },
    {
     "day": "2026-11-15",
