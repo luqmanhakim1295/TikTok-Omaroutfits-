@@ -2418,6 +2418,21 @@
    "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1/spec.json",
    "labels": "Slant side pockets / Straight leg trouser / Belt loops",
    "note": "New folder. Cinematic without grade, no tilt (1080p source, waist-to-shoe already fills the crop)."
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Baju",
+   "folder": "Zeke windbreaker",
+   "cycle": 4,
+   "style": "fast_beat",
+   "output": "output/daily/baju_zeke-windbreaker_c4.mp4",
+   "scenes": "New clips IMG_0738 127.0/136.0/182.6 front, 143.0/172.5 side, 159.6/154.4 back; IMG_0739 36.5 hand into zip pocket, 44.5 adjusting the hem",
+   "caption": "Windbreaker Zeke hijau gelap, poket zip dan hud",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "send_first": true,
+   "plan": "schedule/plans/baju_zeke-windbreaker_c4/spec.json",
+   "labels": "Zip side pockets / Two-tone with hood / Elastic cuffs",
+   "note": "From the 2 new clips (green/navy colourway). 9 cuts, 7.5 s. Most of IMG_0739 is out of focus; only 36-47 s used."
   }
  ],
  "discontinued": [
@@ -2507,7 +2522,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 3,
+  "next": 4,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
@@ -2579,7 +2594,8 @@
     "clips": [
      "IMG_0738.MOV",
      "IMG_0739.MOV"
-    ]
+    ],
+    "done": "output/daily/baju_zeke-windbreaker_c4.mp4"
    },
    {
     "day": "2026-11-16",
