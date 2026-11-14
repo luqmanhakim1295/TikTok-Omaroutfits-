@@ -1,0 +1,4 @@
+{"style":"text_behind","garment":"seluar","tops":{"IMG_0723.MOV":80},"ch":{"IMG_0723.MOV":1840},
+ "text":{"texts":[{"start":0.0,"end":2.0,"lines":["DENIM"],"y":0.05},{"start":5.5,"end":7.5,"lines":["WIDE"],"y":0.05}],"tears":[],"glitches":[]},
+ "cuts":[["IMG_0723.MOV",128.2,2.0,"front"],["IMG_0724.MOV",37.5,1.5,"detail",1920],["IMG_0723.MOV",77.0,2.0,"side"],
+         ["IMG_0723.MOV",105.8,2.0,"back"],["IMG_0727.MOV",4.2,1.5,"detail",1920],["IMG_0723.MOV",113.6,2.0,"side"]]}

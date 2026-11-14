@@ -2325,6 +2325,20 @@
    "plan": "schedule/plans/baju_advo-microfibre-tshirt-wine_c1/spec.json",
    "labels": "Mesh knit fabric / Round neck / Regular fit",
    "note": "New folder. Tripod clip is 1080p (not 4K): wide cuts are light crops (ch 1600-1700), end at the thigh."
+  },
+  {
+   "date": "2026-11-14",
+   "type": "Seluar",
+   "folder": "Jeans light blue",
+   "cycle": 1,
+   "style": "text_behind",
+   "output": "output/daily/seluar_jeans-light-blue_c1.mp4",
+   "scenes": "IMG_0723 128.2 front/77.0 side (hand into pocket)/105.8 back (hands into back pockets)/113.6 three-quarter other side (hand into pocket), IMG_0724 37.5 side pocket, IMG_0727 4.2 drawstring",
+   "caption": "Jeans biru cair potongan lebar, pinggang getah bertali",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_jeans-light-blue_c1/spec.json",
+   "labels": "Side pockets / Drawstring waist / Wide leg fit",
+   "note": "New folder. Only one clear profile; the other side is a three-quarter front turn (no centred clean profile on that side). Avoided IMG_0723 49-56 (shirt lifted, belly). Text DENIM / WIDE."
   }
  ],
  "discontinued": [
@@ -2414,7 +2428,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 5,
+  "next": 6,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
@@ -2445,7 +2459,8 @@
    {
     "day": "2026-11-14",
     "type": "Seluar",
-    "folder": "Jeans light blue"
+    "folder": "Jeans light blue",
+    "done": "output/daily/seluar_jeans-light-blue_c1.mp4"
    },
    {
     "day": "2026-11-14",
