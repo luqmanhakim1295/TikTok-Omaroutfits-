@@ -2358,6 +2358,21 @@
    "labels": "Ribbed round neck / Embroidered logo / Regular fit",
    "note": "New folder. Only one side profile in the footage (the other turn ends with him walking to the camera). 1080p tripod clip: wide cuts end at the thigh.",
    "send_first": true
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Seluar",
+   "folder": "Zeke loose sweat pants grey",
+   "cycle": 1,
+   "style": "flash_punch",
+   "output": "output/daily/seluar_zeke-loose-sweat-pants-grey_c1.mp4",
+   "scenes": "IMG_0729 77.2 front (hands into pockets)/63.0 side/125.8 back (hand into back pocket)/116.0 side, IMG_0731 26.0 tying the drawstring, 44.5 hand into pocket",
+   "caption": "Seluar sweat Zeke kelabu, longgar dan bertali",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_zeke-loose-sweat-pants-grey_c1/spec.json",
+   "labels": "Drawstring waist / Deep side pockets / Loose straight leg",
+   "note": "New folder. All four angles."
   }
  ],
  "discontinued": [
@@ -2447,7 +2462,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 0,
+  "next": 1,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
@@ -2490,7 +2505,8 @@
    {
     "day": "2026-11-15",
     "type": "Seluar",
-    "folder": "Zeke loose sweat pants grey"
+    "folder": "Zeke loose sweat pants grey",
+    "done": "output/daily/seluar_zeke-loose-sweat-pants-grey_c1.mp4"
    },
    {
     "day": "2026-11-15",
