@@ -2373,6 +2373,21 @@
    "plan": "schedule/plans/seluar_zeke-loose-sweat-pants-grey_c1/spec.json",
    "labels": "Drawstring waist / Deep side pockets / Loose straight leg",
    "note": "New folder. All four angles."
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Jam",
+   "folder": "Jam",
+   "cycle": 1,
+   "style": "premium_one_shot",
+   "output": "output/daily/jam_c1_2.mp4",
+   "scenes": "IMG_0712 3.2-11.6 one continuous shot: watch in the palm, slow tilt catching the light across the dial, slow push-in",
+   "caption": "Jam dial hitam bertekstur, kilauan steel bila kena cahaya",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "send_first": true,
+   "plan": "schedule/plans/jam_c1_2/plan.json",
+   "labels": "Textured black dial / Steel link bracelet",
+   "note": "Owner's 'satu video' option: a single 8.4 s clip, no cuts, no effects."
   }
  ],
  "discontinued": [
@@ -2512,7 +2527,8 @@
     "day": "2026-11-15",
     "type": "Jam",
     "folder": "Jam",
-    "n": 2
+    "n": 2,
+    "done": "output/daily/jam_c1_2.mp4"
    },
    {
     "day": "2026-11-15",
