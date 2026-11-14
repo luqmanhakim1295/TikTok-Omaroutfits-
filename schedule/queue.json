@@ -2297,6 +2297,20 @@
    "plan": "schedule/plans/jam_c1_1/plan.json",
    "labels": "Date window / Steel link bracelet",
    "note": "Owner: few scenes, premium motion. 3 long cuts (3.5-4.5 s) with a slow 3 % drift, no effects, no colour grade."
+  },
+  {
+   "date": "2026-11-14",
+   "type": "Seluar",
+   "folder": "Ironless premium slack black",
+   "cycle": 1,
+   "style": "fast_beat",
+   "output": "output/daily/seluar_ironless-premium-slack-black_c1.mp4",
+   "scenes": "IMG_0703 44.2 front/55.2 side/61.0 leg kick (stretch)/91.8 back/75.2 side/109.6 back, IMG_0704 52.0 button waist, 64.0 hand into pocket, 85.0 hand in pocket with watch, IMG_0705 1.0 pinching the fabric",
+   "caption": "Slack hitam ironless, tak perlu gosok dan selesa bergerak",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/seluar_ironless-premium-slack-black_c1/spec.json",
+   "labels": "Button waist / Free movement / Ironless fabric",
+   "note": "New folder (2026-11-14). 10 cuts, 8.3 s. IMG_0707 (seated, face visible) not used."
   }
  ],
  "discontinued": [
@@ -2386,7 +2400,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 3,
+  "next": 4,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
@@ -2398,7 +2412,8 @@
    {
     "day": "2026-11-14",
     "type": "Seluar",
-    "folder": "Ironless premium slack black"
+    "folder": "Ironless premium slack black",
+    "done": "output/daily/seluar_ironless-premium-slack-black_c1.mp4"
    },
    {
     "day": "2026-11-14",
