@@ -97,7 +97,7 @@ detail_first, text_behind, classic). Record `style` in the history entry.
 semua." While `queue.json` has `new_first` with slots not marked `done`, each
 daily run takes its 5 videos from those slots (in order, the slots for that
 day), marks them `done` with the output path, and leaves `next_type`/`pointer`
-alone. After the last slot, delete `new_first` and rotate as usual; the new
+alone. Send those new videos to drafts **before** the older `draft_failed` backlog (history entries with `send_first`). After the last slot, delete `new_first` and rotate as usual; the new
 folders are already in `folders` (Jam is its own category, see CLAUDE.md "Jam").
 
 ## Steps for each of the 5 videos

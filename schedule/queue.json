@@ -2296,7 +2296,8 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/jam_c1_1/plan.json",
    "labels": "Date window / Steel link bracelet",
-   "note": "Owner: few scenes, premium motion. 3 long cuts (3.5-4.5 s) with a slow 3 % drift, no effects, no colour grade."
+   "note": "Owner: few scenes, premium motion. 3 long cuts (3.5-4.5 s) with a slow 3 % drift, no effects, no colour grade.",
+   "send_first": true
   },
   {
    "date": "2026-11-14",
@@ -2310,7 +2311,8 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_ironless-premium-slack-black_c1/spec.json",
    "labels": "Button waist / Free movement / Ironless fabric",
-   "note": "New folder (2026-11-14). 10 cuts, 8.3 s. IMG_0707 (seated, face visible) not used."
+   "note": "New folder (2026-11-14). 10 cuts, 8.3 s. IMG_0707 (seated, face visible) not used.",
+   "send_first": true
   },
   {
    "date": "2026-11-14",
@@ -2324,7 +2326,8 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_advo-microfibre-tshirt-wine_c1/spec.json",
    "labels": "Mesh knit fabric / Round neck / Regular fit",
-   "note": "New folder. Tripod clip is 1080p (not 4K): wide cuts are light crops (ch 1600-1700), end at the thigh."
+   "note": "New folder. Tripod clip is 1080p (not 4K): wide cuts are light crops (ch 1600-1700), end at the thigh.",
+   "send_first": true
   },
   {
    "date": "2026-11-14",
@@ -2338,7 +2341,8 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/seluar_jeans-light-blue_c1/spec.json",
    "labels": "Side pockets / Drawstring waist / Wide leg fit",
-   "note": "New folder. Only one clear profile; the other side is a three-quarter front turn (no centred clean profile on that side). Avoided IMG_0723 49-56 (shirt lifted, belly). Text DENIM / WIDE."
+   "note": "New folder. Only one clear profile; the other side is a three-quarter front turn (no centred clean profile on that side). Avoided IMG_0723 49-56 (shirt lifted, belly). Text DENIM / WIDE.",
+   "send_first": true
   },
   {
    "date": "2026-11-14",
@@ -2352,7 +2356,8 @@
    "delivery": "draft_failed (daily draft limit, send next run)",
    "plan": "schedule/plans/baju_bgm-men-roundneck-olive_c1/spec.json",
    "labels": "Ribbed round neck / Embroidered logo / Regular fit",
-   "note": "New folder. Only one side profile in the footage (the other turn ends with him walking to the camera). 1080p tripod clip: wide cuts end at the thigh."
+   "note": "New folder. Only one side profile in the footage (the other turn ends with him walking to the camera). 1080p tripod clip: wide cuts end at the thigh.",
+   "send_first": true
   }
  ],
  "discontinued": [
@@ -2546,6 +2551,7 @@
     "folder": "Kurta atiq teal blue",
     "n": 2
    }
-  ]
+  ],
+  "send_rule": "While new_first is active, drafts with send_first go before the older draft_failed backlog (owner wants the new folders uploaded first)."
  }
 }
