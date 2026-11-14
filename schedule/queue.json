@@ -2311,6 +2311,20 @@
    "plan": "schedule/plans/seluar_ironless-premium-slack-black_c1/spec.json",
    "labels": "Button waist / Free movement / Ironless fabric",
    "note": "New folder (2026-11-14). 10 cuts, 8.3 s. IMG_0707 (seated, face visible) not used."
+  },
+  {
+   "date": "2026-11-14",
+   "type": "Baju",
+   "folder": "Advo microfibre tshirt wine",
+   "cycle": 1,
+   "style": "detail_first",
+   "output": "output/daily/baju_advo-microfibre-tshirt-wine_c1.mp4",
+   "scenes": "IMG_0695 21.0 hand on mesh fabric, 32.5 neckline, 187.5 sleeve; IMG_0693 68.0 front crossed arms/86.0 side/144.8 back/100.0 side (hand into pocket)",
+   "caption": "Tshirt microfibre Advo warna wine, kain mesh ringan",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/baju_advo-microfibre-tshirt-wine_c1/spec.json",
+   "labels": "Mesh knit fabric / Round neck / Regular fit",
+   "note": "New folder. Tripod clip is 1080p (not 4K): wide cuts are light crops (ch 1600-1700), end at the thigh."
   }
  ],
  "discontinued": [
@@ -2400,7 +2414,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 4,
+  "next": 5,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
@@ -2425,7 +2439,8 @@
    {
     "day": "2026-11-14",
     "type": "Baju",
-    "folder": "Advo microfibre tshirt wine"
+    "folder": "Advo microfibre tshirt wine",
+    "done": "output/daily/baju_advo-microfibre-tshirt-wine_c1.mp4"
    },
    {
     "day": "2026-11-14",
