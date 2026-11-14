@@ -1,0 +1,1 @@
+[{"t": [0.0, 3.5], "o": "v", "x": 1039, "y": 200, "person": 0.209, "garment": 0.039, "colour": "white"}, {"t": [3.5, 8.0], "o": "v", "x": 10, "y": 1300, "person": 0.424, "garment": 0.054, "colour": "white"}, {"t": [8.0, 12.0], "o": "h", "x": 18, "y": 1500, "person": 0.522, "garment": 0.046, "colour": "white"}]

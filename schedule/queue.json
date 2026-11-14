@@ -2283,6 +2283,20 @@
    "plan": "schedule/plans/baju_vpg_c4/spec.json",
    "labels": "Open V collar / Relaxed knit polo / Cable knit texture",
    "note": "Cinematic without colour grade (owner). Sides centred by hand (cx), 81.6 at ch 3000 (ends above the feet)."
+  },
+  {
+   "date": "2026-11-14",
+   "type": "Jam",
+   "folder": "Jam",
+   "cycle": 1,
+   "style": "premium_slow",
+   "output": "output/daily/jam_c1_1.mp4",
+   "scenes": "IMG_0715 4.5-8.0 dial close-up tilting in the light, IMG_0711 8.0-12.5 slow turn showing case and bracelet, IMG_0702 9.0-13.0 on the wrist",
+   "caption": "Jam tangan dial hitam, bracelet steel nampak kemas",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "plan": "schedule/plans/jam_c1_1/plan.json",
+   "labels": "Date window / Steel link bracelet",
+   "note": "Owner: few scenes, premium motion. 3 long cuts (3.5-4.5 s) with a slow 3 % drift, no effects, no colour grade."
   }
  ],
  "discontinued": [
@@ -2390,7 +2404,8 @@
     "day": "2026-11-14",
     "type": "Jam",
     "folder": "Jam",
-    "n": 1
+    "n": 1,
+    "done": "output/daily/jam_c1_1.mp4"
    },
    {
     "day": "2026-11-14",
