@@ -170,6 +170,21 @@ biasa" / "cam biasa" means: follow all of these.
   going into a pocket, hand in pocket, back view, fabric texture, logos /
   patches, wide-leg vs jogger via hem cord, rolled-up sleeves.
 
+## Jam (watches)
+
+New category from 2026-11-14 (folder `Jam` in the library). The owner:
+"cuba ambil dari scene yang lebih kurang atau dari 1 video yg penting nampak
+premium dari segi motion dia". So a watch video uses **few scenes (2-4) or one
+continuous clip** with the smoothest, most premium motion (slow turn of the
+wrist, light sweeping across the dial, slow push-in), not quick cuts. Pick the
+steadiest, sharpest stretch; no shaky hand-held moments, no fast pans. Full
+frame 1080x1920 60 fps, gentle `push_soft`/`drift` only, no colour filter, no
+audio, 15 s or less. The clothing rules for framing (mouth line, four angles,
+trouser crops) don't apply; the watch must be sharp, centred and fill the frame.
+Labels only for what is visible (e.g. "Steel bracelet", "Date window"), never
+invented specs or brands. Watermark off the watch. Name outputs
+`output/daily/jam_c<cycle>_<n>.mp4`.
+
 ## Workflow
 
 1. Download the Drive folder (`gdown`), check for files already on disk.

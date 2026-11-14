@@ -91,6 +91,15 @@ baju. Then `tools/watermark.py`. The styles are described under "Focus mode"
 below (flash_punch, torn_glitch, cinematic, fast_beat, split_screen,
 detail_first, text_behind, classic). Record `style` in the history entry.
 
+## New folders first (owner, 2026-11-14)
+
+"Untuk 3 hari ni upload video dari folder yang baru dulu, kemudian rotate
+semua." While `queue.json` has `new_first` with slots not marked `done`, each
+daily run takes its 5 videos from those slots (in order, the slots for that
+day), marks them `done` with the output path, and leaves `next_type`/`pointer`
+alone. After the last slot, delete `new_first` and rotate as usual; the new
+folders are already in `folders` (Jam is its own category, see CLAUDE.md "Jam").
+
 ## Steps for each of the 5 videos
 
 1. `type = next_type`, `folder = folders[type][pointer[type]]`.
