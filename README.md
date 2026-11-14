@@ -257,4 +257,4 @@ Rotation resumed 2026-11-05 (watermarked, four angles, shirt cuts from the mouth
 
 2026-11-14 (new folders first): `jam_c1_1.mp4` (watch, 3 slow premium cuts, 12s)., `seluar_ironless-premium-slack-black_c1.mp4` (fast_beat, 8.3s)., `baju_advo-microfibre-tshirt-wine_c1.mp4` (detail_first, 12.5s)., `seluar_jeans-light-blue_c1.mp4` (text_behind, 11s)., `baju_bgm-men-roundneck-olive_c1.mp4` (classic, 11s).
 
-2026-11-15 (new folders first): `seluar_zeke-loose-sweat-pants-grey_c1.mp4` (flash_punch, 11s)., `jam_c1_2.mp4` (watch, one continuous 8.4s shot)., `baju_kurta-atiq-teal-blue_c1.mp4` (torn_glitch, 10.4s)., `seluar_zeke-trouser-khaki_c1.mp4` (cinematic, 12.6s)., `baju_zeke-windbreaker_c4.mp4` (fast_beat, 7.5s, new clips).
+2026-11-15 (new folders first): `seluar_zeke-loose-sweat-pants-grey_c1.mp4` (flash_punch, 11s), `jam_c1_2.mp4` (watch, one continuous 8.4s shot), `baju_kurta-atiq-teal-blue_c1.mp4` (torn_glitch, 10.4s), `seluar_zeke-trouser-khaki_c1.mp4` (cinematic, 12.6s), `baju_zeke-windbreaker_c4.mp4` (fast_beat, 7.5s, new clips).
