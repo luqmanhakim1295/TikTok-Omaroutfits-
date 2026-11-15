@@ -2341,8 +2341,9 @@
    "delivery": "tiktok-draft (sent 2026-11-14)",
    "plan": "schedule/plans/seluar_jeans-light-blue_c1/spec.json",
    "labels": "Side pockets / Drawstring waist / Wide leg fit",
-   "note": "New folder. Only one clear profile; the other side is a three-quarter front turn (no centred clean profile on that side). Avoided IMG_0723 49-56 (shirt lifted, belly). Text DENIM / WIDE.",
-   "zernio_post_id": "6af88ee4c46eca29787d6780"
+   "note": "New folder. Only one clear profile; the other side is a three-quarter front turn (no centred clean profile on that side). Avoided IMG_0723 49-56 (shirt lifted, belly). Text DENIM / WIDE. Owner 2026-11-15: first scene not centred -> replaced by c1_v2 (delete this draft).",
+   "zernio_post_id": "6af88ee4c46eca29787d6780",
+   "replaced_by": "output/daily/seluar_jeans-light-blue_c1_v2.mp4"
   },
   {
    "date": "2026-11-14",
@@ -2433,6 +2434,21 @@
    "plan": "schedule/plans/baju_zeke-windbreaker_c4/spec.json",
    "labels": "Zip side pockets / Two-tone with hood / Elastic cuffs",
    "note": "From the 2 new clips (green/navy colourway). 9 cuts, 7.5 s. Most of IMG_0739 is out of focus; only 36-47 s used."
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Seluar",
+   "folder": "Jeans light blue",
+   "cycle": 1,
+   "style": "text_behind",
+   "output": "output/daily/seluar_jeans-light-blue_c1_v2.mp4",
+   "scenes": "IMG_0723 64.4 front (hands into pockets)/77.0 side (ch 1660)/103.8 back (hands into back pockets)/113.6 other side (ch 1720), IMG_0724 37.5 side pocket, IMG_0727 4.2 drawstring",
+   "caption": "Jeans biru cair potongan lebar, pinggang getah bertali",
+   "delivery": "draft_failed (daily draft limit, send next run)",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_jeans-light-blue_c1_v2/spec.json",
+   "labels": "Side pockets / Drawstring waist / Wide leg fit",
+   "note": "Fix of c1 (owner: first scene not centred). qc.py centre: wide cuts +14/+20/+2/-30 px. Side cuts use a slightly smaller crop (86-90 %) because he stands off-centre in every profile."
   }
  ],
  "discontinued": [

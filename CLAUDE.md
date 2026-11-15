@@ -12,7 +12,14 @@ biasa" / "cam biasa" means: follow all of these.
    against an empty stretch at the start of the tripod clip) and crop with
    `edit_video.centered_box()`. If centring would need a crop so tight it
    cuts the shoulders, pick a different, better-centred window instead.
-   Verify on the rendered output with a centre line drawn on frames.
+   Verify on the rendered output with a centre line drawn on frames **and**
+   measure it: `python3 tools/qc.py centre out.mp4 [--rows 0.35 0.95 for
+   trousers] <cut times>`; every wide cut must read |offset| <= 30 px. The
+   owner caught an off-centre front cut again (2026-11-15, Jeans light blue:
+   the crop was clamped at the frame edge on 1080p footage). On 1080x1920
+   sources the crop can barely move sideways, so pick windows whose source
+   centre (stepscan "centre" column) is within ~25 px of 540, or use a
+   slightly smaller crop for that cut.
 2. **Frame up to the mouth: no higher, and no lower.** The top edge sits at
    mouth level: never show the nose or eyes, at any point of the cut
    (including the start of the zoom-out), but don't crop the top down to the

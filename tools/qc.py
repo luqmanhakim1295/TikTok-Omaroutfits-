@@ -4,6 +4,9 @@ usage:
   python3 tools/qc.py sheet  video.mp4 out.png  c0 c1 ... cN   # start/middle/end of each cut, red centre line
   python3 tools/qc.py check  video.mp4 prefix   c0 c1 ... cN   # prints duration + median Laplacian per cut,
                                                                # writes prefix_tops.png (top strip of each cut)
+  python3 tools/qc.py centre video.mp4 [--rows 0.15 0.95] c0 c1 ... cN
+                                                               # per cut: offset (px of 1080) of the body's centre
+                                                               # from the frame's centre line; |offset| > 30 = FIX
   python3 tools/qc.py wmzoom workdir                           # 240x240 zooms of every watermark spot
                                                                # (reads workdir/wm.json and workdir/out.mp4,
                                                                # writes workdir/zoom.png)
@@ -62,6 +65,33 @@ def check(video, prefix, cuts):
     print(round(dur, 2), laps)
 
 
+def centre(video, cuts, rows=(0.15, 0.95)):
+    """Owner, 2026-11-15: the jeans front cut was not centred (crop clamped at
+    the frame edge). Measure every cut on the rendered output: median centre
+    of the person mask (5th-95th percentile of columns in the given rows) at
+    10 fps, as an offset from x=540. Close-ups are reported too; judge only the
+    wide cuts."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from stepscan import person_masks
+    bad = []
+    for k, (c0, c1) in enumerate(zip(cuts, cuts[1:])):
+        masks, scale = person_masks(video, c0 + 0.05, c1 - 0.05, 10)
+        xs = []
+        for m in masks:
+            h = m.shape[0]
+            col = m[int(rows[0] * h):int(rows[1] * h)].sum(0).astype(float)
+            if col.sum() < 50:
+                continue
+            cdf = np.cumsum(col) / col.sum()
+            xs.append((np.searchsorted(cdf, .05) + np.searchsorted(cdf, .95)) / 2 * scale)
+        off = int(round(np.median(xs) - 540)) if xs else None
+        flag = "FIX" if off is not None and abs(off) > 30 else "ok"
+        if flag == "FIX":
+            bad.append(k)
+        print(f"cut {k} {c0:.2f}-{c1:.2f} offset {off} {flag}")
+    return bad
+
+
 def wmzoom(work):
     w = json.load(open(os.path.join(work, "wm.json")))
     video = os.path.join(work, "out.mp4")
@@ -89,6 +119,12 @@ if __name__ == "__main__":
         sheet(sys.argv[2], sys.argv[3], [float(c) for c in sys.argv[4:]])
     elif cmd == "check":
         check(sys.argv[2], sys.argv[3], [float(c) for c in sys.argv[4:]])
+    elif cmd == "centre":
+        args = sys.argv[3:]
+        rows = (0.15, 0.95)
+        if args and args[0] == "--rows":
+            rows = (float(args[1]), float(args[2])); args = args[3:]
+        centre(sys.argv[2], [float(c) for c in args], rows)
     elif cmd == "wmzoom":
         wmzoom(sys.argv[2])
     else:

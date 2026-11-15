@@ -132,7 +132,7 @@ folders are already in `folders` (Jam is its own category, see CLAUDE.md "Jam").
      (trousers) or `push_top` (shirts); close-ups full frame with `push_soft`.
    - Render 1080x1920 **60 fps**, no text, no colour filter, no audio:
      `python3 tools/render_plan.py plan.json <rawdir> <out.mp4> --fps 60`.
-   - Verify the render: check sheet with centre lines, top strip (no nose or
+   - Verify the render: `tools/qc.py centre` (every wide cut within 30 px), check sheet with centre lines, top strip (no nose or
      eyes), Laplacian per cut, and no belly/boxer frames. Fix anything before
      going on.
    - Feature labels (CLAUDE.md): 2-3 short English labels with
