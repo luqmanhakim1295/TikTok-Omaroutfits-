@@ -2464,6 +2464,21 @@
    "plan": "schedule/plans/seluar_jogger-pants-black_c6/spec.json",
    "labels": "Drawstring waist / Side pockets / Straight leg",
    "note": "qc.py centre: wide cuts 0/-26/+12/+2 px. Missing angle: only one side profile in the new clips (he always turns the same way)."
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Jam",
+   "folder": "Jam",
+   "cycle": 1,
+   "style": "premium_slow",
+   "output": "output/daily/jam_c1_3.mp4",
+   "scenes": "IMG_0710 2.25-4.65 slow wrist turn catching the light, IMG_0709 3.9-6.7 dial top-down, IMG_0713 14.3-19.5 watch in the palm, slow push towards the camera ending on the date window",
+   "caption": "Jam steel dial hitam, kemas untuk setiap hari",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/jam_c1_3/plan.json",
+   "labels": "Brushed steel case / Date window",
+   "note": "3 cuts, clips not used in jam 1/2. Median Laplacian 126/236/144. IMG_0720/0721 (watch with hand in pocket) skipped: watch too small or soft."
   }
  ],
  "discontinued": [
@@ -2643,7 +2658,8 @@
     "day": "2026-11-16",
     "type": "Jam",
     "folder": "Jam",
-    "n": 3
+    "n": 3,
+    "done": "output/daily/jam_c1_3.mp4"
    },
    {
     "day": "2026-11-16",
