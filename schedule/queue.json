@@ -2494,6 +2494,21 @@
    "plan": "schedule/plans/baju_advo-microfibre-tshirt-wine_c2/spec.json",
    "labels": "Mesh side panels / Short sleeves / Microfibre fabric",
    "note": "text_behind words MESH / WINE. qc.py centre wide cuts -6/-22/+4/-4 px. 1080p tripod: side cuts are lighter crops ending at the thigh; second side (ch 1360) is softer than the rest but not broken."
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Seluar",
+   "folder": "Ironless premium slack black",
+   "cycle": 2,
+   "style": "classic",
+   "output": "output/daily/seluar_ironless-premium-slack-black_c2.mp4",
+   "scenes": "IMG_0703 49.6 front (hand to pocket), 57.8 side turning, 95.4 back (hand to back pocket), 75.8 other side (hand out of pocket); IMG_0704 44.6 hand off the button waist, 82.2 hand into side pocket; IMG_0705 2.3 fingers creasing the fabric",
+   "caption": "Slack hitam ironless, kemas tanpa gosok",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_ironless-premium-slack-black_c2/spec.json",
+   "labels": "Button waist / Ironless fabric / Side pockets",
+   "note": "qc.py centre all cuts within 12 px. Back welt pocket close-up (IMG_0704 88-99) is soft, not used."
   }
  ],
  "discontinued": [
@@ -2583,7 +2598,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 6,
+  "next": 0,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
@@ -2687,7 +2702,8 @@
     "day": "2026-11-16",
     "type": "Seluar",
     "folder": "Ironless premium slack black",
-    "n": 2
+    "n": 2,
+    "done": "output/daily/seluar_ironless-premium-slack-black_c2.mp4"
    },
    {
     "day": "2026-11-16",
