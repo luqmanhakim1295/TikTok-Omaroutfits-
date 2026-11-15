@@ -2509,6 +2509,21 @@
    "plan": "schedule/plans/seluar_ironless-premium-slack-black_c2/spec.json",
    "labels": "Button waist / Ironless fabric / Side pockets",
    "note": "qc.py centre all cuts within 12 px. Back welt pocket close-up (IMG_0704 88-99) is soft, not used."
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Baju",
+   "folder": "Kurta atiq teal blue",
+   "cycle": 2,
+   "style": "flash_punch",
+   "output": "output/daily/baju_kurta-atiq-teal-blue_c2.mp4",
+   "scenes": "IMG_0700 190.0 front (hand in and out of pocket), 165.2 side turning (ch 1400, cx 470), 154.2 back (arm moving), 173.2 other side, hands in pockets (ch 1600, cx 505); IMG_0701 14.8 hand over the chest fabric, 33.4 hand up to the button neck",
+   "caption": "Kurta Atiq biru, lengan suku dan butang leher",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/baju_kurta-atiq-teal-blue_c2/spec.json",
+   "labels": "Three-quarter sleeves / Smooth fabric / Button neck opening",
+   "note": "qc.py centre wide cuts +4/0/-12/-6 px. 1080p tripod: side cuts are lighter crops ending at the hip/thigh."
   }
  ],
  "discontinued": [
@@ -2598,120 +2613,14 @@
    "text_behind",
    "classic"
   ],
-  "next": 0,
+  "next": 1,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
  },
  "no_filter_since": "2026-11-13 (owner: \"lepasni edit jangan letak filter\")",
- "new_first": {
-  "note": "Owner 2026-11-14: 'untuk 3 hari ni upload video dari folder yang baru dulu, kemudian rotate semua'. The daily runs of 2026-11-14, -15 and -16 take their 5 videos from this list in order (mark done), then go back to next_type/pointer rotation (now including the new folders). Jam: 'cuba ambil dari scene yang lebih kurang atau dari 1 video yg penting nampak premium dari segi motion dia'.",
-  "slots": [
-   {
-    "day": "2026-11-14",
-    "type": "Seluar",
-    "folder": "Ironless premium slack black",
-    "done": "output/daily/seluar_ironless-premium-slack-black_c1.mp4"
-   },
-   {
-    "day": "2026-11-14",
-    "type": "Jam",
-    "folder": "Jam",
-    "n": 1,
-    "done": "output/daily/jam_c1_1.mp4"
-   },
-   {
-    "day": "2026-11-14",
-    "type": "Baju",
-    "folder": "Advo microfibre tshirt wine",
-    "done": "output/daily/baju_advo-microfibre-tshirt-wine_c1.mp4"
-   },
-   {
-    "day": "2026-11-14",
-    "type": "Seluar",
-    "folder": "Jeans light blue",
-    "done": "output/daily/seluar_jeans-light-blue_c1.mp4"
-   },
-   {
-    "day": "2026-11-14",
-    "type": "Baju",
-    "folder": "Bgm men roundneck olive",
-    "done": "output/daily/baju_bgm-men-roundneck-olive_c1.mp4"
-   },
-   {
-    "day": "2026-11-15",
-    "type": "Seluar",
-    "folder": "Zeke loose sweat pants grey",
-    "done": "output/daily/seluar_zeke-loose-sweat-pants-grey_c1.mp4"
-   },
-   {
-    "day": "2026-11-15",
-    "type": "Jam",
-    "folder": "Jam",
-    "n": 2,
-    "done": "output/daily/jam_c1_2.mp4"
-   },
-   {
-    "day": "2026-11-15",
-    "type": "Baju",
-    "folder": "Kurta atiq teal blue",
-    "done": "output/daily/baju_kurta-atiq-teal-blue_c1.mp4"
-   },
-   {
-    "day": "2026-11-15",
-    "type": "Seluar",
-    "folder": "Zeke trouser khaki",
-    "done": "output/daily/seluar_zeke-trouser-khaki_c1.mp4"
-   },
-   {
-    "day": "2026-11-15",
-    "type": "Baju",
-    "folder": "Zeke windbreaker",
-    "clips": [
-     "IMG_0738.MOV",
-     "IMG_0739.MOV"
-    ],
-    "done": "output/daily/baju_zeke-windbreaker_c4.mp4"
-   },
-   {
-    "day": "2026-11-16",
-    "type": "Seluar",
-    "folder": "Jogger pants black",
-    "clips": [
-     "IMG_0691.MOV",
-     "IMG_0692.MOV",
-     "IMG_0696.MOV"
-    ],
-    "done": "output/daily/seluar_jogger-pants-black_c6.mp4"
-   },
-   {
-    "day": "2026-11-16",
-    "type": "Jam",
-    "folder": "Jam",
-    "n": 3,
-    "done": "output/daily/jam_c1_3.mp4"
-   },
-   {
-    "day": "2026-11-16",
-    "type": "Baju",
-    "folder": "Advo microfibre tshirt wine",
-    "n": 2,
-    "done": "output/daily/baju_advo-microfibre-tshirt-wine_c2.mp4"
-   },
-   {
-    "day": "2026-11-16",
-    "type": "Seluar",
-    "folder": "Ironless premium slack black",
-    "n": 2,
-    "done": "output/daily/seluar_ironless-premium-slack-black_c2.mp4"
-   },
-   {
-    "day": "2026-11-16",
-    "type": "Baju",
-    "folder": "Kurta atiq teal blue",
-    "n": 2
-   }
-  ],
-  "send_rule": "While new_first is active, drafts with send_first go before the older draft_failed backlog (owner wants the new folders uploaded first)."
+ "new_first_done": {
+  "ended": "2026-11-15",
+  "note": "All 15 new-folder slots made (14-16 Nov batches); back to normal rotation from the next run."
  }
 }
