@@ -2449,6 +2449,21 @@
    "plan": "schedule/plans/seluar_jeans-light-blue_c1_v2/spec.json",
    "labels": "Side pockets / Drawstring waist / Wide leg fit",
    "note": "Fix of c1 (owner: first scene not centred). qc.py centre: wide cuts +14/+20/+2/-30 px. Side cuts use a slightly smaller crop (86-90 %) because he stands off-centre in every profile."
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Seluar",
+   "folder": "Jogger pants black",
+   "cycle": 6,
+   "style": "detail_first",
+   "output": "output/daily/seluar_jogger-pants-black_c6.mp4",
+   "scenes": "New clips: IMG_0692 93.6 drawstring waist, IMG_0696 11.5 side pocket + 39.5 hand to back pocket, IMG_0691 55.8 front (hand move), 115.8 side (ch 1590), 132.4 back (ch 1700), 100.6 front hands into pockets",
+   "caption": "Seluar jogger hitam kaki lurus, pinggang bertali",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_jogger-pants-black_c6/spec.json",
+   "labels": "Drawstring waist / Side pockets / Straight leg",
+   "note": "qc.py centre: wide cuts 0/-26/+12/+2 px. Missing angle: only one side profile in the new clips (he always turns the same way)."
   }
  ],
  "discontinued": [
@@ -2538,7 +2553,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 4,
+  "next": 5,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
@@ -2621,7 +2636,8 @@
      "IMG_0691.MOV",
      "IMG_0692.MOV",
      "IMG_0696.MOV"
-    ]
+    ],
+    "done": "output/daily/seluar_jogger-pants-black_c6.mp4"
    },
    {
     "day": "2026-11-16",
