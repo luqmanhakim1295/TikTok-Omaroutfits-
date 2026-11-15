@@ -2479,6 +2479,21 @@
    "plan": "schedule/plans/jam_c1_3/plan.json",
    "labels": "Brushed steel case / Date window",
    "note": "3 cuts, clips not used in jam 1/2. Median Laplacian 126/236/144. IMG_0720/0721 (watch with hand in pocket) skipped: watch too small or soft."
+  },
+  {
+   "date": "2026-11-15",
+   "type": "Baju",
+   "folder": "Advo microfibre tshirt wine",
+   "cycle": 2,
+   "style": "text_behind",
+   "output": "output/daily/baju_advo-microfibre-tshirt-wine_c2.mp4",
+   "scenes": "IMG_0693 114.8 front pulling the hem, 83.4 side turning (ch 1500, fixed cx 480), 138.4 back pulling the hem, 92.9 other side turning, hands in pockets (ch 1360); IMG_0695 117.9 side mesh panel, 172.6 hand on fabric, 102.0 arm lowering",
+   "caption": "Tshirt Advo wine, kain microfibre dan panel mesh",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/baju_advo-microfibre-tshirt-wine_c2/spec.json",
+   "labels": "Mesh side panels / Short sleeves / Microfibre fabric",
+   "note": "text_behind words MESH / WINE. qc.py centre wide cuts -6/-22/+4/-4 px. 1080p tripod: side cuts are lighter crops ending at the thigh; second side (ch 1360) is softer than the rest but not broken."
   }
  ],
  "discontinued": [
@@ -2568,7 +2583,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 5,
+  "next": 6,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
@@ -2665,7 +2680,8 @@
     "day": "2026-11-16",
     "type": "Baju",
     "folder": "Advo microfibre tshirt wine",
-    "n": 2
+    "n": 2,
+    "done": "output/daily/baju_advo-microfibre-tshirt-wine_c2.mp4"
    },
    {
     "day": "2026-11-16",

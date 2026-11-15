@@ -1,0 +1,4 @@
+{"style":"text_behind","tops":{"IMG_0693.MOV":84},"ch":{"IMG_0693.MOV":1700},
+ "text":{"texts":[{"start":0.0,"end":2.0,"lines":["MESH"],"y":0.05},{"start":7.0,"end":9.0,"lines":["WINE"],"y":0.05}],"tears":[],"glitches":[]},
+ "cuts":[["IMG_0693.MOV",114.8,2.0,"front"],["IMG_0695.MOV",117.9,1.5,"detail",1800,{"top":120}],["IMG_0693.MOV",83.4,2.0,"side",1500,{"top":100,"cx":480}],
+         ["IMG_0695.MOV",172.6,1.5,"detail",1800,{"top":120}],["IMG_0693.MOV",138.4,2.0,"back"],["IMG_0695.MOV",102.0,1.5,"detail",1800,{"top":120}],["IMG_0693.MOV",92.9,2.0,"side",1360,{"top":100}]]}
