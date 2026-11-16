@@ -178,7 +178,11 @@ biasa" / "cam biasa" means: follow all of these.
   going into a pocket, hand in pocket, back view, fabric texture, logos /
   patches, wide-leg vs jogger via hem cord, rolled-up sleeves.
 
-## Voice-over (ElevenLabs) (owner, 2026-11-16, test videos)
+## Voice-over (ElevenLabs) (owner, 2026-11-16)
+
+VO on **every** daily video for one week (runs of 2026-11-17 to 2026-11-23),
+then on a random half of each batch ("try seminggu dulu VO, lepastu kita
+random"); see `schedule/DAILY.md` "Voice-over week".
 
 When a video gets a voice-over (owner's request), these replace "No audio" and
 the 15 s limit for that video:

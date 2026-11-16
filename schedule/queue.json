@@ -2679,5 +2679,21 @@
  "new_first_done": {
   "ended": "2026-11-15",
   "note": "All 15 new-folder slots made (14-16 Nov batches); back to normal rotation from the next run."
+ },
+ "voiceover": {
+  "note": "Owner 2026-11-16: 'try seminggu dulu VO, lepastu kita random'.",
+  "all_from": "2026-11-17",
+  "all_until": "2026-11-23",
+  "then": "random ~50% of each batch",
+  "voice_id": "k1bWny6mHPD78reGCfda",
+  "model": "eleven_v4",
+  "music_bed": {
+   "generation": "YqeHl2jBGF4YOrGqEtu6",
+   "flow": "SBQHH2UHxk8zqlw1R7qJ",
+   "note": "chill-pop instrumental, 150 s; reusable"
+  },
+  "listings": {
+   "Zeke trouser khaki": "ZEKE B0082 Suit Trousers Premium Straight Cut Office Men's; zip; full length; for office and travel; Black and Khaki (owner screenshot 2026-11-16)"
+  }
  }
 }

@@ -100,6 +100,34 @@ day), marks them `done` with the output path, and leaves `next_type`/`pointer`
 alone. Send those new videos to drafts **before** the older `draft_failed` backlog (history entries with `send_first`). After the last slot, delete `new_first` and rotate as usual; the new
 folders are already in `folders` (Jam is its own category, see CLAUDE.md "Jam").
 
+## Voice-over week (owner, 2026-11-16: "try seminggu dulu VO, lepastu kita random")
+
+From the 2026-11-17 run to the 2026-11-23 run (7 daily runs) **every** video
+gets a voice-over in the owner's cloned voice, following CLAUDE.md
+"Voice-over (ElevenLabs)". From the 2026-11-24 run on, pick at random about
+half of each batch for a VO (the rest stay silent as before) and say in the
+report which ones have one. State: `queue.json` `voiceover`.
+
+Per video (Jam included, calm and premium):
+1. Facts: listing info the owner sent (`queue.json` `voiceover.listings`) plus
+   what the footage shows. Without a listing, use only what the footage shows
+   and the folder name, and ask the owner in the report for screenshots of the
+   next products' yellow-basket pages.
+2. Write the script first (casual Malaysian speech, relaxed with feeling,
+   daily-life situation, no pauses, CTA "tekan beg kuning", no price numbers),
+   generate it on ElevenLabs (voice "omaroutfits ZA", eleven_v4, 2 takes),
+   pick the take with no gap > 0.35 s and a Scribe transcript that matches.
+3. Plan the cuts on the Scribe word times so each line plays over the shot it
+   describes (four angles still required); length follows the VO (about
+   14-18 s). Build with `tools/build_focus.py`, labels, watermark, then
+   `tools/vo_mix.py` (one segment, music bed from an instrumental
+   `eleven_music_v2_5` track; reuse a bed across a batch to save credits).
+4. Captions in the report and the draft stay as before (under 10 words, no
+   hashtags); remind the owner the video already has audio, so any TikTok
+   sound must stay very quiet.
+Credits: about 650 per video (40,000 a month, reset 16 Dec); stop VO and say
+so in the report if fewer than 4,000 are left.
+
 ## Steps for each of the 5 videos
 
 1. `type = next_type`, `folder = folders[type][pointer[type]]`.
@@ -130,7 +158,7 @@ folders are already in `folders` (Jam is its own category, see CLAUDE.md "Jam").
      tracked crop (`tools/segtrack.py clip start len cw > xN.txt`, then
      `"xN.txt"` as the 8th field of its plan entry) with `push_bottom`
      (trousers) or `push_top` (shirts); close-ups full frame with `push_soft`.
-   - Render 1080x1920 **60 fps**, no text, no colour filter, no audio:
+   - Render 1080x1920 **60 fps**, no text, no colour filter, no audio (audio comes only from the voice-over step when that video gets one):
      `python3 tools/render_plan.py plan.json <rawdir> <out.mp4> --fps 60`.
    - Verify the render: `tools/qc.py centre` (every wide cut within 30 px), check sheet with centre lines, top strip (no nose or
      eyes), Laplacian per cut, and no belly/boxer frames. Fix anything before
