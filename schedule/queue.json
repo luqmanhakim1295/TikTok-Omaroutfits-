@@ -2567,6 +2567,20 @@
    "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1_vo2/vo.json",
    "labels": "Straight cut / Side pockets / Elastic waist",
    "note": "VO v2 after owner feedback (flat voice, stiff script, no pauses, 'straight cut', add CTA, cuts follow the VO). Voice 'omaroutfits ZA', eleven_v4 with emotion tags. 17.2 s: owner said the length should suit the VO."
+  },
+  {
+   "date": "2026-11-16",
+   "type": "Seluar",
+   "folder": "Zeke trouser khaki",
+   "cycle": 1,
+   "style": "voiceover",
+   "output": "output/daily/seluar_zeke-trouser-khaki_c1_vo3.mp4",
+   "scenes": "Same scenes as vo2, retimed to the relaxed VO",
+   "caption": "Seluar suit Zeke khaki straight cut, office dan lepak",
+   "delivery": "review (owner listens first)",
+   "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1_vo3/vo.json",
+   "labels": "Straight cut / Side pockets / Elastic waist",
+   "note": "VO v3: relaxed delivery ([casually]/[warmly]/[chuckles]) after the owner found v2 too ad-like."
   }
  ],
  "discontinued": [

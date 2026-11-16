@@ -183,7 +183,9 @@ biasa" / "cam biasa" means: follow all of these.
 When a video gets a voice-over (owner's request), these replace "No audio" and
 the 15 s limit for that video:
 - Voice **"omaroutfits ZA"** (`k1bWny6mHPD78reGCfda`, cloned, Malaysian male),
-  model **eleven_v4** with emotion tags (`[excited]`, `[warmly]`, `[playful]`).
+  model **eleven_v4** with relaxed emotion tags (`[casually]`, `[warmly]`,
+  `[chuckles]` where a laugh fits). Not `[excited]` all through: the owner found
+  that "over sangat macam iklan"; relaxed, like talking to a friend, still with feeling.
   The first voice ("omaroutfits", eleven_multilingual_v2) was "sangat mendatar".
 - Script: casual Malaysian speech with feeling, tied to daily life (rushing to
   the office, lepak with friends), English garment words the way people say
