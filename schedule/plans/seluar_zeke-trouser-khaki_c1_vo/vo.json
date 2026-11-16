@@ -1,0 +1,8 @@
+{"source_video":"output/daily/seluar_zeke-trouser-khaki_c1_v2.mp4",
+ "script":"Seluar Zeke warna khaki ni, potongan lurus. Poket tepi senang nak seluk. Nampak kemas dari depan, dari tepi pun cantik. Pinggang ada getah, selesa. Pergi kerja ok, lepak pun ok.",
+ "voice":{"name":"omaroutfits","voice_id":"z5c4s0CGKRMSG52EgYIL","model":"eleven_multilingual_v2"},
+ "elevenlabs_flow":"SBQHH2UHxk8zqlw1R7qJ",
+ "vo_generation":"5oeiJLS9SAaUInwbNuag (take A, 10.26 s; Scribe transcript matches the script word for word)",
+ "music":{"model":"eleven_music_v2_5","generation":"YqeHl2jBGF4YOrGqEtu6","prompt":"Light modern chill-pop groove for a menswear lookbook, relaxed but confident, soft punchy kick and clap, warm electric piano chords, round bass, mid tempo around 100 BPM, crisp clean production, steady energy throughout with a gentle ending, instrumental, no vocals.","used":"3.0-15.1 s of a 150 s track; Scribe found no words (instrumental)"},
+ "mix":"python3 tools/vo_mix.py output/daily/seluar_zeke-trouser-khaki_c1_v2.mp4 vo_a.mp3 out.mp4 mix.json --music music.mp3",
+ "result":"12.1 s, 1080x1920 60 fps video copied, AAC 192 kbps 48 kHz, -14.7 LUFS"}

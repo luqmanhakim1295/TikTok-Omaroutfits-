@@ -2539,6 +2539,20 @@
    "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1_v2/spec.json",
    "labels": "Slant side pockets / Straight leg trouser / Belt loops",
    "note": "Fix of c1 (owner 2026-11-16: pocket scene should be a clear angle showing the pocket from the side). Side cuts re-picked for the centre rule: left -> +8 px; right side -37 px (he stands at the left edge in the only right profile; a tighter crop would cut the waist and shoes)."
+  },
+  {
+   "date": "2026-11-16",
+   "type": "Seluar",
+   "folder": "Zeke trouser khaki",
+   "cycle": 1,
+   "style": "voiceover_test",
+   "output": "output/daily/seluar_zeke-trouser-khaki_c1_vo.mp4",
+   "scenes": "Same cuts as seluar_zeke-trouser-khaki_c1_v2, with the owner's cloned voice (ElevenLabs) and a generated instrumental bed",
+   "caption": "Seluar khaki Zeke, potongan lurus dan poket sisi",
+   "delivery": "review (owner listens first; draft only after his OK)",
+   "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1_vo/vo.json",
+   "labels": "Slant side pockets / Straight leg trouser / Belt loops",
+   "note": "First voice-over test (owner 2026-11-16: 'cuba buat 1 video vo guna suara aku'). Script by me, approved in the plan. Lines placed on the cuts they describe."
   }
  ],
  "discontinued": [
