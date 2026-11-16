@@ -207,6 +207,12 @@ the 15 s limit for that video:
   - chat fillers: weh, bro, kan, tau, lah / la, je, pun, bukan main
   - honest / relatable: serius, sumpah tak tipu, jujur cakap, tak sangka
   - calm CTA: kalau berkenan, jangan lupa, cepat sikit sebelum habis
+  - "looks expensive" joke (owner, 2026-11-16): **"Sam Wukong belanja ke?"**,
+    as what friends ask when they see it, for products that look premium
+    (Jam, suit trousers, slacks, smart shirts), e.g. "Pakai pergi office, member
+    tanya: weh, Sam Wukong belanja ke? [chuckles] Padahal harga ok je."
+    At most once per batch so it stays funny; never on basic tees/joggers
+    where it doesn't fit.
   Example hook: "Alamak, pagi-pagi dah macam-macam hal la, nak cari seluar
   office pun serabut..." then the fix ("ni ha, padu mat").
 - Script: casual Malaysian speech with feeling, tied to daily life (rushing to
