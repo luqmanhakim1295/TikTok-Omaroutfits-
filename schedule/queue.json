@@ -2576,11 +2576,25 @@
    "output": "output/daily/seluar_zeke-trouser-khaki_c1_vo3.mp4",
    "scenes": "Same scenes as vo2, retimed to the relaxed VO",
    "caption": "Seluar suit Zeke khaki straight cut, office dan lepak",
-   "delivery": "draft_failed (daily draft limit; owner approved 2026-11-16 \"ok hantar draft\", send in the 00:49 MYT 17/11 window)",
+   "delivery": "superseded by seluar_zeke-trouser-khaki_c1_vo4 (chat-style script); not sent",
    "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1_vo3/vo.json",
    "labels": "Straight cut / Side pockets / Elastic waist",
-   "note": "VO v3: relaxed delivery ([casually]/[warmly]/[chuckles]) after the owner found v2 too ad-like.",
-   "send_first": true
+   "note": "VO v3: relaxed delivery ([casually]/[warmly]/[chuckles]) after the owner found v2 too ad-like."
+  },
+  {
+   "date": "2026-11-16",
+   "type": "Seluar",
+   "folder": "Zeke trouser khaki",
+   "cycle": 1,
+   "style": "voiceover",
+   "output": "output/daily/seluar_zeke-trouser-khaki_c1_vo4.mp4",
+   "scenes": "Zeke khaki scenes retimed to the chat-style VO",
+   "caption": "Seluar suit Zeke khaki straight cut, office dan lepak",
+   "delivery": "draft_failed (daily draft limit; owner wants it in drafts, send in the 00:49 MYT 17/11 window)",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1_vo4/vo.json",
+   "labels": "Straight cut / Side pockets / Elastic waist",
+   "note": "VO v4: chat-style script (guys/korang, 'aku pakai...'), soft CTA. Replaces vo3 in the draft queue."
   }
  ],
  "discontinued": [

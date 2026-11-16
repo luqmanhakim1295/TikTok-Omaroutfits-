@@ -1,0 +1,6 @@
+{"script":"[casually] Guys, korang yang hari-hari rushing pergi office tu, try la Zeke suit trousers ni. Straight cut, sarung je terus nampak kemas. [warmly] Poket tepi senang seluk, pinggang belakang ada getah, duduk lama pun tak rimas. [chuckles] Aku pakai pergi office ok, petang lepak dengan member pun ok. [casually] Kalau berkenan, tekan je beg kuning tu.",
+ "voice":{"name":"omaroutfits ZA","voice_id":"k1bWny6mHPD78reGCfda","model":"eleven_v4"},
+ "elevenlabs_flow":"SBQHH2UHxk8zqlw1R7qJ","vo_generation":"1zjuOhWJNWJjiyzzQrB7 (take A, 18.9 s; the 0.43 s gap after 'ni.' trimmed to 0.1 s in the mix; Scribe matches)",
+ "why":"owner: chatting not selling (korang/guys/abang-abang); script approved by the owner ('buat semula la video zeke tu guna skrip ni')",
+ "cut_timing":"0-3.2 front 'Guys, korang yang rushing pergi office', 3.2-5.1 back 'try la Zeke suit trousers ni', 5.1-7.8 front hands into pockets 'straight cut... kemas', 7.8-9.3 pocket from the side, 9.3-10.8 waistband 'getah', 10.8-12.9 seated 'duduk lama pun tak rimas', 12.9-14.6 right side chuckle + 'aku pakai pergi office ok', 14.6-16.6 left side 'petang lepak', 16.6-18.9 hand into pocket 'tekan je beg kuning tu'",
+ "result":"18.9 s, 1080x1920 60 fps, AAC 192k, -14.3 LUFS"}
