@@ -178,6 +178,27 @@ biasa" / "cam biasa" means: follow all of these.
   going into a pocket, hand in pocket, back view, fabric texture, logos /
   patches, wide-leg vs jogger via hem cord, rolled-up sleeves.
 
+## Voice-over (ElevenLabs) (owner, 2026-11-16, test videos)
+
+When a video gets a voice-over (owner's request), these replace "No audio" and
+the 15 s limit for that video:
+- Voice **"omaroutfits ZA"** (`k1bWny6mHPD78reGCfda`, cloned, Malaysian male),
+  model **eleven_v4** with emotion tags (`[excited]`, `[warmly]`, `[playful]`).
+  The first voice ("omaroutfits", eleven_multilingual_v2) was "sangat mendatar".
+- Script: casual Malaysian speech with feeling, tied to daily life (rushing to
+  the office, lepak with friends), English garment words the way people say
+  them ("straight cut", "office"), **one continuous read with no pauses**, and a
+  CTA at the end to the yellow basket ("tekan beg kuning"). No price numbers
+  (flash-sale prices change; owner chose no number). Facts only from the
+  listing and the footage.
+- Product facts: the owner is an affiliate; get the listing as a screenshot or
+  pasted text (TikTok links hit a bot check, never work around it).
+- Generate the VO first, then cut the video to follow it: each cut shows what
+  the line says at that moment (word times from Scribe); length follows the VO.
+- Mix with `tools/vo_mix.py` (music bed ducked under the voice, -14 LUFS, video
+  stream copied). Generate music as instrumental; don't transcribe music to
+  check for vocals (it cost 825 credits).
+
 ## Jam (watches)
 
 New category from 2026-11-14 (folder `Jam` in the library). The owner:

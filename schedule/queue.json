@@ -2553,6 +2553,20 @@
    "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1_vo/vo.json",
    "labels": "Slant side pockets / Straight leg trouser / Belt loops",
    "note": "First voice-over test (owner 2026-11-16: 'cuba buat 1 video vo guna suara aku'). Script by me, approved in the plan. Lines placed on the cuts they describe."
+  },
+  {
+   "date": "2026-11-16",
+   "type": "Seluar",
+   "folder": "Zeke trouser khaki",
+   "cycle": 1,
+   "style": "voiceover",
+   "output": "output/daily/seluar_zeke-trouser-khaki_c1_vo2.mp4",
+   "scenes": "IMG_0734 124.6 front, 104.6 back, 54.6 left side, 150.4 seated (new), 136.2 right side, 49.0 front hands in pockets; IMG_0736 2.2 pocket from the side, 22.3 waistband, 26.4 hand into pocket at the elastic waist",
+   "caption": "Seluar suit Zeke khaki straight cut, office dan lepak",
+   "delivery": "review (owner listens first)",
+   "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1_vo2/vo.json",
+   "labels": "Straight cut / Side pockets / Elastic waist",
+   "note": "VO v2 after owner feedback (flat voice, stiff script, no pauses, 'straight cut', add CTA, cuts follow the VO). Voice 'omaroutfits ZA', eleven_v4 with emotion tags. 17.2 s: owner said the length should suit the VO."
   }
  ],
  "discontinued": [

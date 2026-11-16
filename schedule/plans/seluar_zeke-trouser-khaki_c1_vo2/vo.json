@@ -1,0 +1,7 @@
+{"script":"[excited] Pagi-pagi rushing nak pergi office? Sarung je Zeke suit trousers ni, straight cut, terus nampak kemas! [warmly] Poket tepi senang seluk, pinggang belakang ada getah, duduk lama pun selesa. [playful] Office ok, lepak dengan member pun ok! [excited] Tengah sale sekarang, tekan beg kuning cepat sebelum habis!",
+ "voice":{"name":"omaroutfits ZA","voice_id":"k1bWny6mHPD78reGCfda","model":"eleven_v4"},
+ "elevenlabs_flow":"SBQHH2UHxk8zqlw1R7qJ","vo_generation":"ftQeJeMbmFwYGIuIDqj9 (take B, 16.96 s; Scribe matches the script)",
+ "listing_facts":"ZEKE B0082 Suit Trousers Premium Straight Cut Office Men's (screenshot from the owner, 2026-11-16); for office and travel; no price spoken (flash sale RM29.90 was time-limited, owner chose no number)",
+ "cut_timing":"cuts follow the VO: 0-2.2 front 'pergi office?', 2.2-4.2 back 'Sarung je Zeke suit trousers', 4.2-6.5 side 'straight cut, nampak kemas', 6.5-8.0 pocket 'poket tepi senang seluk', 8.0-9.4 waistband 'getah', 9.4-11.3 seated 'duduk lama pun selesa', 11.3-13.0 side 'office ok', 13.0-15.0 front 'lepak pun ok', 15.0-17.2 hand at waistband/pocket 'beg kuning'",
+ "music":"same bed as vo1 (eleven_music_v2_5 YqeHl2jBGF4YOrGqEtu6, from 3.0 s, ducked)",
+ "result":"17.2 s (owner: length to suit the VO), 1080x1920 60 fps, AAC 192k, -13.7 LUFS"}
