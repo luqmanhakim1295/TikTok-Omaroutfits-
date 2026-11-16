@@ -119,14 +119,15 @@ Per video (Jam included, calm and premium):
    generate it on ElevenLabs (voice "omaroutfits ZA", eleven_v4, 2 takes),
    pick the take with no gap > 0.35 s and a Scribe transcript that matches.
 3. Plan the cuts on the Scribe word times so each line plays over the shot it
-   describes (four angles still required); length follows the VO (about
-   14-18 s). Build with `tools/build_focus.py`, labels, watermark, then
+   describes (four angles still required); length follows the VO: review
+   style about 20-30 s when the footage has enough clean scenes, shorter
+   otherwise, never over 30 s (CLAUDE.md "Review style"). Build with `tools/build_focus.py`, labels, watermark, then
    `tools/vo_mix.py` (one segment, music bed from an instrumental
    `eleven_music_v2_5` track; reuse a bed across a batch to save credits).
 4. Captions in the report and the draft stay as before (under 10 words, no
    hashtags); remind the owner the video already has audio, so any TikTok
    sound must stay very quiet.
-Credits: about 650 per video (40,000 a month, reset 16 Dec); stop VO and say
+Credits: about 650 per short video, ~600-700 per 30 s review with 1 take (40,000 a month, reset 16 Dec); stop VO and say
 so in the report if fewer than 4,000 are left.
 
 ## Steps for each of the 5 videos

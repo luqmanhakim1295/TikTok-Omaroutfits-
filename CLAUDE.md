@@ -221,6 +221,19 @@ the 15 s limit for that video:
   CTA at the end to the yellow basket ("tekan beg kuning"). No price numbers
   (flash-sale prices change; owner chose no number). Facts only from the
   listing and the footage.
+- **Review style, up to about 30 s** (owner, 2026-11-16: "buat style review
+  lama pun ok, dalam 30 saat ke, ikut mana yg sesuai"): when the footage has
+  enough clean scenes, make it a short honest review: hook (relatable problem,
+  slang) -> what it is -> 3-4 features one by one, each over its own shot
+  (fit/cut, pockets, waist, fabric, collar...) -> how it feels to wear in a
+  daily situation (office, sitting long, lepak) -> optional "Sam Wukong
+  belanja ke?" for premium-looking products -> soft CTA. Length follows the
+  script: about 20-30 s when there is enough to say and show, shorter when
+  the footage is thin (never pad with repeated or still shots; every cut
+  still follows rules 2d/2g/3/5). Never over 30 s.
+  Credits: for scripts longer than ~20 s generate **1 take** first and a
+  second only if it fails the checks (gap > 0.35 s or a wrong word), so the
+  40,000 monthly credits last the VO week.
 - Product facts: the owner is an affiliate; get the listing as a screenshot or
   pasted text (TikTok links hit a bot check, never work around it).
 - Generate the VO first, then cut the video to follow it: each cut shows what
