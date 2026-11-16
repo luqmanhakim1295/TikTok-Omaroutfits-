@@ -173,6 +173,7 @@ biasa" / "cam biasa" means: follow all of these.
   build_focus prints) for fast_beat and effect styles, where the automatic
   cut detection merges cuts. On a close-up that is all garment (no background or
   skin in frame) use `"none"` for that cut rather than marking the garment.
+- **Pocket close-ups from the side** (owner, 2026-11-16, Zeke khaki: "ambil yg jelas angle dia, nampak poket dari tepi"): pick a clear side angle where the pocket opening and side seam read at a glance (ideally a hand going in), not a front-on or blurred pocket shot.
 - Good scenes the owner likes: crossed arms (show the whole shirt), phone
   going into a pocket, hand in pocket, back view, fabric texture, logos /
   patches, wide-leg vs jogger via hem cord, rolled-up sleeves.

@@ -2417,7 +2417,7 @@
    "delivery": "tiktok-draft (sent 2026-11-15)",
    "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1/spec.json",
    "labels": "Slant side pockets / Straight leg trouser / Belt loops",
-   "note": "New folder. Cinematic without grade, no tilt (1080p source, waist-to-shoe already fills the crop).",
+   "note": "New folder. Cinematic without grade, no tilt (1080p source, waist-to-shoe already fills the crop). Replaced by c1_v2 (pocket angle); owner should delete this draft.",
    "zernio_post_id": "6af9e1e861bfc14ea18c7ed4"
   },
   {
@@ -2524,6 +2524,21 @@
    "plan": "schedule/plans/baju_kurta-atiq-teal-blue_c2/spec.json",
    "labels": "Three-quarter sleeves / Smooth fabric / Button neck opening",
    "note": "qc.py centre wide cuts +4/0/-12/-6 px. 1080p tripod: side cuts are lighter crops ending at the hip/thigh."
+  },
+  {
+   "date": "2026-11-16",
+   "type": "Seluar",
+   "folder": "Zeke trouser khaki",
+   "cycle": 1,
+   "style": "cinematic",
+   "output": "output/daily/seluar_zeke-trouser-khaki_c1_v2.mp4",
+   "scenes": "IMG_0734 104.6 back, 124.6 front, 54.6 left side (ch 1690), 136.2 right side (ch 1560, 1.7 s); IMG_0736 2.2 pocket from the side (hand going in), 22.3 waistband",
+   "caption": "Seluar khaki Zeke, potongan lurus dan poket sisi",
+   "delivery": "draft_failed (daily draft limit; send in the next window)",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1_v2/spec.json",
+   "labels": "Slant side pockets / Straight leg trouser / Belt loops",
+   "note": "Fix of c1 (owner 2026-11-16: pocket scene should be a clear angle showing the pocket from the side). Side cuts re-picked for the centre rule: left -> +8 px; right side -37 px (he stands at the left edge in the only right profile; a tighter crop would cut the waist and shoes)."
   }
  ],
  "discontinued": [
