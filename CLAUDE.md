@@ -191,6 +191,12 @@ the 15 s limit for that video:
   `[chuckles]` where a laugh fits). Not `[excited]` all through: the owner found
   that "over sangat macam iklan"; relaxed, like talking to a friend, still with feeling.
   The first voice ("omaroutfits", eleven_multilingual_v2) was "sangat mendatar".
+- **Chatting, not selling** (owner, 2026-11-16: "boleh masukkan perkataan
+  korang/guys/abang-abang, gaya bahasa macam tengah berborak bukan menjual"):
+  talk to the viewer like a friend, address them as "korang", "guys" or
+  "abang-abang" (mix them across videos), share it like a personal tip or a
+  story ("aku pakai ni pergi office..."), no hard-sell lines or ad slogans; the
+  CTA at the end stays soft and friendly ("kalau berkenan, tekan je beg kuning tu").
 - Script: casual Malaysian speech with feeling, tied to daily life (rushing to
   the office, lepak with friends), English garment words the way people say
   them ("straight cut", "office"), **one continuous read with no pauses**, and a

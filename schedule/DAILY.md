@@ -113,7 +113,8 @@ Per video (Jam included, calm and premium):
    what the footage shows. Without a listing, use only what the footage shows
    and the folder name, and ask the owner in the report for screenshots of the
    next products' yellow-basket pages.
-2. Write the script first (casual Malaysian speech, relaxed with feeling,
+2. Write the script first, chatting not selling (address the viewer as
+   korang / guys / abang-abang, like a friend sharing a tip; casual Malaysian speech, relaxed with feeling,
    daily-life situation, no pauses, CTA "tekan beg kuning", no price numbers),
    generate it on ElevenLabs (voice "omaroutfits ZA", eleven_v4, 2 takes),
    pick the take with no gap > 0.35 s and a Scribe transcript that matches.
