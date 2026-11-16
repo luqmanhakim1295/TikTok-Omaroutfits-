@@ -197,6 +197,18 @@ the 15 s limit for that video:
   "abang-abang" (mix them across videos), share it like a personal tip or a
   story ("aku pakai ni pergi office..."), no hard-sell lines or ad slogans; the
   CTA at the end stays soft and friendly ("kalau berkenan, tekan je beg kuning tu").
+- **Slang / reaction words** (owner, 2026-11-16: "cuba masukkan word: alamak,
+  aduh, macam-macam hal la, padu mat"): use 1-3 per script where they fit the
+  story, never all of them, and rotate so videos don't sound the same:
+  - surprise / problem (good for the hook): alamak, aduh, adoi, aiyo, haih,
+    macam-macam hal la, serabut betul, rimas
+  - praise: padu mat, padu gila, power, cun, mantap, terbaik, smart habis,
+    kemas gila, ngam, steady
+  - chat fillers: weh, bro, kan, tau, lah / la, je, pun, bukan main
+  - honest / relatable: serius, sumpah tak tipu, jujur cakap, tak sangka
+  - calm CTA: kalau berkenan, jangan lupa, cepat sikit sebelum habis
+  Example hook: "Alamak, pagi-pagi dah macam-macam hal la, nak cari seluar
+  office pun serabut..." then the fix ("ni ha, padu mat").
 - Script: casual Malaysian speech with feeling, tied to daily life (rushing to
   the office, lepak with friends), English garment words the way people say
   them ("straight cut", "office"), **one continuous read with no pauses**, and a
