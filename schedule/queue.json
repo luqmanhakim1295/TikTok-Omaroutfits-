@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 8,
-  "Seluar": 9
+  "Seluar": 10
  },
  "cycle": {
   "Baju": 4,
@@ -2627,6 +2627,22 @@
    "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c4/vo.json",
    "labels": "Plain black / Classic collar / Full button front",
    "note": "VO week video 2/5 (22.0 s). Tripod footage stops at the thigh (no feet). Sleeve-roll cut reads +53 px on the mask (his arm stretches out) but the placket sits on the centre line."
+  },
+  {
+   "date": "2026-11-17",
+   "type": "Seluar",
+   "folder": "Ironless premium slack black",
+   "cycle": 3,
+   "style": "fast_beat",
+   "voiceover": true,
+   "output": "output/daily/seluar_ironless-premium-slack-black_c3.mp4",
+   "scenes": "IMG_0703 49.6/44.2/46.6/41.2 front, 95.4/109.6/91.8 back, 57.8/75.8 sides, 60.2 leg kick; IMG_0705 2.3 creasing the fabric; IMG_0704 44.6 button waist, 82.2 hand into pocket, 64.0 hand in pocket",
+   "caption": "Slack hitam Ironless, tak payah gosok terus kemas",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_ironless-premium-slack-black_c3/vo.json",
+   "labels": "Ironless fabric / Button waist / Side pockets",
+   "note": "VO week video 3/5 (18.8 s), 14 quick cuts timed to the VO. Detail clip IMG_0704 is soft by nature (dark fabric, Laplacian 13-23) but reads clearly at 100 %."
   }
  ],
  "discontinued": [
@@ -2716,7 +2732,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 3,
+  "next": 4,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
