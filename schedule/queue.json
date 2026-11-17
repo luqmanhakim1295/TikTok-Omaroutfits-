@@ -2444,11 +2444,11 @@
    "output": "output/daily/seluar_jeans-light-blue_c1_v2.mp4",
    "scenes": "IMG_0723 64.4 front (hands into pockets)/77.0 side (ch 1660)/103.8 back (hands into back pockets)/113.6 other side (ch 1720), IMG_0724 37.5 side pocket, IMG_0727 4.2 drawstring",
    "caption": "Jeans biru cair potongan lebar, pinggang getah bertali",
-   "delivery": "draft_failed (daily draft limit, send next run)",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-17 00:51 MYT)",
    "plan": "schedule/plans/seluar_jeans-light-blue_c1_v2/spec.json",
    "labels": "Side pockets / Drawstring waist / Wide leg fit",
-   "note": "Fix of c1 (owner: first scene not centred). qc.py centre: wide cuts +14/+20/+2/-30 px. Side cuts use a slightly smaller crop (86-90 %) because he stands off-centre in every profile."
+   "note": "Fix of c1 (owner: first scene not centred). qc.py centre: wide cuts +14/+20/+2/-30 px. Side cuts use a slightly smaller crop (86-90 %) because he stands off-centre in every profile.",
+   "zernio_post_id": "6afb3411dad314406ea50847"
   },
   {
    "date": "2026-11-15",
@@ -2459,11 +2459,11 @@
    "output": "output/daily/seluar_jogger-pants-black_c6.mp4",
    "scenes": "New clips: IMG_0692 93.6 drawstring waist, IMG_0696 11.5 side pocket + 39.5 hand to back pocket, IMG_0691 55.8 front (hand move), 115.8 side (ch 1590), 132.4 back (ch 1700), 100.6 front hands into pockets",
    "caption": "Seluar jogger hitam kaki lurus, pinggang bertali",
-   "delivery": "draft_failed (daily draft limit; owner 2026-11-16: send as soon as the slot opens, 00:49 MYT 17/11)",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-17 00:51 MYT)",
    "plan": "schedule/plans/seluar_jogger-pants-black_c6/spec.json",
    "labels": "Drawstring waist / Side pockets / Straight leg",
-   "note": "qc.py centre: wide cuts 0/-26/+12/+2 px. Missing angle: only one side profile in the new clips (he always turns the same way)."
+   "note": "qc.py centre: wide cuts 0/-26/+12/+2 px. Missing angle: only one side profile in the new clips (he always turns the same way).",
+   "zernio_post_id": "6afb34a3c660d0deabda2096"
   },
   {
    "date": "2026-11-15",
@@ -2474,11 +2474,11 @@
    "output": "output/daily/jam_c1_3.mp4",
    "scenes": "IMG_0710 2.25-4.65 slow wrist turn catching the light, IMG_0709 3.9-6.7 dial top-down, IMG_0713 14.3-19.5 watch in the palm, slow push towards the camera ending on the date window",
    "caption": "Jam steel dial hitam, kemas untuk setiap hari",
-   "delivery": "draft_failed (daily draft limit; owner 2026-11-16: send as soon as the slot opens, 00:49 MYT 17/11)",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-17 00:51 MYT)",
    "plan": "schedule/plans/jam_c1_3/plan.json",
    "labels": "Brushed steel case / Date window",
-   "note": "3 cuts, clips not used in jam 1/2. Median Laplacian 126/236/144. IMG_0720/0721 (watch with hand in pocket) skipped: watch too small or soft."
+   "note": "3 cuts, clips not used in jam 1/2. Median Laplacian 126/236/144. IMG_0720/0721 (watch with hand in pocket) skipped: watch too small or soft.",
+   "zernio_post_id": "6afb34eece3d9a1c438f9774"
   },
   {
    "date": "2026-11-15",
@@ -2489,11 +2489,11 @@
    "output": "output/daily/baju_advo-microfibre-tshirt-wine_c2.mp4",
    "scenes": "IMG_0693 114.8 front pulling the hem, 83.4 side turning (ch 1500, fixed cx 480), 138.4 back pulling the hem, 92.9 other side turning, hands in pockets (ch 1360); IMG_0695 117.9 side mesh panel, 172.6 hand on fabric, 102.0 arm lowering",
    "caption": "Tshirt Advo wine, kain microfibre dan panel mesh",
-   "delivery": "draft_failed (daily draft limit; owner 2026-11-16: send as soon as the slot opens, 00:49 MYT 17/11)",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-17 00:51 MYT)",
    "plan": "schedule/plans/baju_advo-microfibre-tshirt-wine_c2/spec.json",
    "labels": "Mesh side panels / Short sleeves / Microfibre fabric",
-   "note": "text_behind words MESH / WINE. qc.py centre wide cuts -6/-22/+4/-4 px. 1080p tripod: side cuts are lighter crops ending at the thigh; second side (ch 1360) is softer than the rest but not broken."
+   "note": "text_behind words MESH / WINE. qc.py centre wide cuts -6/-22/+4/-4 px. 1080p tripod: side cuts are lighter crops ending at the thigh; second side (ch 1360) is softer than the rest but not broken.",
+   "zernio_post_id": "6afb353c3ef9f9afaa795af4"
   },
   {
    "date": "2026-11-15",
@@ -2590,11 +2590,11 @@
    "output": "output/daily/seluar_zeke-trouser-khaki_c1_vo4.mp4",
    "scenes": "Zeke khaki scenes retimed to the chat-style VO",
    "caption": "Seluar suit Zeke khaki straight cut, office dan lepak",
-   "delivery": "draft_failed (daily draft limit; owner wants it in drafts, send in the 00:49 MYT 17/11 window)",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-17 00:51 MYT)",
    "plan": "schedule/plans/seluar_zeke-trouser-khaki_c1_vo4/vo.json",
    "labels": "Straight cut / Side pockets / Elastic waist",
-   "note": "VO v4: chat-style script (guys/korang, 'aku pakai...'), soft CTA. Replaces vo3 in the draft queue."
+   "note": "VO v4: chat-style script (guys/korang, 'aku pakai...'), soft CTA. Replaces vo3 in the draft queue.",
+   "zernio_post_id": "6afb344ebf11b0bb1ecb808b"
   }
  ],
  "discontinued": [
