@@ -2504,11 +2504,11 @@
    "output": "output/daily/seluar_ironless-premium-slack-black_c2.mp4",
    "scenes": "IMG_0703 49.6 front (hand to pocket), 57.8 side turning, 95.4 back (hand to back pocket), 75.8 other side (hand out of pocket); IMG_0704 44.6 hand off the button waist, 82.2 hand into side pocket; IMG_0705 2.3 fingers creasing the fabric",
    "caption": "Slack hitam ironless, kemas tanpa gosok",
-   "delivery": "draft_failed (daily draft limit; owner 2026-11-16: send as soon as the slot opens, 00:49 MYT 17/11)",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-18 00:54 MYT)",
    "plan": "schedule/plans/seluar_ironless-premium-slack-black_c2/spec.json",
    "labels": "Button waist / Ironless fabric / Side pockets",
-   "note": "qc.py centre all cuts within 12 px. Back welt pocket close-up (IMG_0704 88-99) is soft, not used."
+   "note": "qc.py centre all cuts within 12 px. Back welt pocket close-up (IMG_0704 88-99) is soft, not used.",
+   "zernio_post_id": "6afc864a904999a628f173b4"
   },
   {
    "date": "2026-11-15",
@@ -2519,11 +2519,11 @@
    "output": "output/daily/baju_kurta-atiq-teal-blue_c2.mp4",
    "scenes": "IMG_0700 190.0 front (hand in and out of pocket), 165.2 side turning (ch 1400, cx 470), 154.2 back (arm moving), 173.2 other side, hands in pockets (ch 1600, cx 505); IMG_0701 14.8 hand over the chest fabric, 33.4 hand up to the button neck",
    "caption": "Kurta Atiq biru, lengan suku dan butang leher",
-   "delivery": "draft_failed (daily draft limit; owner 2026-11-16: send as soon as the slot opens, 00:49 MYT 17/11)",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-18 00:54 MYT)",
    "plan": "schedule/plans/baju_kurta-atiq-teal-blue_c2/spec.json",
    "labels": "Three-quarter sleeves / Smooth fabric / Button neck opening",
-   "note": "qc.py centre wide cuts +4/0/-12/-6 px. 1080p tripod: side cuts are lighter crops ending at the hip/thigh."
+   "note": "qc.py centre wide cuts +4/0/-12/-6 px. 1080p tripod: side cuts are lighter crops ending at the hip/thigh.",
+   "zernio_post_id": "6afc8671904999a628f1745b"
   },
   {
    "date": "2026-11-16",
