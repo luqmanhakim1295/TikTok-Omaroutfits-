@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 7,
-  "Seluar": 8
+  "Seluar": 9
  },
  "cycle": {
   "Baju": 4,
@@ -2595,6 +2595,22 @@
    "labels": "Straight cut / Side pockets / Elastic waist",
    "note": "VO v4: chat-style script (guys/korang, 'aku pakai...'), soft CTA. Replaces vo3 in the draft queue.",
    "zernio_post_id": "6afb344ebf11b0bb1ecb808b"
+  },
+  {
+   "date": "2026-11-17",
+   "type": "Seluar",
+   "folder": "Yooka white slack",
+   "cycle": 5,
+   "style": "torn_glitch",
+   "voiceover": true,
+   "output": "output/daily/seluar_yooka-white-slack_c5.mp4",
+   "scenes": "IMG_0262 58.0 front, 126.6 left side, 118.6 right side (3.0 s); IMG_0265 63.6 back, 111.8 back; IMG_0263 75.6 pocket line, 52.0 front pleats, 41.95 phone into pocket (top 640), 39.0 hand in side pocket; IMG_0264 64.6 seated cross-legged (cx 1160)",
+   "caption": "Slack cream Yooka, pleat depan dan selesa duduk",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_yooka-white-slack_c5/vo.json",
+   "labels": "Front pleats / Relaxed fit / Side pockets",
+   "note": "VO week video 1/5 (21.2 s). Close-ups cropped at top 640/400 so the underwear band never shows. Seated cut centred on the torso (crossed leg pulls the mask)."
   }
  ],
  "discontinued": [
@@ -2684,7 +2700,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 1,
+  "next": 2,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
