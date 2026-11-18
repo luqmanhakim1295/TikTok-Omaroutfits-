@@ -2655,11 +2655,11 @@
    "output": "output/daily/baju_yooka-corduroy-blue_c4.mp4",
    "scenes": "IMG_0303 86.5 placket, 90.0 corduroy texture, 81.0 collar; IMG_0304 57.0 hand into chest pocket, 73.5 pocket, 87.0 hand on chest; IMG_0302 121.0 front hands into pockets, 147.0 back, 24.4 rolling sleeve, 64.8 side, 140.5 other side",
    "caption": "Kemeja corduroy Yooka, poket dada dan lengan lipat",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-19 00:55 MYT)",
    "plan": "schedule/plans/baju_yooka-corduroy-blue_c4/vo.json",
    "labels": "Fine corduroy texture / Chest pocket / Roll-up sleeves",
-   "note": "VO week video 4/5 (22.1 s). All wide cuts within 26 px. Both profiles present."
+   "note": "VO week video 4/5 (22.1 s). All wide cuts within 26 px. Both profiles present.",
+   "zernio_post_id": "6afdd8717fd3bd0ab7ae3224"
   },
   {
    "date": "2026-11-18",
@@ -2671,11 +2671,11 @@
    "output": "output/daily/seluar_jeans-light-blue_c2.mp4",
    "scenes": "IMG_0723 64.4 front, 103.8 back (hands into back pockets), 77.0 side (ch 1660), 113.6 other side (ch 1720), 99.4 back (ch 1680 cx 474); IMG_0724 4.2 hand into pocket, 37.5 side pocket; IMG_0727 4.2/8.6 drawstring, 0.5 waist; IMG_0725 0.5 hand on denim; IMG_0728 37.0 seated crossing legs (ch 1680 cx 600)",
    "caption": "Jeans light blue straight cut, pinggang getah bertali",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-19 00:55 MYT)",
    "plan": "schedule/plans/seluar_jeans-light-blue_c2/vo.json",
    "labels": "Elastic drawstring waist / Durable denim / Side pockets",
-   "note": "VO week video 5/5 (24.7 s). Seated cut measured on the torso (+16 px); crossing leg pulls the leg mask to +56."
+   "note": "VO week video 5/5 (24.7 s). Seated cut measured on the torso (+16 px); crossing leg pulls the leg mask to +56.",
+   "zernio_post_id": "6afdd8ae90a678060e8f7e46"
   }
  ],
  "discontinued": [
