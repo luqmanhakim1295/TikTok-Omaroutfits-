@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 9,
+  "Baju": 10,
   "Seluar": 11
  },
  "cycle": {
@@ -2676,6 +2676,22 @@
    "labels": "Elastic drawstring waist / Durable denim / Side pockets",
    "note": "VO week video 5/5 (24.7 s). Seated cut measured on the torso (+16 px); crossing leg pulls the leg mask to +56.",
    "zernio_post_id": "6afdd8ae90a678060e8f7e46"
+  },
+  {
+   "date": "2026-11-19",
+   "type": "Baju",
+   "folder": "Yooka open collar black",
+   "cycle": 4,
+   "style": "classic",
+   "voiceover": false,
+   "output": "output/daily/baju_yooka-open-collar-black_c4.mp4",
+   "scenes": "IMG_0300 426.0 front crossed arms, 264.0 back, 281.0 side (cx 1210), 339.0 phone into pocket; IMG_0274 54.8 side; IMG_0272 21.0 open collar; IMG_0271 104.5 hand on chest, 99.0 placket",
+   "caption": "Kemeja open collar hitam Yooka, santai tapi kemas",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/baju_yooka-open-collar-black_c4/spec.json",
+   "labels": "Open collar / Button front / Smooth fabric",
+   "note": "14.1 s, no VO (ElevenLabs connection failed this run). Side windows reused (only clean profiles in the footage)."
   }
  ],
  "discontinued": [
@@ -2765,7 +2781,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 6,
+  "next": 0,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
