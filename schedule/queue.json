@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 9,
-  "Seluar": 10
+  "Seluar": 11
  },
  "cycle": {
   "Baju": 4,
@@ -2660,6 +2660,22 @@
    "plan": "schedule/plans/baju_yooka-corduroy-blue_c4/vo.json",
    "labels": "Fine corduroy texture / Chest pocket / Roll-up sleeves",
    "note": "VO week video 4/5 (22.1 s). All wide cuts within 26 px. Both profiles present."
+  },
+  {
+   "date": "2026-11-18",
+   "type": "Seluar",
+   "folder": "Jeans light blue",
+   "cycle": 2,
+   "style": "text_behind",
+   "voiceover": true,
+   "output": "output/daily/seluar_jeans-light-blue_c2.mp4",
+   "scenes": "IMG_0723 64.4 front, 103.8 back (hands into back pockets), 77.0 side (ch 1660), 113.6 other side (ch 1720), 99.4 back (ch 1680 cx 474); IMG_0724 4.2 hand into pocket, 37.5 side pocket; IMG_0727 4.2/8.6 drawstring, 0.5 waist; IMG_0725 0.5 hand on denim; IMG_0728 37.0 seated crossing legs (ch 1680 cx 600)",
+   "caption": "Jeans light blue straight cut, pinggang getah bertali",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_jeans-light-blue_c2/vo.json",
+   "labels": "Elastic drawstring waist / Durable denim / Side pockets",
+   "note": "VO week video 5/5 (24.7 s). Seated cut measured on the torso (+16 px); crossing leg pulls the leg mask to +56."
   }
  ],
  "discontinued": [
@@ -2749,7 +2765,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 5,
+  "next": 6,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
