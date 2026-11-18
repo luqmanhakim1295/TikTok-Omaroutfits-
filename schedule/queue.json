@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 8,
+  "Baju": 9,
   "Seluar": 10
  },
  "cycle": {
@@ -2644,6 +2644,22 @@
    "labels": "Ironless fabric / Button waist / Side pockets",
    "note": "VO week video 3/5 (18.8 s), 14 quick cuts timed to the VO. Detail clip IMG_0704 is soft by nature (dark fabric, Laplacian 13-23) but reads clearly at 100 %.",
    "zernio_post_id": "6afd2cd086172670dbbcf580"
+  },
+  {
+   "date": "2026-11-18",
+   "type": "Baju",
+   "folder": "Yooka corduroy blue",
+   "cycle": 4,
+   "style": "detail_first",
+   "voiceover": true,
+   "output": "output/daily/baju_yooka-corduroy-blue_c4.mp4",
+   "scenes": "IMG_0303 86.5 placket, 90.0 corduroy texture, 81.0 collar; IMG_0304 57.0 hand into chest pocket, 73.5 pocket, 87.0 hand on chest; IMG_0302 121.0 front hands into pockets, 147.0 back, 24.4 rolling sleeve, 64.8 side, 140.5 other side",
+   "caption": "Kemeja corduroy Yooka, poket dada dan lengan lipat",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/baju_yooka-corduroy-blue_c4/vo.json",
+   "labels": "Fine corduroy texture / Chest pocket / Roll-up sleeves",
+   "note": "VO week video 4/5 (22.1 s). All wide cuts within 26 px. Both profiles present."
   }
  ],
  "discontinued": [
@@ -2733,7 +2749,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 4,
+  "next": 5,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
