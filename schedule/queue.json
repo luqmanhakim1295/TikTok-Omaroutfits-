@@ -2600,18 +2600,18 @@
   {
    "date": "2026-11-17",
    "type": "Seluar",
-   "folder": "Yooka white slack",
+   "folder": "Zeke white slack",
    "cycle": 5,
    "style": "torn_glitch",
    "voiceover": true,
-   "output": "output/daily/seluar_yooka-white-slack_c5.mp4",
+   "output": "output/daily/seluar_zeke-white-slack_c5.mp4",
    "scenes": "IMG_0262 58.0 front, 126.6 left side, 118.6 right side (3.0 s); IMG_0265 63.6 back, 111.8 back; IMG_0263 75.6 pocket line, 52.0 front pleats, 41.95 phone into pocket (top 640), 39.0 hand in side pocket; IMG_0264 64.6 seated cross-legged (cx 1160)",
-   "caption": "Slack cream Yooka, pleat depan dan selesa duduk",
+   "caption": "Slack cream Zeke, pleat depan dan pinggang getah",
    "delivery": "pending",
    "send_first": true,
-   "plan": "schedule/plans/seluar_yooka-white-slack_c5/vo.json",
+   "plan": "schedule/plans/seluar_zeke-white-slack_c5/vo.json",
    "labels": "Front pleats / Relaxed fit / Side pockets",
-   "note": "VO week video 1/5 (21.2 s). Close-ups cropped at top 640/400 so the underwear band never shows. Seated cut centred on the torso (crossed leg pulls the mask)."
+   "note": "VO week video 1/5 (21.2 s). Close-ups cropped at top 640/400 so the underwear band never shows. Seated cut centred on the torso (crossed leg pulls the mask). VO redone 2026-11-18: the product is ZEKE, not Yooka (owner renamed the folder)."
   },
   {
    "date": "2026-11-17",
@@ -2623,11 +2623,11 @@
    "output": "output/daily/baju_yooka-black-plain-long-sleeves_c4.mp4",
    "scenes": "IMG_0266 265.6 front buttoning, 145.6 back, 99.6 side (ch 2740), 188.0 rolling the sleeve, 198.6 crossing arms, 137.2 other side, 259.8 hands into pockets; IMG_0267 175.5 fabric, 213.0 button placket, 185.8 sleeve; IMG_0269 12.2 collar",
    "caption": "Kemeja hitam Yooka lengan panjang, smart ke office",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-18 12:43 MYT)",
    "plan": "schedule/plans/baju_yooka-black-plain-long-sleeves_c4/vo.json",
    "labels": "Plain black / Classic collar / Full button front",
-   "note": "VO week video 2/5 (22.0 s). Tripod footage stops at the thigh (no feet). Sleeve-roll cut reads +53 px on the mask (his arm stretches out) but the placket sits on the centre line."
+   "note": "VO week video 2/5 (22.0 s). Tripod footage stops at the thigh (no feet). Sleeve-roll cut reads +53 px on the mask (his arm stretches out) but the placket sits on the centre line.",
+   "zernio_post_id": "6afd2cabb8e21d54c610804a"
   },
   {
    "date": "2026-11-17",
@@ -2639,11 +2639,11 @@
    "output": "output/daily/seluar_ironless-premium-slack-black_c3.mp4",
    "scenes": "IMG_0703 49.6/44.2/46.6/41.2 front, 95.4/109.6/91.8 back, 57.8/75.8 sides, 60.2 leg kick; IMG_0705 2.3 creasing the fabric; IMG_0704 44.6 button waist, 82.2 hand into pocket, 64.0 hand in pocket",
    "caption": "Slack hitam Ironless, tak payah gosok terus kemas",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-18 12:43 MYT)",
    "plan": "schedule/plans/seluar_ironless-premium-slack-black_c3/vo.json",
    "labels": "Ironless fabric / Button waist / Side pockets",
-   "note": "VO week video 3/5 (18.8 s), 14 quick cuts timed to the VO. Detail clip IMG_0704 is soft by nature (dark fabric, Laplacian 13-23) but reads clearly at 100 %."
+   "note": "VO week video 3/5 (18.8 s), 14 quick cuts timed to the VO. Detail clip IMG_0704 is soft by nature (dark fabric, Laplacian 13-23) but reads clearly at 100 %.",
+   "zernio_post_id": "6afd2cd086172670dbbcf580"
   }
  ],
  "discontinued": [
