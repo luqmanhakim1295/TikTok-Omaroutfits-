@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 11,
-  "Seluar": 12
+  "Seluar": 0
  },
  "cycle": {
   "Baju": 4,
@@ -2724,6 +2724,22 @@
    "plan": "schedule/plans/baju_zeke-coffee_c4/spec.json",
    "labels": "Z logo patch / Ribbed round neck / Neat stitching",
    "note": "12.3 s, no VO (ElevenLabs connection failed this run). Front and sides reused from c3 (other windows off-centre or walking out of frame); IMG_0314 shows the face, not used."
+  },
+  {
+   "date": "2026-11-19",
+   "type": "Seluar",
+   "folder": "Zeke trouser khaki",
+   "cycle": 2,
+   "style": "cinematic",
+   "voiceover": false,
+   "output": "output/daily/seluar_zeke-trouser-khaki_c2.mp4",
+   "scenes": "IMG_0734 49.0 front hands into pockets, 54.6 left side, 104.6 back, 150.4 seated, 136.2 right side; IMG_0736 2.2 hand into side pocket, 22.3 elastic back waist",
+   "caption": "Suit trousers Zeke khaki, straight cut dan selesa",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_zeke-trouser-khaki_c2/spec.json",
+   "labels": "Slant side pockets / Straight cut / Elastic back waist",
+   "note": "13.2 s, no VO (ElevenLabs connection failed this run). Same verified windows as the VO version (folder has only one tripod clip)."
   }
  ],
  "discontinued": [
@@ -2813,7 +2829,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 2,
+  "next": 3,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
