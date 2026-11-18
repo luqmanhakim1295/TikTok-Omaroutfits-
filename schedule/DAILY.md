@@ -127,6 +127,11 @@ Per video (Jam included, calm and premium):
 4. Captions in the report and the draft stay as before (under 10 words, no
    hashtags); remind the owner the video already has audio, so any TikTok
    sound must stay very quiet.
+Long VO videos: `text_behind` (tools/fx_style.py) runs out of memory on 20+ s
+renders; apply it to the opening part only (split at a cut, run fx_style on
+the first part, concat). Brand names in the script come from the listing or
+the current Drive folder name (the owner renamed "Yooka white slack" to "Zeke
+white slack" on 2026-11-18); check the folder name before writing the script.
 Credits: about 650 per short video, ~600-700 per 30 s review with 1 take (40,000 a month, reset 16 Dec); stop VO and say
 so in the report if fewer than 4,000 are left.
 
