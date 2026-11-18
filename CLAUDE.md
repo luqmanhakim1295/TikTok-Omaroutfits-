@@ -182,7 +182,8 @@ biasa" / "cam biasa" means: follow all of these.
 
 VO on **every** daily video for one week (runs of 2026-11-17 to 2026-11-23),
 then on a random half of each batch ("try seminggu dulu VO, lepastu kita
-random"); see `schedule/DAILY.md` "Voice-over week".
+random"); see `schedule/DAILY.md` "Voice-over week". Since 2026-11-18, while
+ElevenLabs credits are low: VO on 2-3 videos per batch only (owner OK).
 
 When a video gets a voice-over (owner's request), these replace "No audio" and
 the 15 s limit for that video:

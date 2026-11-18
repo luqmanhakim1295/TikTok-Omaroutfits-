@@ -102,7 +102,11 @@ folders are already in `folders` (Jam is its own category, see CLAUDE.md "Jam").
 
 ## Voice-over week (owner, 2026-11-16: "try seminggu dulu VO, lepastu kita random")
 
-From the 2026-11-17 run to the 2026-11-23 run (7 daily runs) **every** video
+**Credit limit (owner OK, 2026-11-18):** ElevenLabs credits ran low (~7,700
+left until 16 Dec), so each run gives a VO to **2-3 of the 5 videos** (pick the
+ones with the best footage and a listing), the rest stay silent; check
+`account_get_usage` first and stop VO below 4,000 credits.
+Original plan: from the 2026-11-17 run to the 2026-11-23 run (7 daily runs) **every** video
 gets a voice-over in the owner's cloned voice, following CLAUDE.md
 "Voice-over (ElevenLabs)". From the 2026-11-24 run on, pick at random about
 half of each batch for a VO (the rest stay silent as before) and say in the
