@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 10,
-  "Seluar": 11
+  "Seluar": 12
  },
  "cycle": {
   "Baju": 4,
@@ -2692,6 +2692,22 @@
    "plan": "schedule/plans/baju_yooka-open-collar-black_c4/spec.json",
    "labels": "Open collar / Button front / Smooth fabric",
    "note": "14.1 s, no VO (ElevenLabs connection failed this run). Side windows reused (only clean profiles in the footage)."
+  },
+  {
+   "date": "2026-11-19",
+   "type": "Seluar",
+   "folder": "Zeke loose sweat pants grey",
+   "cycle": 2,
+   "style": "flash_punch",
+   "voiceover": false,
+   "output": "output/daily/seluar_zeke-loose-sweat-pants-grey_c2.mp4",
+   "scenes": "IMG_0729 57.2 front, 63.0 side, 125.8 back, 84.0 other side, 74.4 front hands into pockets; IMG_0731 22.0 tying the drawstring, 35.0 hand in pocket; IMG_0733 3.0 walking (hem and shoe)",
+   "caption": "Seluar sweat Zeke kelabu, longgar dan selesa",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_zeke-loose-sweat-pants-grey_c2/spec.json",
+   "labels": "Drawstring waist / Deep side pockets / Loose fit",
+   "note": "14.4 s, no VO (ElevenLabs connection failed this run). Side 63.0 and back 125.8 reused from c1 (only clean windows)."
   }
  ],
  "discontinued": [
@@ -2781,7 +2797,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 0,
+  "next": 1,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
