@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 12,
-  "Seluar": 0
+  "Seluar": 1
  },
  "cycle": {
   "Baju": 4,
@@ -2756,6 +2756,22 @@
    "plan": "schedule/plans/baju_zeke-windbreaker_c5/spec.json",
    "labels": "Z logo / Zip pockets / Hood",
    "note": "8.6 s fast_beat, no VO (ElevenLabs connection failed this run). Windows from c2/c3 (green/black colourway); soft side close-up and an off-centre front dropped."
+  },
+  {
+   "date": "2026-11-20",
+   "type": "Seluar",
+   "folder": "Baggy corduroy pants",
+   "cycle": 6,
+   "style": "detail_first",
+   "voiceover": true,
+   "output": "output/daily/seluar_baggy-corduroy-pants_c6.mp4",
+   "scenes": "IMG_0276 231.8 front, 251.0 side, 116.4 back, 111.6 other side, 226.0 front; IMG_0279 75.0 corduroy texture + label, 132.6 hand into pocket, 56.8 back pocket, 49.9 waist and pocket",
+   "caption": "Seluar corduroy baggy beige, longgar dan selesa",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_baggy-corduroy-pants_c6/vo.json",
+   "labels": "Corduroy texture / Baggy fit / Deep side pockets",
+   "note": "20.0 s VO. Side 251.0 reads +36 px with the shoes (foot points forward in profile), +27 px on the legs."
   }
  ],
  "discontinued": [
@@ -2845,7 +2861,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 4,
+  "next": 5,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
