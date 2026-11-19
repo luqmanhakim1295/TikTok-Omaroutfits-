@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 13,
+  "Baju": 14,
   "Seluar": 2
  },
  "cycle": {
@@ -2798,6 +2798,22 @@
    "output": "",
    "skipped": "1080p tripod clip: in every checked window (191, 216, 249, 299, 308 s) he stands 70-170 px right/left of centre and the 1034 px crop can only move ~23 px; centring would need a crop that cuts the waist or shoes. Next cycle: try other stretches of IMG_0557 or IMG_0559.",
    "delivery": "none"
+  },
+  {
+   "date": "2026-11-20",
+   "type": "Baju",
+   "folder": "Bgm men roundneck olive",
+   "cycle": 2,
+   "style": "flash_punch",
+   "voiceover": false,
+   "output": "output/daily/baju_bgm-men-roundneck-olive_c2.mp4",
+   "scenes": "IMG_0697 102.8 front crossed arms, 91.4 side, 130.2 back (ch 1560 cx 640), 59.4 front hand on chest; IMG_0699 30.2 ribbed neck, 45.2 hand on logo, 49.0 pinching the logo",
+   "caption": "Tshirt Bgm olive, logo sulam merah dan kolar rib",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/baju_bgm-men-roundneck-olive_c2/spec.json",
+   "labels": "Ribbed round neck / Embroidered logo / Regular fit",
+   "note": "12.5 s, no VO. Wide windows reused from c1 (other windows off-centre or soft); new close-ups from IMG_0699. Only one side profile in the footage. Front reads +30 px (crossed arms)."
   }
  ],
  "discontinued": [
@@ -2887,7 +2903,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 5,
+  "next": 6,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
