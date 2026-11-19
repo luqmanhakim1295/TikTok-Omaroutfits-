@@ -2687,11 +2687,11 @@
    "output": "output/daily/baju_yooka-open-collar-black_c4.mp4",
    "scenes": "IMG_0300 426.0 front crossed arms, 264.0 back, 281.0 side (cx 1210), 339.0 phone into pocket; IMG_0274 54.8 side; IMG_0272 21.0 open collar; IMG_0271 104.5 hand on chest, 99.0 placket",
    "caption": "Kemeja open collar hitam Yooka, santai tapi kemas",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-19 12:49 MYT)",
    "plan": "schedule/plans/baju_yooka-open-collar-black_c4/spec.json",
    "labels": "Open collar / Button front / Smooth fabric",
-   "note": "14.1 s, no VO (ElevenLabs connection failed this run). Side windows reused (only clean profiles in the footage)."
+   "note": "14.1 s, no VO (ElevenLabs connection failed this run). Side windows reused (only clean profiles in the footage).",
+   "zernio_post_id": "6afe7fcf0a7c003243ec96f3"
   },
   {
    "date": "2026-11-19",
@@ -2703,11 +2703,11 @@
    "output": "output/daily/seluar_zeke-loose-sweat-pants-grey_c2.mp4",
    "scenes": "IMG_0729 57.2 front, 63.0 side, 125.8 back, 84.0 other side, 74.4 front hands into pockets; IMG_0731 22.0 tying the drawstring, 35.0 hand in pocket; IMG_0733 3.0 walking (hem and shoe)",
    "caption": "Seluar sweat Zeke kelabu, longgar dan selesa",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-19 12:49 MYT)",
    "plan": "schedule/plans/seluar_zeke-loose-sweat-pants-grey_c2/spec.json",
    "labels": "Drawstring waist / Deep side pockets / Loose fit",
-   "note": "14.4 s, no VO (ElevenLabs connection failed this run). Side 63.0 and back 125.8 reused from c1 (only clean windows)."
+   "note": "14.4 s, no VO (ElevenLabs connection failed this run). Side 63.0 and back 125.8 reused from c1 (only clean windows).",
+   "zernio_post_id": "6afe7ff50a7c003243ec977b"
   },
   {
    "date": "2026-11-19",
@@ -2719,11 +2719,11 @@
    "output": "output/daily/baju_zeke-coffee_c4.mp4",
    "scenes": "IMG_0316 23.4 front (top 150), 52.4 side, 144.0 back, 140.0 other side; IMG_0315 40.0 hand on Z logo, 67.0 ribbed neck, 77.5 collar rib",
    "caption": "Tee Zeke coffee, logo Z dan kolar rib kemas",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-19 12:49 MYT)",
    "plan": "schedule/plans/baju_zeke-coffee_c4/spec.json",
    "labels": "Z logo patch / Ribbed round neck / Neat stitching",
-   "note": "12.3 s, no VO (ElevenLabs connection failed this run). Front and sides reused from c3 (other windows off-centre or walking out of frame); IMG_0314 shows the face, not used."
+   "note": "12.3 s, no VO (ElevenLabs connection failed this run). Front and sides reused from c3 (other windows off-centre or walking out of frame); IMG_0314 shows the face, not used.",
+   "zernio_post_id": "6afe801bc457f20350b28ed1"
   },
   {
    "date": "2026-11-19",
