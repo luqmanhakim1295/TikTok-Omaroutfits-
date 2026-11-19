@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 14,
-  "Seluar": 2
+  "Seluar": 3
  },
  "cycle": {
   "Baju": 4,
@@ -2814,6 +2814,22 @@
    "plan": "schedule/plans/baju_bgm-men-roundneck-olive_c2/spec.json",
    "labels": "Ribbed round neck / Embroidered logo / Regular fit",
    "note": "12.5 s, no VO. Wide windows reused from c1 (other windows off-centre or soft); new close-ups from IMG_0699. Only one side profile in the footage. Front reads +30 px (crossed arms)."
+  },
+  {
+   "date": "2026-11-20",
+   "type": "Seluar",
+   "folder": "Cargo grey",
+   "cycle": 6,
+   "style": "classic",
+   "voiceover": true,
+   "output": "output/daily/seluar_cargo-grey_c6.mp4",
+   "scenes": "IMG_0370 211.8 front, 204.4 side (cargo pocket), 99.6 front (ch 3300 cx 1227), 140.8 back hand into back pocket, 126.2 other side (ch 3380 cx 956), 89.6 front (ch 3300 cx 1230); IMG_0368 14.5 phone into pocket; IMG_0369 27.0 opening snap cargo pocket",
+   "caption": "Seluar cargo grey, poket snap muat semua barang",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/seluar_cargo-grey_c6/vo.json",
+   "labels": "Phone fits the pocket / Snap cargo pocket / Back pockets",
+   "note": "19.0 s VO. Style classic (c5 was text_behind). Three wide cuts use a slightly smaller crop (86-88 %) so the legs sit on the centre line (the 4K portrait frame leaves only 136 px to move at full height). build_focus.py now honours cx/dx on trouser cuts."
   }
  ],
  "discontinued": [
@@ -2903,7 +2919,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 6,
+  "next": 0,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }

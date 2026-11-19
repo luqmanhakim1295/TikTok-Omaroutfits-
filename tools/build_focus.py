@@ -44,6 +44,16 @@ for k, (clip, start, length, view, *over) in enumerate(spec["cuts"]):
         expr = subprocess.run([sys.executable, os.path.join(here, "segtrack.py"), os.path.join(raw, clip), str(start),
                                str(length), str(cw), "--rows", *map(str, spec.get("rows", [0.4, 0.98]))],
                               capture_output=True, text=True, check=True).stdout.strip()
+        if "cx" in o or "dx" in o:
+            # Manual centre (source px) when the leg mask is pulled off (crossed
+            # leg, shoe pointing forward); "dx" shifts the tracked crop instead.
+            sys.path.insert(0, os.path.join(here, ".."))
+            import edit_video
+            W = edit_video.probe(os.path.join(raw, clip))[0]
+            if "cx" in o:
+                expr = str(max(0, min(W - cw, int(o["cx"]) - cw // 2)))
+            else:
+                expr = f"max(0,min({W - cw},({expr})+{int(o['dx'])}))"
         open(xe, "w").write(expr + "\n")
         print(k, clip, start, view, {"top": top, "ch": ch, "cw": cw})
         if style == "cinematic" and k == 0:
