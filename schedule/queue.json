@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 12,
+  "Baju": 13,
   "Seluar": 1
  },
  "cycle": {
@@ -2772,6 +2772,22 @@
    "plan": "schedule/plans/seluar_baggy-corduroy-pants_c6/vo.json",
    "labels": "Corduroy texture / Baggy fit / Deep side pockets",
    "note": "20.0 s VO. Side 251.0 reads +36 px with the shoes (foot points forward in profile), +27 px on the legs."
+  },
+  {
+   "date": "2026-11-20",
+   "type": "Baju",
+   "folder": "Advo microfibre tshirt wine",
+   "cycle": 3,
+   "style": "classic",
+   "voiceover": false,
+   "output": "output/daily/baju_advo-microfibre-tshirt-wine_c3.mp4",
+   "scenes": "IMG_0693 68.0 front crossed arms, 83.4 side (ch 1500 cx 480), 144.8 back, 100.0 side hand into pocket (ch 1600); IMG_0695 117.9 mesh side panel, 21.0 hand on mesh, 187.5 sleeve",
+   "caption": "Tshirt Advo wine, kain mesh ringan dan sejuk",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/baju_advo-microfibre-tshirt-wine_c3/spec.json",
+   "labels": "Mesh side panels / Microfibre mesh / Short sleeves",
+   "note": "12.5 s, no VO (2-3 VO per batch). Style classic instead of text_behind (c2 was text_behind). Windows from c1/c2 (only 1 tripod clip)."
   }
  ],
  "discontinued": [
