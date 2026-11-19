@@ -1,9 +1,9 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 14,
+  "Baju": 0,
   "Seluar": 3
  },
  "cycle": {
@@ -2830,6 +2830,22 @@
    "plan": "schedule/plans/seluar_cargo-grey_c6/vo.json",
    "labels": "Phone fits the pocket / Snap cargo pocket / Back pockets",
    "note": "19.0 s VO. Style classic (c5 was text_behind). Three wide cuts use a slightly smaller crop (86-88 %) so the legs sit on the centre line (the 4K portrait frame leaves only 136 px to move at full height). build_focus.py now honours cx/dx on trouser cuts."
+  },
+  {
+   "date": "2026-11-20",
+   "type": "Baju",
+   "folder": "Kurta atiq teal blue",
+   "cycle": 3,
+   "style": "cinematic",
+   "voiceover": false,
+   "output": "output/daily/baju_kurta-atiq-teal-blue_c3.mp4",
+   "scenes": "IMG_0700 128.6 front crossed arms, 165.2 side (ch 1400 cx 470), 160.6 back, 176.8 other side hands in pockets (ch 1400 cx 649); IMG_0701 43.5 button neck, 14.8 hand on chest, 20.0 shoulder fabric",
+   "caption": "Kurta Atiq biru, butang leher dan lengan suku",
+   "delivery": "pending",
+   "send_first": true,
+   "plan": "schedule/plans/baju_kurta-atiq-teal-blue_c3/spec.json",
+   "labels": "Button neck opening / Smooth fabric / Three-quarter sleeves",
+   "note": "12.5 s, no VO (2 VO this batch). Replaces the skipped Cargo elgini slot. Windows from c1/c2 (only clean ones in the footage)."
   }
  ],
  "discontinued": [
@@ -2919,7 +2935,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 0,
+  "next": 1,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
