@@ -2782,7 +2782,7 @@
    "voiceover": false,
    "output": "output/daily/baju_advo-microfibre-tshirt-wine_c3.mp4",
    "scenes": "IMG_0693 68.0 front crossed arms, 83.4 side (ch 1500 cx 480), 144.8 back, 100.0 side hand into pocket (ch 1600); IMG_0695 117.9 mesh side panel, 21.0 hand on mesh, 187.5 sleeve",
-   "caption": "Tshirt Advo wine, kain mesh ringan dan sejuk",
+   "caption": "Tshirt Advo wine, kain mesh dan panel sisi",
    "delivery": "pending",
    "send_first": true,
    "plan": "schedule/plans/baju_advo-microfibre-tshirt-wine_c3/spec.json",
