@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
   "Baju": 13,
-  "Seluar": 1
+  "Seluar": 2
  },
  "cycle": {
   "Baju": 4,
@@ -2735,11 +2735,11 @@
    "output": "output/daily/seluar_zeke-trouser-khaki_c2.mp4",
    "scenes": "IMG_0734 49.0 front hands into pockets, 54.6 left side, 104.6 back, 150.4 seated, 136.2 right side; IMG_0736 2.2 hand into side pocket, 22.3 elastic back waist",
    "caption": "Suit trousers Zeke khaki, straight cut dan selesa",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-20 00:59 MYT)",
    "plan": "schedule/plans/seluar_zeke-trouser-khaki_c2/spec.json",
    "labels": "Slant side pockets / Straight cut / Elastic back waist",
-   "note": "13.2 s, no VO (ElevenLabs connection failed this run). Same verified windows as the VO version (folder has only one tripod clip)."
+   "note": "13.2 s, no VO (ElevenLabs connection failed this run). Same verified windows as the VO version (folder has only one tripod clip).",
+   "zernio_post_id": "6aff2aa8e101b907ef15271d"
   },
   {
    "date": "2026-11-19",
@@ -2751,11 +2751,11 @@
    "output": "output/daily/baju_zeke-windbreaker_c5.mp4",
    "scenes": "IMG_0203-2 347.4/349.0 front (zip), 387.4/439.8/378.0 sides, 474.8/460.2 back; IMG_0205 258.5 logo, 120.0 hands on zip pockets, 192.6 hood up",
    "caption": "Windbreaker Zeke dua tona, hud dan poket zip",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-20 00:59 MYT)",
    "plan": "schedule/plans/baju_zeke-windbreaker_c5/spec.json",
    "labels": "Z logo / Zip pockets / Hood",
-   "note": "8.6 s fast_beat, no VO (ElevenLabs connection failed this run). Windows from c2/c3 (green/black colourway); soft side close-up and an off-centre front dropped."
+   "note": "8.6 s fast_beat, no VO (ElevenLabs connection failed this run). Windows from c2/c3 (green/black colourway); soft side close-up and an off-centre front dropped.",
+   "zernio_post_id": "6aff2acd6054c7c432671f8e"
   },
   {
    "date": "2026-11-20",
@@ -2788,6 +2788,16 @@
    "plan": "schedule/plans/baju_advo-microfibre-tshirt-wine_c3/spec.json",
    "labels": "Mesh side panels / Microfibre mesh / Short sleeves",
    "note": "12.5 s, no VO (2-3 VO per batch). Style classic instead of text_behind (c2 was text_behind). Windows from c1/c2 (only 1 tripod clip)."
+  },
+  {
+   "date": "2026-11-20",
+   "type": "Seluar",
+   "folder": "Cargo elgini",
+   "cycle": 6,
+   "style": null,
+   "output": "",
+   "skipped": "1080p tripod clip: in every checked window (191, 216, 249, 299, 308 s) he stands 70-170 px right/left of centre and the 1034 px crop can only move ~23 px; centring would need a crop that cuts the waist or shoes. Next cycle: try other stretches of IMG_0557 or IMG_0559.",
+   "delivery": "none"
   }
  ],
  "discontinued": [
