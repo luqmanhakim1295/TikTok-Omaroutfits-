@@ -2767,11 +2767,11 @@
    "output": "output/daily/seluar_baggy-corduroy-pants_c6.mp4",
    "scenes": "IMG_0276 231.8 front, 251.0 side, 116.4 back, 111.6 other side, 226.0 front; IMG_0279 75.0 corduroy texture + label, 132.6 hand into pocket, 56.8 back pocket, 49.9 waist and pocket",
    "caption": "Seluar corduroy baggy beige, longgar dan selesa",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-20 12:56 MYT)",
    "plan": "schedule/plans/seluar_baggy-corduroy-pants_c6/vo.json",
    "labels": "Corduroy texture / Baggy fit / Deep side pockets",
-   "note": "20.0 s VO. Side 251.0 reads +36 px with the shoes (foot points forward in profile), +27 px on the legs."
+   "note": "20.0 s VO. Side 251.0 reads +36 px with the shoes (foot points forward in profile), +27 px on the legs.",
+   "zernio_post_id": "6affd2e5be8dc3620f1ce889"
   },
   {
    "date": "2026-11-20",
@@ -2783,11 +2783,11 @@
    "output": "output/daily/baju_advo-microfibre-tshirt-wine_c3.mp4",
    "scenes": "IMG_0693 68.0 front crossed arms, 83.4 side (ch 1500 cx 480), 144.8 back, 100.0 side hand into pocket (ch 1600); IMG_0695 117.9 mesh side panel, 21.0 hand on mesh, 187.5 sleeve",
    "caption": "Tshirt Advo wine, kain mesh dan panel sisi",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-20 12:56 MYT)",
    "plan": "schedule/plans/baju_advo-microfibre-tshirt-wine_c3/spec.json",
    "labels": "Mesh side panels / Microfibre mesh / Short sleeves",
-   "note": "12.5 s, no VO (2-3 VO per batch). Style classic instead of text_behind (c2 was text_behind). Windows from c1/c2 (only 1 tripod clip)."
+   "note": "12.5 s, no VO (2-3 VO per batch). Style classic instead of text_behind (c2 was text_behind). Windows from c1/c2 (only 1 tripod clip).",
+   "zernio_post_id": "6affd34401d67bae7549468e"
   },
   {
    "date": "2026-11-20",
@@ -2825,11 +2825,11 @@
    "output": "output/daily/seluar_cargo-grey_c6.mp4",
    "scenes": "IMG_0370 211.8 front, 204.4 side (cargo pocket), 99.6 front (ch 3300 cx 1227), 140.8 back hand into back pocket, 126.2 other side (ch 3380 cx 956), 89.6 front (ch 3300 cx 1230); IMG_0368 14.5 phone into pocket; IMG_0369 27.0 opening snap cargo pocket",
    "caption": "Seluar cargo grey, poket snap muat semua barang",
-   "delivery": "pending",
-   "send_first": true,
+   "delivery": "tiktok-draft (sent 2026-11-20 12:56 MYT)",
    "plan": "schedule/plans/seluar_cargo-grey_c6/vo.json",
    "labels": "Phone fits the pocket / Snap cargo pocket / Back pockets",
-   "note": "19.0 s VO. Style classic (c5 was text_behind). Three wide cuts use a slightly smaller crop (86-88 %) so the legs sit on the centre line (the 4K portrait frame leaves only 136 px to move at full height). build_focus.py now honours cx/dx on trouser cuts."
+   "note": "19.0 s VO. Style classic (c5 was text_behind). Three wide cuts use a slightly smaller crop (86-88 %) so the legs sit on the centre line (the 4K portrait frame leaves only 136 px to move at full height). build_focus.py now honours cx/dx on trouser cuts.",
+   "zernio_post_id": "6affd315d7333462146b3084"
   },
   {
    "date": "2026-11-20",
