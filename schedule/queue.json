@@ -2809,11 +2809,11 @@
    "output": "output/daily/baju_bgm-men-roundneck-olive_c2.mp4",
    "scenes": "IMG_0697 102.8 front crossed arms, 91.4 side, 130.2 back (ch 1560 cx 640), 59.4 front hand on chest; IMG_0699 30.2 ribbed neck, 45.2 hand on logo, 49.0 pinching the logo",
    "caption": "Tshirt Bgm olive, logo sulam merah dan kolar rib",
-   "delivery": "tiktok-draft",
+   "delivery": "tiktok-draft (sent 2026-11-21 01:00 MYT)",
    "plan": "schedule/plans/baju_bgm-men-roundneck-olive_c2/spec.json",
    "labels": "Ribbed round neck / Embroidered logo / Regular fit",
    "note": "12.5 s, no VO. Wide windows reused from c1 (other windows off-centre or soft); new close-ups from IMG_0699. Only one side profile in the footage. Front reads +30 px (crossed arms).",
-   "zernio_id": "6b007ccce571842fa75b522c"
+   "zernio_post_id": "6b007ccce571842fa75b522c"
   },
   {
    "date": "2026-11-20",
@@ -2841,11 +2841,11 @@
    "output": "output/daily/baju_kurta-atiq-teal-blue_c3.mp4",
    "scenes": "IMG_0700 128.6 front crossed arms, 165.2 side (ch 1400 cx 470), 160.6 back, 176.8 other side hands in pockets (ch 1400 cx 649); IMG_0701 43.5 button neck, 14.8 hand on chest, 20.0 shoulder fabric",
    "caption": "Kurta Atiq biru, butang leher dan lengan suku",
-   "delivery": "tiktok-draft",
+   "delivery": "tiktok-draft (sent 2026-11-21 01:00 MYT)",
    "plan": "schedule/plans/baju_kurta-atiq-teal-blue_c3/spec.json",
    "labels": "Button neck opening / Smooth fabric / Three-quarter sleeves",
    "note": "12.5 s, no VO (2 VO this batch). Replaces the skipped Cargo elgini slot. Windows from c1/c2 (only clean ones in the footage).",
-   "zernio_id": "6b007cfccd7adf22ab170dc1"
+   "zernio_post_id": "6b007cfccd7adf22ab170dc1"
   }
  ],
  "discontinued": [
