@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
-  "Baju": 0,
-  "Seluar": 3
+  "Baju": 2,
+  "Seluar": 6
  },
  "cycle": {
   "Baju": 4,
@@ -2846,6 +2846,86 @@
    "labels": "Button neck opening / Smooth fabric / Three-quarter sleeves",
    "note": "12.5 s, no VO (2 VO this batch). Replaces the skipped Cargo elgini slot. Windows from c1/c2 (only clean ones in the footage).",
    "zernio_post_id": "6b007cfccd7adf22ab170dc1"
+  },
+  {
+   "date": "2026-11-21",
+   "type": "Seluar",
+   "folder": "Elgini grey",
+   "cycle": 6,
+   "style": "torn_glitch",
+   "voiceover": true,
+   "output": "output/daily/seluar_elgini-grey_c6.mp4",
+   "caption": "Seluar Elgini grey, pinggang getah bertali dan kaki lurus",
+   "plan": "schedule/plans/seluar_elgini-grey_c6/spec.json",
+   "scenes": "IMG_0347 232.2 front (hand in pocket)/253.4 side/261.6 front (hand into pocket)/290.0 other side/246.8 back/310.8 back (turning, ch 3300)/279.0 front (hands into pockets); IMG_0350 30.3 stretching the waistband, 23.6 pulling the drawstring, 78.0 elastic waistband, 70.0 drawstring; IMG_0352 27.6 hand into side pocket",
+   "labels": "Elastic drawstring waist / Side pockets / Straight wide leg",
+   "note": "22.5 s review-style VO (395 credits), cuts follow the Scribe word times. 232.2, 27.6 and 30.3/23.6 are new windows; the rest reused (only clean ones). IMG_0352 15-27 s is soft (Laplacian ~25), not used. qc.py centre: all wide cuts |offset| <= 22 px.",
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-21",
+   "type": "Baju",
+   "folder": "Advo polo green",
+   "cycle": 5,
+   "style": "cinematic",
+   "voiceover": false,
+   "output": "output/daily/baju_advo-polo-green_c5.mp4",
+   "caption": "Polo hijau Advo, kolar kemas dan kain bertekstur",
+   "plan": "schedule/plans/baju_advo-polo-green_c5/spec.json",
+   "scenes": "IMG_0233 280.8 front (crossing arms, tilt)/307.0 side (ch 3300, crop shifted +75)/379.8 back/388.6 other side (ch 3400); IMG_0235 125.0 collar and placket, 41.0 sleeve, 96.5 hand on the fabric",
+   "labels": "Polo collar / Short sleeves / Textured fabric",
+   "note": "12.3 s, no VO. Windows from c3/c4 (only clean ones in the footage). qc.py centre: wide cuts 4/-2/-2/14 px.",
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-21",
+   "type": "Seluar",
+   "folder": "Elgini relaxed pants",
+   "cycle": 6,
+   "style": "fast_beat",
+   "voiceover": false,
+   "output": "output/daily/seluar_elgini-relaxed-pants_c6.mp4",
+   "caption": "Seluar Elgini relaxed, logo E dan poket tepi",
+   "plan": "schedule/plans/seluar_elgini-relaxed-pants_c6/spec.json",
+   "scenes": "IMG_0397 98.0/105.6 front, 57.0 side, 82.8/72.6 back; IMG_0398 68.2/46.8 side, 112.4 front; IMG_0400 45.2 E logo, 57.2 hand into pocket, 7.0 logo, 50.0 waist",
+   "labels": "E logo detail / Side pockets / Relaxed straight leg",
+   "note": "11.2 s, no VO, 12 fast cuts. All windows reused from c4/c5 (no other clean ones). qc.py centre: wide cuts within 18 px.",
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-21",
+   "type": "Baju",
+   "folder": "Boru Japan",
+   "cycle": 5,
+   "style": "detail_first",
+   "voiceover": true,
+   "output": "output/daily/baju_boru-japan_c5.mp4",
+   "caption": "Tee Boru Japan, print Mount Fuji penuh belakang",
+   "plan": "schedule/plans/baju_boru-japan_c5/spec.json",
+   "scenes": "IMG_0278 86.0 back print, 62.5 hand on the chest logo; IMG_0275 43.2 front (hands into pockets)/45.8 side turn (ch 2900)/28.0 front (pulling the hem)/106.6 side to back turn (crop shifted +65)/131.6 back (pulling the hem)/96.0 front (pushing the sleeves up)/86.0 back to other side turn/120.0 back",
+   "labels": "Chest logo print / Mount Fuji back print / Long sleeves",
+   "note": "23.0 s review-style VO (373 credits). New windows: 45.8, 28.0, 106.6, 86.0, 120.0, IMG_0278 86.0/62.5. The tripod footage stops at the shins (no feet). qc.py centre: wide cuts within 24 px.",
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-21",
+   "type": "Seluar",
+   "folder": "Jogger pants black",
+   "cycle": 7,
+   "style": "text_behind",
+   "voiceover": false,
+   "output": "output/daily/seluar_jogger-pants-black_c7.mp4",
+   "caption": "Jogger hitam, pinggang bertali dan poket belakang",
+   "plan": "schedule/plans/seluar_jogger-pants-black_c7/spec.json",
+   "scenes": "IMG_0691 75.4 front (new)/115.8 side (ch 1590)/132.4 back (ch 1700)/109.8 front (new); IMG_0692 93.6 drawstring; IMG_0696 11.5 side pocket, 39.5 hand to back pocket",
+   "labels": "Drawstring waist / Side pockets / Back pocket; big words JOGGER, BLACK",
+   "note": "12.4 s, no VO. Missing angle: only one side profile in IMG_0691 (other windows off centre on the 1080p clip, e.g. 122.6 back +124 px). qc.py centre: wide cuts -8/-26/12/2 px.",
+   "delivery": "pending",
+   "send_first": true
   }
  ],
  "discontinued": [
@@ -2935,7 +3015,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 1,
+  "next": 6,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
