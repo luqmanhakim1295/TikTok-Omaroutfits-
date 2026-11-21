@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Baju",
+ "next_type": "Seluar",
  "pointer": {
-  "Baju": 2,
-  "Seluar": 6
+  "Baju": 5,
+  "Seluar": 8
  },
  "cycle": {
   "Baju": 4,
@@ -2927,6 +2927,86 @@
    "note": "12.4 s, no VO. Missing angle: only one side profile in IMG_0691 (other windows off centre on the 1080p clip, e.g. 122.6 back +124 px). qc.py centre: wide cuts -8/-26/12/2 px.",
    "delivery": "pending",
    "send_first": true
+  },
+  {
+   "date": "2026-11-22",
+   "type": "Baju",
+   "folder": "Boru moon",
+   "cycle": 5,
+   "style": "classic",
+   "output": "output/daily/baju_boru-moon_c5.mp4",
+   "caption": "Tee Boru Moon, logo dada dan print belakang",
+   "plan": "schedule/plans/baju_boru-moon_c5/spec.json",
+   "scenes": "IMG_0402 55.2 front (phone)/47.8 side (hand in pocket)/27.8 back/77.0 other side (ch 2700); IMG_0405 7.0 chest logo + hand (top 440, no beard); IMG_0408 26.0 back print",
+   "labels": "Boru chest logo / Moon back print / Short sleeves",
+   "note": "11.0 s, no VO (ElevenLabs 3,310 credits, under the 4,000 floor). Windows mostly from c4 (only clean ones). qc.py centre: wide cuts 4/-14/-6/-2 px.",
+   "voiceover": false,
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-22",
+   "type": "Seluar",
+   "folder": "Zeke black slack",
+   "cycle": 6,
+   "style": "cinematic",
+   "output": "output/daily/seluar_zeke-black-slack_c6.mp4",
+   "caption": "Seluar Zeke hitam, pleats depan dan pinggang getah",
+   "plan": "schedule/plans/seluar_zeke-black-slack_c6/spec.json",
+   "scenes": "IMG_0317 158.2 back (tilt)/133.4 side/191.2 front (crop shifted -50); IMG_0319 101.0 front pleats, 54.0 hand into pocket, 121.0 right side (handheld, adjusting the back waist)",
+   "labels": "Front pleats / Side pockets / Elastic back waist",
+   "note": "11.0 s, no VO. First video under the Zeke name (was Yooka black slack c1-c5). Right side only as the handheld close-up (tripod never catches it). qc.py centre: wide cuts 2/-2/-30 px.",
+   "voiceover": false,
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-22",
+   "type": "Seluar",
+   "folder": "OS Red Stripe",
+   "cycle": 6,
+   "style": "flash_punch",
+   "output": "output/daily/seluar_os-red-stripe_c6.mp4",
+   "caption": "Seluar wide leg jalur merah, sulaman dan kaki adjust",
+   "plan": "schedule/plans/seluar_os-red-stripe_c6/spec.json",
+   "scenes": "IMG_0356 46.0 front (phone)/124.2 side (hand into pocket)/135.0 back (ch 3340)/92.8 turn to the other side; IMG_0359 6.9 hem stripe + shoe, 39.8 adjusting the hem; IMG_0361 5.3 embroidered logo",
+   "labels": "Striped side panel / Embroidered logo / Adjustable hem",
+   "note": "12.5 s, no VO. Windows from c4/c5. 140.0 other side was off centre (+76 px); 92.8 used instead. qc.py centre: wide cuts 4/2/2/2 px.",
+   "voiceover": false,
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-22",
+   "type": "Baju",
+   "folder": "F1 team",
+   "cycle": 5,
+   "style": "torn_glitch",
+   "output": "output/daily/baju_f1-team_c5.mp4",
+   "caption": "Jersi F1 Petronas, logo sponsor penuh",
+   "plan": "schedule/plans/baju_f1-team_c5/spec.json",
+   "scenes": "IMG_0339 109.6 front (hands in pockets)/133.4 side (ch 2900, cx 1290)/169.0 back/239.0 other side; IMG_0343 84.4 sponsor logos (new, no beard), 73.0 sleeve; IMG_0344 22.0 chest (top 450)",
+   "labels": "Sponsor logo prints / Two-tone sleeves / Petronas back print",
+   "note": "12.5 s, no VO. Close-ups re-cropped so no beard shows (owner 2026-11-21). qc.py centre: wide cuts -8/2/-2/4 px.",
+   "voiceover": false,
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-22",
+   "type": "Baju",
+   "folder": "Sweat shirt v neck grey",
+   "cycle": 5,
+   "style": "detail_first",
+   "output": "output/daily/baju_sweat-shirt-v-neck-grey_c5.mp4",
+   "caption": "Sweater V-neck kelabu, kait bertekstur",
+   "plan": "schedule/plans/baju_sweat-shirt-v-neck-grey_c5/spec.json",
+   "scenes": "IMG_0386 44.0 V-neck, 60.0 touching the knit (top 700, no beard); IMG_0391-2 101.2 front (crossing arms)/63.0 side; IMG_0382 111.4 side (hand into pocket)/105.6 back",
+   "labels": "Split V-neck / Ribbed knit texture / Relaxed long sleeves",
+   "note": "11.0 s, no VO. Windows from c4 (only clean ones). qc.py centre: wide cuts 30/6/-2/28 px.",
+   "voiceover": false,
+   "delivery": "pending",
+   "send_first": true
   }
  ],
  "discontinued": [
@@ -3016,7 +3096,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 6,
+  "next": 3,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
