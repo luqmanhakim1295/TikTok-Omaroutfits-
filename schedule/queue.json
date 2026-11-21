@@ -609,7 +609,7 @@
     ]
    },
    {
-    "name": "Yooka black slack",
+    "name": "Zeke black slack",
     "files": [
      {
       "name": "IMG_0317.MOV",
@@ -623,7 +623,8 @@
       "name": "IMG_0319.MOV",
       "id": "1Na6kub9zCLCij2tI_kFHPN8uwRxP9Dt4"
      }
-    ]
+    ],
+    "renamed": "2026-11-21: owner confirmed it is Zeke black slack (Drive folder already renamed on 2026-11-18); history c1-c5 keep the old name"
    },
    {
     "name": "Zeke white slack",
