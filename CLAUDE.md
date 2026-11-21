@@ -119,6 +119,11 @@ biasa" / "cam biasa" means: follow all of these.
    close-ups where the shirt is lifted (tucking, adjusting the waistband)
    often show the boxer band or belly: check every frame of every cut and
    drop those parts. Never use shirtless or changing footage.
+6c. **No beard or chin in close-ups** (owner, 2026-11-21: "jangan fokus part
+   nampak janggut ... kalau part close up sahaja"). Detail cuts (collar,
+   placket, logo, fabric) must not show the beard, chin or lips in any frame:
+   set the detail crop's `top` below the beard or pick another window. Wide
+   cuts keep the mouth-line top of rule 2 (beard visible there is fine).
 6b. **Never too zoomed in** (owner, again: "terlalu zoom in, same
    mistake"). Wide trouser cuts keep almost the whole tripod frame: crop
    height at least ~90 % of the source (e.g. 3500+ of 3840), so the shot
