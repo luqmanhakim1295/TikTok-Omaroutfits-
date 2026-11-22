@@ -2909,8 +2909,8 @@
    "scenes": "IMG_0278 86.0 back print, 62.5 hand on the chest logo; IMG_0275 43.2 front (hands into pockets)/45.8 side turn (ch 2900)/28.0 front (pulling the hem)/106.6 side to back turn (crop shifted +65)/131.6 back (pulling the hem)/96.0 front (pushing the sleeves up)/86.0 back to other side turn/120.0 back",
    "labels": "Chest logo print / Mount Fuji back print / Long sleeves",
    "note": "23.0 s review-style VO (373 credits). New windows: 45.8, 28.0, 106.6, 86.0, 120.0, IMG_0278 86.0/62.5. The tripod footage stops at the shins (no feet). qc.py centre: wide cuts within 24 px.",
-   "delivery": "pending",
-   "send_first": true
+   "delivery": "tiktok-draft (sent 2026-11-23 00:11 MYT)",
+   "zernio_post_id": "6b03143ec56a38527e547480"
   },
   {
    "date": "2026-11-21",
@@ -2925,8 +2925,8 @@
    "scenes": "IMG_0691 75.4 front (new)/115.8 side (ch 1590)/132.4 back (ch 1700)/109.8 front (new); IMG_0692 93.6 drawstring; IMG_0696 11.5 side pocket, 39.5 hand to back pocket",
    "labels": "Drawstring waist / Side pockets / Back pocket; big words JOGGER, BLACK",
    "note": "12.4 s, no VO. Missing angle: only one side profile in IMG_0691 (other windows off centre on the 1080p clip, e.g. 122.6 back +124 px). qc.py centre: wide cuts -8/-26/12/2 px.",
-   "delivery": "pending",
-   "send_first": true
+   "delivery": "tiktok-draft (sent 2026-11-23 00:12 MYT)",
+   "zernio_post_id": "6b03147417572c779d92fae7"
   },
   {
    "date": "2026-11-22",
@@ -2941,8 +2941,8 @@
    "labels": "Boru chest logo / Moon back print / Short sleeves",
    "note": "11.0 s, no VO (ElevenLabs 3,310 credits, under the 4,000 floor). Windows mostly from c4 (only clean ones). qc.py centre: wide cuts 4/-14/-6/-2 px.",
    "voiceover": false,
-   "delivery": "pending",
-   "send_first": true
+   "delivery": "tiktok-draft (sent 2026-11-23 00:13 MYT)",
+   "zernio_post_id": "6b03149b1b8ee395f98cda0d"
   },
   {
    "date": "2026-11-22",
@@ -2957,8 +2957,8 @@
    "labels": "Front pleats / Side pockets / Elastic back waist",
    "note": "11.0 s, no VO. First video under the Zeke name (was Yooka black slack c1-c5). Right side only as the handheld close-up (tripod never catches it). qc.py centre: wide cuts 2/-2/-30 px.",
    "voiceover": false,
-   "delivery": "pending",
-   "send_first": true
+   "delivery": "tiktok-draft (sent 2026-11-23 00:13 MYT)",
+   "zernio_post_id": "6b0314b61b8ee395f98cda87"
   },
   {
    "date": "2026-11-22",
@@ -2973,8 +2973,8 @@
    "labels": "Striped side panel / Embroidered logo / Adjustable hem",
    "note": "12.5 s, no VO. Windows from c4/c5. 140.0 other side was off centre (+76 px); 92.8 used instead. qc.py centre: wide cuts 4/2/2/2 px.",
    "voiceover": false,
-   "delivery": "pending",
-   "send_first": true
+   "delivery": "tiktok-draft (sent 2026-11-23 00:14 MYT)",
+   "zernio_post_id": "6b0314dbc56a38527e5476c0"
   },
   {
    "date": "2026-11-22",
