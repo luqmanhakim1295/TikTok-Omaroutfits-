@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
-  "Baju": 5,
-  "Seluar": 8
+  "Baju": 7,
+  "Seluar": 11
  },
  "cycle": {
   "Baju": 4,
@@ -3023,6 +3023,86 @@
    "note": "Owner request 2026-11-22: 8 s with the face showing, face changed a little without an AI look. tools/facewarp.py (pose nose/mouth tracking, smooth warp: wider nose wings, fuller lips, wider jaw, longer chin; strength 2.2) on the front cut only. Top of frame at the footage's top edge (eyes are out of the footage). qc.py centre: 8/-18/10 px.",
    "delivery": "rejected",
    "rejected": "Owner 2026-11-22: 'jadi cacat terus' (face warp at strength 2.2 looked deformed). Do not send."
+  },
+  {
+   "date": "2026-11-23",
+   "type": "Seluar",
+   "folder": "Zeke white slack",
+   "cycle": 6,
+   "style": "fast_beat",
+   "output": "output/daily/seluar_zeke-white-slack_c6.mp4",
+   "caption": "Seluar Zeke putih, pleats depan dan pinggang getah",
+   "plan": "schedule/plans/seluar_zeke-white-slack_c6/spec.json",
+   "scenes": "IMG_0262 58.0/59.2 front, 126.6/118.6/127.8 side; IMG_0265 63.6/111.8/64.8 back; IMG_0263 75.6 pleats, 52.0 waist, 41.95 pocket, 39.0 phone into pocket",
+   "labels": "Front pleats / Elastic waist / Side pockets",
+   "note": "11.4 s, no VO (ElevenLabs 3,310 credits). 12 fast cuts from c5 windows. qc.py centre: wide cuts within 14 px.",
+   "voiceover": false,
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-23",
+   "type": "Baju",
+   "folder": "textured",
+   "cycle": 5,
+   "style": "detail_first",
+   "output": "output/daily/baju_textured_c5.mp4",
+   "caption": "Kemeja tekstur crinkle, lengan panjang butang",
+   "plan": "schedule/plans/baju_textured_c5/spec.json",
+   "scenes": "IMG_0255 14.5 crinkle fabric (top 700, no beard); IMG_0256 175.0 button cuff; IMG_0253 156.0 front (pulling the hem)/134.8 side/206.4 back/174.2 other side (buttoning the cuff)",
+   "labels": "Crinkle textured fabric / Button cuffs / Long sleeves",
+   "note": "11.0 s, no VO. Windows from c4. qc.py centre: wide cuts -16/10/26/-10 px.",
+   "voiceover": false,
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-23",
+   "type": "Seluar",
+   "folder": "Ironless premium slack black",
+   "cycle": 4,
+   "style": "text_behind",
+   "output": "output/daily/seluar_ironless-premium-slack-black_c4.mp4",
+   "caption": "Slack hitam ironless, butang pinggang dan poket tepi",
+   "plan": "schedule/plans/seluar_ironless-premium-slack-black_c4/spec.json",
+   "scenes": "IMG_0703 49.6 front/57.8 side (hand into pocket)/95.4 back/75.8 other side; IMG_0705 2.3 fabric pinch; IMG_0704 44.6 button waist, 82.2 hand into pocket",
+   "labels": "Ironless fabric / Button waist / Side pockets; big words IRONLESS, SLACK",
+   "note": "12.5 s, no VO. Windows from c3. qc.py centre: wide cuts 2/-12/0/0 px.",
+   "voiceover": false,
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-23",
+   "type": "Baju",
+   "folder": "VPG",
+   "cycle": 5,
+   "style": "classic",
+   "output": "output/daily/baju_vpg_c5.mp4",
+   "caption": "Polo knit VPG hitam, kolar V terbuka",
+   "plan": "schedule/plans/baju_vpg_c5/spec.json",
+   "scenes": "IMG_0383 65.8 front (hands into pockets)/81.6 side (ch 2700)/103.8 back (ch 3000)/129.2 other side (ch 2800, hand into pocket); IMG_0384 42.0 open collar, 61.0 cable knit (top 800)",
+   "labels": "Open V collar / Relaxed knit polo / Cable knit texture",
+   "note": "11.0 s, no VO. Windows from c4; smaller crops so side/back are centred (were clamped at ch 3000-3640). qc.py centre: 10/-6/-14/14 px.",
+   "voiceover": false,
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-23",
+   "type": "Seluar",
+   "folder": "Jeans light blue",
+   "cycle": 3,
+   "style": "flash_punch",
+   "output": "output/daily/seluar_jeans-light-blue_c3.mp4",
+   "caption": "Jeans biru lembut straight cut, pinggang getah bertali",
+   "plan": "schedule/plans/seluar_jeans-light-blue_c3/spec.json",
+   "scenes": "IMG_0723 64.4 front (hands in pockets)/103.8 back (hands into back pockets)/77.0 side/113.6 other side; IMG_0724 4.2 hand into side pocket, 37.5 side pocket; IMG_0727 4.2 drawstring waist",
+   "labels": "Practical pockets / Elastic drawstring waist / Straight cut denim",
+   "note": "12.5 s, no VO. Windows from c2. qc.py centre: wide cuts 14/2/20/-30 px.",
+   "voiceover": false,
+   "delivery": "pending",
+   "send_first": true
   }
  ],
  "discontinued": [
@@ -3112,7 +3192,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 3,
+  "next": 1,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
