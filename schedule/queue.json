@@ -3021,7 +3021,8 @@
    "scenes": "IMG_0700 46.6 front (crossing arms, face visible from the nose down)/165.2 side turn (ch 1700)/160.6 back",
    "labels": "Three-quarter sleeves",
    "note": "Owner request 2026-11-22: 8 s with the face showing, face changed a little without an AI look. tools/facewarp.py (pose nose/mouth tracking, smooth warp: wider nose wings, fuller lips, wider jaw, longer chin; strength 2.2) on the front cut only. Top of frame at the footage's top edge (eyes are out of the footage). qc.py centre: 8/-18/10 px.",
-   "delivery": "review"
+   "delivery": "rejected",
+   "rejected": "Owner 2026-11-22: 'jadi cacat terus' (face warp at strength 2.2 looked deformed). Do not send."
   }
  ],
  "discontinued": [
