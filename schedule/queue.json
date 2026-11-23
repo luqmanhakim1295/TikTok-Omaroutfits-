@@ -4,11 +4,11 @@
  "next_type": "Seluar",
  "pointer": {
   "Baju": 10,
-  "Seluar": 13
+  "Seluar": 0
  },
  "cycle": {
   "Baju": 4,
-  "Seluar": 5
+  "Seluar": 6
  },
  "folders": {
   "Baju": [
