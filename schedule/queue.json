@@ -1,10 +1,10 @@
 {
  "library_url": "https://drive.google.com/drive/folders/1bj6BKxjf1ypsHf_-tn7F9VR-YIJ78VJm",
  "rules": "Alternate Baju and Seluar, one product folder per video, 3 videos per day. When a category runs out, restart it from its first folder (next cycle) with different scenes.",
- "next_type": "Seluar",
+ "next_type": "Baju",
  "pointer": {
-  "Baju": 10,
-  "Seluar": 0
+  "Baju": 13,
+  "Seluar": 3
  },
  "cycle": {
   "Baju": 4,
@@ -3183,6 +3183,86 @@
    "voiceover": false,
    "delivery": "pending",
    "send_first": true
+  },
+  {
+   "date": "2026-11-25",
+   "type": "Seluar",
+   "folder": "Baggy corduroy pants",
+   "cycle": 7,
+   "style": "classic",
+   "voiceover": true,
+   "output": "output/daily/seluar_baggy-corduroy-pants_c7.mp4",
+   "caption": "Seluar corduroy baggy, empat poket dan pinggang getah",
+   "plan": "schedule/plans/seluar_baggy-corduroy-pants_c7/spec.json",
+   "scenes": "IMG_0276 231.8/226.0 front, 251.0 side, 116.4 back, 111.6 other side; IMG_0279 62.4 corduroy, 114.2 walking, 49.9/56.8 pockets, 24.0 waistband, 51.0 back pocket, 132.6 hand in pocket, 85.3 hand into pocket",
+   "labels": "Soft corduroy / Elastic waist / Four pockets",
+   "note": "24.1 s review-style VO (441 credits), cuts follow the Scribe word times. Two soft IMG_0279 close-ups (12.0, 120.0; Laplacian 7-9) swapped for sharp ones. qc.py centre: wide cuts 0/30/-2/2/-22 px.",
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-25",
+   "type": "Baju",
+   "folder": "Zeke coffee",
+   "cycle": 5,
+   "style": "flash_punch",
+   "voiceover": false,
+   "output": "output/daily/baju_zeke-coffee_c5.mp4",
+   "caption": "Tshirt Zeke coffee, logo Z dan kolar rib",
+   "plan": "schedule/plans/baju_zeke-coffee_c5/spec.json",
+   "scenes": "IMG_0316 23.4 front (hands into pockets)/52.4 side/144.0 back/140.0 other side; IMG_0315 40.0 Z logo, 67.0 ribbed neck, 77.5 stitching (top 740, no beard)",
+   "labels": "Z logo patch / Ribbed round neck / Neat stitching",
+   "note": "12.5 s, no VO. Windows from c4. qc.py centre: 0/-4/-4/-22 px.",
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-25",
+   "type": "Seluar",
+   "folder": "Cargo elgini",
+   "cycle": 6,
+   "style": "torn_glitch",
+   "voiceover": false,
+   "output": "output/daily/seluar_cargo-elgini_c6.mp4",
+   "caption": "Kargo Elgini softshell, poket zip dan kalis air",
+   "plan": "schedule/plans/seluar_cargo-elgini_c6/spec.json",
+   "scenes": "IMG_0559 41.2 front (hand into pocket)/65.8 side (adjusting the waist); IMG_0557 216.2 side (hand in pocket)/280.2 back (hands into back pockets); IMG_0560 33.0 cargo pocket, 272.5 waistband",
+   "labels": "Zippered cargo pockets / Stretch softshell / Water-resistant",
+   "note": "11.0 s, no VO. Retry of the skipped cycle-6 slot with new centred windows from IMG_0559 (stepscan centre 503-552 of 540). qc.py centre: -2/-20/4/2 px.",
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-25",
+   "type": "Baju",
+   "folder": "Zeke windbreaker",
+   "cycle": 6,
+   "style": "cinematic",
+   "voiceover": false,
+   "output": "output/daily/baju_zeke-windbreaker_c6.mp4",
+   "caption": "Windbreaker Zeke dua tona, hoodie dan logo Z",
+   "plan": "schedule/plans/baju_zeke-windbreaker_c6/spec.json",
+   "scenes": "IMG_0203-2 347.4 front (pulling the hem)/387.4 side/474.8 back (pulling the hood)/439.8 other side (phone into pocket); IMG_0205 258.5 Z logo + hand, 120.0 two-tone panel, 192.6 hood",
+   "labels": "Z logo / Two-tone panels / Hood",
+   "note": "12.5 s, no VO. Windows from c5. qc.py centre: -6/4/2/-8 px.",
+   "delivery": "pending",
+   "send_first": true
+  },
+  {
+   "date": "2026-11-25",
+   "type": "Seluar",
+   "folder": "Cargo grey",
+   "cycle": 7,
+   "style": "fast_beat",
+   "voiceover": true,
+   "output": "output/daily/seluar_cargo-grey_c7.mp4",
+   "caption": "Seluar cargo grey, enam poket dan kain cotton",
+   "plan": "schedule/plans/seluar_cargo-grey_c7/spec.json",
+   "scenes": "IMG_0370 211.8/99.6/89.6 front, 204.4/126.2 side, 140.8 back; IMG_0368 15.5 phone into pocket, 17.8 hand on pocket; IMG_0369 7.5 phone into cargo pocket, 4.3 cargo pocket, 12.0 snap button, 23.0 cargo pocket",
+   "labels": "Phone fits the pocket / Six pockets / 100% cotton, straight cut",
+   "note": "24.5 s review-style VO (425 credits). qc.py centre: wide cuts 6/4/1/0/-16/-2 px.",
+   "delivery": "pending",
+   "send_first": true
   }
  ],
  "discontinued": [
@@ -3272,7 +3352,7 @@
    "text_behind",
    "classic"
   ],
-  "next": 6,
+  "next": 4,
   "dropped": {
    "split_screen": "2026-11-12: TikTok Shop 'non-interactive content' violation on the split-screen Yooka white slack video (appeal rejected)."
   }
